@@ -115,3 +115,22 @@ describe('search', () => {
     await waitFor(() => expect(router.state.location.pathname).toBe('/anime/naruto-shippuden'));
   });
 });
+
+describe('client-side navigation', () => {
+  it('survives browsers where window.scrollTo returns a Promise (current Chrome)', async () => {
+    const original = window.scrollTo;
+    window.scrollTo = (() => Promise.resolve()) as unknown as typeof window.scrollTo;
+    try {
+      mockAniList(() => ({ body: page([]) }));
+      const router = renderAt('/');
+      await userEvent.click(screen.getAllByRole('link', { name: 'Discover' })[0]);
+      expect(await screen.findByRole('heading', { level: 1, name: 'Discover' })).toBeInTheDocument();
+      await userEvent.click(screen.getAllByRole('link', { name: 'My progress' })[0]);
+      expect(await screen.findByRole('heading', { level: 1, name: 'My progress' })).toBeInTheDocument();
+      expect(router.state.location.pathname).toBe('/progress');
+      expect(screen.queryByText(/This page hit a problem/)).not.toBeInTheDocument();
+    } finally {
+      window.scrollTo = original;
+    }
+  });
+});

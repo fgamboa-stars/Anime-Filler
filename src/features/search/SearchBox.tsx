@@ -34,7 +34,9 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
   // Options = suggestions + the "see all results" row.
   const optionCount = suggestions.length + 1;
 
-  useEffect(() => setActive(-1), [search.query]);
+  useEffect(() => {
+    setActive(-1);
+  }, [search.query]);
 
   useEffect(() => {
     const onDown = (e: MouseEvent) => {

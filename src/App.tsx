@@ -5,6 +5,7 @@ import { ToastProvider } from '@/components/ui/toast';
 
 // Each page is its own chunk; the home page stays in the main bundle for a fast first paint.
 import HomePage from '@/pages/HomePage';
+import RouteErrorPage from '@/pages/RouteErrorPage';
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
 const AnimePage = lazy(() => import('@/pages/AnimePage'));
 const DiscoverPage = lazy(() => import('@/pages/DiscoverPage'));
@@ -15,6 +16,7 @@ export const routes: RouteObject[] = [
   {
     path: '/',
     element: <AppLayout />,
+    errorElement: <RouteErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       { path: 'search', element: <SearchPage /> },

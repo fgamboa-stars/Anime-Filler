@@ -17,9 +17,15 @@ export function AppLayout() {
   const [menuOpen, setMenuOpen] = useState(false);
   const isHome = location.pathname === '/';
 
-  useEffect(() => setMenuOpen(false), [location.pathname]);
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
   // New page → start at the top (filters only change the query string, so they keep scroll position).
-  useEffect(() => window.scrollTo({ top: 0 }), [location.pathname]);
+  // Block body on purpose: newer browsers return a Promise from scrollTo(), and an
+  // effect must return nothing or a cleanup function.
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [location.pathname]);
 
   return (
     <div className="flex min-h-dvh flex-col">

@@ -25,7 +25,9 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
   const setHideTitles = usePreferencesStore((s) => s.setHideEpisodeTitles);
 
   // Keep the text box in sync with back/forward navigation.
-  useEffect(() => setQuery(filters.query), [filters.query]);
+  useEffect(() => {
+    setQuery(filters.query);
+  }, [filters.query]);
   // Debounced write to the URL (replace, so typing doesn't flood history).
   useEffect(() => {
     if (query === filters.query) return;
