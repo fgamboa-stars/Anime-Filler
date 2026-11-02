@@ -31,8 +31,9 @@ export function AppLayout() {
       </a>
       <header className="sticky top-0 z-30 border-b border-border/70 bg-background/85 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6">
-          <Link to="/" className="shrink-0 rounded-md" aria-label="Anime Filler Finder, home">
+          <Link to="/" className="shrink-0 rounded-md">
             <Logo />
+            <span className="sr-only">, home</span>
           </Link>
           <nav aria-label="Main" className="ml-2 hidden md:block">
             <ul className="flex items-center gap-1">

@@ -16,7 +16,7 @@ interface EpisodeListProps {
   focusEpisode?: number | null;
 }
 
-const PAGE = 150;
+const PAGE = 100;
 
 export function EpisodeList({ episodes, watched, hideTitles, onToggle, onMarkUpTo, onArcClick, focusEpisode }: EpisodeListProps) {
   const [limit, setLimit] = useState(PAGE);

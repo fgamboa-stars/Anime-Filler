@@ -133,7 +133,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
             variant="outline"
             className="h-10 w-full rounded-lg"
             onClick={() => onChange({ sort: filters.sort === 'asc' ? 'desc' : 'asc' })}
-            aria-label={filters.sort === 'asc' ? 'Sorted oldest first. Switch to newest first' : 'Sorted newest first. Switch to oldest first'}
+            title={filters.sort === 'asc' ? 'Switch to newest first' : 'Switch to oldest first'}
           >
             {filters.sort === 'asc' ? <ArrowUpNarrowWide aria-hidden /> : <ArrowDownWideNarrow aria-hidden />}
             {filters.sort === 'asc' ? 'Oldest first' : 'Newest first'}

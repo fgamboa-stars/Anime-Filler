@@ -3,6 +3,8 @@ import { cn } from '@/utils/cn';
 
 interface PosterProps {
   src?: string | null;
+  srcSet?: string;
+  sizes?: string;
   title: string;
   color?: string | null;
   className?: string;
@@ -10,7 +12,7 @@ interface PosterProps {
 }
 
 /** Cover art with a fixed 2:3 frame so layout never shifts while images load. */
-export function Poster({ src, title, color, className, priority = false }: PosterProps) {
+export function Poster({ src, srcSet, sizes, title, color, className, priority = false }: PosterProps) {
   const [failed, setFailed] = useState(false);
   const showImage = src && !failed;
   return (
@@ -21,6 +23,8 @@ export function Poster({ src, title, color, className, priority = false }: Poste
       {showImage ? (
         <img
           src={src}
+          srcSet={srcSet}
+          sizes={srcSet ? sizes : undefined}
           alt={`${title} cover art`}
           loading={priority ? 'eager' : 'lazy'}
           decoding="async"

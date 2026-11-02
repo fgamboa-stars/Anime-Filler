@@ -56,6 +56,12 @@ export default function HomePage() {
             </Button>
           </div>
 
+          {!showcase.data && (
+            <div aria-hidden className="mt-16">
+              <div className="h-10 rounded-[3px] bg-muted sm:h-12" />
+              <div className="mt-4 h-5" />
+            </div>
+          )}
           {showcase.data && (
             <figure className="mt-16">
               <EpisodeStrip

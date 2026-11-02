@@ -45,10 +45,19 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
   return (
     <section className="relative">
       <div className="absolute inset-x-0 top-0 h-[22rem] overflow-hidden sm:h-[26rem]" aria-hidden>
-        {media?.bannerImage ? (
-          <img src={media.bannerImage} alt="" className="size-full object-cover opacity-45" decoding="async" />
-        ) : (
-          <div className="size-full" style={{ background: `radial-gradient(80% 120% at 20% 0%, ${media?.coverImage.color ?? '#3b3470'}66, transparent 70%)` }} />
+        <div className="size-full" style={{ background: `radial-gradient(80% 120% at 20% 0%, ${media?.coverImage.color ?? '#3b3470'}66, transparent 70%)` }} />
+        {/* Decorative banner: skipped on small screens, where it would be the slowest thing on the page. */}
+        {media?.bannerImage && (
+          <picture>
+            <source media="(min-width: 640px)" srcSet={media.bannerImage} />
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              alt=""
+              className="absolute inset-0 size-full object-cover opacity-45"
+              decoding="async"
+              {...{ fetchpriority: 'low' }}
+            />
+          </picture>
         )}
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/75 to-background" />
       </div>
@@ -59,7 +68,9 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
             <Skeleton className="aspect-[2/3] w-36 shrink-0 rounded-lg sm:w-52" />
           ) : (
             <Poster
-              src={media?.coverImage.extraLarge ?? media?.coverImage.large}
+              src={media?.coverImage.large ?? media?.coverImage.extraLarge}
+              srcSet={media?.coverImage.large && media.coverImage.extraLarge ? `${media.coverImage.large} 230w, ${media.coverImage.extraLarge} 460w` : undefined}
+              sizes="(min-width: 640px) 208px, 144px"
               color={media?.coverImage.color}
               title={title}
               priority
@@ -105,10 +116,19 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
             )}
 
             {loading && !media && (
-              <div className="mt-5 space-y-2">
-                <Skeleton className="h-4 w-full max-w-xl" />
-                <Skeleton className="h-4 w-5/6 max-w-lg" />
-                <Skeleton className="h-4 w-2/3 max-w-md" />
+              <div aria-hidden>
+                <Skeleton className="mt-4 h-5 w-64" />
+                <div className="mt-4 flex gap-2">
+                  {[56, 72, 64, 80].map((w) => (
+                    <Skeleton key={w} className="h-[26px] rounded-full" style={{ width: w }} />
+                  ))}
+                </div>
+                <div className="mt-5 space-y-[9px]">
+                  {['100%', '96%', '92%', '70%'].map((w) => (
+                    <Skeleton key={w} className="h-[15px] max-w-[68ch]" style={{ width: w }} />
+                  ))}
+                </div>
+                <Skeleton className="mt-[13px] h-5 w-20" />
               </div>
             )}
 
@@ -137,7 +157,19 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
           </div>
         </div>
 
-        {facts.some(([, v]) => v) && (
+        {loading && !media && (
+          <div aria-hidden className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-y border-border/70 py-5 sm:grid-cols-3 lg:grid-cols-6">
+            {Array.from({ length: 6 }, (_, i) => (
+              <div key={i}>
+                <Skeleton className="h-3 w-12" />
+                <Skeleton className="mt-1.5 h-4 w-24" />
+              </div>
+            ))}
+          </div>
+        )}
+        {loading && !media && <Skeleton aria-hidden className="mt-3 h-4 w-56" />}
+
+        {facts.some(([, v]) => v) && (media || !loading) && (
           <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 border-y border-border/70 py-5 sm:grid-cols-3 lg:grid-cols-6">
             {facts
               .filter(([, v]) => v)
