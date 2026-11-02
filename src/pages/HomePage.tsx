@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, ListChecks, ListX, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
-import { EpisodeStrip, StripLegend } from '@/components/EpisodeStrip';
+import { EpisodeStrip } from '@/components/EpisodeStrip';
+import { EpisodeDonut } from '@/components/EpisodeDonut';
 import { Poster } from '@/components/Poster';
 import { SearchBox } from '@/features/search/SearchBox';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
@@ -12,7 +13,6 @@ import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { getCatalog } from '@/services/datasets';
 import { selectInProgress, useProgressStore } from '@/store/progressStore';
 import type { MediaSummary } from '@/services/anilist';
-import { decodeStrip } from '@/utils/dataset';
 import { groupCatalog, groupStrip, seasonLabel, type FranchiseGroup } from '@/utils/franchise';
 
 const SHOWCASE_SLUG = 'naruto-shippuden';
@@ -44,7 +44,6 @@ export default function HomePage() {
   const ordered = groups.map((g) => g.first);
   const covers = useAnimeByIds(ordered.map((c) => c.anilistId));
   const showcase = catalog.find((c) => c.slug === SHOWCASE_SLUG) ?? ordered[0];
-  const showcaseEpisodes = useMemo(() => (showcase ? decodeStrip(showcase.strip) : []), [showcase]);
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
   const lastSlug = useProgressStore((s) => selectInProgress(s.progress)[0]?.slug);
   const featuredSlug = ordered[0]?.slug ?? 'naruto';
@@ -81,37 +80,26 @@ export default function HomePage() {
           </div>
 
           {showcase && (
-            <figure className="surface-card mt-16 p-5 shadow-lg sm:mt-24 sm:p-8">
-              <div className="mb-6 flex items-end justify-between gap-4">
-                <div className="min-w-0">
+            <div className="surface-card mt-16 p-5 shadow-lg sm:mt-24 sm:p-10">
+              <div className="mb-8 max-w-2xl">
+                <p className="text-sm text-muted-foreground">
                   <Link
                     to={`/anime/${showcase.slug}`}
-                    className="text-heading underline decoration-transparent underline-offset-4 transition-colors hover:decoration-foreground"
+                    className="font-medium text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
                   >
                     {showcase.title}
                   </Link>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    All {showcase.totalEpisodes} episodes in order. Every red band is a run you can skip.
-                  </p>
-                </div>
-                <p className="shrink-0 text-right">
-                  <span className="tabular block text-3xl font-semibold tracking-tight text-filler-text sm:text-5xl">
-                    {showcase.fillerPercentage}%
-                  </span>
-                  <span className="text-sm text-muted-foreground">filler</span>
+                  , all {showcase.totalEpisodes} episodes
+                </p>
+                <p className="text-heading mt-2 text-balance">
+                  <span className="tabular text-filler-text">{showcase.fillerPercentage}%</span> of the show is filler you can skip
                 </p>
               </div>
-              <EpisodeStrip
-                episodes={showcaseEpisodes}
-                label={`${showcase.title}: ${showcase.totalEpisodes} episodes in broadcast order, coloured by classification`}
-                animate
-                showAxis
+              <EpisodeDonut
+                counts={showcase.counts}
+                label={`${showcase.title}: ${showcase.counts.CANON} canon, ${showcase.counts.MIXED} mixed, ${showcase.counts.ANIME_CANON} anime canon and ${showcase.counts.FILLER} filler episodes`}
               />
-              <figcaption className="mt-5 border-t border-border pt-5">
-                <span className="sr-only">Episode counts by type</span>
-                <StripLegend counts={showcase.counts} />
-              </figcaption>
-            </figure>
+            </div>
           )}
         </div>
       </section>

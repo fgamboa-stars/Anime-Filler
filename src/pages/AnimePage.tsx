@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo } from 'react';
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Database } from 'lucide-react';
-import { EpisodeStrip, StripLegend } from '@/components/EpisodeStrip';
+import { EpisodeDonut } from '@/components/EpisodeDonut';
 import { ShareButton } from '@/components/ShareButton';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { Button } from '@/components/ui/button';
@@ -68,7 +68,7 @@ export default function AnimePage() {
               {describeError(dataset.error)}
             </StateMessage>
           ) : dataset.data ? (
-            <FillerGuide dataset={dataset.data} entry={entry} aired={airedEpisodes(media)} />
+            <FillerGuide dataset={dataset.data} aired={airedEpisodes(media)} />
           ) : (
             <GuideSkeleton />
           )
@@ -157,7 +157,7 @@ const TABS: { view: AnimeView; label: string }[] = [
   { view: 'arcs', label: 'Arcs' },
 ];
 
-function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entry: CatalogEntry; aired: number | null }) {
+function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: number | null }) {
   const { filters, view, setFilters, setView, resetFilters } = useEpisodeFilters(dataset.slug);
   const location = useLocation();
   const navigate = useNavigate();
@@ -199,27 +199,18 @@ function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entr
   return (
     <div className="flex flex-col gap-8">
       <section aria-label="Series overview" className="flex flex-col gap-4">
-        <div className="surface-card flex flex-col gap-5 p-5 sm:p-7">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <h2 className="text-subheading">Episode map</h2>
-              <p className="mt-1 text-sm text-muted-foreground">Every episode in broadcast order, coloured by type.</p>
-            </div>
-            <p className="shrink-0 text-right">
-              <span className="tabular block text-3xl font-semibold tracking-tight text-filler-text sm:text-4xl">
-                {entry.fillerPercentage}%
-              </span>
-              <span className="text-sm text-muted-foreground">filler</span>
-            </p>
+        <div className="surface-card p-5 sm:p-8">
+          <div className="mb-8">
+            <h2 className="text-heading text-balance">
+              <span className="tabular text-filler-text">{dataset.counts.FILLER}</span> of{' '}
+              <span className="tabular">{dataset.episodes.length}</span> episodes are filler
+            </h2>
+            <p className="mt-1.5 text-muted-foreground">How the series splits by episode type.</p>
           </div>
-          <EpisodeStrip
-            showAxis
-            animate
-            episodes={dataset.episodes}
-            watched={watched}
+          <EpisodeDonut
+            counts={dataset.counts}
             label={`${dataset.title}: ${dataset.counts.CANON} canon, ${dataset.counts.MIXED} mixed, ${dataset.counts.ANIME_CANON} anime canon and ${dataset.counts.FILLER} filler episodes`}
           />
-          <StripLegend counts={dataset.counts} />
         </div>
         {unclassified > 0 && (
           <Notice tone="info">

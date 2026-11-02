@@ -20,7 +20,7 @@ Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root`
 | `primary` / `primary-foreground` | #171717 / #fafafa | #ededed / #0a0a0a | The one filled button style |
 | `ring` | #171717 | #ededed | Focus outline |
 | `success` · `warning` · `danger` · `info` | #15803d · #b45309 · #b91c1c · #1d4ed8 | #4ade80 · #fbbf24 · #f87171 · #60a5fa | Status icons, notice tints |
-| `canon` · `mixed` · `anime-canon` · `filler` | #059669 · #d97706 · #2563eb · #dc2626 | #10b981 · #f59e0b · #3b82f6 · #ef4444 | Data marks: strips, swatches, stripes (≥3:1) |
+| `canon` · `mixed` · `anime-canon` · `filler` | #059669 · #c27c0e · #2563eb · #dc2626 | #10a37a · #bf8a0f · #3b82f6 · #ef4444 | Data marks: donut, strips, swatches, stripes (≥3:1; validated for colour-vision deficiency) |
 | `*-text` (canon, mixed, anime-canon, filler) | #047857 · #b45309 · #1d4ed8 · #b91c1c | #34d399 · #fbbf24 · #60a5fa · #f87171 | Coloured text and badge labels (≥4.5:1) |
 | `track` | #e6e6e6 | #262626 | Progress and watched tracks |
 
@@ -71,6 +71,7 @@ Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root`
 | `Notice` | Tones: `neutral`, `info`, `warning`, `danger`, `success`. Optional title (p/h2/h3) and actions. |
 | `SectionHeader`, `Stat` | Section opener; figure plus label as a `dt`/`dd` pair. |
 | `Progress`, `Skeleton`, `Toast` | 8px grayscale bar; rounded shimmer; neutral pill with a status icon. |
+| `EpisodeDonut` | Part-to-whole ring, one segment per type, with gaps and rounded corners. Fixed order (canon, mixed, anime canon, filler). The filler share sits in the centre, and hovering or tapping a slice swaps it in. A legend beside it lists every share and count and doubles as the table view. Slices under 1.2% are drawn at 1.2% so they stay visible. |
 | `EpisodeStrip` | `sm` (10px) or `lg` (48/64px), optional `showAxis` and `animate`, watched track underneath. |
 | `ThemeSwitcher` | System / Light / Dark `radiogroup`. |
 

@@ -154,3 +154,44 @@ Each significant change on the `ui-ux-improvements` branch is recorded here. Eve
 
 **Files**
 `src/pages/{HomePage,AnimePage,DiscoverPage,SearchPage,ProgressPage,NotFoundPage,RouteErrorPage}.tsx`, `src/features/anime/AnimeHero.tsx`, `src/features/episodes/{EpisodeFilters,EpisodeList}.tsx`, `src/features/watch-order/WatchOrderPanel.tsx`, `src/features/arcs/ArcList.tsx`, `src/features/progress/{ProgressSummary,ContinueWatching}.tsx`, `src/components/EpisodeTypeBadge.tsx`, `src/components/ThemeSwitcher.test.tsx` (new), `src/index.css` (dark data colours)
+
+---
+
+## 4. Donut chart replaces the long episode strip
+
+**What changed**
+- **New `EpisodeDonut` component:**
+  - A thick ring with one rounded segment per episode type and gaps between segments, modelled on the reference chart.
+  - The filler share is shown large in the centre.
+  - A legend beside it lists each type's description, share and count.
+  - Hovering or tapping a slice, or hovering a legend row, dims the other slices and puts that type's share in the centre.
+  - Segments animate in once, and the animation is skipped with reduced motion.
+- **Anime page.** The "Episode map" strip is replaced by a card headed "N of M episodes are filler" with the donut.
+- **Home page.** The showcase strip is replaced by "40.6% of the show is filler you can skip" with the donut.
+- **Kept as strips:** the small strips in guide cards, Discover rankings, arc cards and watch order still show where filler falls in broadcast order.
+- **Palette re-validated** with the dataviz colour-vision checker, since pie slices sit next to each other:
+  - Light mode: mixed changed #d97706 → #c27c0e.
+  - Dark mode: canon changed #10b981 → #10a37a, and mixed changed #f59e0b → #bf8a0f.
+  - Every adjacent slice pair now passes both checks in both themes.
+
+**Why it helps usability**
+- "How much of this is filler?" is answered at a glance, with exact numbers right beside the chart.
+
+**Why it helps visual quality**
+- One bold, centred figure per page in the style of the reference, instead of a busy 500-band bar.
+
+**Accessibility**
+- The SVG has `role="img"` with a full text summary.
+- The legend is a `dl` that works as the table view, so colour is never the only cue.
+- Labels use text tokens. Slice colours meet 3:1 against the surface.
+
+**Mobile**
+- The chart stacks above the legend, and slices respond to taps.
+
+**Tradeoffs and risks**
+- The anime page no longer shows *where* filler sits in broadcast order at the top. The Arcs tab still shows that per arc.
+- Watched progress no longer overlays the chart; the progress card shows it.
+- Slices under 1.2% are slightly exaggerated so they stay visible. The legend shows exact values.
+
+**Files**
+`src/components/EpisodeDonut.tsx` (new), `src/components/EpisodeDonut.test.tsx` (new), `src/pages/AnimePage.tsx`, `src/pages/HomePage.tsx`, `src/index.css`, `docs/ui-ux/DESIGN_SYSTEM.md`
