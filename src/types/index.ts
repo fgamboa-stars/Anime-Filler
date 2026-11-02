@@ -64,6 +64,12 @@ export interface CatalogEntry {
   /** Share of episodes classified as pure filler, 0–100, one decimal. */
   fillerPercentage: number;
   arcCount: number;
+  /**
+   * Run-length encoded classification strip, e.g. "C25F1M3" (C=canon, M=mixed,
+   * A=anime canon, F=filler), so overview pages can draw a series without
+   * downloading its full episode list.
+   */
+  strip: string;
   updatedAt: string;
 }
 

@@ -87,9 +87,9 @@ describe('search', () => {
     });
     renderAt('/search?q=blech');
 
-    expect(await screen.findByRole('link', { name: 'Bleach' })).toHaveAttribute('href', '/anime/269-bleach');
+    expect(await screen.findByRole('link', { name: 'Bleach' })).toHaveAttribute('href', '/anime/bleach');
     expect(screen.getByText(/so we searched for/)).toHaveTextContent('Bleach');
-    expect(screen.getByText('Filler data coming soon')).toBeInTheDocument();
+    expect(screen.getByText('Filler data available')).toBeInTheDocument();
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
@@ -113,6 +113,14 @@ describe('search', () => {
     expect(within(listbox).getAllByRole('option')[0]).toHaveTextContent('Naruto Shippuden');
     await userEvent.keyboard('{ArrowDown}{Enter}');
     await waitFor(() => expect(router.state.location.pathname).toBe('/anime/naruto-shippuden'));
+  });
+});
+
+describe('airing series', () => {
+  it('notes episodes AniList has aired that the guide has not classified yet', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(21, 'One Piece', { episodes: null, status: 'RELEASING', nextAiringEpisode: { episode: 1181 } }) } } }));
+    renderAt('/anime/one-piece');
+    expect(await screen.findByText(/This guide covers episodes 1–1168/, {}, { timeout: 4000 })).toHaveTextContent('the newest 12 aren’t classified yet');
   });
 });
 

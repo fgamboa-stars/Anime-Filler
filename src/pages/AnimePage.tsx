@@ -16,7 +16,7 @@ import { ProgressSummary } from '@/features/progress/ProgressSummary';
 import { WatchOrderPanel } from '@/features/watch-order/WatchOrderPanel';
 import { useAnimeDetail, useDataset } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
-import { AniListError, displayTitle } from '@/services/anilist';
+import { AniListError, airedEpisodes, displayTitle } from '@/services/anilist';
 import { findCatalogByAniListId, findCatalogBySlug } from '@/services/datasets';
 import { usePreferencesStore } from '@/store/preferencesStore';
 import { useProgressStore } from '@/store/progressStore';
@@ -64,7 +64,7 @@ export default function AnimePage() {
               {describeError(dataset.error)}
             </StateMessage>
           ) : dataset.data ? (
-            <FillerGuide dataset={dataset.data} entry={entry} />
+            <FillerGuide dataset={dataset.data} entry={entry} aired={airedEpisodes(media)} />
           ) : (
             <GuideSkeleton />
           )
@@ -117,7 +117,7 @@ const TABS: { view: AnimeView; label: string }[] = [
   { view: 'arcs', label: 'Arcs' },
 ];
 
-function FillerGuide({ dataset, entry }: { dataset: PreparedDataset; entry: CatalogEntry }) {
+function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entry: CatalogEntry; aired: number | null }) {
   const { filters, view, setFilters, setView, resetFilters } = useEpisodeFilters(dataset.slug);
   const location = useLocation();
   const navigate = useNavigate();
@@ -150,6 +150,8 @@ function FillerGuide({ dataset, entry }: { dataset: PreparedDataset; entry: Cata
   }, [focusEpisode, view, visible.length]);
 
   const allVisibleWatched = visible.length > 0 && visible.every((e) => watched.has(e.number));
+  const lastClassified = dataset.episodes[dataset.episodes.length - 1]?.number ?? 0;
+  const unclassified = aired && aired > lastClassified ? aired - lastClassified : 0;
 
   return (
     <div className="flex flex-col gap-8">
@@ -165,6 +167,15 @@ function FillerGuide({ dataset, entry }: { dataset: PreparedDataset; entry: Cata
             <span className="tabular font-semibold text-filler">{entry.fillerPercentage}%</span> filler
           </p>
         </div>
+        {unclassified > 0 && (
+          <p className="flex items-start gap-2 rounded-xl border border-mixed/35 bg-mixed/[0.06] px-4 py-3 text-sm">
+            <Info className="mt-0.5 size-4 shrink-0 text-mixed" aria-hidden />
+            <span>
+              This guide covers episodes 1–{lastClassified}. AniList lists {aired} aired episodes, so the newest{' '}
+              {unclassified === 1 ? 'episode isn’t' : `${unclassified} aren’t`} classified yet.
+            </span>
+          </p>
+        )}
         <ProgressSummary dataset={dataset} onJump={jumpTo} />
       </section>
 

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
+import { EpisodeStrip } from '@/components/EpisodeStrip';
+import { decodeStrip } from '@/utils/dataset';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
@@ -90,7 +92,6 @@ function FillerRanking({
       <ol className="mt-5 flex flex-col gap-4">
         {entries.map((entry, i) => {
           const m = media.find((x) => x.id === entry.anilistId);
-          const canonShare = 100 - entry.fillerPercentage;
           return (
             <li key={entry.slug} className="flex items-center gap-4">
               <span className="tabular w-5 text-right font-display text-lg font-bold text-muted-foreground">{i + 1}</span>
@@ -104,12 +105,9 @@ function FillerRanking({
                     <span className="text-muted-foreground"> filler</span>
                   </span>
                 </div>
-                <div className="mt-2 flex h-2 overflow-hidden rounded-full" aria-hidden>
-                  <div className="bg-canon" style={{ width: `${canonShare}%` }} />
-                  <div className="bg-filler" style={{ width: `${entry.fillerPercentage}%` }} />
-                </div>
+                <EpisodeStrip episodes={decodeStrip(entry.strip)} size="sm" label={`${entry.title} episode strip`} className="mt-2" />
                 <p className="mt-1.5 text-xs text-muted-foreground">
-                  {entry.counts.FILLER} of {entry.totalEpisodes} episodes skippable
+                  {entry.counts.FILLER} of {entry.totalEpisodes} episodes are filler
                   {m?.averageScore ? `, rated ${m.averageScore}% on AniList` : ''}
                 </p>
               </div>

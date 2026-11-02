@@ -40,7 +40,7 @@ export function validateCatalog(catalog: Catalog, datasets: FillerDataset[]): st
       continue;
     }
     const expected = buildCatalogEntry(d);
-    if (JSON.stringify(expected.counts) !== JSON.stringify(entry.counts) || expected.anilistId !== entry.anilistId)
+    if (JSON.stringify(expected.counts) !== JSON.stringify(entry.counts) || expected.anilistId !== entry.anilistId || expected.strip !== entry.strip)
       p.push(`catalog entry for ${d.slug} is stale — run npm run data:index`);
   }
   for (const entry of catalog.anime)

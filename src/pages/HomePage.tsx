@@ -1,27 +1,39 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { Clapperboard, ListChecks, ListX, Play } from 'lucide-react';
+import { ListChecks, ListX, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { EpisodeStrip, StripLegend } from '@/components/EpisodeStrip';
 import { Poster } from '@/components/Poster';
 import { SearchBox } from '@/features/search/SearchBox';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
-import { useAnimeByIds, useDataset } from '@/hooks/useAnimeData';
+import { useAnimeByIds } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { getCatalog } from '@/services/datasets';
 import { selectInProgress, useProgressStore } from '@/store/progressStore';
 import type { CatalogEntry } from '@/types';
 import type { MediaSummary } from '@/services/anilist';
+import { decodeStrip } from '@/utils/dataset';
 
 const SHOWCASE_SLUG = 'naruto-shippuden';
+/** Shown first on the home page; everything else follows alphabetically. */
+const FEATURED_ORDER = ['naruto', 'naruto-shippuden', 'one-piece', 'bleach'];
 
 export default function HomePage() {
   useDocumentTitle(null);
   const catalog = getCatalog();
+  const ordered = useMemo(() => {
+    const rank = (slug: string) => {
+      const i = FEATURED_ORDER.indexOf(slug);
+      return i === -1 ? FEATURED_ORDER.length : i;
+    };
+    return [...catalog].sort((a, b) => rank(a.slug) - rank(b.slug) || a.title.localeCompare(b.title));
+  }, [catalog]);
   const covers = useAnimeByIds(catalog.map((c) => c.anilistId));
-  const showcase = useDataset(catalog.some((c) => c.slug === SHOWCASE_SLUG) ? SHOWCASE_SLUG : (catalog[0]?.slug ?? null));
+  const showcase = catalog.find((c) => c.slug === SHOWCASE_SLUG) ?? ordered[0];
+  const showcaseEpisodes = useMemo(() => (showcase ? decodeStrip(showcase.strip) : []), [showcase]);
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
   const lastSlug = useProgressStore((s) => selectInProgress(s.progress)[0]?.slug);
-  const featuredSlug = catalog[0]?.slug ?? 'naruto';
+  const featuredSlug = ordered[0]?.slug ?? 'naruto';
 
   return (
     <>
@@ -56,27 +68,21 @@ export default function HomePage() {
             </Button>
           </div>
 
-          {!showcase.data && (
-            <div aria-hidden className="mt-16">
-              <div className="h-10 rounded-[3px] bg-muted sm:h-12" />
-              <div className="mt-4 h-5" />
-            </div>
-          )}
-          {showcase.data && (
+          {showcase && (
             <figure className="mt-16">
               <EpisodeStrip
-                episodes={showcase.data.episodes}
-                label={`${showcase.data.title}: ${showcase.data.totalEpisodes} episodes in broadcast order, coloured by classification`}
+                episodes={showcaseEpisodes}
+                label={`${showcase.title}: ${showcase.totalEpisodes} episodes in broadcast order, coloured by classification`}
                 animate
               />
               <figcaption className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <p className="text-sm text-muted-foreground">
-                  <Link to={`/anime/${showcase.data.slug}`} className="font-semibold text-foreground underline-offset-4 hover:underline">
-                    {showcase.data.title}
+                  <Link to={`/anime/${showcase.slug}`} className="font-semibold text-foreground underline-offset-4 hover:underline">
+                    {showcase.title}
                   </Link>
-                  , all {showcase.data.totalEpisodes} episodes in order. Every red band is a run you can skip.
+                  , all {showcase.totalEpisodes} episodes in order. Every red band is a run you can skip.
                 </p>
-                <StripLegend counts={showcase.data.counts} />
+                <StripLegend counts={showcase.counts} />
               </figcaption>
             </figure>
           )}
@@ -94,18 +100,25 @@ export default function HomePage() {
 
       <section aria-labelledby="featured-heading" className="mx-auto max-w-7xl px-4 pb-16 sm:px-6">
         <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
-          <h2 id="featured-heading" className="text-2xl font-bold tracking-tight">
-            Full filler guides
-          </h2>
+          <div>
+            <h2 id="featured-heading" className="text-2xl font-bold tracking-tight">
+              Full filler guides
+            </h2>
+            <p className="mt-1 text-sm text-muted-foreground">
+              {catalog.length} series, {catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')} episodes classified.
+            </p>
+          </div>
           <Link to="/discover" className="text-sm font-semibold text-muted-foreground hover:text-foreground">
-            Discover more anime
+            Compare filler rankings
           </Link>
         </div>
-        <div className="grid gap-5 lg:grid-cols-2">
-          {catalog.map((entry) => (
-            <FeaturedCard key={entry.slug} entry={entry} media={covers.data?.find((m) => m.id === entry.anilistId) ?? null} />
+        <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {ordered.map((entry) => (
+            <li key={entry.slug}>
+              <GuideCard entry={entry} media={covers.data?.find((m) => m.id === entry.anilistId) ?? null} />
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       <section aria-labelledby="coverage-heading" className="border-t border-border/70">
@@ -116,20 +129,11 @@ export default function HomePage() {
           <div className="space-y-4 text-muted-foreground">
             <p>
               Titles, ratings, artwork and episode counts come live from AniList, so you can look up anything from Attack on Titan to
-              this season’s releases. Episode-by-episode filler guides currently cover{' '}
-              {catalog.map((c, i) => (
-                <span key={c.slug}>
-                  {i > 0 && (i === catalog.length - 1 ? ' and ' : ', ')}
-                  <Link to={`/anime/${c.slug}`} className="text-foreground underline underline-offset-4">
-                    {c.title}
-                  </Link>
-                </span>
-              ))}
-              .
+              this season’s releases.
             </p>
             <p>
-              Series like Bleach, One Piece and Dragon Ball are next. Each new guide is a data import — look for the green “Filler data
-              available” badge in search results.
+              Episode-by-episode guides cover the long-running shows where skipping matters most. Look for the green “Filler data
+              available” badge in search results; everything else shows full details with a note that its guide is coming.
             </p>
           </div>
         </div>
@@ -138,43 +142,34 @@ export default function HomePage() {
   );
 }
 
-function FeaturedCard({ entry, media }: { entry: CatalogEntry; media: MediaSummary | null }) {
-  const dataset = useDataset(entry.slug);
+function GuideCard({ entry, media }: { entry: CatalogEntry; media: MediaSummary | null }) {
+  const episodes = useMemo(() => decodeStrip(entry.strip), [entry.strip]);
   const watched = useProgressStore((s) => s.progress[entry.slug]?.watched);
-  const watchedSet = new Set(watched ?? []);
+  const watchedSet = useMemo(() => new Set(watched ?? []), [watched]);
   return (
-    <article className="flex gap-5 rounded-2xl border border-border bg-card p-5">
-      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={entry.title} className="w-24 shrink-0 sm:w-28" />
+    <article className="relative flex h-full gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:border-ring/50">
+      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={entry.title} className="w-20 shrink-0" />
       <div className="flex min-w-0 flex-1 flex-col">
-        <h3 className="text-xl font-bold tracking-tight">
-          <Link to={`/anime/${entry.slug}`} className="hover:underline underline-offset-4">
+        <h3 className="font-sans text-base leading-snug font-semibold">
+          <Link to={`/anime/${entry.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
             {entry.title}
           </Link>
         </h3>
         <p className="mt-1 text-sm text-muted-foreground">
-          <span className="tabular">{entry.totalEpisodes}</span> episodes, <span className="tabular font-semibold text-filler">{entry.fillerPercentage}%</span>{' '}
-          filler, <span className="tabular">{entry.arcCount}</span> arcs
+          <span className="tabular">{entry.totalEpisodes}</span> episodes,{' '}
+          <span className={`tabular font-semibold ${entry.fillerPercentage === 0 ? 'text-canon' : 'text-filler'}`}>{entry.fillerPercentage}%</span>{' '}
+          filler
         </p>
-        <div className="mt-4">
-          {dataset.data ? (
-            <EpisodeStrip episodes={dataset.data.episodes} watched={watchedSet} size="sm" label={`${entry.title} episode strip`} />
-          ) : (
-            <div className="h-3 animate-shimmer rounded bg-muted" />
-          )}
-        </div>
-        <div className="mt-auto flex flex-wrap gap-2 pt-5">
-          <Button asChild size="sm">
-            <Link to={`/anime/${entry.slug}`}>
-              <Clapperboard aria-hidden />
-              Episodes
+        <EpisodeStrip episodes={episodes} watched={watchedSet} size="sm" label={`${entry.title} episode strip`} className="mt-auto pt-3" />
+        <div className="relative z-10 mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
+          <Link to={`/anime/${entry.slug}?view=watch-order`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
+            Watch order
+          </Link>
+          {entry.counts.FILLER > 0 && (
+            <Link to={`/anime/${entry.slug}?type=filler`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
+              Filler only
             </Link>
-          </Button>
-          <Button asChild size="sm" variant="secondary">
-            <Link to={`/anime/${entry.slug}?view=watch-order`}>Watch order</Link>
-          </Button>
-          <Button asChild size="sm" variant="ghost">
-            <Link to={`/anime/${entry.slug}?type=filler`}>Filler only</Link>
-          </Button>
+          )}
         </div>
       </div>
     </article>

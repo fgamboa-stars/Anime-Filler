@@ -97,8 +97,40 @@ export function buildCatalogEntry(dataset: FillerDataset): CatalogEntry {
     counts,
     fillerPercentage: fillerPercentage(counts),
     arcCount: deriveArcs(dataset.episodes).length,
+    strip: encodeStrip(dataset.episodes),
     updatedAt: dataset.updatedAt,
   };
+}
+
+const TYPE_CODES: Record<EpisodeType, string> = { CANON: 'C', MIXED: 'M', ANIME_CANON: 'A', FILLER: 'F' };
+const CODE_TYPES: Record<string, EpisodeType> = { C: 'CANON', M: 'MIXED', A: 'ANIME_CANON', F: 'FILLER' };
+
+/** Run-length encode episode types in broadcast order: "C25F1M3". */
+export function encodeStrip(episodes: Pick<DatasetEpisode, 'number' | 'type'>[]): string {
+  const sorted = [...episodes].sort((a, b) => a.number - b.number);
+  let out = '';
+  let current: EpisodeType | null = null;
+  let length = 0;
+  for (const ep of sorted) {
+    if (ep.type === current) length++;
+    else {
+      if (current) out += TYPE_CODES[current] + length;
+      current = ep.type;
+      length = 1;
+    }
+  }
+  if (current) out += TYPE_CODES[current] + length;
+  return out;
+}
+
+/** Expand an encoded strip back into numbered episodes (1-based). */
+export function decodeStrip(strip: string): { number: number; type: EpisodeType }[] {
+  const out: { number: number; type: EpisodeType }[] = [];
+  for (const [, code, count] of strip.matchAll(/([CMAF])(\d+)/g)) {
+    const type = CODE_TYPES[code];
+    for (let i = 0; i < Number(count); i++) out.push({ number: out.length + 1, type });
+  }
+  return out;
 }
 
 /** One episode per line keeps dataset diffs readable in pull requests. */

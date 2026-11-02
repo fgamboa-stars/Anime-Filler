@@ -46,6 +46,7 @@ export interface MediaDetail extends MediaSummary {
   coverImage: { extraLarge: string | null; large: string | null; medium: string | null; color: string | null };
   siteUrl: string | null;
   duration: number | null;
+  nextAiringEpisode: { episode: number } | null;
 }
 
 export type AniListErrorKind = 'rate-limit' | 'network' | 'not-found' | 'server' | 'bad-response';
@@ -99,6 +100,7 @@ const DETAIL_FIELDS = `
   bannerImage
   coverImage { extraLarge large medium color }
   siteUrl
+  nextAiringEpisode { episode }
 `;
 
 // ── Rate limiting ──────────────────────────────────────────────────────────
@@ -279,6 +281,13 @@ export async function getTopRated({ signal, perPage = 12 }: { signal?: AbortSign
     { signal, cacheKey: `top-rated:${perPage}`, ttl: 24 * HOUR },
   );
   return data.Page.media;
+}
+
+/** Episodes aired so far: the episode count, or one before the next airing episode. */
+export function airedEpisodes(media: Pick<MediaDetail, 'episodes' | 'nextAiringEpisode'> | null): number | null {
+  if (!media) return null;
+  if (media.nextAiringEpisode) return media.nextAiringEpisode.episode - 1;
+  return media.episodes;
 }
 
 /** Display title preference: English, then romaji, then native. */

@@ -22,6 +22,7 @@ export function media(id: number, english: string, extra: Partial<MediaDetail> =
     bannerImage: null,
     coverImage: { extraLarge: null, large: null, medium: null, color: null },
     siteUrl: `https://anilist.co/anime/${id}`,
+    nextAiringEpisode: null,
     ...extra,
   };
 }

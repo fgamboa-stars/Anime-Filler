@@ -30,5 +30,8 @@ export default defineConfig({
     setupFiles: ['./src/test/setup.ts'],
     include: ['src/**/*.test.{ts,tsx}', 'scripts/**/*.test.ts'],
     css: false,
+    // Datasets are discovered with import.meta.glob; a persisted transform cache
+    // would hide newly imported anime until it was cleared.
+    fsModuleCache: false,
   },
 });

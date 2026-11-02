@@ -1,11 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import type { FillerDataset } from '../../src/types/index.ts';
-import { serializeDataset } from '../../src/utils/dataset.ts';
+import { decodeStrip, encodeStrip, serializeDataset } from '../../src/utils/dataset.ts';
 import { parseCsv, parseCsvRows } from './csv.ts';
 import { buildDataset, buildReport, groupByAnime, normalizeType, validateRecords } from './importer.ts';
-import { buildCatalog } from './catalog.ts';
+import { buildCatalog, listDatasets } from './catalog.ts';
 import { validateCatalog, validateDataset } from './validate.ts';
 
 const validate = (csv: string) => {
@@ -133,25 +132,50 @@ describe('buildDataset', () => {
 });
 
 describe('shipped datasets', () => {
-  const load = (slug: string) =>
-    JSON.parse(readFileSync(join(__dirname, '..', '..', 'src', 'data', 'anime', `${slug}.json`), 'utf8')) as FillerDataset;
-  const naruto = load('naruto');
-  const shippuden = load('naruto-shippuden');
+  const datasets = listDatasets();
+  const bySlug = Object.fromEntries(datasets.map((d) => [d.slug, d]));
 
-  it('are complete and valid', () => {
-    expect(validateDataset(naruto)).toEqual([]);
-    expect(validateDataset(shippuden)).toEqual([]);
-    expect(naruto.episodes).toHaveLength(220);
-    expect(shippuden.episodes).toHaveLength(500);
+  it('are all valid', () => {
+    expect(datasets.length).toBeGreaterThanOrEqual(11);
+    for (const d of datasets) expect(validateDataset(d), d.slug).toEqual([]);
   });
 
-  it('match the committed catalog', () => {
+  it.each([
+    // slug, episodes, filler episodes (cross-checked against AnimeFillerList's published totals)
+    ['naruto', 220, 90],
+    ['naruto-shippuden', 500, 203],
+    ['bleach', 366, 163],
+    ['one-piece', 1168, 94],
+    ['dragon-ball', 153, 21],
+    ['boruto', 293, 28],
+    ['black-clover', 170, 18],
+    ['hunter-x-hunter', 148, 2],
+    ['fairy-tail', 175, 35],
+    ['fairy-tail-2014', 102, 26],
+    ['fairy-tail-final-season', 51, 0],
+  ])('%s has %i episodes and %i filler', (slug, total, filler) => {
+    const d = bySlug[slug];
+    expect(d).toBeDefined();
+    expect(d.episodes).toHaveLength(total);
+    expect(d.episodes.filter((e) => e.type === 'FILLER')).toHaveLength(filler);
+    expect(d.episodes.map((e) => e.number)).toEqual(Array.from({ length: total }, (_, i) => i + 1));
+  });
+
+  it('uses unique AniList IDs and matches the committed catalog', () => {
+    expect(new Set(datasets.map((d) => d.anilistId)).size).toBe(datasets.length);
     const catalog = JSON.parse(readFileSync(join(__dirname, '..', '..', 'src', 'data', 'index.json'), 'utf8'));
-    expect(validateCatalog(catalog, [naruto, shippuden])).toEqual([]);
-    expect(buildCatalog([naruto, shippuden]).anime.map((a) => a.slug)).toEqual(['naruto', 'naruto-shippuden']);
+    expect(validateCatalog(catalog, datasets)).toEqual([]);
+    expect(buildCatalog(datasets).anime).toHaveLength(datasets.length);
   });
 
   it('round-trip through the serializer unchanged', () => {
-    expect(JSON.parse(serializeDataset(naruto))).toEqual(naruto);
+    for (const d of datasets) expect(JSON.parse(serializeDataset(d))).toEqual(d);
+  });
+
+  it('encode to a strip that decodes back to the same types', () => {
+    for (const d of datasets) {
+      const decoded = decodeStrip(encodeStrip(d.episodes));
+      expect(decoded.map((e) => e.type), d.slug).toEqual([...d.episodes].sort((a, b) => a.number - b.number).map((e) => e.type));
+    }
   });
 });

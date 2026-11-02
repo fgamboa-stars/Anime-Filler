@@ -44,7 +44,9 @@ const correctionPool = (): string[] => [...getCatalog().flatMap((c) => [c.title,
 export function mergeHits(query: string, remote: MediaSummary[]): RankedItem<SearchHit>[] {
   const hits = remote.map(toHit);
   const ids = new Set(hits.map((h) => h.id));
-  const localMatches = rankResults(query, getCatalog().map(catalogHit)).filter((r) => r.score < 1 && !ids.has(r.item.id));
+  // With AniList results present, only add local guides that clearly match; offline, accept looser matches.
+  const maxScore = remote.length ? 0.25 : 0.6;
+  const localMatches = rankResults(query, getCatalog().map(catalogHit)).filter((r) => r.score <= maxScore && !ids.has(r.item.id));
   return rankResults(query, [...hits, ...localMatches.map((r) => r.item)]);
 }
 
