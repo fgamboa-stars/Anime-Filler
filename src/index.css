@@ -1,82 +1,158 @@
 @import 'tailwindcss';
-@import '@fontsource-variable/bricolage-grotesque/wght.css';
-@import '@fontsource-variable/figtree/wght.css';
+@import '@fontsource-variable/geist/index.css';
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Palette — "late-night broadcast": deep ink-indigo surfaces, warm off-white type,
- * and four signal colours reserved strictly for episode classifications.
+ * Design tokens — see docs/ui-ux/DESIGN_SYSTEM.md.
+ * Grayscale for all chrome. Colour is reserved for meaning: CTAs and states
+ * (success / warning / danger) and episode classifications (data viz).
+ * Every text pair is ≥ 4.5:1 and every control/data colour ≥ 3:1 in both themes.
  */
 :root {
-  --background: #16142a;
-  --foreground: #efeaf8;
-  --card: #1e1b37;
-  --card-foreground: #efeaf8;
-  --popover: #221f3e;
-  --popover-foreground: #efeaf8;
-  --primary: #efeaf8;
-  --primary-foreground: #16142a;
-  --secondary: #2a2649;
-  --secondary-foreground: #efeaf8;
-  --muted: #252140;
-  --muted-foreground: #a9a3c7;
-  --accent: #2f2a52;
-  --accent-foreground: #efeaf8;
-  --destructive: #ff5d73;
-  --border: #34305a;
-  --input: #3a3563;
-  --ring: #a493ff;
-  --radius: 0.75rem;
+  color-scheme: light;
 
-  --canon: #3ddca6;
-  --filler: #ff5d73;
-  --mixed: #f6b941;
-  --anime-canon: #5aa9ff;
-  --unwatched: #3a3563;
+  --background: #fafafa;
+  --surface: #ffffff;
+  --surface-2: #f4f4f5;
+  --surface-3: #ebebec;
+  --foreground: #171717;
+  --muted-foreground: #525252;
+  --subtle-foreground: #6b6b6b;
+  --border: #e6e6e6;
+  --border-strong: #8a8a8a;
+  --primary: #171717;
+  --primary-foreground: #fafafa;
+  --ring: #171717;
+  --overlay: rgb(250 250 250 / 0.8);
+
+  --success: #15803d;
+  --warning: #b45309;
+  --danger: #b91c1c;
+  --info: #1d4ed8;
+
+  /* Episode classifications: fill colours (≥ 3:1 on surface) and text colours (≥ 4.5:1). */
+  --canon: #059669;
+  --mixed: #d97706;
+  --anime-canon: #2563eb;
+  --filler: #dc2626;
+  --canon-text: #047857;
+  --mixed-text: #b45309;
+  --anime-canon-text: #1d4ed8;
+  --filler-text: #b91c1c;
+  --track: #e6e6e6;
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.04), 0 2px 8px -2px rgb(0 0 0 / 0.06);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.04), 0 12px 32px -12px rgb(0 0 0 / 0.14);
+  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.04), 0 24px 56px -16px rgb(0 0 0 / 0.22);
+  --highlight: inset 0 0 0 0 transparent;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --background: #000000;
+  --surface: #0a0a0a;
+  --surface-2: #141414;
+  --surface-3: #1c1c1c;
+  --foreground: #ededed;
+  --muted-foreground: #a1a1a1;
+  --subtle-foreground: #8f8f8f;
+  --border: #1f1f1f;
+  --border-strong: #6b6b6b;
+  --primary: #ededed;
+  --primary-foreground: #0a0a0a;
+  --ring: #ededed;
+  --overlay: rgb(0 0 0 / 0.72);
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --info: #60a5fa;
+
+  --canon: #34d399;
+  --mixed: #fbbf24;
+  --anime-canon: #60a5fa;
+  --filler: #f87171;
+  --canon-text: #34d399;
+  --mixed-text: #fbbf24;
+  --anime-canon-text: #60a5fa;
+  --filler-text: #f87171;
+  --track: #262626;
+
+  /* Dark UIs show depth with light, not shadow: hairline + faint top highlight. */
+  --shadow-xs: 0 0 0 0 transparent;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.6);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.6), 0 16px 40px -16px rgb(0 0 0 / 0.9);
+  --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.6), 0 32px 64px -20px rgb(0 0 0 / 1);
+  --highlight: inset 0 1px 0 0 rgb(255 255 255 / 0.05);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
   --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-overlay: var(--overlay);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
   --color-canon: var(--canon);
-  --color-filler: var(--filler);
   --color-mixed: var(--mixed);
   --color-anime-canon: var(--anime-canon);
-  --color-unwatched: var(--unwatched);
+  --color-filler: var(--filler);
+  --color-canon-text: var(--canon-text);
+  --color-mixed-text: var(--mixed-text);
+  --color-anime-canon-text: var(--anime-canon-text);
+  --color-filler-text: var(--filler-text);
+  --color-track: var(--track);
 
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 6px);
+  /* Legacy aliases so shadcn-style class names keep working. */
+  --color-card: var(--surface);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--foreground);
+  --color-muted: var(--surface-2);
+  --color-secondary: var(--surface-2);
+  --color-secondary-foreground: var(--foreground);
+  --color-accent: var(--surface-3);
+  --color-accent-foreground: var(--foreground);
+  --color-input: var(--border-strong);
+  --color-destructive: var(--danger);
 
-  --font-sans: 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
-  --font-display: 'Bricolage Grotesque Variable', 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
 
   --animate-shimmer: shimmer 1.6s ease-in-out infinite;
-  --animate-toast-in: toast-in 220ms cubic-bezier(0.2, 0.9, 0.3, 1.2);
-  --animate-strip-in: strip-in 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-toast-in: toast-in 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-strip-in: strip-in 1000ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-fade-in: fade-in 180ms ease-out both;
 
   @keyframes shimmer {
     0%,
     100% {
-      opacity: 0.55;
+      opacity: 0.6;
     }
     50% {
       opacity: 1;
@@ -85,7 +161,7 @@
   @keyframes toast-in {
     from {
       opacity: 0;
-      transform: translateY(8px) scale(0.98);
+      transform: translateY(6px);
     }
     to {
       opacity: 1;
@@ -94,10 +170,20 @@
   }
   @keyframes strip-in {
     from {
-      clip-path: inset(0 100% 0 0);
+      clip-path: inset(0 100% 0 0 round 6px);
     }
     to {
-      clip-path: inset(0 0 0 0);
+      clip-path: inset(0 0 0 0 round 6px);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
     }
   }
 }
@@ -107,19 +193,21 @@
     @apply border-border;
   }
   html {
-    color-scheme: dark;
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-feature-settings: 'ss01';
+    font-feature-settings: 'ss01', 'cv11';
     min-height: 100dvh;
+    transition:
+      background-color 200ms ease,
+      color 200ms ease;
   }
   h1,
   h2,
-  h3 {
-    @apply font-display;
-    font-optical-sizing: auto;
+  h3,
+  h4 {
     text-wrap: balance;
   }
   :focus-visible {
@@ -127,8 +215,43 @@
     outline-offset: 2px;
   }
   ::selection {
-    background: color-mix(in oklab, var(--ring) 45%, transparent);
+    background: color-mix(in oklab, var(--foreground) 18%, transparent);
   }
+}
+
+/* ── Type scale ──────────────────────────────────────────────── */
+@utility text-display {
+  font-size: clamp(2.75rem, 7vw, 5.25rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  font-weight: 650;
+}
+@utility text-title {
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 650;
+}
+@utility text-heading {
+  font-size: clamp(1.625rem, 2.6vw, 2.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  font-weight: 620;
+}
+@utility text-subheading {
+  font-size: 1.125rem;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+@utility text-lead {
+  font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+}
+@utility text-caption {
+  font-size: 0.8125rem;
+  line-height: 1.4;
 }
 
 @utility tabular {
@@ -137,7 +260,15 @@
 
 @utility content-auto {
   content-visibility: auto;
-  contain-intrinsic-size: auto 56px;
+  contain-intrinsic-size: auto 64px;
+}
+
+/* Surfaces: one definition for every card-like container. */
+@utility surface-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--highlight), var(--shadow-sm);
 }
 
 @media (prefers-reduced-motion: reduce) {

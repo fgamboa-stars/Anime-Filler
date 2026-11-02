@@ -5,6 +5,7 @@ import { SearchBox } from '@/features/search/SearchBox';
 import { cn } from '@/utils/cn';
 import { Logo } from './Logo';
 import { PageFallback } from './PageFallback';
+import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
@@ -63,6 +64,7 @@ export function AppLayout() {
           </nav>
           <div className="ml-auto flex flex-1 items-center justify-end gap-2">
             {!isHome && <SearchBox className="hidden max-w-sm sm:block" />}
+            <ThemeSwitcher className="hidden md:inline-flex" />
             <button
               type="button"
               className="inline-flex size-10 items-center justify-center rounded-full hover:bg-secondary md:hidden"
@@ -95,6 +97,10 @@ export function AppLayout() {
                 ))}
               </ul>
             </nav>
+            <div className="mt-4 flex items-center justify-between border-t border-border pt-4">
+              <span className="text-sm text-muted-foreground">Theme</span>
+              <ThemeSwitcher />
+            </div>
           </div>
         )}
       </header>

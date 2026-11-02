@@ -45,7 +45,6 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
   return (
     <section className="relative">
       <div className="absolute inset-x-0 top-0 h-[22rem] overflow-hidden sm:h-[26rem]" aria-hidden>
-        <div className="size-full" style={{ background: `radial-gradient(80% 120% at 20% 0%, ${media?.coverImage.color ?? '#3b3470'}66, transparent 70%)` }} />
         {/* Decorative banner: skipped on small screens, where it would be the slowest thing on the page. */}
         {media?.bannerImage && (
           <picture>

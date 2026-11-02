@@ -70,7 +70,7 @@ export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, labe
         ))}
       </div>
       {watchedRuns.length > 0 && (
-        <div className="relative mt-1 h-1 w-full rounded-full bg-unwatched/60">
+        <div className="relative mt-1 h-1 w-full rounded-full bg-track">
           {watchedRuns.map((r) => (
             <div
               key={r.start}

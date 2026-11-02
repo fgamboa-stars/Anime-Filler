@@ -2,6 +2,7 @@ import { lazy } from 'react';
 import { createBrowserRouter, RouterProvider, type RouteObject } from 'react-router-dom';
 import { AppLayout } from '@/components/layout/AppLayout';
 import { ToastProvider } from '@/components/ui/toast';
+import { useApplyTheme } from '@/hooks/useTheme';
 
 // Each page is its own chunk; the home page stays in the main bundle for a fast first paint.
 import HomePage from '@/pages/HomePage';
@@ -31,6 +32,7 @@ export const routes: RouteObject[] = [
 const router = createBrowserRouter(routes);
 
 export function App() {
+  useApplyTheme();
   return (
     <ToastProvider>
       <RouterProvider router={router} />
