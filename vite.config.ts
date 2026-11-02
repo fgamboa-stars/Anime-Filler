@@ -15,9 +15,11 @@ export default defineConfig({
     target: 'es2022',
     rollupOptions: {
       output: {
-        manualChunks: {
-          react: ['react', 'react-dom', 'react-router-dom'],
-          search: ['fuse.js'],
+        // Long-lived vendor chunks so app updates don't invalidate the React/router cache.
+        manualChunks(id) {
+          if (/node_modules\/(react|react-dom|react-router|react-router-dom|scheduler|@remix-run)\//.test(id)) return 'react';
+          if (id.includes('node_modules/fuse.js')) return 'search';
+          return undefined;
         },
       },
     },

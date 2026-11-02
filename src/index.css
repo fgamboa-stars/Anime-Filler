@@ -1,0 +1,152 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/bricolage-grotesque/wght.css';
+@import '@fontsource-variable/figtree/wght.css';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Palette — "late-night broadcast": deep ink-indigo surfaces, warm off-white type,
+ * and four signal colours reserved strictly for episode classifications.
+ */
+:root {
+  --background: #16142a;
+  --foreground: #efeaf8;
+  --card: #1e1b37;
+  --card-foreground: #efeaf8;
+  --popover: #221f3e;
+  --popover-foreground: #efeaf8;
+  --primary: #efeaf8;
+  --primary-foreground: #16142a;
+  --secondary: #2a2649;
+  --secondary-foreground: #efeaf8;
+  --muted: #252140;
+  --muted-foreground: #a9a3c7;
+  --accent: #2f2a52;
+  --accent-foreground: #efeaf8;
+  --destructive: #ff5d73;
+  --border: #34305a;
+  --input: #3a3563;
+  --ring: #a493ff;
+  --radius: 0.75rem;
+
+  --canon: #3ddca6;
+  --filler: #ff5d73;
+  --mixed: #f6b941;
+  --anime-canon: #5aa9ff;
+  --unwatched: #3a3563;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-canon: var(--canon);
+  --color-filler: var(--filler);
+  --color-mixed: var(--mixed);
+  --color-anime-canon: var(--anime-canon);
+  --color-unwatched: var(--unwatched);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 6px);
+
+  --font-sans: 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque Variable', 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --animate-shimmer: shimmer 1.6s ease-in-out infinite;
+  --animate-toast-in: toast-in 220ms cubic-bezier(0.2, 0.9, 0.3, 1.2);
+  --animate-strip-in: strip-in 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+
+  @keyframes shimmer {
+    0%,
+    100% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes toast-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes strip-in {
+    from {
+      clip-path: inset(0 100% 0 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'ss01';
+    min-height: 100dvh;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--ring) 45%, transparent);
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 56px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
