@@ -25,3 +25,4 @@ if (!window.matchMedia) {
     }) as MediaQueryList;
 }
 if (!Element.prototype.scrollIntoView) Element.prototype.scrollIntoView = () => {};
+window.scrollTo = (() => {}) as typeof window.scrollTo;

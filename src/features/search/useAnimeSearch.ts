@@ -61,9 +61,12 @@ export async function runSearch(query: string, signal?: AbortSignal, perPage = 1
   return { hits: mergeHits(query, []), correctedTo: null };
 }
 
-export function useAnimeSearch(query: string, { delay = 300, perPage = 12 }: { delay?: number; perPage?: number } = {}) {
+export function useAnimeSearch(
+  query: string,
+  { delay = 300, perPage = 12, enabled = true }: { delay?: number; perPage?: number; enabled?: boolean } = {},
+) {
   const debounced = useDebouncedValue(query.trim(), delay);
-  const active = debounced.length >= 2 ? debounced : null;
+  const active = enabled && debounced.length >= 2 ? debounced : null;
   const state = useAsync(active ? `search:${perPage}:${active.toLowerCase()}` : null, (signal) => runSearch(active!, signal, perPage));
 
   // Local dataset matches are available instantly and survive AniList outages.

@@ -44,7 +44,7 @@ const normalize = (s: string) =>
 function titleHighlights<T extends Searchable>(result: FuseResult<T>): RangeTuple[] {
   return (result.matches ?? [])
     .filter((m) => m.key === 'title')
-    .flatMap((m) => m.indices.filter(([a, b]) => b - a >= 1));
+    .flatMap((m) => m.indices.filter(([a, b]) => b - a >= 2));
 }
 
 /**

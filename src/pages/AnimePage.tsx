@@ -251,7 +251,7 @@ function FillerGuide({ dataset, entry }: { dataset: PreparedDataset; entry: Cata
 
       {view === 'arcs' && <ArcList arcs={dataset.arcs} episodes={dataset.episodes} watched={watched} />}
 
-      {dataset.source && <p className="text-xs text-muted-foreground">Classification source: {dataset.source}.</p>}
+      {dataset.source && <p className="text-xs text-muted-foreground">{dataset.source}.</p>}
     </div>
   );
 }

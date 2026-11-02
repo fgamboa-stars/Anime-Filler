@@ -2,7 +2,6 @@ import { useMemo } from 'react';
 import { ClipboardCopy, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/toast';
-import { ShareButton } from '@/components/ShareButton';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
 import { copyText } from '@/hooks/useClipboard';
 import { usePreferencesStore } from '@/store/preferencesStore';
@@ -61,7 +60,6 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
             <ClipboardCopy aria-hidden />
             Copy watch order
           </Button>
-          <ShareButton />
         </div>
       </div>
 

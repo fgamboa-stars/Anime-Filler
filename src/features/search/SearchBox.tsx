@@ -27,7 +27,8 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
   const listId = useId();
   const inputRef = useRef<HTMLInputElement>(null);
   const rootRef = useRef<HTMLDivElement>(null);
-  const search = useAnimeSearch(query, { delay: 250, perPage: 8 });
+  // Only query AniList while suggestions are showing — keeps us well inside the rate limit.
+  const search = useAnimeSearch(query, { delay: 250, perPage: 8, enabled: open });
   const suggestions = search.hits.slice(0, MAX_SUGGESTIONS);
   const showList = open && query.trim().length >= 2;
   // Options = suggestions + the "see all results" row.
