@@ -108,9 +108,19 @@ Import a CSV containing only the changed or new rows. Merge mode updates matchin
 
 You can edit dataset files directly. Afterwards run `npm run data:index` to refresh the catalog and `npm run data:validate` to check your work.
 
+## Updating an airing show (One Piece)
+
+When new episodes are classified, add rows for them (or re-export the full list) and import in merge mode. Existing episodes are kept and only new or changed rows are written:
+
+```bash
+npm run import:csv -- data/seed/one-piece.csv
+```
+
+The anime page compares the guide with AniList's aired-episode count and tells visitors when the newest episodes aren't classified yet, so a slightly stale guide is still clear about its coverage.
+
 ## Seed data
 
-The shipped datasets were generated from `data/seed/naruto.csv` and `data/seed/naruto-shippuden.csv` with:
+Every shipped dataset has its source CSV in `data/seed/` (one file per guide, each with an `anilistId` column), so any guide can be rebuilt or corrected and re-imported. The Naruto guides were generated with:
 
 ```bash
 npm run import:csv -- data/seed/naruto.csv --slug naruto --alt NARUTO --alt ナルト --source "…"
