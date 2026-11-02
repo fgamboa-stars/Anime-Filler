@@ -96,7 +96,10 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
           Search all anime
         </label>
         <Search
-          className={cn('pointer-events-none absolute top-1/2 -translate-y-1/2 text-muted-foreground', lg ? 'left-5 size-5' : 'left-3.5 size-4')}
+          className={cn(
+            'pointer-events-none absolute top-1/2 -translate-y-1/2 text-muted-foreground',
+            lg ? 'left-5 size-5' : 'left-3.5 size-4',
+          )}
           aria-hidden
         />
         <input
@@ -131,10 +134,17 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
               setQuery('');
               inputRef.current?.focus();
             }}
-            className={cn('absolute top-1/2 inline-flex size-9 -translate-y-1/2 items-center justify-center rounded-full text-muted-foreground hover:bg-surface-2 hover:text-foreground', lg ? 'right-3' : 'right-0.5')}
+            className={cn(
+              'absolute top-1/2 inline-flex size-9 -translate-y-1/2 items-center justify-center rounded-full text-muted-foreground hover:bg-surface-2 hover:text-foreground',
+              lg ? 'right-3' : 'right-0.5',
+            )}
             aria-label="Clear search"
           >
-            {search.isPending && query.trim().length >= 2 ? <Loader2 className="size-4 animate-spin" aria-hidden /> : <X className="size-4" aria-hidden />}
+            {search.isPending && query.trim().length >= 2 ? (
+              <Loader2 className="size-4 animate-spin" aria-hidden />
+            ) : (
+              <X className="size-4" aria-hidden />
+            )}
           </button>
         )}
       </form>
@@ -168,10 +178,15 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => choose(i)}
                 onMouseEnter={() => setActive(i)}
-                className={cn('flex cursor-pointer items-center gap-3 rounded-xl px-2 py-2', active === i && 'bg-surface-2 dark:bg-surface-3')}
+                className={cn(
+                  'flex cursor-pointer items-center gap-3 rounded-xl px-2 py-2',
+                  active === i && 'bg-surface-2 dark:bg-surface-3',
+                )}
               >
-                <div className="h-12 w-8 shrink-0 overflow-hidden rounded-md bg-surface-3">
-                  {m?.coverImage.medium && <img src={m.coverImage.medium} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} />}
+                <div className="h-12 w-8 shrink-0 overflow-hidden rounded-[6px] bg-surface-3">
+                  {m?.coverImage.medium && (
+                    <img src={m.coverImage.medium} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} />
+                  )}
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-semibold">
@@ -180,7 +195,9 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                   {facts && <p className="truncate text-xs text-muted-foreground">{facts}</p>}
                 </div>
                 {hit.item.catalog ? (
-                  <span className="shrink-0 rounded-full border border-canon/25 bg-canon/10 px-2 py-0.5 text-[11px] font-medium text-canon-text">Filler data</span>
+                  <span className="shrink-0 rounded-full border border-canon/25 bg-canon/10 px-2 py-0.5 text-[11px] font-medium text-canon-text">
+                    Filler data
+                  </span>
                 ) : null}
               </li>
             );
@@ -192,7 +209,10 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
             onMouseDown={(e) => e.preventDefault()}
             onClick={goToResults}
             onMouseEnter={() => setActive(suggestions.length)}
-            className={cn('flex cursor-pointer items-center gap-2 rounded-xl px-3 py-2.5 text-sm text-muted-foreground', active === suggestions.length && 'bg-surface-2 text-foreground dark:bg-surface-3')}
+            className={cn(
+              'flex cursor-pointer items-center gap-2 rounded-xl px-3 py-2.5 text-sm text-muted-foreground',
+              active === suggestions.length && 'bg-surface-2 text-foreground dark:bg-surface-3',
+            )}
           >
             <Search className="size-4" aria-hidden />
             See all results for “{query.trim()}”

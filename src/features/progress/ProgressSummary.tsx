@@ -16,19 +16,23 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
   const nextCanon = progressStats(entry, total, (n) => typeOf.get(n) !== 'FILLER').nextEpisode;
 
   return (
-    <div className="flex flex-col gap-3 rounded-xl border border-border bg-card p-4 sm:flex-row sm:items-center sm:gap-6">
+    <div className="surface-card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:gap-8 sm:p-6">
       <div className="min-w-0 flex-1">
         <p className="flex flex-wrap items-baseline gap-x-3">
-          <span className="font-display text-2xl font-bold">
+          <span className="text-2xl font-semibold tracking-tight">
             <span className="tabular">{stats.watchedCount}</span>
-            <span className="text-muted-foreground"> / </span>
+            <span className="text-subtle-foreground"> / </span>
             <span className="tabular">{stats.total}</span>
           </span>
           <span className="text-sm text-muted-foreground">
             watched, <span className="tabular font-semibold text-foreground">{stats.percent}%</span> complete
           </span>
         </p>
-        <Progress value={(stats.watchedCount / Math.max(1, total)) * 100} label={`${stats.percent}% of ${dataset.title} watched`} className="mt-2" />
+        <Progress
+          value={(stats.watchedCount / Math.max(1, total)) * 100}
+          label={`${stats.percent}% of ${dataset.title} watched`}
+          className="mt-3"
+        />
       </div>
       <div className="flex flex-wrap gap-2">
         {nextCanon && (
@@ -38,7 +42,7 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
           </Button>
         )}
         {stats.nextEpisode && stats.nextEpisode !== nextCanon && (
-          <Button size="sm" variant="secondary" onClick={() => onJump(stats.nextEpisode!)}>
+          <Button size="sm" variant="outline" onClick={() => onJump(stats.nextEpisode!)}>
             Next incl. filler: {stats.nextEpisode}
           </Button>
         )}
@@ -47,7 +51,7 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
             <Button
               size="sm"
               variant="outline"
-              className="border-filler/60 text-filler"
+              className="border-danger/50 text-danger hover:border-danger hover:bg-danger/[0.06]"
               onClick={() => {
                 resetAnime(dataset.slug);
                 setConfirming(false);

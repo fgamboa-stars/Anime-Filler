@@ -93,3 +93,64 @@ Each significant change on the `ui-ux-improvements` branch is recorded here. Eve
 
 **Files**
 `src/components/ui/*` (button, badge, card, input, progress, skeleton, toast; new: select, chip, segmented, notice, section-header, stat), `src/components/{StateMessage,EpisodeStrip,EpisodeTypeBadge,FillerAvailabilityBadge,Poster,AnimeCard}.tsx`, `src/components/layout/{AppLayout,Logo,PageFallback}.tsx`, `src/features/search/SearchBox.tsx`, `src/index.css`, `src/pages/*` (container class only)
+
+---
+
+## 3. Pages: home, anime guide, watch order, arcs, discover, search, progress, 404 and error
+
+**What changed**
+- **Home.**
+  - Editorial hero with a 44–84px display headline, a lead paragraph, a 64px search field and outline quick actions.
+  - The Naruto Shippuden showcase is now a card. It has the series title, a large filler percentage, the strip with episode-number axis labels, and the legend.
+  - Guide cards are 24px-radius surfaces with hover elevation. Long season lists collapse to two links plus "+N more", so every card in a row has a similar height.
+  - The coverage section uses title-size type in two columns.
+- **Anime page.**
+  - The hero banner is desaturated and softened. The title is set at up to 64px with tight tracking, genres are neutral chips, and the facts sit in a card.
+  - New "Episode map" card: the strip (48–64px tall, with axis), the filler percentage and the legend.
+  - Progress is its own card.
+  - The guide tabs are a segmented control.
+  - The "not classified yet" and "Filler data is not currently available" messages use the shared `Notice` component.
+- **Episode filters.**
+  - Everything now sits in one card: search, then type chips, then arc/show/sort/spoiler controls.
+  - On phones, the type chips scroll sideways, and the four secondary controls sit behind a **Filters** disclosure (`aria-expanded`/`aria-controls`) with an active-filter count. This cuts the filter block from about 450px to about 150px.
+- **Episode list.**
+  - 64px minimum row height and a hover tint.
+  - Grayscale checkboxes: watched means "done", not "canon".
+  - A slim rounded type stripe on each row.
+  - On phones, titles wrap to two lines and the type badge shows its icon only. The label stays for screen readers.
+- **Watch order.** Stats, the strip and the include-options sit in one card, with 44px checkbox rows. The Watch and Skip columns are cards with tinted range chips.
+- **Arcs.** Cards with 36px action links, and the filler percentage uses the AA text tokens.
+- **Discover, Search, Progress, 404 and error page.**
+  - Consistent page header: `text-title` h1 with a lead paragraph.
+  - 64px top spacing.
+  - Ranking cards with divided rows.
+  - Wider poster-grid gutters.
+  - The error detail is shown in a monospace well.
+
+**Why it helps usability**
+- The episode list now starts in the first screen on phones.
+- Each page reads in one order: hero, overview, progress, then the active section.
+- Collapsing season lists stops one series from dominating the home grid.
+
+**Why it helps visual quality**
+- Strong type contrast between display, title, heading and body.
+- Generous section spacing.
+- Card surfaces group related information without heavy borders.
+- The one saturated element on each page is the data.
+
+**Accessibility**
+- The disclosure and segmented controls expose state.
+- Compact badges keep their text label for assistive tech.
+- All new text colours meet AA in both themes.
+- Interactive rows, links and checkboxes meet the 24px minimum target size, and primary controls meet 44px.
+- Two new tests cover the theme switcher's semantics and persistence.
+
+**Mobile**
+- Filter disclosure, scrolling chips, two-line titles, icon-only badges, and edge-to-edge scrolling season navigation.
+
+**Tradeoffs and risks**
+- On phones, arc and watched filters are one tap further away. The Filters button shows a count when any of them is active.
+- Compact badges rely on the icon plus colour plus stripe below 640px.
+
+**Files**
+`src/pages/{HomePage,AnimePage,DiscoverPage,SearchPage,ProgressPage,NotFoundPage,RouteErrorPage}.tsx`, `src/features/anime/AnimeHero.tsx`, `src/features/episodes/{EpisodeFilters,EpisodeList}.tsx`, `src/features/watch-order/WatchOrderPanel.tsx`, `src/features/arcs/ArcList.tsx`, `src/features/progress/{ProgressSummary,ContinueWatching}.tsx`, `src/components/EpisodeTypeBadge.tsx`, `src/components/ThemeSwitcher.test.tsx` (new), `src/index.css` (dark data colours)

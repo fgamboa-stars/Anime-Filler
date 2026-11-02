@@ -13,7 +13,11 @@ export function ThemeSwitcher({ className }: { className?: string }) {
   const theme = usePreferencesStore((s) => s.theme);
   const setTheme = usePreferencesStore((s) => s.setTheme);
   return (
-    <div role="radiogroup" aria-label="Colour theme" className={cn('inline-flex items-center gap-0.5 rounded-full border border-border bg-surface p-0.5', className)}>
+    <div
+      role="radiogroup"
+      aria-label="Colour theme"
+      className={cn('inline-flex items-center gap-0.5 rounded-full border border-border bg-surface p-0.5', className)}
+    >
       {OPTIONS.map(({ value, label, icon: Icon }) => {
         const active = theme === value;
         return (

@@ -37,7 +37,10 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
       />
       <div className="flex flex-col gap-1.5">
         <h3 className="text-[15px] leading-snug font-semibold tracking-[-0.01em]">
-          <Link to={animePath({ anilistId: id, title })} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
+          <Link
+            to={animePath({ anilistId: id, title })}
+            className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline"
+          >
             <Highlight text={title} ranges={highlights} />
           </Link>
         </h3>
@@ -54,7 +57,8 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
         </div>
         {catalog && (
           <p className="text-xs text-muted-foreground">
-            <span className="tabular font-semibold text-filler-text">{catalog.fillerPercentage}%</span> filler across {catalog.totalEpisodes} episodes
+            <span className="tabular font-semibold text-filler-text">{catalog.fillerPercentage}%</span> filler across{' '}
+            {catalog.totalEpisodes} episodes
           </p>
         )}
       </div>

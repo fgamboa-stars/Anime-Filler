@@ -37,7 +37,15 @@ interface EpisodeStripProps {
  * a coloured band in broadcast order — like a seek bar for the entire show.
  * Watched episodes appear as a thin track underneath.
  */
-export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, label, size = 'lg', animate = false, showAxis = false, className }: EpisodeStripProps) {
+export const EpisodeStrip = memo(function EpisodeStrip({
+  episodes,
+  watched,
+  label,
+  size = 'lg',
+  animate = false,
+  showAxis = false,
+  className,
+}: EpisodeStripProps) {
   const runs = useMemo(() => toRuns(episodes), [episodes]);
   const watchedRuns = useMemo(() => {
     if (!watched || watched.size === 0) return [];

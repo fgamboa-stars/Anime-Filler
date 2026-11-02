@@ -17,7 +17,10 @@ export function Poster({ src, srcSet, sizes, title, color, className, priority =
   const showImage = src && !failed;
   return (
     <div
-      className={cn('relative aspect-[2/3] overflow-hidden rounded-2xl bg-surface-2 after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:ring-1 after:ring-black/6 after:ring-inset dark:after:ring-white/8', className)}
+      className={cn(
+        'relative aspect-[2/3] overflow-hidden rounded-2xl bg-surface-2 after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:ring-1 after:ring-black/6 after:ring-inset dark:after:ring-white/8',
+        className,
+      )}
       data-color={color ?? undefined}
     >
       {showImage ? (

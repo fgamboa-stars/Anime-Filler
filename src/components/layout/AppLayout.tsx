@@ -88,7 +88,10 @@ export function AppLayout() {
                       to={item.to}
                       end={item.end}
                       className={({ isActive }) =>
-                        cn('flex h-12 items-center rounded-xl px-3 text-base font-medium text-muted-foreground', isActive && 'bg-surface-2 text-foreground')
+                        cn(
+                          'flex h-12 items-center rounded-xl px-3 text-base font-medium text-muted-foreground',
+                          isActive && 'bg-surface-2 text-foreground',
+                        )
                       }
                     >
                       {item.label}
@@ -115,14 +118,19 @@ export function AppLayout() {
         <div className="container-page flex flex-col gap-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-start sm:justify-between">
           <Logo />
           <div className="max-w-xl space-y-2 sm:text-right">
-          <p>
-            Anime information, ratings and artwork are provided by{' '}
-            <a href="https://anilist.co" target="_blank" rel="noreferrer" className="text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground">
-              AniList
-            </a>
-            . Episode classifications come from community filler lists.
-          </p>
-          <p>Free to use. No account, no tracking — progress stays in your browser.</p>
+            <p>
+              Anime information, ratings and artwork are provided by{' '}
+              <a
+                href="https://anilist.co"
+                target="_blank"
+                rel="noreferrer"
+                className="text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
+              >
+                AniList
+              </a>
+              . Episode classifications come from community filler lists.
+            </p>
+            <p>Free to use. No account, no tracking — progress stays in your browser.</p>
           </div>
         </div>
       </footer>

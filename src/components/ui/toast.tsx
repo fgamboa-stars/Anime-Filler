@@ -29,7 +29,11 @@ export function ToastProvider({ children }: { children: ReactNode }) {
   return (
     <ToastContext.Provider value={api}>
       {children}
-      <div aria-live="polite" role="status" className="pointer-events-none fixed inset-x-0 bottom-5 z-50 flex flex-col items-center gap-2 px-4">
+      <div
+        aria-live="polite"
+        role="status"
+        className="pointer-events-none fixed inset-x-0 bottom-5 z-50 flex flex-col items-center gap-2 px-4"
+      >
         {toasts.map((t) => (
           <div
             key={t.id}
@@ -37,7 +41,11 @@ export function ToastProvider({ children }: { children: ReactNode }) {
               'animate-toast-in pointer-events-auto flex items-center gap-2.5 rounded-full border border-border bg-surface px-4 py-2.5 text-sm font-medium text-foreground shadow-lg dark:bg-surface-2',
             )}
           >
-            {t.tone === 'success' ? <CheckCircle2 className="size-4 text-success" aria-hidden /> : <CircleAlert className="size-4 text-danger" aria-hidden />}
+            {t.tone === 'success' ? (
+              <CheckCircle2 className="size-4 text-success" aria-hidden />
+            ) : (
+              <CircleAlert className="size-4 text-danger" aria-hidden />
+            )}
             {t.message}
           </div>
         ))}
