@@ -7,7 +7,7 @@ Anime Filler Finder is a static single-page app. Everything happens in the brows
 | | AniList (remote) | Filler datasets (local) |
 | --- | --- | --- |
 | Provides | Titles, description, genres, studios, score, popularity, status, episode count, season, dates, cover and banner images | Per-episode classification (CANON, MIXED, ANIME_CANON, FILLER), episode titles, arcs |
-| Coverage | Every anime on AniList | Only anime that have been imported (11 series as of this writing) |
+| Coverage | Every anime on AniList | Only anime that have been imported (21 series / 51 seasons as of this writing) |
 | Where | `https://graphql.anilist.co` (`VITE_ANILIST_API`) | `src/data/anime/<slug>.json` |
 | Loaded | On demand, cached | Lazily, one chunk per anime |
 
@@ -86,6 +86,8 @@ src/data/
 ```
 
 `src/services/datasets.ts` uses `import.meta.glob('../data/anime/*.json')`, so every dataset file becomes its own lazily loaded chunk with no registration code. The catalog is small and bundled, which lets the home and discover pages show filler percentages without downloading episode lists. Each catalog entry also carries a run-length encoded `strip` (for example `C25F1M3`), so those pages can draw every series' episode strip without loading its dataset.
+
+Seasons that AniList lists separately are separate datasets tied together by optional `franchise`, `seasonLabel` and `franchiseOrder` fields. `src/utils/franchise.ts` groups catalog entries into one card per franchise (combined totals and a continuous strip) and finds sibling seasons for the anime page's season switcher.
 
 Vitest's on-disk module cache is turned off (`fsModuleCache: false`) because it would otherwise keep a stale `import.meta.glob` result after new datasets are imported.
 
