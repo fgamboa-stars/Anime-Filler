@@ -36,7 +36,7 @@ It runs entirely in the browser and costs **$0/month**: no backend, no database,
 
 ## Installation
 
-Requires Node.js 20.19 or newer.
+Requires Node.js 22 (the version Vercel builds with; 20.19+ also works locally).
 
 ```bash
 git clone https://github.com/fgamboa-stars/Anime-Filler.git
