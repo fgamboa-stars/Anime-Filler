@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "gintama-enchousen",
+  "anilistId": 15417,
+  "title": "Gintama': Enchousen",
+  "alternativeTitles": [
+    "Gintama Season 2 Part 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 253–265, renumbered to match AniList); arcs from a MyAnimeList community guide. Gintama is mostly episodic, so many episodes are standalone",
+  "franchise": "Gintama",
+  "seasonLabel": "Enchousen",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:49:12.196Z",
+  "episodes": [
+    {"number":1,"title":"Nobody with Natural Straight Hair Can Be That Bad/Nobody with Straight Blond Hair Can Be That Good","type":"CANON","arc":"Kintama"},
+    {"number":2,"title":"Kintoki and Gintoki","type":"CANON","arc":"Kintama"},
+    {"number":3,"title":"Kin-san's Kintama","type":"CANON","arc":"Kintama"},
+    {"number":4,"title":"The Meaning of a Main Character","type":"CANON","arc":"Kintama"},
+    {"number":5,"title":"Courtesan Turns the Tables","type":"CANON","arc":"Courtesan of a Nation"},
+    {"number":6,"title":"Inside the Palace!!","type":"CANON","arc":"Courtesan of a Nation"},
+    {"number":7,"title":"Five Pinkies","type":"CANON","arc":"Courtesan of a Nation"},
+    {"number":8,"title":"Pinky Swear","type":"CANON","arc":"Courtesan of a Nation"},
+    {"number":9,"title":"Unsetting Moon","type":"CANON","arc":"Courtesan of a Nation"},
+    {"number":10,"title":"Sound Of Beam Can Pierce Heart Of Everyone","type":"CANON","arc":"Beam Saber"},
+    {"number":11,"title":"Two Brothers","type":"CANON","arc":"Beam Saber"},
+    {"number":12,"title":"Liquor and Gasoline, Smiles and Tears","type":"CANON","arc":"Beam Saber"},
+    {"number":13,"title":"Dog Food Doesn't Have As Much Flavor As You'd Think","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

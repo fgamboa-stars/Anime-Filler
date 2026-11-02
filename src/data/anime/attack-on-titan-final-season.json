@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-final-season",
+  "anilistId": 110277,
+  "title": "Attack on Titan: The Final Season",
+  "alternativeTitles": [
+    "Shingeki no Kyojin: The Final Season"
+  ],
+  "totalEpisodes": 16,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 60–75, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "The Final Season",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-02T20:49:05.423Z",
+  "episodes": [
+    {"number":1,"title":"The Other Side of the Sea","type":"CANON","arc":"Marley"},
+    {"number":2,"title":"Midnight Train","type":"CANON","arc":"Marley"},
+    {"number":3,"title":"The Door of Hope","type":"CANON","arc":"Marley"},
+    {"number":4,"title":"From One Hand to Another","type":"CANON","arc":"Marley"},
+    {"number":5,"title":"Declaration of War","type":"CANON","arc":"Marley"},
+    {"number":6,"title":"The War Hammer Titan","type":"CANON","arc":"Marley"},
+    {"number":7,"title":"Assault","type":"CANON","arc":"Marley"},
+    {"number":8,"title":"Assassin's Bullet","type":"CANON","arc":"Marley"},
+    {"number":9,"title":"Brave Volunteers","type":"CANON","arc":"Marley"},
+    {"number":10,"title":"A Sound Argument","type":"CANON","arc":"War for Paradis"},
+    {"number":11,"title":"Deceiver","type":"CANON","arc":"War for Paradis"},
+    {"number":12,"title":"Guides","type":"CANON","arc":"War for Paradis"},
+    {"number":13,"title":"Children of the Forest","type":"CANON","arc":"War for Paradis"},
+    {"number":14,"title":"Savagery","type":"CANON","arc":"War for Paradis"},
+    {"number":15,"title":"Sole Salvation","type":"CANON","arc":"War for Paradis"},
+    {"number":16,"title":"Above and Below","type":"CANON","arc":"War for Paradis"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-season-3",
+  "anilistId": 100166,
+  "title": "My Hero Academia Season 3",
+  "alternativeTitles": [
+    "Boku no Hero Academia 3rd Season"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 39–63, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:48:52.230Z",
+  "episodes": [
+    {"number":1,"title":"Game Start","type":"FILLER","arc":"Forest Training Camp"},
+    {"number":2,"title":"Wild, Wild Pussycats","type":"CANON","arc":"Forest Training Camp"},
+    {"number":3,"title":"Kota","type":"CANON","arc":"Forest Training Camp"},
+    {"number":4,"title":"My Hero","type":"CANON","arc":"Forest Training Camp"},
+    {"number":5,"title":"Drive It Home, Iron Fist!!!","type":"CANON","arc":"Forest Training Camp"},
+    {"number":6,"title":"Roaring Upheaval","type":"CANON","arc":"Forest Training Camp"},
+    {"number":7,"title":"What a Twist!","type":"CANON","arc":"Forest Training Camp"},
+    {"number":8,"title":"From Iida to Midoriya","type":"CANON","arc":"Hideout Raid"},
+    {"number":9,"title":"All For One","type":"CANON","arc":"Hideout Raid"},
+    {"number":10,"title":"Symbol of Peace","type":"CANON","arc":"Hideout Raid"},
+    {"number":11,"title":"One For All","type":"CANON","arc":"Hideout Raid"},
+    {"number":12,"title":"End of the Beginning, Beginning of the End","type":"CANON","arc":"Hideout Raid"},
+    {"number":13,"title":"Moving Into Dorms","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":14,"title":"Create Those Ultimate Moves","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":15,"title":"The Test","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":16,"title":"Shiketsu High Lurking","type":"MIXED","arc":"Provisional Hero License Exam"},
+    {"number":17,"title":"Class 1-A","type":"MIXED","arc":"Provisional Hero License Exam"},
+    {"number":18,"title":"RUSH!","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":19,"title":"Rescue Exercises","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":20,"title":"Special Episode: Save the World With Love!","type":"FILLER","arc":"Provisional Hero License Exam"},
+    {"number":21,"title":"What's the Big Idea?","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":22,"title":"A Talk About Your Quirk","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":23,"title":"Deku vs. Kacchan, Part 2","type":"CANON","arc":"Provisional Hero License Exam"},
+    {"number":24,"title":"A Season for Encounters","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":25,"title":"Unrivaled","type":"CANON","arc":"Shie Hassaikai"}
+  ]
+}

@@ -9,7 +9,10 @@
   ],
   "totalEpisodes": 175,
   "source": "Classifications compiled from AnimeFillerList.com; arcs from the Fairy Tail Wiki",
-  "updatedAt": "2026-11-02T03:59:42.210Z",
+  "franchise": "Fairy Tail",
+  "seasonLabel": "2009 series",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-02T20:49:16.496Z",
   "episodes": [
     {"number":1,"title":"The Fairy Tail","type":"CANON","arc":"Macao"},
     {"number":2,"title":"Fire Dragon, Monkey and Bull","type":"CANON","arc":"Macao"},

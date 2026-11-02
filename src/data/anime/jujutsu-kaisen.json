@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "jujutsu-kaisen",
+  "anilistId": 113415,
+  "title": "Jujutsu Kaisen",
+  "alternativeTitles": [
+    "JUJUTSU KAISEN"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com; arcs from the Jujutsu Kaisen Wiki",
+  "franchise": "Jujutsu Kaisen",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-02T20:48:56.753Z",
+  "episodes": [
+    {"number":1,"title":"Ryomen Sukuna","type":"CANON","arc":"Introduction"},
+    {"number":2,"title":"For Myself","type":"CANON","arc":"Introduction"},
+    {"number":3,"title":"Girl of Steel","type":"CANON","arc":"Introduction"},
+    {"number":4,"title":"Fearsome Womb","type":"CANON","arc":"Cursed Womb Must Die"},
+    {"number":5,"title":"Fearsome Womb, Part 2","type":"CANON","arc":"Cursed Womb Must Die"},
+    {"number":6,"title":"After the Rain","type":"CANON","arc":"Vs. Mahito"},
+    {"number":7,"title":"Assault","type":"CANON","arc":"Vs. Mahito"},
+    {"number":8,"title":"Boring","type":"CANON","arc":"Vs. Mahito"},
+    {"number":9,"title":"Young Fish and Reverse Punishment","type":"CANON","arc":"Vs. Mahito"},
+    {"number":10,"title":"Idle Transfiguration","type":"CANON","arc":"Vs. Mahito"},
+    {"number":11,"title":"Narrow-Minded","type":"CANON","arc":"Vs. Mahito"},
+    {"number":12,"title":"To You Someday","type":"CANON","arc":"Vs. Mahito"},
+    {"number":13,"title":"Tomorrow","type":"CANON","arc":"Vs. Mahito"},
+    {"number":14,"title":"Kyoto Sister School Goodwill Event - Team Battle, Part 0","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":15,"title":"Kyoto Sister School Goodwill Event - Team Battle, Part 1","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":16,"title":"Kyoto Sister School Goodwill Event - Team Battle, Part 2","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":17,"title":"Kyoto Sister School Goodwill Event - Team Battle, Part 3","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":18,"title":"Sage","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":19,"title":"Black Flash","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":20,"title":"Nonstandard","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":21,"title":"Jujutsu Koshien","type":"CANON","arc":"Kyoto Goodwill Event"},
+    {"number":22,"title":"The Origin of Obedience","type":"CANON","arc":"Death Painting"},
+    {"number":23,"title":"The Origin of Obedience, Part 2","type":"CANON","arc":"Death Painting"},
+    {"number":24,"title":"Accomplices","type":"CANON","arc":"Death Painting"}
+  ]
+}

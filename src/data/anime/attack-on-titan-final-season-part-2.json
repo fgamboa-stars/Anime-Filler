@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-final-season-part-2",
+  "anilistId": 131681,
+  "title": "Attack on Titan: The Final Season Part 2",
+  "alternativeTitles": [
+    "Shingeki no Kyojin: The Final Season Part 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 76–87, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "The Final Season Part 2",
+  "franchiseOrder": 6,
+  "updatedAt": "2026-11-02T20:49:06.202Z",
+  "episodes": [
+    {"number":1,"title":"Judgment","type":"CANON","arc":"War for Paradis"},
+    {"number":2,"title":"Sneak Attack","type":"CANON","arc":"War for Paradis"},
+    {"number":3,"title":"Two Brothers","type":"CANON","arc":"War for Paradis"},
+    {"number":4,"title":"Memories of the Future","type":"CANON","arc":"War for Paradis"},
+    {"number":5,"title":"From You, 2000 Years Ago","type":"CANON","arc":"War for Paradis"},
+    {"number":6,"title":"Thaw","type":"CANON","arc":"War for Paradis"},
+    {"number":7,"title":"Sunset","type":"CANON","arc":"War for Paradis"},
+    {"number":8,"title":"Pride","type":"CANON","arc":"War for Paradis"},
+    {"number":9,"title":"Night of the End","type":"CANON","arc":"War for Paradis"},
+    {"number":10,"title":"Traitor","type":"CANON","arc":"War for Paradis"},
+    {"number":11,"title":"Retrospective","type":"CANON","arc":"War for Paradis"},
+    {"number":12,"title":"The Dawn of Humanity","type":"CANON","arc":"War for Paradis"}
+  ]
+}

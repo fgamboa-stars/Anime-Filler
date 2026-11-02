@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia",
+  "anilistId": 21459,
+  "title": "My Hero Academia",
+  "alternativeTitles": [
+    "Boku no Hero Academia"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com; arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-02T20:48:50.900Z",
+  "episodes": [
+    {"number":1,"title":"Izuku Midoriya: Origin","type":"CANON","arc":"Entrance Exam"},
+    {"number":2,"title":"What It Takes To Be a Hero","type":"CANON","arc":"Entrance Exam"},
+    {"number":3,"title":"Roaring Muscles","type":"CANON","arc":"Entrance Exam"},
+    {"number":4,"title":"Start Line","type":"CANON","arc":"Entrance Exam"},
+    {"number":5,"title":"What I Can Do for Now","type":"CANON","arc":"Quirk Apprehension Test"},
+    {"number":6,"title":"Rage, You Damn Nerd","type":"CANON","arc":"Quirk Apprehension Test"},
+    {"number":7,"title":"Deku vs. Kacchan","type":"CANON","arc":"Battle Trial"},
+    {"number":8,"title":"Bakugo's Start Line","type":"CANON","arc":"Battle Trial"},
+    {"number":9,"title":"Yeah, Just Do Your Best, Iida!","type":"CANON","arc":"U.S.J."},
+    {"number":10,"title":"Encounter With the Unknown","type":"CANON","arc":"U.S.J."},
+    {"number":11,"title":"Game Over","type":"CANON","arc":"U.S.J."},
+    {"number":12,"title":"All Might","type":"CANON","arc":"U.S.J."},
+    {"number":13,"title":"In Each of Our Hearts","type":"CANON","arc":"U.S.J."}
+  ]
+}

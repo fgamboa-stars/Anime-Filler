@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan",
+  "anilistId": 16498,
+  "title": "Attack on Titan",
+  "alternativeTitles": [
+    "Shingeki no Kyojin"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com; arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-02T20:49:02.429Z",
+  "episodes": [
+    {"number":1,"title":"To You, in 2000 Years: The Fall of Shiganshina, Part 1","type":"CANON","arc":"The Fall of Shiganshina"},
+    {"number":2,"title":"That Day: The Fall of Shiganshina, Part 2","type":"CANON","arc":"The Fall of Shiganshina"},
+    {"number":3,"title":"A Dim Light Amid Despair: Humanity's Comeback, Part 1","type":"CANON","arc":"Humanity's Comeback"},
+    {"number":4,"title":"The Night of the Closing Ceremony: Humanity's Comeback, Part 2","type":"CANON","arc":"Humanity's Comeback"},
+    {"number":5,"title":"First Battle: The Struggle for Trost, Part 1","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":6,"title":"The World the Girl Saw: The Struggle for Trost, Part 2","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":7,"title":"Small Blade: The Struggle for Trost, Part 3","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":8,"title":"I Can Hear His Heartbeat: The Struggle for Trost, Part 4","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":9,"title":"Whereabouts of His Left Arm: The Struggle for Trost, Part 5","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":10,"title":"Response: The Struggle for Trost, Part 6","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":11,"title":"Idol: The Struggle for Trost, Part 7","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":12,"title":"Wound: The Struggle for Trost, Part 8","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":13,"title":"Primal Desire: The Struggle for Trost, Part 9","type":"CANON","arc":"The Struggle for Trost"},
+    {"number":14,"title":"Can't Look Into His Eyes Yet: Eve of the Counterattack, Part 1","type":"CANON","arc":"Eve of the Counterattack"},
+    {"number":15,"title":"Special Operations Squad: Eve of the Counterattack, Part 2","type":"CANON","arc":"Eve of the Counterattack"},
+    {"number":16,"title":"What Needs to Be Done Now: Eve of the Counterattack, Part 3","type":"CANON","arc":"Eve of the Counterattack"},
+    {"number":17,"title":"Female Titan: The 57th Exterior Scouting Mission, Part 1","type":"CANON","arc":"The 57th Exterior Scouting Mission"},
+    {"number":18,"title":"Forest of Giant Trees: The 57th Exterior Scouting Mission, Part 2","type":"CANON","arc":"The 57th Exterior Scouting Mission"},
+    {"number":19,"title":"Bite: The 57th Exterior Scouting Mission, Part 3","type":"CANON","arc":"The 57th Exterior Scouting Mission"},
+    {"number":20,"title":"Erwin Smith: The 57th Exterior Scouting Mission, Part 4","type":"CANON","arc":"The 57th Exterior Scouting Mission"},
+    {"number":21,"title":"Crushing Blow: The 57th Exterior Scouting Mission, Part 5","type":"CANON","arc":"The 57th Exterior Scouting Mission"},
+    {"number":22,"title":"The Defeated: The 57th Exterior Scouting Mission, Part 6","type":"MIXED","arc":"The 57th Exterior Scouting Mission"},
+    {"number":23,"title":"Smile: Assault on Stohess, Part 1","type":"CANON","arc":"Assault on Stohess"},
+    {"number":24,"title":"Mercy: Assault on Stohess, Part 2","type":"CANON","arc":"Assault on Stohess"},
+    {"number":25,"title":"Wall: Assault on Stohess, Part 3","type":"CANON","arc":"Assault on Stohess"}
+  ]
+}

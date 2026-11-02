@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-season-2",
+  "anilistId": 21856,
+  "title": "My Hero Academia Season 2",
+  "alternativeTitles": [
+    "Boku no Hero Academia 2nd Season"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–38, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-02T20:48:51.562Z",
+  "episodes": [
+    {"number":1,"title":"That's the Idea, Ochaco","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":2,"title":"Roaring Sports Festival","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":3,"title":"In Their Own Quirky Ways","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":4,"title":"Strategy, Strategy, Strategy","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":5,"title":"Cavalry Battle Finale","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":6,"title":"The Boy Born With Everything","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":7,"title":"Victory or Defeat","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":8,"title":"Battle on, Challengers!","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":9,"title":"Bakugo vs. Uraraka","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":10,"title":"Shoto Todoroki: Origin","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":11,"title":"Fight on, Iida","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":12,"title":"Todoroki vs. Bakugo","type":"CANON","arc":"U.A. Sports Festival"},
+    {"number":13,"title":"Time To Pick Some Names","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":14,"title":"Bizarre! Gran Torino Appears","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":15,"title":"Midoriya and Shigaraki","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":16,"title":"Hero Killer: Stain vs. U.A. Students","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":17,"title":"Climax","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":18,"title":"The Aftermath of Hero Killer: Stain","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":19,"title":"Everyone's Internships","type":"ANIME_CANON","arc":"Vs. Hero Killer"},
+    {"number":20,"title":"Listen Up!! A Tale From the Past","type":"CANON","arc":"Vs. Hero Killer"},
+    {"number":21,"title":"Gear up for Final Exams","type":"CANON","arc":"Final Exams"},
+    {"number":22,"title":"Yaoyorozu: Rising","type":"CANON","arc":"Final Exams"},
+    {"number":23,"title":"Stripping the Varnish","type":"CANON","arc":"Final Exams"},
+    {"number":24,"title":"Katsuki Bakugo: Origin","type":"CANON","arc":"Final Exams"},
+    {"number":25,"title":"Encounter","type":"CANON","arc":"Final Exams"}
+  ]
+}

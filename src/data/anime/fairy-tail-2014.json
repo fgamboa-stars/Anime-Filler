@@ -9,7 +9,10 @@
   ],
   "totalEpisodes": 102,
   "source": "Classifications compiled from AnimeFillerList.com (overall episodes 176–277, renumbered to match AniList); arcs from the Fairy Tail Wiki",
-  "updatedAt": "2026-11-02T03:59:42.754Z",
+  "franchise": "Fairy Tail",
+  "seasonLabel": "2014 series",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-02T20:49:17.274Z",
   "episodes": [
     {"number":1,"title":"King of the Dragons","type":"CANON","arc":"Grand Magic Games"},
     {"number":2,"title":"The Eclipse Project","type":"CANON","arc":"Grand Magic Games"},

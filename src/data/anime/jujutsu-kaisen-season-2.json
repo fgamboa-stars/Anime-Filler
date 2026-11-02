@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "jujutsu-kaisen-season-2",
+  "anilistId": 145064,
+  "title": "Jujutsu Kaisen Season 2",
+  "alternativeTitles": [
+    "JUJUTSU KAISEN Season 2"
+  ],
+  "totalEpisodes": 23,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–47, renumbered to match AniList); arcs from the Jujutsu Kaisen Wiki",
+  "franchise": "Jujutsu Kaisen",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-02T20:48:57.477Z",
+  "episodes": [
+    {"number":1,"title":"Hidden Inventory","type":"CANON","arc":"Gojo's Past"},
+    {"number":2,"title":"Hidden Inventory, Part 2","type":"CANON","arc":"Gojo's Past"},
+    {"number":3,"title":"Hidden Inventory, Part 3","type":"CANON","arc":"Gojo's Past"},
+    {"number":4,"title":"Hidden Inventory, Part 4","type":"CANON","arc":"Gojo's Past"},
+    {"number":5,"title":"Premature Death","type":"CANON","arc":"Gojo's Past"},
+    {"number":6,"title":"It's Like That","type":"CANON","arc":"Shibuya Incident"},
+    {"number":7,"title":"Evening Festival","type":"CANON","arc":"Shibuya Incident"},
+    {"number":8,"title":"The Shibuya Incident","type":"CANON","arc":"Shibuya Incident"},
+    {"number":9,"title":"The Shibuya Incident - Gate Open","type":"CANON","arc":"Shibuya Incident"},
+    {"number":10,"title":"Pandemonium","type":"CANON","arc":"Shibuya Incident"},
+    {"number":11,"title":"Summon","type":"CANON","arc":"Shibuya Incident"},
+    {"number":12,"title":"Dull Knife","type":"CANON","arc":"Shibuya Incident"},
+    {"number":13,"title":"Red Scale","type":"CANON","arc":"Shibuya Incident"},
+    {"number":14,"title":"Fluctuations","type":"CANON","arc":"Shibuya Incident"},
+    {"number":15,"title":"Fluctuations, Part 2","type":"CANON","arc":"Shibuya Incident"},
+    {"number":16,"title":"Thunderclap","type":"CANON","arc":"Shibuya Incident"},
+    {"number":17,"title":"Thunderclap, Part 2","type":"CANON","arc":"Shibuya Incident"},
+    {"number":18,"title":"Right and Wrong","type":"CANON","arc":"Shibuya Incident"},
+    {"number":19,"title":"Right and Wrong, Part 2","type":"CANON","arc":"Shibuya Incident"},
+    {"number":20,"title":"Right and Wrong, Part 3","type":"CANON","arc":"Shibuya Incident"},
+    {"number":21,"title":"Transformation","type":"CANON","arc":"Shibuya Incident"},
+    {"number":22,"title":"Transformation, Part 2","type":"CANON","arc":"Shibuya Incident"},
+    {"number":23,"title":"The Shibuya Incident - Gate Closed","type":"CANON","arc":"Shibuya Incident"}
+  ]
+}

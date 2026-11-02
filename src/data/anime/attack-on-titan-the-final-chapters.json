@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-the-final-chapters",
+  "anilistId": 146984,
+  "title": "Attack on Titan: The Final Chapters",
+  "alternativeTitles": [
+    "Shingeki no Kyojin: The Final Season - Kanketsu-hen"
+  ],
+  "totalEpisodes": 2,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 88–89, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "The Final Chapters",
+  "franchiseOrder": 7,
+  "updatedAt": "2026-11-02T20:49:06.915Z",
+  "episodes": [
+    {"number":1,"title":"The Final Chapters (Part One)","type":"CANON","arc":"War for Paradis"},
+    {"number":2,"title":"The Final Chapters (Part Two)","type":"CANON","arc":"War for Paradis"}
+  ]
+}

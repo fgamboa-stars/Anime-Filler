@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-final-season",
+  "anilistId": 182896,
+  "title": "My Hero Academia: Final Season",
+  "alternativeTitles": [
+    "Boku no Hero Academia Final Season",
+    "My Hero Academia Season 8"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 160–170, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Final Season",
+  "franchiseOrder": 8,
+  "updatedAt": "2026-11-02T20:48:55.964Z",
+  "episodes": [
+    {"number":1,"title":"Toshinori Yagi: Rising/Origin","type":"CANON","arc":"Final War"},
+    {"number":2,"title":"The End of an Era, and the Beginning","type":"CANON","arc":"Final War"},
+    {"number":3,"title":"The Final Boss!!","type":"CANON","arc":"Final War"},
+    {"number":4,"title":"Quirk: Explosion!!","type":"CANON","arc":"Final War"},
+    {"number":5,"title":"History's Greatest Villain","type":"CANON","arc":"Final War"},
+    {"number":6,"title":"Wrench It Open, Izuku Midoriya!!","type":"CANON","arc":"Final War"},
+    {"number":7,"title":"From Aizawa","type":"CANON","arc":"Final War"},
+    {"number":8,"title":"Izuku Midoriya: Rising","type":"CANON","arc":"Final War"},
+    {"number":9,"title":"Epilogue / The Hellish Todoroki Family: Final","type":"CANON","arc":"Epilogue"},
+    {"number":10,"title":"The Girl Who Loves Smiles","type":"CANON","arc":"Epilogue"},
+    {"number":11,"title":"My Hero Academia","type":"CANON","arc":"Epilogue"}
+  ]
+}

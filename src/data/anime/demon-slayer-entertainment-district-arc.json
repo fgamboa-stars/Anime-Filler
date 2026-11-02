@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "demon-slayer-entertainment-district-arc",
+  "anilistId": 142329,
+  "title": "Demon Slayer: Entertainment District Arc",
+  "alternativeTitles": [
+    "Kimetsu no Yaiba: Yuukaku-hen"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 34–44, renumbered to match AniList); arcs from the Kimetsu no Yaiba Wiki",
+  "franchise": "Demon Slayer",
+  "seasonLabel": "Entertainment District Arc",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:49:00.297Z",
+  "episodes": [
+    {"number":1,"title":"Sound Hashira Tengen Uzui","type":"CANON","arc":"Entertainment District"},
+    {"number":2,"title":"Infiltrating the Entertainment District","type":"CANON","arc":"Entertainment District"},
+    {"number":3,"title":"What Are You?","type":"CANON","arc":"Entertainment District"},
+    {"number":4,"title":"Tonight","type":"CANON","arc":"Entertainment District"},
+    {"number":5,"title":"Things Are Gonna Get Real Flashy!!","type":"CANON","arc":"Entertainment District"},
+    {"number":6,"title":"Layered Memories","type":"CANON","arc":"Entertainment District"},
+    {"number":7,"title":"Transformation","type":"CANON","arc":"Entertainment District"},
+    {"number":8,"title":"Gathering","type":"CANON","arc":"Entertainment District"},
+    {"number":9,"title":"Defeating an Upper Rank Demon","type":"CANON","arc":"Entertainment District"},
+    {"number":10,"title":"Never Give Up","type":"CANON","arc":"Entertainment District"},
+    {"number":11,"title":"No Matter How Many Lives","type":"CANON","arc":"Entertainment District"}
+  ]
+}
