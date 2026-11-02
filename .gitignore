@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+coverage
+reports
+*.local
+.env
+.env.*
+!.env.example
+.vercel
+.DS_Store
+npm-debug.log*
+.vite

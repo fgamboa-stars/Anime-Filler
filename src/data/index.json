@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-02T04:00:05.458Z",
+  "anime": [
+    {
+      "slug": "black-clover",
+      "anilistId": 97940,
+      "title": "Black Clover",
+      "alternativeTitles": [
+        "BLACK CLOVER"
+      ],
+      "totalEpisodes": 170,
+      "counts": {
+        "CANON": 124,
+        "FILLER": 18,
+        "MIXED": 7,
+        "ANIME_CANON": 21
+      },
+      "fillerPercentage": 10.6,
+      "arcCount": 10,
+      "strip": "C1M1A1C4M2C2M1A1C15F1M1C24A2C9F1C1F1M1C12F1C19M1C20F3C4A1F1A2F2A6F8A8C13",
+      "updatedAt": "2026-11-02T03:59:41.109Z"
+    },
+    {
+      "slug": "bleach",
+      "anilistId": 269,
+      "title": "Bleach",
+      "alternativeTitles": [
+        "BLEACH"
+      ],
+      "totalEpisodes": 366,
+      "counts": {
+        "CANON": 162,
+        "FILLER": 163,
+        "MIXED": 41,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 44.5,
+      "arcCount": 16,
+      "strip": "C7M1C18M1C4M1F1C12M1C3F1C13F45M1C1M1C4M1C2M2C3M1C3F10C3M1C1M1C2M1F3C6M1C3M2C6F22M1C2M1C10F2M2C1M1C3F2C7M2C4F39M2C5M1C1M1C7M2C1F1M1C1M2C3M2C1F2C3F3C4M1F31M2C1M1C1M1C3M1C3F1C1M1C9",
+      "updatedAt": "2026-11-02T03:59:38.991Z"
+    },
+    {
+      "slug": "boruto",
+      "anilistId": 97938,
+      "title": "Boruto: Naruto Next Generations",
+      "alternativeTitles": [
+        "Boruto",
+        "BORUTO: NARUTO NEXT GENERATIONS"
+      ],
+      "totalEpisodes": 293,
+      "counts": {
+        "CANON": 74,
+        "FILLER": 28,
+        "MIXED": 12,
+        "ANIME_CANON": 179
+      },
+      "fillerPercentage": 9.6,
+      "arcCount": 26,
+      "strip": "M1A14F2M1C5M1A14C1F2A6F3A2C6M1A1C6F3A23M3F2A8C6F8A7M1A10F3A7C4F3A1F1M1A23C9A2M1C16A1M2C9A35F1A25C12",
+      "updatedAt": "2026-11-02T03:59:40.578Z"
+    },
+    {
+      "slug": "dragon-ball",
+      "anilistId": 223,
+      "title": "Dragon Ball",
+      "alternativeTitles": [
+        "Dragon Ball (1986)",
+        "DRAGON BALL"
+      ],
+      "totalEpisodes": 153,
+      "counts": {
+        "CANON": 129,
+        "FILLER": 21,
+        "MIXED": 3,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 13.7,
+      "arcCount": 9,
+      "strip": "C28M1F4C8M1C1M1F1C33F5C43F6C16F5",
+      "updatedAt": "2026-11-02T03:59:40.059Z"
+    },
+    {
+      "slug": "fairy-tail",
+      "anilistId": 6702,
+      "title": "Fairy Tail",
+      "alternativeTitles": [
+        "Fairy Tail (2009)",
+        "FAIRY TAIL"
+      ],
+      "totalEpisodes": 175,
+      "counts": {
+        "CANON": 136,
+        "FILLER": 35,
+        "MIXED": 4,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 20,
+      "arcCount": 15,
+      "strip": "C8F1C9F1M1C28M1F1C18M1F6C49F26M1C24",
+      "updatedAt": "2026-11-02T03:59:42.210Z"
+    },
+    {
+      "slug": "fairy-tail-2014",
+      "anilistId": 20626,
+      "title": "Fairy Tail (2014)",
+      "alternativeTitles": [
+        "Fairy Tail Series 2",
+        "Fairy Tail 2014"
+      ],
+      "totalEpisodes": 102,
+      "counts": {
+        "CANON": 68,
+        "FILLER": 26,
+        "MIXED": 6,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 25.5,
+      "arcCount": 6,
+      "strip": "C6M2C17M1F25C19A1C8M1A1C3M1C7F1C1M1C7",
+      "updatedAt": "2026-11-02T03:59:42.754Z"
+    },
+    {
+      "slug": "fairy-tail-final-season",
+      "anilistId": 99749,
+      "title": "Fairy Tail: Final Season",
+      "alternativeTitles": [
+        "Fairy Tail Final Series",
+        "Fairy Tail (2018)",
+        "Fairy Tail Final Season"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 50,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C34M1C16",
+      "updatedAt": "2026-11-02T03:59:43.333Z"
+    },
+    {
+      "slug": "hunter-x-hunter",
+      "anilistId": 11061,
+      "title": "Hunter x Hunter (2011)",
+      "alternativeTitles": [
+        "Hunter x Hunter",
+        "Hunter × Hunter (2011)",
+        "HUNTER×HUNTER (2011)"
+      ],
+      "totalEpisodes": 148,
+      "counts": {
+        "CANON": 145,
+        "FILLER": 2,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 1.4,
+      "arcCount": 7,
+      "strip": "C11M1F1C12F1C122",
+      "updatedAt": "2026-11-02T03:59:41.655Z"
+    },
+    {
+      "slug": "naruto",
+      "anilistId": 20,
+      "title": "Naruto",
+      "alternativeTitles": [
+        "NARUTO",
+        "ナルト"
+      ],
+      "totalEpisodes": 220,
+      "counts": {
+        "CANON": 74,
+        "FILLER": 90,
+        "MIXED": 56,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 40.9,
+      "arcCount": 23,
+      "strip": "C6M1C1M1C4M3C1M4C1M2C1F1M4C6M5C1M5C1M1C2M9C2M1C2M1C2M4C1M1C8M1C13F1M3F6C5M3C11M2C2M2C4F5M2F77M1",
+      "updatedAt": "2026-11-02T01:23:55.471Z"
+    },
+    {
+      "slug": "naruto-shippuden",
+      "anilistId": 1735,
+      "title": "Naruto Shippuden",
+      "alternativeTitles": [
+        "Naruto: Shippuuden",
+        "Naruto Shippuuden",
+        "Naruto Shippūden",
+        "NARUTO -ナルト- 疾風伝"
+      ],
+      "totalEpisodes": 500,
+      "counts": {
+        "CANON": 232,
+        "FILLER": 203,
+        "MIXED": 64,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 40.6,
+      "arcCount": 29,
+      "strip": "M19C4M2C2A1C16M1C3M2C3M1C1M1F15C17M2F22M1C1M1C11M2C15F8C18F2C4F21C16M1C9F20C11M1C2F4C10F1C7F3C2F12M1C6F18C3M1C2M2C1M2C6M1C7M1F15M1C13F2C7M2C1F3C3F20C1M1F2C1M1C2F2C2M1F24M8C1M3C1F5M1C1M2C5M2F4C17",
+      "updatedAt": "2026-11-02T01:23:55.821Z"
+    },
+    {
+      "slug": "one-piece",
+      "anilistId": 21,
+      "title": "One Piece",
+      "alternativeTitles": [
+        "ONE PIECE"
+      ],
+      "totalEpisodes": 1168,
+      "counts": {
+        "CANON": 1010,
+        "FILLER": 94,
+        "MIXED": 43,
+        "ANIME_CANON": 21
+      },
+      "fillerPercentage": 8,
+      "arcCount": 52,
+      "strip": "C44M3C2A2C2F7M1C6M2C23A1C4F2C1M1F1C28F13C52F11C6A4C3F6M1C52F5C7F2C10F1C13F3C6F11C17M1C27F3C21F2C10A3M1C4F4C23A4F2C30M1C2F1C4A3C6A1C13M1C21F1C31M1F4C11F1C34M1F2M1C4M1C19M1C3M1C21M1C10M1C40M1C5A1M1C8F4M1C23A1C1M2C1F3C6M1C13M1C3M1C70M2C1M5C1M4C4F2C10F1C16M1C63M2C1M1C37F2C53A1C84",
+      "updatedAt": "2026-11-02T03:59:39.522Z"
+    }
+  ]
+}
