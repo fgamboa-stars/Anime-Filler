@@ -39,7 +39,7 @@ export default function HomePage() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="mx-auto max-w-7xl px-4 pt-14 pb-12 sm:px-6 sm:pt-20">
+        <div className="container-page pt-14 pb-12 sm:pt-20">
           <h1 className="max-w-3xl text-[clamp(2.4rem,6vw,4.6rem)] leading-[0.98] font-extrabold tracking-[-0.03em]">
             Watch the story. Skip the filler.
           </h1>
@@ -91,7 +91,7 @@ export default function HomePage() {
       </section>
 
       {hasProgress && (
-        <section aria-labelledby="continue-heading" className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
+        <section aria-labelledby="continue-heading" className="container-page pb-14">
           <h2 id="continue-heading" className="mb-5 text-2xl font-bold tracking-tight">
             Continue watching
           </h2>
@@ -99,7 +99,7 @@ export default function HomePage() {
         </section>
       )}
 
-      <section aria-labelledby="featured-heading" className="mx-auto max-w-7xl px-4 pb-16 sm:px-6">
+      <section aria-labelledby="featured-heading" className="container-page pb-16">
         <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
           <div>
             <h2 id="featured-heading" className="text-2xl font-bold tracking-tight">
@@ -124,7 +124,7 @@ export default function HomePage() {
       </section>
 
       <section aria-labelledby="coverage-heading" className="border-t border-border/70">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 sm:px-6 md:grid-cols-[1fr_1.4fr]">
+        <div className="container-page grid gap-8 py-14 md:grid-cols-[1fr_1.4fr]">
           <h2 id="coverage-heading" className="text-2xl font-bold tracking-tight">
             Every anime is searchable. Filler guides are growing.
           </h2>

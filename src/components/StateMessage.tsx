@@ -31,21 +31,25 @@ interface StateMessageProps {
 
 export function StateMessage({ title, children, onRetry, action, icon, className }: StateMessageProps) {
   return (
-    <div className={cn('flex flex-col items-start gap-3 rounded-xl border border-dashed border-border p-6', className)}>
-      <div className="flex items-center gap-2 text-foreground">
-        {icon ?? <CircleAlert className="size-5 text-mixed" aria-hidden />}
-        <p className="font-semibold">{title}</p>
+    <div className={cn('surface-card flex flex-col items-start gap-4 p-6 sm:p-8', className)}>
+      <span className="flex size-10 items-center justify-center rounded-full border border-border bg-surface-2 [&_svg]:size-5" aria-hidden>
+        {icon ?? <CircleAlert className="text-warning" />}
+      </span>
+      <div className="space-y-1.5">
+        <p className="text-subheading">{title}</p>
+        {children && <div className="max-w-prose text-sm text-muted-foreground">{children}</div>}
       </div>
-      {children && <div className="max-w-prose text-sm text-muted-foreground">{children}</div>}
-      <div className="flex flex-wrap gap-2">
-        {onRetry && (
-          <Button variant="secondary" size="sm" onClick={onRetry}>
-            <RotateCcw aria-hidden />
-            Try again
-          </Button>
-        )}
-        {action}
-      </div>
+      {(onRetry || action) && (
+        <div className="flex flex-wrap gap-2">
+          {onRetry && (
+            <Button variant="outline" size="sm" onClick={onRetry}>
+              <RotateCcw aria-hidden />
+              Try again
+            </Button>
+          )}
+          {action}
+        </div>
+      )}
     </div>
   );
 }

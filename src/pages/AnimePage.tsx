@@ -58,7 +58,7 @@ export default function AnimePage() {
         )}
       </AnimeHero>
 
-      <div className="mx-auto mt-8 max-w-7xl px-4 sm:px-6">
+      <div className="container-page mt-8">
         {entry && <SeasonNav entry={entry} />}
         {entry ? (
           dataset.status === 'error' ? (

@@ -17,8 +17,8 @@ export function Poster({ src, srcSet, sizes, title, color, className, priority =
   const showImage = src && !failed;
   return (
     <div
-      className={cn('relative aspect-[2/3] overflow-hidden rounded-lg bg-muted', className)}
-      style={color ? { backgroundColor: `${color}33` } : undefined}
+      className={cn('relative aspect-[2/3] overflow-hidden rounded-2xl bg-surface-2 after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:ring-1 after:ring-black/6 after:ring-inset dark:after:ring-white/8', className)}
+      data-color={color ?? undefined}
     >
       {showImage ? (
         <img
@@ -36,7 +36,7 @@ export function Poster({ src, srcSet, sizes, title, color, className, priority =
         />
       ) : (
         <div className="absolute inset-0 flex items-end p-3">
-          <span className="font-display text-lg leading-tight font-semibold text-foreground/80">{title}</span>
+          <span className="text-lg leading-tight font-semibold tracking-tight text-muted-foreground">{title}</span>
         </div>
       )}
     </div>

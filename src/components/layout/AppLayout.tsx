@@ -36,13 +36,13 @@ export function AppLayout() {
       >
         Skip to content
       </a>
-      <header className="sticky top-0 z-30 border-b border-border/70 bg-background/85 backdrop-blur-md">
-        <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6">
-          <Link to="/" className="shrink-0 rounded-md">
+      <header className="sticky top-0 z-30 border-b border-border bg-background/80 backdrop-blur-xl backdrop-saturate-150">
+        <div className="container-page flex h-16 items-center gap-4">
+          <Link to="/" className="-mx-1 inline-flex h-11 shrink-0 items-center rounded-lg px-1">
             <Logo />
             <span className="sr-only">, home</span>
           </Link>
-          <nav aria-label="Main" className="ml-2 hidden md:block">
+          <nav aria-label="Main" className="ml-4 hidden md:block">
             <ul className="flex items-center gap-1">
               {NAV.map((item) => (
                 <li key={item.to}>
@@ -51,8 +51,8 @@ export function AppLayout() {
                     end={item.end}
                     className={({ isActive }) =>
                       cn(
-                        'rounded-full px-3.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground',
-                        isActive && 'bg-secondary text-foreground',
+                        'inline-flex h-9 items-center rounded-full px-3.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground',
+                        isActive && 'bg-surface-2 text-foreground',
                       )
                     }
                   >
@@ -67,7 +67,7 @@ export function AppLayout() {
             <ThemeSwitcher className="hidden md:inline-flex" />
             <button
               type="button"
-              className="inline-flex size-10 items-center justify-center rounded-full hover:bg-secondary md:hidden"
+              className="-mr-2 inline-flex size-11 items-center justify-center rounded-full hover:bg-surface-2 md:hidden"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
@@ -78,7 +78,7 @@ export function AppLayout() {
           </div>
         </div>
         {menuOpen && (
-          <div id="mobile-menu" className="border-t border-border px-4 pt-3 pb-5 md:hidden">
+          <div id="mobile-menu" className="animate-fade-in border-t border-border px-4 pt-4 pb-6 md:hidden">
             <SearchBox className="mb-3" onNavigate={() => setMenuOpen(false)} />
             <nav aria-label="Mobile">
               <ul className="flex flex-col gap-1">
@@ -88,7 +88,7 @@ export function AppLayout() {
                       to={item.to}
                       end={item.end}
                       className={({ isActive }) =>
-                        cn('block rounded-xl px-3 py-2.5 text-base font-medium text-muted-foreground', isActive && 'bg-secondary text-foreground')
+                        cn('flex h-12 items-center rounded-xl px-3 text-base font-medium text-muted-foreground', isActive && 'bg-surface-2 text-foreground')
                       }
                     >
                       {item.label}
@@ -111,16 +111,19 @@ export function AppLayout() {
         </Suspense>
       </main>
 
-      <footer className="border-t border-border/70">
-        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6">
+      <footer className="mt-16 border-t border-border">
+        <div className="container-page flex flex-col gap-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-start sm:justify-between">
+          <Logo />
+          <div className="max-w-xl space-y-2 sm:text-right">
           <p>
             Anime information, ratings and artwork are provided by{' '}
-            <a href="https://anilist.co" target="_blank" rel="noreferrer" className="text-foreground underline underline-offset-4">
+            <a href="https://anilist.co" target="_blank" rel="noreferrer" className="text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground">
               AniList
             </a>
             . Episode classifications come from community filler lists.
           </p>
           <p>Free to use. No account, no tracking — progress stays in your browser.</p>
+          </div>
         </div>
       </footer>
     </div>

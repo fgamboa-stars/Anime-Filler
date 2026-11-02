@@ -8,7 +8,7 @@ export function FillerAvailabilityBadge({ available, className }: { available: b
       Filler data available
     </Badge>
   ) : (
-    <Badge variant="mixed" className={className}>
+    <Badge variant="default" className={className}>
       <Hourglass aria-hidden />
       Filler data coming soon
     </Badge>

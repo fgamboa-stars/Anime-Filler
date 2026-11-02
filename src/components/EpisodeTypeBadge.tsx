@@ -17,7 +17,7 @@ export function EpisodeTypeBadge({ type, className }: { type: EpisodeType; class
   const Icon = ICON[type];
   return (
     <Badge variant={VARIANT[type]} className={className} title={TYPE_DESCRIPTIONS[type]}>
-      <Icon aria-hidden strokeWidth={3} />
+      <Icon aria-hidden strokeWidth={2.5} />
       {TYPE_LABELS[type]}
     </Badge>
   );
@@ -31,8 +31,8 @@ export const TYPE_COLOR_CLASS: Record<EpisodeType, string> = {
 };
 
 export const TYPE_TEXT_CLASS: Record<EpisodeType, string> = {
-  CANON: 'text-canon',
-  FILLER: 'text-filler',
-  MIXED: 'text-mixed',
-  ANIME_CANON: 'text-anime-canon',
+  CANON: 'text-canon-text',
+  FILLER: 'text-filler-text',
+  MIXED: 'text-mixed-text',
+  ANIME_CANON: 'text-anime-canon-text',
 };

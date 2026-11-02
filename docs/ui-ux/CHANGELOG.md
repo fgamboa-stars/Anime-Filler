@@ -42,3 +42,54 @@ Each significant change on the `ui-ux-improvements` branch is recorded here. Eve
 
 **Files**
 `index.html`, `package.json`, `package-lock.json`, `src/index.css`, `src/store/preferencesStore.ts`, `src/hooks/useTheme.ts` (new), `src/components/ThemeSwitcher.tsx` (new), `src/App.tsx`, `src/components/layout/AppLayout.tsx`, `src/components/EpisodeStrip.tsx`, `src/components/ui/progress.tsx`, `src/features/anime/AnimeHero.tsx`
+
+---
+
+## 2. Component kit and app shell
+
+**What changed**
+- **Button.** Sizes are now 44px (default), 36px (sm) and 48px (lg). The primary button is inverted (black or white), and only one appears per view. Secondary, outline and ghost buttons stay in grayscale. Buttons scale slightly when pressed.
+- **Badge.** The neutral badge is now the default. Episode-type badges use AA-contrast `*-text` tokens on a 10% tint, and the "Filler data coming soon" badge is now neutral rather than amber.
+- **Card.** Uses the `surface-card` style (24px radius, hairline border, soft shadow with a dark-mode top highlight) and has an optional `interactive` hover elevation.
+- **New components:**
+  - `Select`: a native select with a chevron.
+  - `ToggleChip`: an `aria-pressed` pill.
+  - `Segmented`: a view switcher.
+  - `Notice`: info/warning/danger/success/neutral callouts.
+  - `SectionHeader` and `Stat`.
+  - Shared `fieldClass` for inputs.
+- **StateMessage.** Restyled as a card with an icon well, a subheading and an outline retry button.
+- **Toast, Skeleton and Progress.** Toasts are neutral surfaces with a coloured status icon. Skeletons are rounded-xl on `surface-2`. Progress bars are 8px and use grayscale ink.
+- **Episode strip.** The large strip is 48/64px tall with 6px rounding, and the watched track is thicker. A new `showAxis` option prints the first and last episode numbers. Legend swatches are larger.
+- **Posters.** 16px radius, a neutral placeholder instead of the cover-colour tint, and an inner hairline so dark artwork doesn't bleed into the page.
+- **Shell.**
+  - The page container is 1200px with 16/24/32px gutters (`container-page`).
+  - The header is translucent, with a hairline border and 36px nav pills.
+  - The mobile menu has 48px rows and the theme switcher.
+  - The footer carries the wordmark and right-aligned credits.
+- **Search.** The search box has a 3:1 border and a soft focus halo, and the hero size is 64px on larger screens. The suggestion panel uses the surface tokens.
+
+**Why it helps usability**
+- Touch targets meet 44px on the main controls.
+- Every interactive state (hover, pressed, focus, selected) is visible in both themes.
+- Callouts now have one consistent shape, so people learn to recognise them.
+
+**Why it helps visual quality**
+- One radius scale and one elevation scale replace the mix of `rounded-lg`, `rounded-xl` and `rounded-2xl` on similar surfaces.
+- Monochrome chrome lets the episode strip and status colours stand out.
+
+**Accessibility**
+- Badge text meets ≥4.5:1 in both themes.
+- Field borders meet ≥3:1, and focus rings are visible on every control.
+- The theme switcher and chips expose state with `aria-checked` and `aria-pressed`.
+
+**Mobile**
+- Larger menu rows and the menu toggle sits at the edge of the screen.
+- The page container's gutters scale with screen width.
+
+**Tradeoffs and risks**
+- Default buttons are 4px taller than before, so dense rows grow slightly.
+- Posters no longer show the AniList dominant-colour placeholder while loading.
+
+**Files**
+`src/components/ui/*` (button, badge, card, input, progress, skeleton, toast; new: select, chip, segmented, notice, section-header, stat), `src/components/{StateMessage,EpisodeStrip,EpisodeTypeBadge,FillerAvailabilityBadge,Poster,AnimeCard}.tsx`, `src/components/layout/{AppLayout,Logo,PageFallback}.tsx`, `src/features/search/SearchBox.tsx`, `src/index.css`, `src/pages/*` (container class only)

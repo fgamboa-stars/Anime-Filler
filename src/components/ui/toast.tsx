@@ -34,11 +34,10 @@ export function ToastProvider({ children }: { children: ReactNode }) {
           <div
             key={t.id}
             className={cn(
-              'animate-toast-in pointer-events-auto flex items-center gap-2 rounded-full border bg-popover px-4 py-2.5 text-sm font-medium shadow-lg shadow-black/30',
-              t.tone === 'success' ? 'border-canon/40' : 'border-filler/40',
+              'animate-toast-in pointer-events-auto flex items-center gap-2.5 rounded-full border border-border bg-surface px-4 py-2.5 text-sm font-medium text-foreground shadow-lg dark:bg-surface-2',
             )}
           >
-            {t.tone === 'success' ? <CheckCircle2 className="size-4 text-canon" aria-hidden /> : <CircleAlert className="size-4 text-filler" aria-hidden />}
+            {t.tone === 'success' ? <CheckCircle2 className="size-4 text-success" aria-hidden /> : <CircleAlert className="size-4 text-danger" aria-hidden />}
             {t.message}
           </div>
         ))}

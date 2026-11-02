@@ -264,6 +264,20 @@
 }
 
 /* Surfaces: one definition for every card-like container. */
+/* Page container: 1200px max, 16/24/32px gutters. */
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 75rem;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
 @utility surface-card {
   background-color: var(--surface);
   border: 1px solid var(--border);

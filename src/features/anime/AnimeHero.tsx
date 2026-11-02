@@ -61,7 +61,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/75 to-background" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 pt-10 sm:px-6 sm:pt-16">
+      <div className="container-page relative pt-10 sm:pt-16">
         <div className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           {loading && !media ? (
             <Skeleton className="aspect-[2/3] w-36 shrink-0 rounded-lg sm:w-52" />

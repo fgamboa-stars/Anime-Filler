@@ -33,11 +33,11 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
         color={media?.coverImage.color}
         title={title}
         priority={priority}
-        className="ring-1 ring-white/5 transition-transform duration-300 group-hover:-translate-y-1 group-focus-within:-translate-y-1"
+        className="shadow-sm transition-[transform,box-shadow] duration-300 group-hover:-translate-y-1 group-hover:shadow-lg group-focus-within:-translate-y-1 motion-reduce:transform-none"
       />
       <div className="flex flex-col gap-1.5">
-        <h3 className="font-sans text-[15px] leading-snug font-semibold">
-          <Link to={animePath({ anilistId: id, title })} className="outline-none after:absolute after:inset-0 after:rounded-lg focus-visible:underline">
+        <h3 className="text-[15px] leading-snug font-semibold tracking-[-0.01em]">
+          <Link to={animePath({ anilistId: id, title })} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
             <Highlight text={title} ranges={highlights} />
           </Link>
         </h3>
@@ -46,7 +46,7 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
           <FillerAvailabilityBadge available={!!catalog} />
           {media?.averageScore ? (
             <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
-              <Star className="size-3 fill-mixed text-mixed" aria-hidden />
+              <Star className="size-3 fill-current" aria-hidden />
               <span className="tabular">{media.averageScore}%</span>
               <span className="sr-only">average score</span>
             </span>
@@ -54,7 +54,7 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
         </div>
         {catalog && (
           <p className="text-xs text-muted-foreground">
-            <span className="tabular font-semibold text-filler">{catalog.fillerPercentage}%</span> filler across {catalog.totalEpisodes} episodes
+            <span className="tabular font-semibold text-filler-text">{catalog.fillerPercentage}%</span> filler across {catalog.totalEpisodes} episodes
           </p>
         )}
       </div>
@@ -65,9 +65,9 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
 export function AnimeCardSkeleton() {
   return (
     <div className="flex flex-col gap-3" aria-hidden>
-      <div className="aspect-[2/3] animate-shimmer rounded-lg bg-muted" />
-      <div className="h-4 w-4/5 animate-shimmer rounded bg-muted" />
-      <div className="h-3 w-1/2 animate-shimmer rounded bg-muted" />
+      <div className="aspect-[2/3] animate-shimmer rounded-2xl bg-surface-2" />
+      <div className="h-4 w-4/5 animate-shimmer rounded-md bg-surface-2" />
+      <div className="h-3 w-1/2 animate-shimmer rounded-md bg-surface-2" />
     </div>
   );
 }
