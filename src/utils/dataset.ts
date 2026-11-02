@@ -98,6 +98,9 @@ export function buildCatalogEntry(dataset: FillerDataset): CatalogEntry {
     fillerPercentage: fillerPercentage(counts),
     arcCount: deriveArcs(dataset.episodes).length,
     strip: encodeStrip(dataset.episodes),
+    ...(dataset.franchise ? { franchise: dataset.franchise } : {}),
+    ...(dataset.seasonLabel ? { seasonLabel: dataset.seasonLabel } : {}),
+    ...(dataset.franchiseOrder ? { franchiseOrder: dataset.franchiseOrder } : {}),
     updatedAt: dataset.updatedAt,
   };
 }

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-season-7",
+  "anilistId": 163139,
+  "title": "My Hero Academia Season 7",
+  "alternativeTitles": [
+    "Boku no Hero Academia 7th Season"
+  ],
+  "totalEpisodes": 21,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 139–159, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 7",
+  "franchiseOrder": 7,
+  "updatedAt": "2026-11-02T20:48:55.265Z",
+  "episodes": [
+    {"number":1,"title":"In the Nick of Time! A Big-Time Maverick From the West!","type":"CANON","arc":"Star and Stripe"},
+    {"number":2,"title":"Specter","type":"CANON","arc":"Star and Stripe"},
+    {"number":3,"title":"Villain","type":"CANON","arc":"Star and Stripe"},
+    {"number":4,"title":"The Story of How We All Became Heroes","type":"CANON","arc":"U.A. Traitor"},
+    {"number":5,"title":"Let You Down","type":"CANON","arc":"U.A. Traitor"},
+    {"number":6,"title":"Division","type":"CANON","arc":"U.A. Traitor"},
+    {"number":7,"title":"Inflation","type":"CANON","arc":"Final War"},
+    {"number":8,"title":"Two Flashfires","type":"CANON","arc":"Final War"},
+    {"number":9,"title":"Extras","type":"CANON","arc":"Final War"},
+    {"number":10,"title":"Wounded Hero, Burning Bright and True!!","type":"CANON","arc":"Final War"},
+    {"number":11,"title":"Light Fades To Rain","type":"CANON","arc":"Final War"},
+    {"number":12,"title":"Those Who Defend, Those Who Violate","type":"CANON","arc":"Final War"},
+    {"number":13,"title":"A Chain of Events, Across the Ages","type":"CANON","arc":"Final War"},
+    {"number":14,"title":"Together With Shoji","type":"CANON","arc":"Final War"},
+    {"number":15,"title":"Butterfly Effect","type":"CANON","arc":"Final War"},
+    {"number":16,"title":"The Chain Thus Far","type":"CANON","arc":"Final War"},
+    {"number":17,"title":"Hopes","type":"CANON","arc":"Final War"},
+    {"number":18,"title":"It's a Small World","type":"CANON","arc":"Final War"},
+    {"number":19,"title":"I Am Here","type":"CANON","arc":"Final War"},
+    {"number":20,"title":"A Girl's Ego","type":"CANON","arc":"Final War"},
+    {"number":21,"title":"Battle Without a Quirk","type":"CANON","arc":"Final War"}
+  ]
+}

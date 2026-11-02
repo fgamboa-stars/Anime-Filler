@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "gintama-porori-hen",
+  "anilistId": 99714,
+  "title": "Gintama. Porori-hen",
+  "alternativeTitles": [
+    "Gintama.: Slip Arc"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 329–341, renumbered to match AniList); arcs from a MyAnimeList community guide. Gintama is mostly episodic, so many episodes are standalone",
+  "franchise": "Gintama",
+  "seasonLabel": "Porori-hen",
+  "franchiseOrder": 6,
+  "updatedAt": "2026-11-02T20:49:14.348Z",
+  "episodes": [
+    {"number":1,"title":"The Stairs to Adulthood May Not Always Lead Up","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"My Bald Dad, My Light-Haired Dad, and My Dad's Glasses","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Bowl of Ramen","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Family","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Life, Death and Shades / All the Answers Can Be Found in the Field","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"3000 Leagues in Search of a Scabbard","type":"CANON","arc":"Excalibur"},
+    {"number":7,"title":"The Super Sadist and the Super Sadist","type":"CANON","arc":"Excalibur"},
+    {"number":8,"title":"The Sharpest Sword and the Dullest Sword","type":"CANON","arc":"Excalibur"},
+    {"number":9,"title":"Wash Your Hands Before a Handshake","type":"CANON","arc":"HDZ48"},
+    {"number":10,"title":"Diamonds are Unscratchable","type":"CANON","arc":"HDZ48"},
+    {"number":11,"title":"An Idol's Badge of Honor","type":"CANON","arc":"HDZ48"},
+    {"number":12,"title":"The Line Between Godlike Games and Crappy Games is Paper-Thin / Glasses are a Part of the Soul","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Guardian Spirit are Also a Part of the Soul","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

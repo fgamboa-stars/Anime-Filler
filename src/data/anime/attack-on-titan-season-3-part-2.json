@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-season-3-part-2",
+  "anilistId": 104578,
+  "title": "Attack on Titan Season 3 Part 2",
+  "alternativeTitles": [
+    "Shingeki no Kyojin Season 3 Part 2"
+  ],
+  "totalEpisodes": 10,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 50–59, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "Season 3 Part 2",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-02T20:49:04.712Z",
+  "episodes": [
+    {"number":1,"title":"The Town Where Everything Began","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":2,"title":"Thunder Spears","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":3,"title":"Descent","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":4,"title":"Perfect Game","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":5,"title":"Hero","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":6,"title":"Midnight Sun","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":7,"title":"The Basement","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":8,"title":"That Day","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":9,"title":"Attack Titan","type":"CANON","arc":"Return to Shiganshina"},
+    {"number":10,"title":"The Other Side of the Wall","type":"CANON","arc":"Return to Shiganshina"}
+  ]
+}

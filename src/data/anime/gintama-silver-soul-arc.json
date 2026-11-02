@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "gintama-silver-soul-arc",
+  "anilistId": 100784,
+  "title": "Gintama. Silver Soul Arc",
+  "alternativeTitles": [
+    "Gintama.: Shirogane no Tamashii-hen"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 342–353, renumbered to match AniList); arcs from a MyAnimeList community guide. Gintama is mostly episodic, so many episodes are standalone",
+  "franchise": "Gintama",
+  "seasonLabel": "Silver Soul Arc",
+  "franchiseOrder": 7,
+  "updatedAt": "2026-11-02T20:49:15.027Z",
+  "episodes": [
+    {"number":1,"title":"Try As You Might to Make a Natural Perm Go Away, It Will Alwasy Return","type":"CANON","arc":"Silver Soul"},
+    {"number":2,"title":"Flavoring is Best in Small Quantities","type":"CANON","arc":"Silver Soul"},
+    {"number":3,"title":"A Delinquent's Kid Has Long Neck Hair","type":"CANON","arc":"Silver Soul"},
+    {"number":4,"title":"The Line Between Tenacious and Annoying Is Paper-Thin","type":"CANON","arc":"Silver Soul"},
+    {"number":5,"title":"Geezers Carve the Things They Shouldn't Forget into Their Wrinkles","type":"CANON","arc":"Silver Soul"},
+    {"number":6,"title":"Machine that Pick Up Useless Habits are Called People","type":"CANON","arc":"Silver Soul"},
+    {"number":7,"title":"Men Must Live Not Long Nor Thick, but Hard","type":"CANON","arc":"Silver Soul"},
+    {"number":8,"title":"Ogres Are Weak Against Tiny Heroes Like the Inch-High Samurai","type":"CANON","arc":"Silver Soul"},
+    {"number":9,"title":"Bragging About Your Own Heroic Deeds Will Make People Hate You, so Make Others Do It For You","type":"CANON","arc":"Silver Soul"},
+    {"number":10,"title":"Jump and Power Creep Go Hand-in-Hand","type":"CANON","arc":"Silver Soul"},
+    {"number":11,"title":"Peace and Destruction are Two Sides of the Same Coin","type":"CANON","arc":"Silver Soul"},
+    {"number":12,"title":"Bushido is Found One Second Before Death","type":"CANON","arc":"Silver Soul"}
+  ]
+}

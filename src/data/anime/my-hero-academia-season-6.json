@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-season-6",
+  "anilistId": 139630,
+  "title": "My Hero Academia Season 6",
+  "alternativeTitles": [
+    "Boku no Hero Academia 6th Season"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 114–138, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 6",
+  "franchiseOrder": 6,
+  "updatedAt": "2026-11-02T20:48:54.474Z",
+  "episodes": [
+    {"number":1,"title":"A Quiet Beginning","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":2,"title":"Mirko, the No. 5 Hero","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":3,"title":"One's Justice","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":4,"title":"Inheritance","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":5,"title":"The Thrill of Destruction","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":6,"title":"Encounter, Part 2","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":7,"title":"Disaster Walker","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":8,"title":"League of Villains vs. U.A. Students","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":9,"title":"Katsuki Bakugo: Rising","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":10,"title":"The Ones Within Us","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":11,"title":"Dabi's Dance","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":12,"title":"Threads of Hope","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":13,"title":"Final Performance","type":"CANON","arc":"Paranormal Liberation War"},
+    {"number":14,"title":"Hellish Hell","type":"MIXED","arc":"Dark Hero"},
+    {"number":15,"title":"Tartarus","type":"CANON","arc":"Dark Hero"},
+    {"number":16,"title":"The Hellish Todoroki Family, Part 2","type":"CANON","arc":"Dark Hero"},
+    {"number":17,"title":"The Wrong Way To Put Out a Fire","type":"CANON","arc":"Dark Hero"},
+    {"number":18,"title":"Izuku Midoriya and Tomura Shigaraki","type":"CANON","arc":"Dark Hero"},
+    {"number":19,"title":"Full Power!!","type":"CANON","arc":"Dark Hero"},
+    {"number":20,"title":"Hired Gun","type":"CANON","arc":"Dark Hero"},
+    {"number":21,"title":"The Lovely Lady Nagant","type":"CANON","arc":"Dark Hero"},
+    {"number":22,"title":"Friend","type":"CANON","arc":"Dark Hero"},
+    {"number":23,"title":"Deku vs. Class A","type":"CANON","arc":"Dark Hero"},
+    {"number":24,"title":"A Young Woman's Declaration","type":"CANON","arc":"Dark Hero"},
+    {"number":25,"title":"No Man Is an Island","type":"CANON","arc":"Dark Hero"}
+  ]
+}

@@ -10,7 +10,7 @@ It runs entirely in the browser and costs **$0/month**: no backend, no database,
 
 - **Search every anime on AniList** with autocomplete and typo tolerance (Fuse.js). "narut", "shipp", "blech" and "attak titan" all find the right show — when AniList's own search finds nothing, the app retries with a fuzzy-corrected title.
 - **Anime details** from AniList: description, genres, studios, score, popularity, episode count, status, season, dates, cover and banner art.
-- **Filler guides for 11 series (3,346 episodes)**: Naruto, Naruto Shippuden, One Piece, Bleach, Dragon Ball, Boruto, Black Clover, Hunter x Hunter (2011) and Fairy Tail (2009, 2014 and Final Season). Every episode is classified and grouped into story arcs. Still-airing shows note when AniList has newer episodes than the guide covers.
+- **Filler guides for 21 series (51 seasons, 5,146 episodes)**: Naruto, Naruto Shippuden, Boruto, One Piece, Bleach, Dragon Ball, Dragon Ball Z, Dragon Ball Z Kai, Dragon Ball GT, Dragon Ball Super, My Hero Academia, Jujutsu Kaisen, Demon Slayer, Attack on Titan, Black Clover, Hunter x Hunter (2011), Fairy Tail, Gintama, Inuyasha, Yu Yu Hakusho and Rurouni Kenshin. Every episode is classified and grouped into story arcs. Shows that AniList splits into seasons get one guide per season, grouped by franchise with a season switcher. Still-airing shows note when AniList has newer episodes than the guide covers.
 - **Episode filters** by type, arc, title/number, watched state and sort order.
 - **URL-shareable views**: every filter lives in the query string, so refresh, bookmarks, deep links and back/forward work. "Share current view" copies the link.
 - **Canon watch order generator**: WATCH and SKIP ranges, optional mixed/anime-canon episodes, per-arc scope, time saved, and "Copy watch order".
@@ -98,15 +98,15 @@ The app is a static site. Import the repository into Vercel, keep the defaults (
 
 - Anime metadata, ratings and artwork: [AniList](https://anilist.co) GraphQL API (no key required; ~30 requests/minute, which the client caches around).
 - Episode classifications: compiled from [AnimeFillerList](https://www.animefillerlist.com). Each dataset's totals were checked against the site's published filler counts.
-- Story arcs: the series' fan wikis (Narutopedia, One Piece Wiki, Bleach Wiki, Dragon Ball Wiki, Black Clover Wiki, Fairy Tail Wiki, Hunterpedia) and Wikipedia.
-- Fairy Tail is split into three guides to match AniList's three entries; the 2014 and Final Season guides are renumbered from 1 (overall episodes 176–277 and 278–328).
+- Story arcs: each series' fan wiki and Wikipedia; Gintama's arcs come from a MyAnimeList community guide (Gintama is mostly episodic, so many episodes are standalone).
+- Multi-season shows (Fairy Tail, My Hero Academia, Attack on Titan, Demon Slayer, Jujutsu Kaisen, Gintama, Inuyasha, Dragon Ball Z Kai) are split to match AniList's separate entries and renumbered from 1 per season; each guide's source note gives the original overall episode range. Specials and OVAs that AniList lists separately (e.g. Dragon Ball GT: A Hero's Legacy, the Rurouni Kenshin OVAs) are not included.
 - One Piece is still airing and needs periodic updates (see [docs/IMPORTING_DATA.md](docs/IMPORTING_DATA.md)). Corrections are welcome as CSV updates.
 
 ## Future enhancements
 
 Deliberately out of scope for Version One, and good candidates next:
 
-- More filler guides (Dragon Ball Z/Super, Inuyasha, Detective Conan, Bleach: Thousand-Year Blood War and others), plus a scheduled refresh for airing shows like One Piece
+- More filler guides (Detective Conan, Pokémon, Bleach: Thousand-Year Blood War and others), plus a scheduled refresh for airing shows like One Piece
 - Optional accounts and cross-device progress sync
 - Community contributions and a review queue for corrections
 - An admin dashboard for imports

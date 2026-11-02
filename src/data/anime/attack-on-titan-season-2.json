@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-season-2",
+  "anilistId": 20958,
+  "title": "Attack on Titan Season 2",
+  "alternativeTitles": [
+    "Shingeki no Kyojin Season 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–37, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-02T20:49:03.273Z",
+  "episodes": [
+    {"number":1,"title":"Beast Titan","type":"CANON","arc":"Clash of the Titans"},
+    {"number":2,"title":"I'm Home","type":"CANON","arc":"Clash of the Titans"},
+    {"number":3,"title":"Southwestward","type":"CANON","arc":"Clash of the Titans"},
+    {"number":4,"title":"Soldier","type":"CANON","arc":"Clash of the Titans"},
+    {"number":5,"title":"Historia","type":"CANON","arc":"Clash of the Titans"},
+    {"number":6,"title":"Warrior","type":"CANON","arc":"Clash of the Titans"},
+    {"number":7,"title":"Close Combat","type":"CANON","arc":"Clash of the Titans"},
+    {"number":8,"title":"The Hunters","type":"MIXED","arc":"Clash of the Titans"},
+    {"number":9,"title":"Opening","type":"CANON","arc":"Clash of the Titans"},
+    {"number":10,"title":"Children","type":"CANON","arc":"Clash of the Titans"},
+    {"number":11,"title":"Charge","type":"CANON","arc":"Clash of the Titans"},
+    {"number":12,"title":"Scream","type":"CANON","arc":"Clash of the Titans"}
+  ]
+}

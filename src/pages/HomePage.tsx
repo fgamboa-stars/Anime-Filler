@@ -10,25 +10,26 @@ import { useAnimeByIds } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { getCatalog } from '@/services/datasets';
 import { selectInProgress, useProgressStore } from '@/store/progressStore';
-import type { CatalogEntry } from '@/types';
 import type { MediaSummary } from '@/services/anilist';
 import { decodeStrip } from '@/utils/dataset';
+import { groupCatalog, groupStrip, seasonLabel, type FranchiseGroup } from '@/utils/franchise';
 
 const SHOWCASE_SLUG = 'naruto-shippuden';
 /** Shown first on the home page; everything else follows alphabetically. */
-const FEATURED_ORDER = ['naruto', 'naruto-shippuden', 'one-piece', 'bleach'];
+const FEATURED_ORDER = ['naruto', 'naruto-shippuden', 'one-piece', 'bleach', 'dragon-ball-z', 'My Hero Academia', 'Attack on Titan', 'Demon Slayer', 'Jujutsu Kaisen'];
 
 export default function HomePage() {
   useDocumentTitle(null);
   const catalog = getCatalog();
-  const ordered = useMemo(() => {
-    const rank = (slug: string) => {
-      const i = FEATURED_ORDER.indexOf(slug);
+  const groups = useMemo(() => {
+    const rank = (key: string) => {
+      const i = FEATURED_ORDER.indexOf(key);
       return i === -1 ? FEATURED_ORDER.length : i;
     };
-    return [...catalog].sort((a, b) => rank(a.slug) - rank(b.slug) || a.title.localeCompare(b.title));
+    return groupCatalog(catalog).sort((a, b) => rank(a.key) - rank(b.key) || a.title.localeCompare(b.title));
   }, [catalog]);
-  const covers = useAnimeByIds(catalog.map((c) => c.anilistId));
+  const ordered = groups.map((g) => g.first);
+  const covers = useAnimeByIds(ordered.map((c) => c.anilistId));
   const showcase = catalog.find((c) => c.slug === SHOWCASE_SLUG) ?? ordered[0];
   const showcaseEpisodes = useMemo(() => (showcase ? decodeStrip(showcase.strip) : []), [showcase]);
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
@@ -105,7 +106,8 @@ export default function HomePage() {
               Full filler guides
             </h2>
             <p className="mt-1 text-sm text-muted-foreground">
-              {catalog.length} series, {catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')} episodes classified.
+              {groups.length} series, {catalog.length} seasons, {catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')}{' '}
+              episodes classified.
             </p>
           </div>
           <Link to="/discover" className="text-sm font-semibold text-muted-foreground hover:text-foreground">
@@ -113,9 +115,9 @@ export default function HomePage() {
           </Link>
         </div>
         <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {ordered.map((entry) => (
-            <li key={entry.slug}>
-              <GuideCard entry={entry} media={covers.data?.find((m) => m.id === entry.anilistId) ?? null} />
+          {groups.map((group) => (
+            <li key={group.key}>
+              <GuideCard group={group} media={covers.data?.find((m) => m.id === group.first.anilistId) ?? null} />
             </li>
           ))}
         </ul>
@@ -142,33 +144,48 @@ export default function HomePage() {
   );
 }
 
-function GuideCard({ entry, media }: { entry: CatalogEntry; media: MediaSummary | null }) {
-  const episodes = useMemo(() => decodeStrip(entry.strip), [entry.strip]);
-  const watched = useProgressStore((s) => s.progress[entry.slug]?.watched);
-  const watchedSet = useMemo(() => new Set(watched ?? []), [watched]);
+function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummary | null }) {
+  const { first } = group;
+  const episodes = useMemo(() => groupStrip(group), [group]);
+  const multi = group.entries.length > 1;
   return (
     <article className="relative flex h-full gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:border-ring/50">
-      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={entry.title} className="w-20 shrink-0" />
+      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={group.title} className="w-20 shrink-0" />
       <div className="flex min-w-0 flex-1 flex-col">
         <h3 className="font-sans text-base leading-snug font-semibold">
-          <Link to={`/anime/${entry.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
-            {entry.title}
+          <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
+            {group.title}
           </Link>
         </h3>
         <p className="mt-1 text-sm text-muted-foreground">
-          <span className="tabular">{entry.totalEpisodes}</span> episodes,{' '}
-          <span className={`tabular font-semibold ${entry.fillerPercentage === 0 ? 'text-canon' : 'text-filler'}`}>{entry.fillerPercentage}%</span>{' '}
+          {multi && (
+            <>
+              <span className="tabular">{group.entries.length}</span> seasons,{' '}
+            </>
+          )}
+          <span className="tabular">{group.totalEpisodes}</span> episodes,{' '}
+          <span className={`tabular font-semibold ${group.fillerPercentage === 0 ? 'text-canon' : 'text-filler'}`}>{group.fillerPercentage}%</span>{' '}
           filler
         </p>
-        <EpisodeStrip episodes={episodes} watched={watchedSet} size="sm" label={`${entry.title} episode strip`} className="mt-auto pt-3" />
-        <div className="relative z-10 mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
-          <Link to={`/anime/${entry.slug}?view=watch-order`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
-            Watch order
-          </Link>
-          {entry.counts.FILLER > 0 && (
-            <Link to={`/anime/${entry.slug}?type=filler`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
-              Filler only
-            </Link>
+        <EpisodeStrip episodes={episodes} size="sm" label={`${group.title} episode strip`} className="mt-auto pt-3" />
+        <div className="relative z-10 mt-3 flex flex-wrap gap-x-3 gap-y-1 text-sm font-semibold">
+          {multi ? (
+            group.entries.map((e) => (
+              <Link key={e.slug} to={`/anime/${e.slug}`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
+                {seasonLabel(e)}
+              </Link>
+            ))
+          ) : (
+            <>
+              <Link to={`/anime/${first.slug}?view=watch-order`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
+                Watch order
+              </Link>
+              {first.counts.FILLER > 0 && (
+                <Link to={`/anime/${first.slug}?type=filler`} className="text-muted-foreground hover:text-foreground hover:underline underline-offset-4">
+                  Filler only
+                </Link>
+              )}
+            </>
           )}
         </div>
       </div>

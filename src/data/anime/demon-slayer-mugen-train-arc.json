@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "demon-slayer-mugen-train-arc",
+  "anilistId": 129874,
+  "title": "Demon Slayer: Mugen Train Arc",
+  "alternativeTitles": [
+    "Kimetsu no Yaiba: Mugen Ressha-hen"
+  ],
+  "totalEpisodes": 7,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 27–33, renumbered to match AniList); arcs from the Kimetsu no Yaiba Wiki",
+  "franchise": "Demon Slayer",
+  "seasonLabel": "Mugen Train Arc",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-02T20:48:59.583Z",
+  "episodes": [
+    {"number":1,"title":"Flame Hashira Kyojuro Rengoku","type":"ANIME_CANON","arc":"Mugen Train"},
+    {"number":2,"title":"Deep Sleep","type":"CANON","arc":"Mugen Train"},
+    {"number":3,"title":"Should Have Been","type":"CANON","arc":"Mugen Train"},
+    {"number":4,"title":"Insult","type":"CANON","arc":"Mugen Train"},
+    {"number":5,"title":"Move Forward!","type":"CANON","arc":"Mugen Train"},
+    {"number":6,"title":"Akaza","type":"CANON","arc":"Mugen Train"},
+    {"number":7,"title":"Set Your Heart Ablaze","type":"CANON","arc":"Mugen Train"}
+  ]
+}

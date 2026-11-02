@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-season-3",
+  "anilistId": 99147,
+  "title": "Attack on Titan Season 3",
+  "alternativeTitles": [
+    "Shingeki no Kyojin Season 3"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 38–49, renumbered to match AniList); arcs from the Attack on Titan Wiki. The Final Chapters (two specials) are linked to Special 1 on AniList",
+  "franchise": "Attack on Titan",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:49:04.010Z",
+  "episodes": [
+    {"number":1,"title":"Smoke Signal","type":"MIXED","arc":"Uprising"},
+    {"number":2,"title":"Pain","type":"MIXED","arc":"Uprising"},
+    {"number":3,"title":"Old Story","type":"MIXED","arc":"Uprising"},
+    {"number":4,"title":"Trust","type":"MIXED","arc":"Uprising"},
+    {"number":5,"title":"Reply","type":"CANON","arc":"Uprising"},
+    {"number":6,"title":"Sin","type":"CANON","arc":"Uprising"},
+    {"number":7,"title":"Wish","type":"CANON","arc":"Uprising"},
+    {"number":8,"title":"Outside the Walls of Orvud District","type":"CANON","arc":"Uprising"},
+    {"number":9,"title":"Ruler of the Walls","type":"CANON","arc":"Uprising"},
+    {"number":10,"title":"Friends","type":"CANON","arc":"Uprising"},
+    {"number":11,"title":"Bystander","type":"CANON","arc":"Uprising"},
+    {"number":12,"title":"Night of the Battle to Retake the Wall","type":"CANON","arc":"Uprising"}
+  ]
+}

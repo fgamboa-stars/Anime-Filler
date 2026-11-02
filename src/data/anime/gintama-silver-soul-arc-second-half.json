@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "gintama-silver-soul-arc-second-half",
+  "anilistId": 101925,
+  "title": "Gintama. Silver Soul Arc: Second-Half War",
+  "alternativeTitles": [
+    "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen"
+  ],
+  "totalEpisodes": 14,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 354–367, renumbered to match AniList); arcs from a MyAnimeList community guide. Gintama is mostly episodic, so many episodes are standalone",
+  "franchise": "Gintama",
+  "seasonLabel": "Silver Soul Arc Part 2",
+  "franchiseOrder": 8,
+  "updatedAt": "2026-11-02T20:49:15.769Z",
+  "episodes": [
+    {"number":1,"title":"The Evildoers Who Do Good","type":"CANON","arc":"Silver Soul"},
+    {"number":2,"title":"Rabbits Leap Higher on Moonlit Nights","type":"CANON","arc":"Silver Soul"},
+    {"number":3,"title":"Making a Dull World Interesting","type":"CANON","arc":"Silver Soul"},
+    {"number":4,"title":"Do Something Uncharacteristic, and Something Uncharacteristic Will Happen","type":"CANON","arc":"Silver Soul"},
+    {"number":5,"title":"Countless Kings","type":"CANON","arc":"Silver Soul"},
+    {"number":6,"title":"The Unemployed Cannot Be Stained By Anything","type":"CANON","arc":"Silver Soul"},
+    {"number":7,"title":"Always Hold On to Your Trump Cards","type":"CANON","arc":"Silver Soul"},
+    {"number":8,"title":"The Creatures Known as Humanity","type":"CANON","arc":"Silver Soul"},
+    {"number":9,"title":"Sign","type":"CANON","arc":"Silver Soul Aftermath"},
+    {"number":10,"title":"Specter","type":"CANON","arc":"Silver Soul Aftermath"},
+    {"number":11,"title":"Two in Girl Years Is Equal to Ten in Man Years","type":"CANON","arc":"Silver Soul Aftermath"},
+    {"number":12,"title":"Salvation","type":"CANON","arc":"Silver Soul Aftermath"},
+    {"number":13,"title":"Dun Dun","type":"CANON","arc":"Silver Soul Aftermath"},
+    {"number":14,"title":"There Are Lines Even Villains Can't Cross","type":"MIXED","arc":"Silver Soul Aftermath"}
+  ]
+}

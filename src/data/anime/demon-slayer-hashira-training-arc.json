@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "demon-slayer-hashira-training-arc",
+  "anilistId": 166240,
+  "title": "Demon Slayer: Hashira Training Arc",
+  "alternativeTitles": [
+    "Kimetsu no Yaiba: Hashira Geiko-hen"
+  ],
+  "totalEpisodes": 8,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 56–63, renumbered to match AniList); arcs from the Kimetsu no Yaiba Wiki",
+  "franchise": "Demon Slayer",
+  "seasonLabel": "Hashira Training Arc",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-02T20:49:01.656Z",
+  "episodes": [
+    {"number":1,"title":"To Defeat Muzan Kibutsuji","type":"CANON","arc":"Hashira Training"},
+    {"number":2,"title":"Water Hashira Giyu Tomioka's Pain","type":"CANON","arc":"Hashira Training"},
+    {"number":3,"title":"Fully Recovered Tanjiro Joins the Hashira Training!!","type":"MIXED","arc":"Hashira Training"},
+    {"number":4,"title":"To Bring a Smile to One's Face","type":"MIXED","arc":"Hashira Training"},
+    {"number":5,"title":"I Even Ate Demons","type":"CANON","arc":"Hashira Training"},
+    {"number":6,"title":"The Strongest of the Demon Slayer Corps","type":"CANON","arc":"Hashira Training"},
+    {"number":7,"title":"Stone Hashira Gyomei Himejima","type":"CANON","arc":"Hashira Training"},
+    {"number":8,"title":"The Hashira Unite","type":"CANON","arc":"Hashira Training"}
+  ]
+}

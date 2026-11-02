@@ -17,7 +17,8 @@ import { WatchOrderPanel } from '@/features/watch-order/WatchOrderPanel';
 import { useAnimeDetail, useDataset } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { AniListError, airedEpisodes, displayTitle } from '@/services/anilist';
-import { findCatalogByAniListId, findCatalogBySlug } from '@/services/datasets';
+import { findCatalogByAniListId, findCatalogBySlug, getCatalog } from '@/services/datasets';
+import { franchiseSiblings, seasonLabel } from '@/utils/franchise';
 import { usePreferencesStore } from '@/store/preferencesStore';
 import { useProgressStore } from '@/store/progressStore';
 import type { CatalogEntry, PreparedDataset } from '@/types';
@@ -58,6 +59,7 @@ export default function AnimePage() {
       </AnimeHero>
 
       <div className="mx-auto mt-8 max-w-7xl px-4 sm:px-6">
+        {entry && <SeasonNav entry={entry} />}
         {entry ? (
           dataset.status === 'error' ? (
             <StateMessage title="Couldn’t load the episode guide" onRetry={dataset.retry}>
@@ -73,6 +75,38 @@ export default function AnimePage() {
         )}
       </div>
     </div>
+  );
+}
+
+function SeasonNav({ entry }: { entry: CatalogEntry }) {
+  const siblings = franchiseSiblings(getCatalog(), entry);
+  if (siblings.length < 2) return null;
+  return (
+    <nav aria-label={`${entry.franchise} seasons`} className="mb-8">
+      <p className="mb-2 text-sm text-muted-foreground">
+        {entry.franchise}: {siblings.length} seasons
+      </p>
+      <ul className="flex gap-2 overflow-x-auto pb-1">
+        {siblings.map((s) => {
+          const current = s.slug === entry.slug;
+          return (
+            <li key={s.slug} className="shrink-0">
+              <Link
+                to={`/anime/${s.slug}`}
+                aria-current={current ? 'page' : undefined}
+                className={cn(
+                  'inline-flex h-9 items-center gap-2 rounded-full border px-4 text-sm font-semibold transition-colors',
+                  current ? 'border-foreground bg-foreground text-background' : 'border-border hover:bg-secondary',
+                )}
+              >
+                {seasonLabel(s)}
+                <span className={cn('tabular text-xs', current ? 'text-background/70' : 'text-muted-foreground')}>{s.totalEpisodes} eps</span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }
 

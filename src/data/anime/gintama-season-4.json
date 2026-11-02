@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "gintama-season-4",
+  "anilistId": 97889,
+  "title": "Gintama.",
+  "alternativeTitles": [
+    "Gintama Season 4"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 317–328, renumbered to match AniList); arcs from a MyAnimeList community guide. Gintama is mostly episodic, so many episodes are standalone",
+  "franchise": "Gintama",
+  "seasonLabel": "Gintama.",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-02T20:49:13.589Z",
+  "episodes": [
+    {"number":1,"title":"The Monster and the Monster's Child","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":2,"title":"Leave Letter","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":3,"title":"The Song of Samurai","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":4,"title":"Zura","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":5,"title":"The Two Fools","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":6,"title":"Ten Years","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":7,"title":"Paths","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":8,"title":"Master of Kouan","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":9,"title":"The Lost Rabbit","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":10,"title":"Siblings","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":11,"title":"First Student","type":"CANON","arc":"Rakuyou Decisive Battle"},
+    {"number":12,"title":"Hope","type":"CANON","arc":"Rakuyou Decisive Battle"}
+  ]
+}

@@ -50,6 +50,9 @@ npm run import:csv -- data/bleach.csv --anilist-id 269 --alt "BLEACH" --source "
 | `--title <title>` | Override the display title. |
 | `--alt <title>` | Alternative title used by search. Repeat for several. |
 | `--source <text>` | Attribution shown under the episode guide. |
+| `--franchise <name>` | Group this guide with other seasons of the same show (e.g. `"My Hero Academia"`). Grouped guides share one card on the home page and in rankings, and get a season switcher. |
+| `--season-label <label>` | This guide's name inside the franchise (e.g. `"Season 2"`, `"The Final Act"`). |
+| `--franchise-order <n>` | Position in the franchise, starting at 1. |
 | `--replace` | Replace the existing dataset instead of merging into it. |
 | `--dry-run` | Validate and report only. |
 | `--strict` | Exit with an error if any row was rejected (useful in CI). |
@@ -107,6 +110,15 @@ Import a CSV containing only the changed or new rows. Merge mode updates matchin
 ## Editing JSON by hand
 
 You can edit dataset files directly. Afterwards run `npm run data:index` to refresh the catalog and `npm run data:validate` to check your work.
+
+## Shows that AniList splits into seasons
+
+AniList gives each season its own entry and ID, so import one guide per season and link them with the franchise options. Number each season's episodes from 1, matching AniList:
+
+```bash
+npm run import:csv -- data/seed/my-hero-academia-season-2.csv --slug my-hero-academia-season-2 \
+  --franchise "My Hero Academia" --season-label "Season 2" --franchise-order 2
+```
 
 ## Updating an airing show (One Piece)
 

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "demon-slayer",
+  "anilistId": 101922,
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "alternativeTitles": [
+    "Kimetsu no Yaiba"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com; arcs from the Kimetsu no Yaiba Wiki",
+  "franchise": "Demon Slayer",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-02T20:48:58.831Z",
+  "episodes": [
+    {"number":1,"title":"Cruelty","type":"CANON","arc":"Final Selection"},
+    {"number":2,"title":"Trainer Sakonji Urokodaki","type":"CANON","arc":"Final Selection"},
+    {"number":3,"title":"Sabito and Makomo","type":"CANON","arc":"Final Selection"},
+    {"number":4,"title":"Final Selection","type":"CANON","arc":"Final Selection"},
+    {"number":5,"title":"My Own Steel","type":"CANON","arc":"Final Selection"},
+    {"number":6,"title":"Swordsman Accompanying a Demon","type":"CANON","arc":"First Mission"},
+    {"number":7,"title":"Muzan Kibutsuji","type":"CANON","arc":"Asakusa"},
+    {"number":8,"title":"The Smell of Enchanting Blood","type":"CANON","arc":"Asakusa"},
+    {"number":9,"title":"Temari Demon and Arrow Demon","type":"CANON","arc":"Asakusa"},
+    {"number":10,"title":"Together Forever","type":"CANON","arc":"Asakusa"},
+    {"number":11,"title":"Tsuzumi Mansion","type":"CANON","arc":"Tsuzumi Mansion"},
+    {"number":12,"title":"The Boar Bares Its Fangs, Zenitsu Sleeps","type":"CANON","arc":"Tsuzumi Mansion"},
+    {"number":13,"title":"Something More Important Than Life","type":"CANON","arc":"Tsuzumi Mansion"},
+    {"number":14,"title":"The House With the Wisteria Family Crest","type":"CANON","arc":"Tsuzumi Mansion"},
+    {"number":15,"title":"Mount Natagumo","type":"CANON","arc":"Mount Natagumo"},
+    {"number":16,"title":"Letting Someone Else Go First","type":"CANON","arc":"Mount Natagumo"},
+    {"number":17,"title":"You Must Master a Single Thing","type":"CANON","arc":"Mount Natagumo"},
+    {"number":18,"title":"A Forged Bond","type":"CANON","arc":"Mount Natagumo"},
+    {"number":19,"title":"Hinokami","type":"CANON","arc":"Mount Natagumo"},
+    {"number":20,"title":"Pretend Family","type":"CANON","arc":"Mount Natagumo"},
+    {"number":21,"title":"Against Corps Rules","type":"CANON","arc":"Mount Natagumo"},
+    {"number":22,"title":"Master of the Mansion","type":"CANON","arc":"Rehabilitation Training"},
+    {"number":23,"title":"Hashira Meeting","type":"CANON","arc":"Rehabilitation Training"},
+    {"number":24,"title":"Rehabilitation Training","type":"CANON","arc":"Rehabilitation Training"},
+    {"number":25,"title":"Tsuguko, Kanao Tsuyuri","type":"CANON","arc":"Rehabilitation Training"},
+    {"number":26,"title":"New Mission","type":"CANON","arc":"Rehabilitation Training"}
+  ]
+}

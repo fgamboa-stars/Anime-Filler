@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-hero-academia-season-4",
+  "anilistId": 104276,
+  "title": "My Hero Academia Season 4",
+  "alternativeTitles": [
+    "Boku no Hero Academia 4th Season"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 64–88, renumbered to match AniList); arcs from the My Hero Academia Wiki",
+  "franchise": "My Hero Academia",
+  "seasonLabel": "Season 4",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-02T20:48:52.920Z",
+  "episodes": [
+    {"number":1,"title":"The Scoop on U.A. Class 1-A","type":"FILLER","arc":"Shie Hassaikai"},
+    {"number":2,"title":"Overhaul","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":3,"title":"Boy Meets...","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":4,"title":"Fighting Fate","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":5,"title":"Let's Go, Gutsy Red Riot","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":6,"title":"An Unpleasant Talk","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":7,"title":"GO!!","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":8,"title":"Suneater of the Big Three","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":9,"title":"Red Riot","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":10,"title":"Temp Squad","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":11,"title":"Lemillion","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":12,"title":"Unforeseen Hope","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":13,"title":"Infinite 100%","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":14,"title":"Bright Future","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":15,"title":"Smoldering Flames","type":"CANON","arc":"Shie Hassaikai"},
+    {"number":16,"title":"Win Those Kids' Hearts","type":"CANON","arc":"Remedial Course"},
+    {"number":17,"title":"Relief for License Trainees","type":"CANON","arc":"Remedial Course"},
+    {"number":18,"title":"School Festival","type":"CANON","arc":"U.A. School Festival"},
+    {"number":19,"title":"Prepping for the School Festival Is the Most Fun Part","type":"CANON","arc":"U.A. School Festival"},
+    {"number":20,"title":"Gold Tips Imperial","type":"CANON","arc":"U.A. School Festival"},
+    {"number":21,"title":"Deku vs. Gentle Criminal","type":"CANON","arc":"U.A. School Festival"},
+    {"number":22,"title":"School Festival Start!!","type":"CANON","arc":"U.A. School Festival"},
+    {"number":23,"title":"Let It Flow! School Festival!","type":"CANON","arc":"U.A. School Festival"},
+    {"number":24,"title":"Japanese Hero Billboard Chart","type":"CANON","arc":"Pro Hero"},
+    {"number":25,"title":"His Start","type":"CANON","arc":"Pro Hero"}
+  ]
+}

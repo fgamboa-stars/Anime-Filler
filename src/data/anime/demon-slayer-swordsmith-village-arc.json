@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "demon-slayer-swordsmith-village-arc",
+  "anilistId": 145139,
+  "title": "Demon Slayer: Swordsmith Village Arc",
+  "alternativeTitles": [
+    "Kimetsu no Yaiba: Katanakaji no Sato-hen"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 45–55, renumbered to match AniList); arcs from the Kimetsu no Yaiba Wiki",
+  "franchise": "Demon Slayer",
+  "seasonLabel": "Swordsmith Village Arc",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-02T20:49:00.976Z",
+  "episodes": [
+    {"number":1,"title":"Someone's Dream","type":"CANON","arc":"Swordsmith Village"},
+    {"number":2,"title":"Yoriichi Type Zero","type":"CANON","arc":"Swordsmith Village"},
+    {"number":3,"title":"A Sword from Over 300 Years Ago","type":"CANON","arc":"Swordsmith Village"},
+    {"number":4,"title":"Thank You, Tokito","type":"CANON","arc":"Swordsmith Village"},
+    {"number":5,"title":"Bright Red Blade","type":"CANON","arc":"Swordsmith Village"},
+    {"number":6,"title":"Aren’t You Going to be a Hashira?","type":"CANON","arc":"Swordsmith Village"},
+    {"number":7,"title":"Awful Villain","type":"CANON","arc":"Swordsmith Village"},
+    {"number":8,"title":"The Mu in Muichiro","type":"CANON","arc":"Swordsmith Village"},
+    {"number":9,"title":"Mist Hashira Muichiro Tokito","type":"CANON","arc":"Swordsmith Village"},
+    {"number":10,"title":"Love Hashira Mitsuri Kanroji","type":"CANON","arc":"Swordsmith Village"},
+    {"number":11,"title":"The Connected Bonds: Daybreak And First Light","type":"CANON","arc":"Swordsmith Village"}
+  ]
+}

@@ -103,6 +103,14 @@ describe('buildDataset', () => {
     expect(result.gaps).toEqual([]);
   });
 
+  it('records franchise metadata and keeps it on later merges', () => {
+    const first = buildDataset(rows, { title: 'Bleach', anilistId: 269, franchise: 'Bleach', seasonLabel: 'Original', franchiseOrder: 1, now });
+    expect(first.dataset).toMatchObject({ franchise: 'Bleach', seasonLabel: 'Original', franchiseOrder: 1 });
+    const again = buildDataset(rows.slice(0, 1), { title: 'Bleach', anilistId: 269, existing: first.dataset, now });
+    expect(again.dataset).toMatchObject({ franchise: 'Bleach', seasonLabel: 'Original', franchiseOrder: 1 });
+    expect(validateDataset(again.dataset)).toEqual([]);
+  });
+
   it('replace mode drops episodes missing from the new file', () => {
     const existing = buildDataset(rows, { title: 'Bleach', anilistId: 269, now }).dataset;
     const result = buildDataset(rows.slice(0, 1), { title: 'Bleach', anilistId: 269, existing, mode: 'replace', now });
@@ -136,7 +144,7 @@ describe('shipped datasets', () => {
   const bySlug = Object.fromEntries(datasets.map((d) => [d.slug, d]));
 
   it('are all valid', () => {
-    expect(datasets.length).toBeGreaterThanOrEqual(11);
+    expect(datasets.length).toBeGreaterThanOrEqual(51);
     for (const d of datasets) expect(validateDataset(d), d.slug).toEqual([]);
   });
 
@@ -153,12 +161,47 @@ describe('shipped datasets', () => {
     ['fairy-tail', 175, 35],
     ['fairy-tail-2014', 102, 26],
     ['fairy-tail-final-season', 51, 0],
+    ['dragon-ball-z', 291, 38],
+    ['dragon-ball-gt', 64, 64],
+    ['dragon-ball-super', 131, 14],
+    ['dragon-ball-z-kai', 98, 0],
+    ['dragon-ball-z-kai-the-final-chapters', 69, 2],
+    ['my-hero-academia', 13, 0],
+    ['my-hero-academia-season-3', 25, 2],
+    ['my-hero-academia-final-season', 11, 0],
+    ['jujutsu-kaisen-season-3', 12, 0],
+    ['demon-slayer-hashira-training-arc', 8, 0],
+    ['attack-on-titan-the-final-chapters', 2, 0],
+    ['inuyasha', 167, 35],
+    ['inuyasha-the-final-act', 26, 0],
+    ['yu-yu-hakusho', 112, 0],
+    ['rurouni-kenshin', 94, 38],
+    ['gintama', 201, 21],
+    ['gintama-silver-soul-arc-second-half', 14, 0],
   ])('%s has %i episodes and %i filler', (slug, total, filler) => {
     const d = bySlug[slug];
     expect(d).toBeDefined();
     expect(d.episodes).toHaveLength(total);
     expect(d.episodes.filter((e) => e.type === 'FILLER')).toHaveLength(filler);
     expect(d.episodes.map((e) => e.number)).toEqual(Array.from({ length: total }, (_, i) => i + 1));
+  });
+
+  it.each([
+    // franchise, seasons, total episodes, filler (published totals for the whole show)
+    ['My Hero Academia', 8, 170, 4],
+    ['Attack on Titan', 7, 89, 0],
+    ['Demon Slayer', 5, 63, 0],
+    ['Jujutsu Kaisen', 3, 59, 0],
+    ['Gintama', 8, 367, 23],
+    ['Inuyasha', 2, 193, 35],
+    ['Dragon Ball Z Kai', 2, 167, 2],
+    ['Fairy Tail', 3, 328, 61],
+  ])('%s has %i seasons, %i episodes and %i filler', (franchise, seasons, total, filler) => {
+    const members = datasets.filter((d) => d.franchise === franchise).sort((a, b) => (a.franchiseOrder ?? 0) - (b.franchiseOrder ?? 0));
+    expect(members).toHaveLength(seasons);
+    expect(members.map((m) => m.franchiseOrder)).toEqual(Array.from({ length: seasons }, (_, i) => i + 1));
+    expect(members.reduce((n, m) => n + m.episodes.length, 0)).toBe(total);
+    expect(members.reduce((n, m) => n + m.episodes.filter((e) => e.type === 'FILLER').length, 0)).toBe(filler);
   });
 
   it('uses unique AniList IDs and matches the committed catalog', () => {

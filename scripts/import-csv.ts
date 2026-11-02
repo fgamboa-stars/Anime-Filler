@@ -27,6 +27,9 @@ Options (apply when the CSV contains a single anime):
   --title <title>     Display title (default: animeTitle column)
   --alt <title>       Alternative title for search; repeatable
   --source <text>     Attribution for the classifications
+  --franchise <name>  Group with other seasons of the same show (e.g. "My Hero Academia")
+  --season-label <l>  This entry's label within the franchise (e.g. "Season 2")
+  --franchise-order <n>  Position within the franchise (1 = first)
 
 General:
   --replace           Replace the existing dataset instead of merging (merge is the default)
@@ -62,6 +65,9 @@ async function main(): Promise<number> {
       title: { type: 'string' },
       alt: { type: 'string', multiple: true },
       source: { type: 'string' },
+      franchise: { type: 'string' },
+      'season-label': { type: 'string' },
+      'franchise-order': { type: 'string' },
       replace: { type: 'boolean', default: false },
       'dry-run': { type: 'boolean', default: false },
       strict: { type: 'boolean', default: false },
@@ -151,6 +157,9 @@ async function main(): Promise<number> {
       anilistId,
       alternativeTitles: values.alt ?? [],
       source: values.source,
+      franchise: values.franchise,
+      seasonLabel: values['season-label'],
+      franchiseOrder: values['franchise-order'] ? Number(values['franchise-order']) : undefined,
       existing,
       mode: values.replace ? 'replace' : 'merge',
     });

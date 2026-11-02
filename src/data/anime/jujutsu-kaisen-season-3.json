@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "jujutsu-kaisen-season-3",
+  "anilistId": 172463,
+  "title": "Jujutsu Kaisen Season 3: The Culling Game Part 1",
+  "alternativeTitles": [
+    "JUJUTSU KAISEN Season 3",
+    "Jujutsu Kaisen: The Culling Game"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 48–59, renumbered to match AniList); arcs from the Jujutsu Kaisen Wiki",
+  "franchise": "Jujutsu Kaisen",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:48:58.159Z",
+  "episodes": [
+    {"number":1,"title":"Execution","type":"CANON","arc":"Perfect Preparation"},
+    {"number":2,"title":"One More Time","type":"CANON","arc":"Perfect Preparation"},
+    {"number":3,"title":"About the Culling Game","type":"CANON","arc":"Perfect Preparation"},
+    {"number":4,"title":"Perfect Preparation","type":"CANON","arc":"Perfect Preparation"},
+    {"number":5,"title":"Passion","type":"CANON","arc":"Perfect Preparation"},
+    {"number":6,"title":"Cog","type":"CANON","arc":"Perfect Preparation"},
+    {"number":7,"title":"Tokyo No. 1 Colony","type":"CANON","arc":"Culling Game"},
+    {"number":8,"title":"Tokyo No. 1 Colony, Part 2","type":"CANON","arc":"Culling Game"},
+    {"number":9,"title":"Tokyo No. 1 Colony, Part 3","type":"CANON","arc":"Culling Game"},
+    {"number":10,"title":"Tokyo No. 1 Colony, Part 4","type":"CANON","arc":"Culling Game"},
+    {"number":11,"title":"Tokyo No. 1 Colony, Part 5","type":"CANON","arc":"Culling Game"},
+    {"number":12,"title":"Sendai Colony","type":"CANON","arc":"Culling Game"}
+  ]
+}

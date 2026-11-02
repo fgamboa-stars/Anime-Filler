@@ -1,7 +1,161 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T04:00:05.458Z",
+  "generatedAt": "2026-11-02T20:49:18.012Z",
   "anime": [
+    {
+      "slug": "attack-on-titan",
+      "anilistId": 16498,
+      "title": "Attack on Titan",
+      "alternativeTitles": [
+        "Shingeki no Kyojin"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 6,
+      "strip": "C21M1C3",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:49:02.429Z"
+    },
+    {
+      "slug": "attack-on-titan-season-2",
+      "anilistId": 20958,
+      "title": "Attack on Titan Season 2",
+      "alternativeTitles": [
+        "Shingeki no Kyojin Season 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C7M1C4",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:49:03.273Z"
+    },
+    {
+      "slug": "attack-on-titan-season-3",
+      "anilistId": 99147,
+      "title": "Attack on Titan Season 3",
+      "alternativeTitles": [
+        "Shingeki no Kyojin Season 3"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 8,
+        "FILLER": 0,
+        "MIXED": 4,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M4C8",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:49:04.010Z"
+    },
+    {
+      "slug": "attack-on-titan-season-3-part-2",
+      "anilistId": 104578,
+      "title": "Attack on Titan Season 3 Part 2",
+      "alternativeTitles": [
+        "Shingeki no Kyojin Season 3 Part 2"
+      ],
+      "totalEpisodes": 10,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C10",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "Season 3 Part 2",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-02T20:49:04.712Z"
+    },
+    {
+      "slug": "attack-on-titan-the-final-chapters",
+      "anilistId": 146984,
+      "title": "Attack on Titan: The Final Chapters",
+      "alternativeTitles": [
+        "Shingeki no Kyojin: The Final Season - Kanketsu-hen"
+      ],
+      "totalEpisodes": 2,
+      "counts": {
+        "CANON": 2,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C2",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "The Final Chapters",
+      "franchiseOrder": 7,
+      "updatedAt": "2026-11-02T20:49:06.915Z"
+    },
+    {
+      "slug": "attack-on-titan-final-season",
+      "anilistId": 110277,
+      "title": "Attack on Titan: The Final Season",
+      "alternativeTitles": [
+        "Shingeki no Kyojin: The Final Season"
+      ],
+      "totalEpisodes": 16,
+      "counts": {
+        "CANON": 16,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C16",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "The Final Season",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-02T20:49:05.423Z"
+    },
+    {
+      "slug": "attack-on-titan-final-season-part-2",
+      "anilistId": 131681,
+      "title": "Attack on Titan: The Final Season Part 2",
+      "alternativeTitles": [
+        "Shingeki no Kyojin: The Final Season Part 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Attack on Titan",
+      "seasonLabel": "The Final Season Part 2",
+      "franchiseOrder": 6,
+      "updatedAt": "2026-11-02T20:49:06.202Z"
+    },
     {
       "slug": "black-clover",
       "anilistId": 97940,
@@ -61,6 +215,116 @@
       "updatedAt": "2026-11-02T03:59:40.578Z"
     },
     {
+      "slug": "demon-slayer-entertainment-district-arc",
+      "anilistId": 142329,
+      "title": "Demon Slayer: Entertainment District Arc",
+      "alternativeTitles": [
+        "Kimetsu no Yaiba: Yuukaku-hen"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "franchise": "Demon Slayer",
+      "seasonLabel": "Entertainment District Arc",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:49:00.297Z"
+    },
+    {
+      "slug": "demon-slayer-hashira-training-arc",
+      "anilistId": 166240,
+      "title": "Demon Slayer: Hashira Training Arc",
+      "alternativeTitles": [
+        "Kimetsu no Yaiba: Hashira Geiko-hen"
+      ],
+      "totalEpisodes": 8,
+      "counts": {
+        "CANON": 6,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C2M2C4",
+      "franchise": "Demon Slayer",
+      "seasonLabel": "Hashira Training Arc",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-02T20:49:01.656Z"
+    },
+    {
+      "slug": "demon-slayer",
+      "anilistId": 101922,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "alternativeTitles": [
+        "Kimetsu no Yaiba"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 6,
+      "strip": "C26",
+      "franchise": "Demon Slayer",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:48:58.831Z"
+    },
+    {
+      "slug": "demon-slayer-mugen-train-arc",
+      "anilistId": 129874,
+      "title": "Demon Slayer: Mugen Train Arc",
+      "alternativeTitles": [
+        "Kimetsu no Yaiba: Mugen Ressha-hen"
+      ],
+      "totalEpisodes": 7,
+      "counts": {
+        "CANON": 6,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A1C6",
+      "franchise": "Demon Slayer",
+      "seasonLabel": "Mugen Train Arc",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:48:59.583Z"
+    },
+    {
+      "slug": "demon-slayer-swordsmith-village-arc",
+      "anilistId": 145139,
+      "title": "Demon Slayer: Swordsmith Village Arc",
+      "alternativeTitles": [
+        "Kimetsu no Yaiba: Katanakaji no Sato-hen"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "franchise": "Demon Slayer",
+      "seasonLabel": "Swordsmith Village Arc",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-02T20:49:00.976Z"
+    },
+    {
       "slug": "dragon-ball",
       "anilistId": 223,
       "title": "Dragon Ball",
@@ -81,6 +345,112 @@
       "updatedAt": "2026-11-02T03:59:40.059Z"
     },
     {
+      "slug": "dragon-ball-gt",
+      "anilistId": 225,
+      "title": "Dragon Ball GT",
+      "alternativeTitles": [
+        "DBGT",
+        "DRAGON BALL GT"
+      ],
+      "totalEpisodes": 64,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 64,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 100,
+      "arcCount": 4,
+      "strip": "F64",
+      "updatedAt": "2026-11-02T20:48:47.891Z"
+    },
+    {
+      "slug": "dragon-ball-super",
+      "anilistId": 21175,
+      "title": "Dragon Ball Super",
+      "alternativeTitles": [
+        "DBS",
+        "DRAGON BALL SUPER"
+      ],
+      "totalEpisodes": 131,
+      "counts": {
+        "CANON": 99,
+        "FILLER": 14,
+        "MIXED": 3,
+        "ANIME_CANON": 15
+      },
+      "fillerPercentage": 10.7,
+      "arcCount": 5,
+      "strip": "M2C1F1C10F1A2C4A1C19F5C3A1C1A1C15F3A2F4C1A4C7M1A2C2A2C36",
+      "updatedAt": "2026-11-02T20:48:48.554Z"
+    },
+    {
+      "slug": "dragon-ball-z",
+      "anilistId": 813,
+      "title": "Dragon Ball Z",
+      "alternativeTitles": [
+        "DBZ",
+        "DRAGON BALL Z"
+      ],
+      "totalEpisodes": 291,
+      "counts": {
+        "CANON": 244,
+        "FILLER": 38,
+        "MIXED": 9,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 13.1,
+      "arcCount": 17,
+      "strip": "C8F2M1F5M2C1M1C18F5M1C55F1C1F1C5F10C6F2C44F2C2F1C20F5C2F2M1C24M1C21M1C22F1C12M1F1C3",
+      "updatedAt": "2026-11-02T20:48:47.222Z"
+    },
+    {
+      "slug": "dragon-ball-z-kai",
+      "anilistId": 6033,
+      "title": "Dragon Ball Z Kai",
+      "alternativeTitles": [
+        "Dragon Ball Kai",
+        "DBZ Kai"
+      ],
+      "totalEpisodes": 98,
+      "counts": {
+        "CANON": 33,
+        "FILLER": 0,
+        "MIXED": 65,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 7,
+      "strip": "C6M2C1M2C7M1C2M2C1M3C3M4C1M3C2M7C2M2C1M1C1M1C1M5C1M3C1M8C1M3C2M18",
+      "franchise": "Dragon Ball Z Kai",
+      "seasonLabel": "Kai",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:48:49.341Z"
+    },
+    {
+      "slug": "dragon-ball-z-kai-the-final-chapters",
+      "anilistId": 20635,
+      "title": "Dragon Ball Z Kai: The Final Chapters",
+      "alternativeTitles": [
+        "Dragon Ball Kai (2014)",
+        "DBZ Kai Final Chapters"
+      ],
+      "totalEpisodes": 69,
+      "counts": {
+        "CANON": 6,
+        "FILLER": 2,
+        "MIXED": 61,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 2.9,
+      "arcCount": 1,
+      "strip": "C1M1F1M6C2M6C1M7C1M36C1M3F1M2",
+      "franchise": "Dragon Ball Z Kai",
+      "seasonLabel": "The Final Chapters",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:48:50.079Z"
+    },
+    {
       "slug": "fairy-tail",
       "anilistId": 6702,
       "title": "Fairy Tail",
@@ -98,7 +468,10 @@
       "fillerPercentage": 20,
       "arcCount": 15,
       "strip": "C8F1C9F1M1C28M1F1C18M1F6C49F26M1C24",
-      "updatedAt": "2026-11-02T03:59:42.210Z"
+      "franchise": "Fairy Tail",
+      "seasonLabel": "2009 series",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:49:16.496Z"
     },
     {
       "slug": "fairy-tail-2014",
@@ -118,7 +491,10 @@
       "fillerPercentage": 25.5,
       "arcCount": 6,
       "strip": "C6M2C17M1F25C19A1C8M1A1C3M1C7F1C1M1C7",
-      "updatedAt": "2026-11-02T03:59:42.754Z"
+      "franchise": "Fairy Tail",
+      "seasonLabel": "2014 series",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:49:17.274Z"
     },
     {
       "slug": "fairy-tail-final-season",
@@ -139,7 +515,186 @@
       "fillerPercentage": 0,
       "arcCount": 2,
       "strip": "C34M1C16",
-      "updatedAt": "2026-11-02T03:59:43.333Z"
+      "franchise": "Fairy Tail",
+      "seasonLabel": "Final Season",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:49:18.005Z"
+    },
+    {
+      "slug": "gintama",
+      "anilistId": 918,
+      "title": "Gintama",
+      "alternativeTitles": [
+        "Gin Tama"
+      ],
+      "totalEpisodes": 201,
+      "counts": {
+        "CANON": 177,
+        "FILLER": 21,
+        "MIXED": 3,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 10.4,
+      "arcCount": 18,
+      "strip": "F2C47F1C6F1C17F1C6M1C23F1C4M1C2F1C5M1C3F2C9F1C1F1C12F1C4F1C8F1C1F1C4F1C1F2C1F1C8F1C3F1C12",
+      "franchise": "Gintama",
+      "seasonLabel": "Gintama (2006)",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:49:10.765Z"
+    },
+    {
+      "slug": "gintama-season-4",
+      "anilistId": 97889,
+      "title": "Gintama.",
+      "alternativeTitles": [
+        "Gintama Season 4"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Gintama",
+      "seasonLabel": "Gintama.",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-02T20:49:13.589Z"
+    },
+    {
+      "slug": "gintama-porori-hen",
+      "anilistId": 99714,
+      "title": "Gintama. Porori-hen",
+      "alternativeTitles": [
+        "Gintama.: Slip Arc"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 3,
+      "strip": "C13",
+      "franchise": "Gintama",
+      "seasonLabel": "Porori-hen",
+      "franchiseOrder": 6,
+      "updatedAt": "2026-11-02T20:49:14.348Z"
+    },
+    {
+      "slug": "gintama-silver-soul-arc",
+      "anilistId": 100784,
+      "title": "Gintama. Silver Soul Arc",
+      "alternativeTitles": [
+        "Gintama.: Shirogane no Tamashii-hen"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Gintama",
+      "seasonLabel": "Silver Soul Arc",
+      "franchiseOrder": 7,
+      "updatedAt": "2026-11-02T20:49:15.027Z"
+    },
+    {
+      "slug": "gintama-silver-soul-arc-second-half",
+      "anilistId": 101925,
+      "title": "Gintama. Silver Soul Arc: Second-Half War",
+      "alternativeTitles": [
+        "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen"
+      ],
+      "totalEpisodes": 14,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C13M1",
+      "franchise": "Gintama",
+      "seasonLabel": "Silver Soul Arc Part 2",
+      "franchiseOrder": 8,
+      "updatedAt": "2026-11-02T20:49:15.769Z"
+    },
+    {
+      "slug": "gintama-season-2",
+      "anilistId": 9969,
+      "title": "Gintama'",
+      "alternativeTitles": [
+        "Gintama Season 2"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 49,
+        "FILLER": 2,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 3.9,
+      "arcCount": 5,
+      "strip": "C7F1C42F1",
+      "franchise": "Gintama",
+      "seasonLabel": "Gintama'",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:49:11.509Z"
+    },
+    {
+      "slug": "gintama-enchousen",
+      "anilistId": 15417,
+      "title": "Gintama': Enchousen",
+      "alternativeTitles": [
+        "Gintama Season 2 Part 2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 4,
+      "strip": "C13",
+      "franchise": "Gintama",
+      "seasonLabel": "Enchousen",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:49:12.196Z"
+    },
+    {
+      "slug": "gintama-season-3",
+      "anilistId": 20996,
+      "title": "Gintama°",
+      "alternativeTitles": [
+        "Gintama Season 3"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 51,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 7,
+      "strip": "C51",
+      "franchise": "Gintama",
+      "seasonLabel": "Gintama°",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-02T20:49:12.928Z"
     },
     {
       "slug": "hunter-x-hunter",
@@ -161,6 +716,296 @@
       "arcCount": 7,
       "strip": "C11M1F1C12F1C122",
       "updatedAt": "2026-11-02T03:59:41.655Z"
+    },
+    {
+      "slug": "inuyasha",
+      "anilistId": 249,
+      "title": "Inuyasha",
+      "alternativeTitles": [
+        "InuYasha",
+        "Inu Yasha"
+      ],
+      "totalEpisodes": 167,
+      "counts": {
+        "CANON": 115,
+        "FILLER": 35,
+        "MIXED": 17,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 21,
+      "arcCount": 6,
+      "strip": "C25M1C30M2F1C3F3C2F1M1C2F1C2F5C3M2C2M1C1F13M1C24M2F2C2F2M1F5M2C1M1C2M2C11M1C1F2C4",
+      "franchise": "Inuyasha",
+      "seasonLabel": "Inuyasha",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:49:07.627Z"
+    },
+    {
+      "slug": "inuyasha-the-final-act",
+      "anilistId": 6811,
+      "title": "Inuyasha: The Final Act",
+      "alternativeTitles": [
+        "InuYasha: Kanketsu-hen",
+        "Inuyasha Kanketsu-hen"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "Inuyasha",
+      "seasonLabel": "The Final Act",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:49:08.417Z"
+    },
+    {
+      "slug": "jujutsu-kaisen",
+      "anilistId": 113415,
+      "title": "Jujutsu Kaisen",
+      "alternativeTitles": [
+        "JUJUTSU KAISEN"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 5,
+      "strip": "C24",
+      "franchise": "Jujutsu Kaisen",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:48:56.753Z"
+    },
+    {
+      "slug": "jujutsu-kaisen-season-2",
+      "anilistId": 145064,
+      "title": "Jujutsu Kaisen Season 2",
+      "alternativeTitles": [
+        "JUJUTSU KAISEN Season 2"
+      ],
+      "totalEpisodes": 23,
+      "counts": {
+        "CANON": 23,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C23",
+      "franchise": "Jujutsu Kaisen",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:48:57.477Z"
+    },
+    {
+      "slug": "jujutsu-kaisen-season-3",
+      "anilistId": 172463,
+      "title": "Jujutsu Kaisen Season 3: The Culling Game Part 1",
+      "alternativeTitles": [
+        "JUJUTSU KAISEN Season 3",
+        "Jujutsu Kaisen: The Culling Game"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C12",
+      "franchise": "Jujutsu Kaisen",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:48:58.159Z"
+    },
+    {
+      "slug": "my-hero-academia",
+      "anilistId": 21459,
+      "title": "My Hero Academia",
+      "alternativeTitles": [
+        "Boku no Hero Academia"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 4,
+      "strip": "C13",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-02T20:48:50.900Z"
+    },
+    {
+      "slug": "my-hero-academia-season-2",
+      "anilistId": 21856,
+      "title": "My Hero Academia Season 2",
+      "alternativeTitles": [
+        "Boku no Hero Academia 2nd Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 0,
+      "arcCount": 3,
+      "strip": "C18A1C6",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-02T20:48:51.562Z"
+    },
+    {
+      "slug": "my-hero-academia-season-3",
+      "anilistId": 100166,
+      "title": "My Hero Academia Season 3",
+      "alternativeTitles": [
+        "Boku no Hero Academia 3rd Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 21,
+        "FILLER": 2,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 8,
+      "arcCount": 4,
+      "strip": "F1C14M2C2F1C5",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-02T20:48:52.230Z"
+    },
+    {
+      "slug": "my-hero-academia-season-4",
+      "anilistId": 104276,
+      "title": "My Hero Academia Season 4",
+      "alternativeTitles": [
+        "Boku no Hero Academia 4th Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 4,
+      "arcCount": 4,
+      "strip": "F1C24",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 4",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-02T20:48:52.920Z"
+    },
+    {
+      "slug": "my-hero-academia-season-5",
+      "anilistId": 117193,
+      "title": "My Hero Academia Season 5",
+      "alternativeTitles": [
+        "Boku no Hero Academia 5th Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 22,
+        "FILLER": 1,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 4,
+      "arcCount": 4,
+      "strip": "M1C14F1M1C8",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 5",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-02T20:48:53.715Z"
+    },
+    {
+      "slug": "my-hero-academia-season-6",
+      "anilistId": 139630,
+      "title": "My Hero Academia Season 6",
+      "alternativeTitles": [
+        "Boku no Hero Academia 6th Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C13M1C11",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 6",
+      "franchiseOrder": 6,
+      "updatedAt": "2026-11-02T20:48:54.474Z"
+    },
+    {
+      "slug": "my-hero-academia-season-7",
+      "anilistId": 163139,
+      "title": "My Hero Academia Season 7",
+      "alternativeTitles": [
+        "Boku no Hero Academia 7th Season"
+      ],
+      "totalEpisodes": 21,
+      "counts": {
+        "CANON": 21,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 3,
+      "strip": "C21",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Season 7",
+      "franchiseOrder": 7,
+      "updatedAt": "2026-11-02T20:48:55.265Z"
+    },
+    {
+      "slug": "my-hero-academia-final-season",
+      "anilistId": 182896,
+      "title": "My Hero Academia: Final Season",
+      "alternativeTitles": [
+        "Boku no Hero Academia Final Season",
+        "My Hero Academia Season 8"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 2,
+      "strip": "C11",
+      "franchise": "My Hero Academia",
+      "seasonLabel": "Final Season",
+      "franchiseOrder": 8,
+      "updatedAt": "2026-11-02T20:48:55.964Z"
     },
     {
       "slug": "naruto",
@@ -222,6 +1067,47 @@
       "arcCount": 52,
       "strip": "C44M3C2A2C2F7M1C6M2C23A1C4F2C1M1F1C28F13C52F11C6A4C3F6M1C52F5C7F2C10F1C13F3C6F11C17M1C27F3C21F2C10A3M1C4F4C23A4F2C30M1C2F1C4A3C6A1C13M1C21F1C31M1F4C11F1C34M1F2M1C4M1C19M1C3M1C21M1C10M1C40M1C5A1M1C8F4M1C23A1C1M2C1F3C6M1C13M1C3M1C70M2C1M5C1M4C4F2C10F1C16M1C63M2C1M1C37F2C53A1C84",
       "updatedAt": "2026-11-02T03:59:39.522Z"
+    },
+    {
+      "slug": "rurouni-kenshin",
+      "anilistId": 45,
+      "title": "Rurouni Kenshin",
+      "alternativeTitles": [
+        "Rurouni Kenshin: Meiji Kenkaku Romantan",
+        "Samurai X"
+      ],
+      "totalEpisodes": 94,
+      "counts": {
+        "CANON": 51,
+        "FILLER": 38,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 40.4,
+      "arcCount": 6,
+      "strip": "M1C11F6C3F1C2F3C35F16M4F12",
+      "updatedAt": "2026-11-02T20:49:09.939Z"
+    },
+    {
+      "slug": "yu-yu-hakusho",
+      "anilistId": 392,
+      "title": "Yu Yu Hakusho",
+      "alternativeTitles": [
+        "Yu Yu Hakusho: Ghost Files",
+        "YuYu Hakusho",
+        "Yuu Yuu Hakusho"
+      ],
+      "totalEpisodes": 112,
+      "counts": {
+        "CANON": 106,
+        "FILLER": 0,
+        "MIXED": 4,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 0,
+      "arcCount": 4,
+      "strip": "C10M1C1M1C93A2M1C1M1C1",
+      "updatedAt": "2026-11-02T20:49:09.201Z"
     }
   ]
 }

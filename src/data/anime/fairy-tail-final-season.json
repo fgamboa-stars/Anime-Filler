@@ -10,7 +10,10 @@
   ],
   "totalEpisodes": 51,
   "source": "Classifications compiled from AnimeFillerList.com (overall episodes 278–328, renumbered to match AniList); arcs from the Fairy Tail Wiki",
-  "updatedAt": "2026-11-02T03:59:43.333Z",
+  "franchise": "Fairy Tail",
+  "seasonLabel": "Final Season",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-02T20:49:18.005Z",
   "episodes": [
     {"number":1,"title":"The Lamia Scale Thanksgiving Festival","type":"CANON","arc":"Avatar"},
     {"number":2,"title":"Because of Love","type":"CANON","arc":"Avatar"},
