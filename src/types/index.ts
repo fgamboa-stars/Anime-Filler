@@ -23,6 +23,12 @@ export interface FillerDataset {
   alternativeTitles: string[];
   totalEpisodes: number;
   source?: string;
+  /** Groups seasons that AniList lists separately (e.g. "My Hero Academia"). */
+  franchise?: string;
+  /** Short label for this entry within its franchise (e.g. "Season 2"). */
+  seasonLabel?: string;
+  /** Position within the franchise, 1-based. */
+  franchiseOrder?: number;
   updatedAt: string;
   episodes: DatasetEpisode[];
 }
@@ -70,6 +76,9 @@ export interface CatalogEntry {
    * downloading its full episode list.
    */
   strip: string;
+  franchise?: string;
+  seasonLabel?: string;
+  franchiseOrder?: number;
   updatedAt: string;
 }
 

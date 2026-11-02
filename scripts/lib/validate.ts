@@ -14,6 +14,9 @@ export function validateDataset(d: FillerDataset): string[] {
     p.push(`${where}: has no episodes`);
     return p;
   }
+  if (d.franchiseOrder !== undefined && (!Number.isInteger(d.franchiseOrder) || d.franchiseOrder < 1))
+    p.push(`${where}: franchiseOrder must be a positive integer`);
+  if ((d.seasonLabel || d.franchiseOrder) && !d.franchise) p.push(`${where}: seasonLabel/franchiseOrder need a franchise`);
   if (d.totalEpisodes !== d.episodes.length) p.push(`${where}: totalEpisodes (${d.totalEpisodes}) ≠ episodes (${d.episodes.length})`);
   const seen = new Set<number>();
   for (const ep of d.episodes) {

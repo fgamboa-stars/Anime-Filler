@@ -152,6 +152,9 @@ export interface BuildOptions {
   anilistId: number;
   alternativeTitles?: string[];
   source?: string;
+  franchise?: string;
+  seasonLabel?: string;
+  franchiseOrder?: number;
   existing?: FillerDataset | null;
   mode?: 'merge' | 'replace';
   now?: Date;
@@ -205,10 +208,17 @@ export function buildDataset(rows: ImportRow[], options: BuildOptions): BuildRes
     alternativeTitles,
     totalEpisodes: episodes.length,
     ...(options.source ?? existing?.source ? { source: options.source ?? existing?.source } : {}),
+    ...pick('franchise', options.franchise ?? existing?.franchise),
+    ...pick('seasonLabel', options.seasonLabel ?? existing?.seasonLabel),
+    ...pick('franchiseOrder', options.franchiseOrder ?? existing?.franchiseOrder),
     updatedAt: (options.now ?? new Date()).toISOString(),
     episodes,
   };
   return { dataset, added, updated, unchanged, removed, gaps };
+}
+
+function pick<K extends string, V>(key: K, value: V | undefined): Partial<Record<K, V>> {
+  return value === undefined || value === '' ? {} : ({ [key]: value } as Record<K, V>);
 }
 
 export interface ReportInput {

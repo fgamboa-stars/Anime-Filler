@@ -1,20 +1,20 @@
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
-import { decodeStrip } from '@/utils/dataset';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
 import { findCatalogByAniListId, getCatalog } from '@/services/datasets';
-import type { CatalogEntry } from '@/types';
+import { groupCatalog, groupStrip, type FranchiseGroup } from '@/utils/franchise';
 
 export default function DiscoverPage() {
   useDocumentTitle('Discover');
   const catalog = getCatalog();
-  const mostFiller = [...catalog].sort((a, b) => b.fillerPercentage - a.fillerPercentage).slice(0, 5);
-  const leastFiller = [...catalog].sort((a, b) => a.fillerPercentage - b.fillerPercentage).slice(0, 5);
-  const catalogMedia = useAnimeByIds(catalog.map((c) => c.anilistId));
+  const groups = groupCatalog(catalog);
+  const mostFiller = [...groups].sort((a, b) => b.fillerPercentage - a.fillerPercentage || b.totalEpisodes - a.totalEpisodes).slice(0, 8);
+  const leastFiller = [...groups].sort((a, b) => a.fillerPercentage - b.fillerPercentage || b.totalEpisodes - a.totalEpisodes).slice(0, 8);
+  const catalogMedia = useAnimeByIds(groups.map((g) => g.first.anilistId));
   const topRated = useTopRated(12);
 
   return (
@@ -80,7 +80,7 @@ function FillerRanking({
   id: string;
   title: string;
   description: string;
-  entries: CatalogEntry[];
+  entries: FranchiseGroup[];
   media: MediaSummary[];
 }) {
   return (
@@ -90,24 +90,25 @@ function FillerRanking({
       </h2>
       <p className="mt-1 text-sm text-muted-foreground">{description}</p>
       <ol className="mt-5 flex flex-col gap-4">
-        {entries.map((entry, i) => {
-          const m = media.find((x) => x.id === entry.anilistId);
+        {entries.map((group, i) => {
+          const m = media.find((x) => x.id === group.first.anilistId);
           return (
-            <li key={entry.slug} className="flex items-center gap-4">
+            <li key={group.key} className="flex items-center gap-4">
               <span className="tabular w-5 text-right font-display text-lg font-bold text-muted-foreground">{i + 1}</span>
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline justify-between gap-3">
-                  <Link to={`/anime/${entry.slug}`} className="truncate font-semibold hover:underline underline-offset-4">
-                    {entry.title}
+                  <Link to={`/anime/${group.first.slug}`} className="truncate font-semibold hover:underline underline-offset-4">
+                    {group.title}
                   </Link>
                   <span className="tabular shrink-0 text-sm">
-                    <span className="font-semibold text-filler">{entry.fillerPercentage}%</span>
+                    <span className={`font-semibold ${group.fillerPercentage === 0 ? 'text-canon' : 'text-filler'}`}>{group.fillerPercentage}%</span>
                     <span className="text-muted-foreground"> filler</span>
                   </span>
                 </div>
-                <EpisodeStrip episodes={decodeStrip(entry.strip)} size="sm" label={`${entry.title} episode strip`} className="mt-2" />
+                <EpisodeStrip episodes={groupStrip(group)} size="sm" label={`${group.title} episode strip`} className="mt-2" />
                 <p className="mt-1.5 text-xs text-muted-foreground">
-                  {entry.counts.FILLER} of {entry.totalEpisodes} episodes are filler
+                  {group.counts.FILLER} of {group.totalEpisodes} episodes are filler
+                  {group.entries.length > 1 ? ` across ${group.entries.length} seasons` : ''}
                   {m?.averageScore ? `, rated ${m.averageScore}% on AniList` : ''}
                 </p>
               </div>

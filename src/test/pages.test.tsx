@@ -31,10 +31,10 @@ afterEach(() => {
 
 describe('anime without filler data', () => {
   it('shows AniList metadata and the "not available" notice', async () => {
-    mockAniList(() => ({ body: { data: { Media: media(16498, 'Attack on Titan', { genres: ['Action', 'Drama'] }) } } }));
-    renderAt('/anime/16498-attack-on-titan');
+    mockAniList(() => ({ body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { genres: ['Adventure', 'Drama'] }) } } }));
+    renderAt('/anime/154587-frieren');
 
-    expect(await screen.findByRole('heading', { level: 1, name: 'Attack on Titan' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { level: 1, name: 'Frieren: Beyond Journey’s End' })).toBeInTheDocument();
     expect(screen.getByText('Filler data is not currently available for this anime.')).toBeInTheDocument();
     expect(screen.getByText('Anime information is provided by AniList.')).toBeInTheDocument();
     expect(screen.getByText('Additional filler datasets may be added in future updates.')).toBeInTheDocument();
@@ -121,6 +121,18 @@ describe('airing series', () => {
     mockAniList(() => ({ body: { data: { Media: media(21, 'One Piece', { episodes: null, status: 'RELEASING', nextAiringEpisode: { episode: 1181 } }) } } }));
     renderAt('/anime/one-piece');
     expect(await screen.findByText(/This guide covers episodes 1–1168/, {}, { timeout: 4000 })).toHaveTextContent('the newest 12 aren’t classified yet');
+  });
+});
+
+describe('franchises', () => {
+  it('shows a season switcher linking every season of the show', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(21856, 'My Hero Academia Season 2', { episodes: 25 }) } } }));
+    renderAt('/anime/my-hero-academia-season-2');
+    const nav = await screen.findByRole('navigation', { name: 'My Hero Academia seasons' });
+    const links = within(nav).getAllByRole('link');
+    expect(links).toHaveLength(8);
+    expect(within(nav).getByRole('link', { current: 'page' })).toHaveTextContent('Season 2');
+    expect(links[0]).toHaveAttribute('href', '/anime/my-hero-academia');
   });
 });
 
