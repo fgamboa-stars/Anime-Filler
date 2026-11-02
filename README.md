@@ -27,7 +27,7 @@ It runs entirely in the browser and costs **$0/month**: no backend, no database,
 | --- | --- |
 | Framework | React 18, TypeScript, Vite |
 | Styling | Tailwind CSS v4, shadcn/ui-style components (Radix Slot, CVA), Lucide icons |
-| Routing | React Router 6 |
+| Routing | React Router 7 (React 18 compatible) |
 | State | Zustand (persisted to `localStorage`) |
 | Search | Fuse.js over AniList results and local datasets |
 | Data | AniList GraphQL API (metadata) + JSON datasets in `src/data/` (filler classifications) |
