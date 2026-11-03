@@ -2,6 +2,8 @@
 
 Anime Filler Finder is a static single-page app. Everything happens in the browser; there is no server, database or account system. This keeps hosting at $0 and the codebase small.
 
+The optional [episode classifier](../classifier/README.md) is a separate service with its own database. It feeds this app by writing ordinary dataset files, so nothing below changes when it is not running.
+
 ## Two separate data systems
 
 | | AniList (remote) | Filler datasets (local) |

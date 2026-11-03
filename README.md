@@ -89,6 +89,7 @@ Anime-Filler/
 - [Architecture](docs/ARCHITECTURE.md): how metadata and filler data fit together
 - [Importing data](docs/IMPORTING_DATA.md): add a new anime from a CSV
 - [Deployment](docs/DEPLOYMENT.md): ship to Vercel for free
+- [Episode classifier](classifier/README.md): optional separate service that predicts classifications for newly imported episodes
 
 ## Deployment
 

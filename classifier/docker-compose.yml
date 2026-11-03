@@ -1,0 +1,49 @@
+# Run from the repository root: docker compose -f classifier/docker-compose.yml up --build
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    # Docker's default of 64 MB is too small for a parallel build of the vector index.
+    shm_size: 2gb
+    environment:
+      POSTGRES_DB: classifier
+      POSTGRES_USER: classifier
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U classifier -d classifier']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build:
+      context: ..
+      dockerfile: classifier/Dockerfile
+    environment:
+      DATABASE_URL: postgres://classifier:${POSTGRES_PASSWORD}@postgres:5432/classifier
+      API_TOKENS: ${API_TOKENS:?set API_TOKENS}
+      WORKER: 'false'
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: ..
+      dockerfile: classifier/Dockerfile
+    command: ['node', 'dist/cli.js', 'worker']
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://classifier:${POSTGRES_PASSWORD}@postgres:5432/classifier
+    healthcheck:
+      disable: true
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:
