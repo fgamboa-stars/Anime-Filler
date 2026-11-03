@@ -77,7 +77,7 @@ export default function HomePage() {
                   <dd className="text-kpi">{groups.length}</dd>
                 </div>
                 <div className="text-label mt-4 flex flex-col-reverse border-t-2 border-primary-foreground/30 pt-3">
-                  <dt>episodes classified</dt>
+                  <dt className="max-w-[7rem]">episodes classified</dt>
                   <dd className="tabular">{catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')}</dd>
                 </div>
               </dl>
