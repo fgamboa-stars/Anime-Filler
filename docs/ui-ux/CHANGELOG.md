@@ -488,3 +488,18 @@ Window (new), PixelIcon (new), Barcode (new), Starburst (new), every UI primitiv
 
 **Components affected**
 HomePage hero, GuideSearch (new, in HomePage), Starburst
+
+---
+
+## 11. Home page trims
+
+**What changed**
+- Removed the "Every anime is searchable. Filler guides are growing." section.
+- Removed the `guides.idx` guide filter. The guide grid is back to a plain list, and its page test was removed. The centred AniList search stays.
+- The "No sign-up" sticker text is now black on the red sticker.
+
+**Accessibility**
+- Black on `#dc2626` measures 4.10:1, and on dark-mode `#ef4444` it measures 5.26:1. The sticker text is 20px heavy (large text), so both pass.
+
+**Files**
+`src/pages/HomePage.tsx`, `src/components/retro/Starburst.tsx`, `src/test/pages.test.tsx`

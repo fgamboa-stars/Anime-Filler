@@ -12,7 +12,7 @@ export function Starburst({ children, className }: { children: React.ReactNode; 
       <svg aria-hidden viewBox="-2 -2 104 104" className="absolute inset-0 size-full">
         <polygon points={points} className="fill-filler stroke-foreground" strokeWidth={2.5} strokeLinejoin="miter" />
       </svg>
-      <span className="relative text-center font-[family-name:var(--font-display)] leading-[0.9] text-white uppercase">{children}</span>
+      <span className="relative text-center font-[family-name:var(--font-display)] leading-[0.9] text-[#0a0a0a] uppercase">{children}</span>
     </div>
   );
 }

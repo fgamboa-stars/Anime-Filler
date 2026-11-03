@@ -1,13 +1,10 @@
-import { useId, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ListChecks, ListX, Play, Search, X } from 'lucide-react';
+import { ArrowRight, ListChecks, ListX, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
-import { StateMessage } from '@/components/StateMessage';
-import { Input } from '@/components/ui/input';
 import { Starburst } from '@/components/retro/Starburst';
-import { Window } from '@/components/retro/Window';
 import { Poster } from '@/components/Poster';
 import { SearchBox } from '@/features/search/SearchBox';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
@@ -48,12 +45,6 @@ export default function HomePage() {
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
   const lastSlug = useProgressStore((s) => selectInProgress(s.progress)[0]?.slug);
   const featuredSlug = ordered[0]?.slug ?? 'naruto';
-  const [guideQuery, setGuideQuery] = useState('');
-  const visibleGroups = useMemo(() => {
-    const q = normalize(guideQuery);
-    if (!q) return groups;
-    return groups.filter((g) => [g.title, ...g.entries.flatMap((e) => [e.title, seasonLabel(e)])].some((t) => normalize(t).includes(q)));
-  }, [groups, guideQuery]);
 
   return (
     <>
@@ -148,51 +139,13 @@ export default function HomePage() {
             </Button>
           }
         />
-        <GuideSearch query={guideQuery} onQueryChange={setGuideQuery} shown={visibleGroups.length} total={groups.length} />
-        {visibleGroups.length > 0 ? (
-          <ul className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {visibleGroups.map((group) => (
-              <li key={group.key}>
-                <GuideCard group={group} media={covers.data?.find((m) => m.id === group.first.anilistId) ?? null} />
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <StateMessage
-            className="mt-8"
-            title={`No filler guides match “${guideQuery.trim()}”`}
-            action={
-              <>
-                <Button size="sm" variant="outline" onClick={() => setGuideQuery('')}>
-                  Clear search
-                </Button>
-                <Button asChild size="sm">
-                  <Link to={`/search?q=${encodeURIComponent(guideQuery.trim())}`}>Search all of AniList</Link>
-                </Button>
-              </>
-            }
-          >
-            Try another spelling, or search AniList for anime that don’t have a guide yet.
-          </StateMessage>
-        )}
-      </section>
-
-      <section aria-labelledby="coverage-heading" className="border-t border-border">
-        <div className="container-page grid gap-6 py-20 md:grid-cols-[1fr_1.3fr] md:gap-16">
-          <h2 id="coverage-heading" className="text-title text-balance">
-            Every anime is searchable. Filler guides are growing.
-          </h2>
-          <div className="text-lead space-y-4">
-            <p>
-              Titles, ratings, artwork and episode counts come live from AniList, so you can look up anything from Attack on Titan to this
-              season’s releases.
-            </p>
-            <p>
-              Episode-by-episode guides cover the long-running shows where skipping matters most. Look for the green “Filler data available”
-              badge in search results; everything else shows full details with a note that its guide is coming.
-            </p>
-          </div>
-        </div>
+        <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {groups.map((group) => (
+            <li key={group.key}>
+              <GuideCard group={group} media={covers.data?.find((m) => m.id === group.first.anilistId) ?? null} />
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );
@@ -257,67 +210,5 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
         </div>
       </div>
     </article>
-  );
-}
-
-/** Lower-case and strip punctuation so "Boruto: Naruto" matches "boruto naruto". */
-function normalize(text: string): string {
-  return text
-    .toLowerCase()
-    .normalize('NFKD')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
-}
-
-/** Filters the filler-guide list on this page (separate from the AniList search above). */
-function GuideSearch({
-  query,
-  onQueryChange,
-  shown,
-  total,
-}: {
-  query: string;
-  onQueryChange: (q: string) => void;
-  shown: number;
-  total: number;
-}) {
-  const id = useId();
-  return (
-    <Window title="guides.idx" bodyClassName="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:gap-5 sm:p-5">
-      <label htmlFor={`${id}-q`} className="text-label shrink-0">
-        Find a guide
-      </label>
-      <div className="relative min-w-0 flex-1">
-        <span
-          aria-hidden
-          className="pointer-events-none absolute inset-y-0 left-0 flex w-10 items-center justify-center border-r-2 border-input"
-        >
-          <Search className="size-4" strokeWidth={2.5} />
-        </span>
-        <Input
-          id={`${id}-q`}
-          type="search"
-          value={query}
-          onChange={(e) => onQueryChange(e.target.value)}
-          placeholder="Filter the guides, e.g. “dragon ball”"
-          autoComplete="off"
-          spellCheck={false}
-          className="pr-11 pl-[3.25rem] [&::-webkit-search-cancel-button]:hidden"
-        />
-        {query && (
-          <button
-            type="button"
-            onClick={() => onQueryChange('')}
-            aria-label="Clear guide filter"
-            className="absolute inset-y-0 right-0 flex w-11 items-center justify-center text-muted-foreground hover:text-foreground"
-          >
-            <X className="size-4" aria-hidden />
-          </button>
-        )}
-      </div>
-      <p className="text-label shrink-0 text-muted-foreground" aria-live="polite">
-        <span className="tabular text-foreground">{shown}</span> of <span className="tabular">{total}</span> series
-      </p>
-    </Window>
   );
 }
