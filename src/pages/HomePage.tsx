@@ -32,8 +32,8 @@ export default function HomePage() {
               </h1>
               <p className="text-label mt-6 text-muted-foreground">Search / Filter / Watch order / Track progress</p>
               <p className="text-lead mt-6 max-w-xl">
-                Search any anime on AniList. Where filler data exists, every episode is marked canon, mixed or filler — so you can build a
-                watch order and pick up where you left off.
+                First time watching and you want to keep track? Second walkthrough and you need to get to the good stuff? Pick and choose
+                what you watch and where you left off. Easy to use and built by the community.
               </p>
             </div>
             <div className="relative hidden lg:block">

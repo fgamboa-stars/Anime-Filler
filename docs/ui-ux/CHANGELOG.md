@@ -537,3 +537,13 @@ HomePage hero, GuideSearch (new, in HomePage), Starburst
 
 **Files**
 `src/components/layout/Logo.tsx`
+
+---
+
+## 14. Home intro copy
+
+**What changed**
+- Replaced the home-page intro paragraph with the owner's copy. Sentence starts are capitalized and "chose" is corrected to "choose".
+
+**Files**
+`src/pages/HomePage.tsx`
