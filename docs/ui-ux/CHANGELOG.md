@@ -526,3 +526,14 @@ HomePage hero, GuideSearch (new, in HomePage), Starburst
 
 **Files**
 `src/pages/GuidesPage.tsx` (new), `src/pages/HomePage.tsx`, `src/utils/franchise.ts`, `src/App.tsx`, `src/components/layout/AppLayout.tsx`, `src/test/pages.test.tsx`
+
+---
+
+## 13. Barcode logo
+
+**What changed**
+- The logo's coloured episode bars are replaced by a small barcode in the text colour. It is ink in light mode and off-white in dark mode, matching the retro direction.
+- The logo still links home, still has the accessible name ", home", and still appears in both the header and the footer.
+
+**Files**
+`src/components/layout/Logo.tsx`
