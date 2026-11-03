@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online-alicization-war-of-underworld-part-2",
+  "anilistId": 114308,
+  "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+  "alternativeTitles": [
+    "SAO War of Underworld 2"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 37–47, renumbered to match AniList)",
+  "franchise": "Sword Art Online",
+  "seasonLabel": "War of Underworld Part 2",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-03T05:46:50.067Z",
+  "episodes": [
+    {"number":1,"title":"The Great Underworld War","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":2,"title":"End to Eternity","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":3,"title":"Instigation","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":4,"title":"Code 871","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":5,"title":"Prince of Hell","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":6,"title":"Memories","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":7,"title":"Awakening","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":8,"title":"The Night-Sky Blade","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":9,"title":"Beyond Time","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":10,"title":"Alice","type":"CANON","arc":"War of Underworld Part 2"},
+    {"number":11,"title":"New World","type":"CANON","arc":"War of Underworld Part 2"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-ghoul-root-a",
+  "anilistId": 20850,
+  "title": "Tokyo Ghoul √A",
+  "alternativeTitles": [
+    "Tokyo Ghoul Root A"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Tokyo Ghoul",
+  "seasonLabel": "√A",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:46.102Z",
+  "episodes": [
+    {"number":1,"title":"New Surge","type":"MIXED","arc":"√A"},
+    {"number":2,"title":"Dancing Flowers","type":"MIXED","arc":"√A"},
+    {"number":3,"title":"Hangman","type":"MIXED","arc":"√A"},
+    {"number":4,"title":"Deeper Layers","type":"MIXED","arc":"√A"},
+    {"number":5,"title":"Rift","type":"MIXED","arc":"√A"},
+    {"number":6,"title":"Thousand Paths","type":"MIXED","arc":"√A"},
+    {"number":7,"title":"Permeation","type":"MIXED","arc":"√A"},
+    {"number":8,"title":"Old Nines","type":"MIXED","arc":"√A"},
+    {"number":9,"title":"City In Waiting","type":"MIXED","arc":"√A"},
+    {"number":10,"title":"Last Rain","type":"MIXED","arc":"√A"},
+    {"number":11,"title":"Deluge of Flowers","type":"MIXED","arc":"√A"},
+    {"number":12,"title":"Ken","type":"MIXED","arc":"√A"}
+  ]
+}

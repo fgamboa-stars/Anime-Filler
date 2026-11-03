@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "hunter-x-hunter-1999-yorknew-ova",
+  "anilistId": 137,
+  "title": "Hunter x Hunter: Yorknew City (OVA)",
+  "alternativeTitles": [
+    "Hunter x Hunter OVA"
+  ],
+  "totalEpisodes": 8,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 63–70, renumbered to match AniList)",
+  "franchise": "Hunter x Hunter (1999)",
+  "seasonLabel": "Yorknew City OVA",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:38.438Z",
+  "episodes": [
+    {"number":1,"title":"Spider × Corpse × Fake","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":2,"title":"Friends × Costumes × Hell's Ear","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":3,"title":"Pursuit × Escape × Spiders on the Run","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":4,"title":"Hostages × Insignificant Bugs × Communicated Emotions","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":5,"title":"Report × Darkness × Released Chain","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":6,"title":"Dispute × Break-up × Swinging Fist","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":7,"title":"Exchange × Revenge × Judgment Chain","type":"CANON","arc":"Yorknew City (conclusion)"},
+    {"number":8,"title":"Feelings × Hopelessness × The Spider's Downfall","type":"CANON","arc":"Yorknew City (conclusion)"}
+  ]
+}

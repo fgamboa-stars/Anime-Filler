@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins",
+  "anilistId": 20789,
+  "title": "The Seven Deadly Sins",
+  "alternativeTitles": [
+    "Nanatsu no Taizai"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "The Seven Deadly Sins",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:50.670Z",
+  "episodes": [
+    {"number":1,"title":"The Seven Deadly Sins","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"The Sword of the Holy Knight","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"The Sin in the Sleeping Forest","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"A Little Girl's Dream","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"Even If You Should Die","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"The Poem of Beginnings","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"A Touching Reunion","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"The Fearsome Pursuer","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"Dark Pulse","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Vaizel Fight Festival","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Pent-Up Feelings","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"Bloodcurdling Cannon","type":"CANON","arc":"Season 1"},
+    {"number":13,"title":"The Angel of Destruction","type":"CANON","arc":"Season 1"},
+    {"number":14,"title":"A Reader of Books","type":"CANON","arc":"Season 1"},
+    {"number":15,"title":"Unholy Knight","type":"CANON","arc":"Season 1"},
+    {"number":16,"title":"The Legends, Provoked","type":"CANON","arc":"Season 1"},
+    {"number":17,"title":"The First Sacrifice","type":"CANON","arc":"Season 1"},
+    {"number":18,"title":"Even If It Costs Me My Life","type":"CANON","arc":"Season 1"},
+    {"number":19,"title":"The Fairy King Waits in Vain","type":"CANON","arc":"Season 1"},
+    {"number":20,"title":"The Courage Charm","type":"MIXED","arc":"Season 1"},
+    {"number":21,"title":"The Looming Threat","type":"CANON","arc":"Season 1"},
+    {"number":22,"title":"What I Can Do For You","type":"MIXED","arc":"Season 1"},
+    {"number":23,"title":"Despair Descends","type":"CANON","arc":"Season 1"},
+    {"number":24,"title":"The Heroes","type":"MIXED","arc":"Season 1"}
+  ]
+}

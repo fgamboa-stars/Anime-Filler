@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "blue-exorcist",
+  "anilistId": 9919,
+  "title": "Blue Exorcist",
+  "alternativeTitles": [
+    "Ao no Exorcist"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Blue Exorcist",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:56.450Z",
+  "episodes": [
+    {"number":1,"title":"The Devil Resides in Human Souls","type":"MIXED","arc":"Season 1"},
+    {"number":2,"title":"Gehenna Gate","type":"MIXED","arc":"Season 1"},
+    {"number":3,"title":"Brothers","type":"MIXED","arc":"Season 1"},
+    {"number":4,"title":"The Garden of Amahara","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"A Boy from the Cursed Temple","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"The Phantom Chef","type":"FILLER","arc":"Season 1"},
+    {"number":7,"title":"A Flock of Plovers","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"Now a Certain Man Was Sick...","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"Memories","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Black Cat","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Demon of the Deep Seas","type":"FILLER","arc":"Season 1"},
+    {"number":12,"title":"A Game of Tag","type":"CANON","arc":"Season 1"},
+    {"number":13,"title":"Proof","type":"CANON","arc":"Season 1"},
+    {"number":14,"title":"A Fun Camping Trip","type":"CANON","arc":"Season 1"},
+    {"number":15,"title":"Act of Kindness","type":"CANON","arc":"Season 1"},
+    {"number":16,"title":"The Wager","type":"MIXED","arc":"Season 1"},
+    {"number":17,"title":"Temptation","type":"MIXED","arc":"Season 1"},
+    {"number":18,"title":"Gufu","type":"FILLER","arc":"Season 1"},
+    {"number":19,"title":"An Ordinary Day","type":"FILLER","arc":"Season 1"},
+    {"number":20,"title":"Mask","type":"FILLER","arc":"Season 1"},
+    {"number":21,"title":"The Secret Garden","type":"FILLER","arc":"Season 1"},
+    {"number":22,"title":"Demon-hunting","type":"FILLER","arc":"Season 1"},
+    {"number":23,"title":"Truth","type":"FILLER","arc":"Season 1"},
+    {"number":24,"title":"Satan's Spawn","type":"FILLER","arc":"Season 1"},
+    {"number":25,"title":"Stop, Time","type":"FILLER","arc":"Season 1"}
+  ]
+}

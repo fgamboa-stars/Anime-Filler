@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "haikyuu-season-2",
+  "anilistId": 20992,
+  "title": "Haikyu!! Season 2",
+  "alternativeTitles": [
+    "Haikyuu!! 2nd Season"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–50, renumbered to match AniList). The two 2017 OVAs (Land vs. Air, The Path of the Ball) are listed separately on AniList",
+  "franchise": "Haikyu!!",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:54.088Z",
+  "episodes": [
+    {"number":1,"title":"Let's Go To Tokyo!!","type":"CANON","arc":"Season 2"},
+    {"number":2,"title":"Direct Sunlight","type":"CANON","arc":"Season 2"},
+    {"number":3,"title":"Townsperson B","type":"CANON","arc":"Season 2"},
+    {"number":4,"title":"Center Ace","type":"CANON","arc":"Season 2"},
+    {"number":5,"title":"Greed","type":"CANON","arc":"Season 2"},
+    {"number":6,"title":"Tempo","type":"CANON","arc":"Season 2"},
+    {"number":7,"title":"Moonrise","type":"CANON","arc":"Season 2"},
+    {"number":8,"title":"Illusionary Hero","type":"CANON","arc":"Season 2"},
+    {"number":9,"title":"Umbrella","type":"CANON","arc":"Season 2"},
+    {"number":10,"title":"Gears","type":"CANON","arc":"Season 2"},
+    {"number":11,"title":"Up Above","type":"CANON","arc":"Season 2"},
+    {"number":12,"title":"Match Begins!!","type":"CANON","arc":"Season 2"},
+    {"number":13,"title":"Simple, Pure Strength","type":"CANON","arc":"Season 2"},
+    {"number":14,"title":"Growing Fast","type":"CANON","arc":"Season 2"},
+    {"number":15,"title":"Playground","type":"CANON","arc":"Season 2"},
+    {"number":16,"title":"To the Next","type":"CANON","arc":"Season 2"},
+    {"number":17,"title":"The Fight of the Spineless","type":"CANON","arc":"Season 2"},
+    {"number":18,"title":"The Losers","type":"CANON","arc":"Season 2"},
+    {"number":19,"title":"The Iron Wall Can Be Constructed Any Number of Times","type":"CANON","arc":"Season 2"},
+    {"number":20,"title":"Wiping Away","type":"CANON","arc":"Season 2"},
+    {"number":21,"title":"The Breaker","type":"CANON","arc":"Season 2"},
+    {"number":22,"title":"The Fight of the Previously Spineless","type":"CANON","arc":"Season 2"},
+    {"number":23,"title":"Team","type":"CANON","arc":"Season 2"},
+    {"number":24,"title":"Switch for the Utmost Limit","type":"CANON","arc":"Season 2"},
+    {"number":25,"title":"Declaration of War","type":"CANON","arc":"Season 2"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "d-gray-man-hallow",
+  "anilistId": 21558,
+  "title": "D.Gray-man Hallow",
+  "alternativeTitles": [
+    "D.Gray-man HALLOW"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 104–116, renumbered to match AniList)",
+  "franchise": "D.Gray-man",
+  "seasonLabel": "Hallow",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:36.514Z",
+  "episodes": [
+    {"number":1,"title":"HALLOW: The Fourteenth","type":"CANON","arc":"Hallow"},
+    {"number":2,"title":"HALLOW: Lonely Boy","type":"CANON","arc":"Hallow"},
+    {"number":3,"title":"HALLOW: It'll Be Fine If I Wash My Face","type":"CANON","arc":"Hallow"},
+    {"number":4,"title":"HALLOW: Blood Crusade","type":"CANON","arc":"Hallow"},
+    {"number":5,"title":"HALLOW: Alma Karma","type":"CANON","arc":"Hallow"},
+    {"number":6,"title":"HALLOW: friend","type":"CANON","arc":"Hallow"},
+    {"number":7,"title":"HALLOW: The Truth about a Sterile Flower","type":"CANON","arc":"Hallow"},
+    {"number":8,"title":"HALLOW: Awakening","type":"CANON","arc":"Hallow"},
+    {"number":9,"title":"HALLOW: Little Good-Bye","type":"CANON","arc":"Hallow"},
+    {"number":10,"title":"HALLOW: Sinner in Despair","type":"CANON","arc":"Hallow"},
+    {"number":11,"title":"HALLOW: Hidden One","type":"CANON","arc":"Hallow"},
+    {"number":12,"title":"HALLOW: My Home","type":"CANON","arc":"Hallow"},
+    {"number":13,"title":"HALLOW: Walker","type":"CANON","arc":"Hallow"}
+  ]
+}

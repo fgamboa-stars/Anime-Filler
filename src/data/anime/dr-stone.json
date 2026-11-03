@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "dr-stone",
+  "anilistId": 105333,
+  "title": "Dr. Stone",
+  "alternativeTitles": [
+    "Dr. STONE"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com. The Ryusui special is listed separately on AniList",
+  "franchise": "Dr. Stone",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:47:00.486Z",
+  "episodes": [
+    {"number":1,"title":"Stone World","type":"CANON","arc":"Stone World"},
+    {"number":2,"title":"King of the Stone World","type":"CANON","arc":"Stone World"},
+    {"number":3,"title":"Weapons of Science","type":"CANON","arc":"Stone World"},
+    {"number":4,"title":"Fire the Smoke Signal","type":"CANON","arc":"Stone World"},
+    {"number":5,"title":"Stone World The Beginning","type":"CANON","arc":"Stone World"},
+    {"number":6,"title":"Two Nations of the Stone World","type":"CANON","arc":"Stone World"},
+    {"number":7,"title":"Where Two Million Years Have Gone","type":"CANON","arc":"Stone World"},
+    {"number":8,"title":"Stone Road","type":"CANON","arc":"Stone World"},
+    {"number":9,"title":"Let There Be the Light of Science","type":"CANON","arc":"Stone World"},
+    {"number":10,"title":"A Tenuous Alliance","type":"CANON","arc":"Stone World"},
+    {"number":11,"title":"Clear World","type":"CANON","arc":"Stone World"},
+    {"number":12,"title":"Buddies Back to Back","type":"CANON","arc":"Stone World"},
+    {"number":13,"title":"Masked Warrior","type":"CANON","arc":"Stone World"},
+    {"number":14,"title":"Master of Flame","type":"CANON","arc":"Stone World"},
+    {"number":15,"title":"The Culmination of Two Million Years","type":"CANON","arc":"Stone World"},
+    {"number":16,"title":"A Tale for the Ages","type":"CANON","arc":"Stone World"},
+    {"number":17,"title":"A Hundred Nights and a Thousand Skys","type":"CANON","arc":"Stone World"},
+    {"number":18,"title":"Stone Wars","type":"CANON","arc":"Stone World"},
+    {"number":19,"title":"To Modernity","type":"CANON","arc":"Stone World"},
+    {"number":20,"title":"The Age of Energy","type":"CANON","arc":"Stone World"},
+    {"number":21,"title":"Spartan Crafts Club","type":"CANON","arc":"Stone World"},
+    {"number":22,"title":"The Treasure","type":"CANON","arc":"Stone World"},
+    {"number":23,"title":"Wave of Science","type":"CANON","arc":"Stone World"},
+    {"number":24,"title":"Voices Over Infinite Distance","type":"CANON","arc":"Stone World"}
+  ]
+}

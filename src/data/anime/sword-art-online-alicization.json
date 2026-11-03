@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online-alicization",
+  "anilistId": 100182,
+  "title": "Sword Art Online: Alicization",
+  "alternativeTitles": [
+    "SAO Alicization"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Sword Art Online",
+  "seasonLabel": "Alicization",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:49.008Z",
+  "episodes": [
+    {"number":1,"title":"Underworld","type":"CANON","arc":"Alicization"},
+    {"number":2,"title":"The Demon Tree","type":"CANON","arc":"Alicization"},
+    {"number":3,"title":"The End Mountains","type":"CANON","arc":"Alicization"},
+    {"number":4,"title":"Departure","type":"CANON","arc":"Alicization"},
+    {"number":5,"title":"Ocean Turtle","type":"CANON","arc":"Alicization"},
+    {"number":6,"title":"Project Alicization","type":"CANON","arc":"Alicization"},
+    {"number":7,"title":"Swordcraft Academy","type":"CANON","arc":"Alicization"},
+    {"number":8,"title":"Swordsman's Pride","type":"CANON","arc":"Alicization"},
+    {"number":9,"title":"Nobleman's Responsibilities","type":"CANON","arc":"Alicization"},
+    {"number":10,"title":"Taboo Index","type":"CANON","arc":"Alicization"},
+    {"number":11,"title":"Central Cathedral","type":"CANON","arc":"Alicization"},
+    {"number":12,"title":"The Sage of the Library","type":"CANON","arc":"Alicization"},
+    {"number":13,"title":"Ruler and Mediator","type":"CANON","arc":"Alicization"},
+    {"number":14,"title":"The Crimson Knight","type":"CANON","arc":"Alicization"},
+    {"number":15,"title":"The Relentless Knight","type":"CANON","arc":"Alicization"},
+    {"number":16,"title":"The Osmanthus Knight","type":"CANON","arc":"Alicization"},
+    {"number":17,"title":"Truce","type":"CANON","arc":"Alicization"},
+    {"number":18,"title":"The Legendary Hero","type":"CANON","arc":"Alicization"},
+    {"number":19,"title":"The Seal of the Right Eye","type":"CANON","arc":"Alicization"},
+    {"number":20,"title":"Synthesis","type":"CANON","arc":"Alicization"},
+    {"number":21,"title":"The 32nd Knight","type":"CANON","arc":"Alicization"},
+    {"number":22,"title":"Titan of the Sword","type":"CANON","arc":"Alicization"},
+    {"number":23,"title":"Administrator","type":"CANON","arc":"Alicization"},
+    {"number":24,"title":"My Hero","type":"CANON","arc":"Alicization"}
+  ]
+}

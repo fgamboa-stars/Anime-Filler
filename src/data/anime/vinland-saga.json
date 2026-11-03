@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "vinland-saga",
+  "anilistId": 101348,
+  "title": "Vinland Saga",
+  "alternativeTitles": [
+    "VINLAND SAGA"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Vinland Saga",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:47:05.887Z",
+  "episodes": [
+    {"number":1,"title":"Somewhere Not Here","type":"CANON","arc":"Prologue"},
+    {"number":2,"title":"Sword","type":"CANON","arc":"Prologue"},
+    {"number":3,"title":"Troll","type":"CANON","arc":"Prologue"},
+    {"number":4,"title":"A True Warrior","type":"CANON","arc":"Prologue"},
+    {"number":5,"title":"The Troll's Son","type":"ANIME_CANON","arc":"Prologue"},
+    {"number":6,"title":"The Journey Begins","type":"MIXED","arc":"Prologue"},
+    {"number":7,"title":"Normanni","type":"CANON","arc":"Prologue"},
+    {"number":8,"title":"Beyond The Edge of The Sea","type":"CANON","arc":"Prologue"},
+    {"number":9,"title":"The Battle of London Bridge","type":"CANON","arc":"Prologue"},
+    {"number":10,"title":"Ragnarok","type":"CANON","arc":"Prologue"},
+    {"number":11,"title":"A Gamble","type":"CANON","arc":"Prologue"},
+    {"number":12,"title":"The Land on The Far Bank","type":"CANON","arc":"Prologue"},
+    {"number":13,"title":"Child of a Hero","type":"CANON","arc":"Prologue"},
+    {"number":14,"title":"The Light of Dawn","type":"CANON","arc":"Prologue"},
+    {"number":15,"title":"After Yule","type":"CANON","arc":"Prologue"},
+    {"number":16,"title":"History of Beasts","type":"CANON","arc":"Prologue"},
+    {"number":17,"title":"Servant","type":"CANON","arc":"Prologue"},
+    {"number":18,"title":"Out of the Cradle","type":"CANON","arc":"Prologue"},
+    {"number":19,"title":"United Front","type":"CANON","arc":"Prologue"},
+    {"number":20,"title":"Crown","type":"CANON","arc":"Prologue"},
+    {"number":21,"title":"Reunion","type":"CANON","arc":"Prologue"},
+    {"number":22,"title":"Lone Wolf","type":"CANON","arc":"Prologue"},
+    {"number":23,"title":"Miscalculation","type":"CANON","arc":"Prologue"},
+    {"number":24,"title":"END OF THE PROLOGUE","type":"CANON","arc":"Prologue"}
+  ]
+}

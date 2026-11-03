@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-ghoul-re",
+  "anilistId": 100240,
+  "title": "Tokyo Ghoul:re",
+  "alternativeTitles": [
+    "Tokyo Ghoul re"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Tokyo Ghoul",
+  "seasonLabel": ":re",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:46.673Z",
+  "episodes": [
+    {"number":1,"title":"START: Those Who Hunt","type":"CANON","arc":":re"},
+    {"number":2,"title":"member: Fragments","type":"CANON","arc":":re"},
+    {"number":3,"title":"fresh: Eve","type":"CANON","arc":":re"},
+    {"number":4,"title":"MAIN: Auction","type":"CANON","arc":":re"},
+    {"number":5,"title":"PresS: Night of Scattering","type":"CANON","arc":":re"},
+    {"number":6,"title":"turn: In the End","type":"CANON","arc":":re"},
+    {"number":7,"title":"mind: Days of Recollections","type":"CANON","arc":":re"},
+    {"number":8,"title":"TAKe: One Who Writhes","type":"CANON","arc":":re"},
+    {"number":9,"title":"play: Departed Spirit","type":"CANON","arc":":re"},
+    {"number":10,"title":"think: Sway","type":"CANON","arc":":re"},
+    {"number":11,"title":"writE: The Absent One","type":"CANON","arc":":re"},
+    {"number":12,"title":"Beautiful Dream: Daybreak","type":"CANON","arc":":re"}
+  ]
+}

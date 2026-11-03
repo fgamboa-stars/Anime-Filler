@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins-imperial-wrath-of-the-gods",
+  "anilistId": 108928,
+  "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
+  "alternativeTitles": [
+    "Nanatsu no Taizai: Kamigami no Gekirin"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 53–76, renumbered to match AniList)",
+  "franchise": "The Seven Deadly Sins",
+  "seasonLabel": "Imperial Wrath of the Gods",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:52.389Z",
+  "episodes": [
+    {"number":1,"title":"The Light That Disperses Darkness","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":2,"title":"Memories of the Holy War","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":3,"title":"Let There Be Light","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":4,"title":"The Ten Commandments vs. The Four Archangels","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":5,"title":"Emotional Maelstrom","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":6,"title":"We Call That Love","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":7,"title":"Deadly Sins Unite!","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":8,"title":"The Doll Seeks Love","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":9,"title":"The Cursed Lovers","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":10,"title":"The Life We Live","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":11,"title":"The Hateful Cannot Rest","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":12,"title":"Love is a Maiden's Power","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":13,"title":"The Almighty vs. the Greatest Evil","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":14,"title":"A New Threat","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":15,"title":"To Our Captain","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":16,"title":"The Seven Deadly Sins End","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":17,"title":"Our Choices","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":18,"title":"March of the Saints","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":19,"title":"The Holy War Pact","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":20,"title":"Child of Hope","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":21,"title":"Beginning of the Holy War","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":22,"title":"War-torn Britannia","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":23,"title":"The One Twisted by Darkness","type":"CANON","arc":"Imperial Wrath of the Gods"},
+    {"number":24,"title":"Rampaging Love","type":"CANON","arc":"Imperial Wrath of the Gods"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins-signs-of-holy-war",
+  "anilistId": 21385,
+  "title": "The Seven Deadly Sins: Signs of Holy War",
+  "alternativeTitles": [
+    "Nanatsu no Taizai: Seisen no Shirushi"
+  ],
+  "totalEpisodes": 4,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–28, renumbered to match AniList)",
+  "franchise": "The Seven Deadly Sins",
+  "seasonLabel": "Signs of Holy War",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:51.260Z",
+  "episodes": [
+    {"number":1,"title":"The Dark Dream Begins","type":"FILLER","arc":"Signs of Holy War"},
+    {"number":2,"title":"Our Fighting Festival","type":"FILLER","arc":"Signs of Holy War"},
+    {"number":3,"title":"In Pursuit of First Love","type":"FILLER","arc":"Signs of Holy War"},
+    {"number":4,"title":"The Shape of Love","type":"FILLER","arc":"Signs of Holy War"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "spy-x-family-season-3",
+  "anilistId": 177937,
+  "title": "Spy x Family Season 3",
+  "alternativeTitles": [
+    "SPY x FAMILY Season 3"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 38–48, renumbered to match AniList)",
+  "franchise": "Spy x Family",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:59.897Z",
+  "episodes": [
+    {"number":1,"title":"Berlint Panic | The Informant and Nightfall","type":"MIXED","arc":"Season 3"},
+    {"number":2,"title":"Avoid Getting Tonitrus Bolts | ■■■■'s Memories I","type":"CANON","arc":"Season 3"},
+    {"number":3,"title":"■■■■'s Memories II","type":"CANON","arc":"Season 3"},
+    {"number":4,"title":"Behind the Scandal | The Path to an Imperial Scholar","type":"CANON","arc":"Season 3"},
+    {"number":5,"title":"The Mommy-Friends Scheme","type":"CANON","arc":"Season 3"},
+    {"number":6,"title":"White Jealousy | The Eden College Busjacking Incident","type":"CANON","arc":"Season 3"},
+    {"number":7,"title":"The Red Circus","type":"CANON","arc":"Season 3"},
+    {"number":8,"title":"Take Down the Busjacker","type":"CANON","arc":"Season 3"},
+    {"number":9,"title":"Anya's Era Has Come","type":"CANON","arc":"Season 3"},
+    {"number":10,"title":"Austin's Troubles | A Normal Mixer | Moon Landing","type":"CANON","arc":"Season 3"},
+    {"number":11,"title":"Extreme Level 3 Situation","type":"CANON","arc":"Season 3"}
+  ]
+}

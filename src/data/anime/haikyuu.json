@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "haikyuu",
+  "anilistId": 20464,
+  "title": "Haikyu!!",
+  "alternativeTitles": [
+    "Haikyuu!!",
+    "HAIKYU!!"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com. The two 2017 OVAs (Land vs. Air, The Path of the Ball) are listed separately on AniList",
+  "franchise": "Haikyu!!",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:53.502Z",
+  "episodes": [
+    {"number":1,"title":"End and Beginning","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"Karasuno High School’s Volleyball Club","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"The Formidable Ally","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"The View From the Summit","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"A Coward's Anxiety","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"An Interesting Team","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"Versus the Great King","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"He Who Is Called \"Ace\"","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"A Toss to the Ace","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Yearning","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Decision","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"The Neko-Karasu Reunion","type":"CANON","arc":"Season 1"},
+    {"number":13,"title":"Rival","type":"CANON","arc":"Season 1"},
+    {"number":14,"title":"Formidable Opponents","type":"CANON","arc":"Season 1"},
+    {"number":15,"title":"Revival","type":"CANON","arc":"Season 1"},
+    {"number":16,"title":"Winners and Losers","type":"CANON","arc":"Season 1"},
+    {"number":17,"title":"The Iron Wall","type":"CANON","arc":"Season 1"},
+    {"number":18,"title":"Guarding Your Back","type":"CANON","arc":"Season 1"},
+    {"number":19,"title":"Conductors","type":"CANON","arc":"Season 1"},
+    {"number":20,"title":"Oikawa Tōru is not a Genius","type":"CANON","arc":"Season 1"},
+    {"number":21,"title":"Senpai's True Abilities","type":"CANON","arc":"Season 1"},
+    {"number":22,"title":"Evolution","type":"CANON","arc":"Season 1"},
+    {"number":23,"title":"The Point that Changes the Momentum","type":"CANON","arc":"Season 1"},
+    {"number":24,"title":"Removing the Lonely King","type":"CANON","arc":"Season 1"},
+    {"number":25,"title":"The Third Day","type":"CANON","arc":"Season 1"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "haikyuu-karasuno-vs-shiratorizawa",
+  "anilistId": 21698,
+  "title": "Haikyu!! Karasuno High vs Shiratorizawa Academy",
+  "alternativeTitles": [
+    "Haikyuu!! 3rd Season"
+  ],
+  "totalEpisodes": 10,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 51–60, renumbered to match AniList). The two 2017 OVAs (Land vs. Air, The Path of the Ball) are listed separately on AniList",
+  "franchise": "Haikyu!!",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:54.693Z",
+  "episodes": [
+    {"number":1,"title":"Greetings","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":2,"title":"The Threat of \"Left\"","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":3,"title":"GUESS-MONSTER","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":4,"title":"The Halo Around the Moon","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":5,"title":"Individual VS Numbers","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":6,"title":"The Chemical Change of Encounters","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":7,"title":"Obsession","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":8,"title":"An Annoying Guy","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":9,"title":"The Volleyball Idiots","type":"CANON","arc":"Karasuno vs. Shiratorizawa"},
+    {"number":10,"title":"The Battle of Concepts","type":"CANON","arc":"Karasuno vs. Shiratorizawa"}
+  ]
+}

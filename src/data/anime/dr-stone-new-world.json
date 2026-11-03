@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "dr-stone-new-world",
+  "anilistId": 131518,
+  "title": "Dr. Stone: New World",
+  "alternativeTitles": [
+    "Dr. STONE New World"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 37–47, renumbered to match AniList). The Ryusui special is listed separately on AniList",
+  "franchise": "Dr. Stone",
+  "seasonLabel": "New World",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:47:01.607Z",
+  "episodes": [
+    {"number":1,"title":"New World Map","type":"CANON","arc":"New World"},
+    {"number":2,"title":"Greed Equals Justice","type":"CANON","arc":"New World"},
+    {"number":3,"title":"First Contact","type":"CANON","arc":"New World"},
+    {"number":4,"title":"Eyes of Science","type":"CANON","arc":"New World"},
+    {"number":5,"title":"Science Vessel Perseus","type":"CANON","arc":"New World"},
+    {"number":6,"title":"Treasure Box","type":"CANON","arc":"New World"},
+    {"number":7,"title":"Ray of Despair, Ray of Hope","type":"CANON","arc":"New World"},
+    {"number":8,"title":"The Trump Card Aboard the Science Vessel","type":"CANON","arc":"New World"},
+    {"number":9,"title":"Beautiful Science","type":"CANON","arc":"New World"},
+    {"number":10,"title":"Science Wars","type":"CANON","arc":"New World"},
+    {"number":11,"title":"With This Fist, A Miracle","type":"CANON","arc":"New World"}
+  ]
+}

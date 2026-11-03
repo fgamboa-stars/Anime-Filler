@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins-revival-of-the-commandments",
+  "anilistId": 99539,
+  "title": "The Seven Deadly Sins: Revival of the Commandments",
+  "alternativeTitles": [
+    "Nanatsu no Taizai: Imashime no Fukkatsu"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 29–52, renumbered to match AniList)",
+  "franchise": "The Seven Deadly Sins",
+  "seasonLabel": "Revival of the Commandments",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:51.812Z",
+  "episodes": [
+    {"number":1,"title":"Revival of The Demon Clan","type":"MIXED","arc":"Revival of the Commandments"},
+    {"number":2,"title":"Existence and Proof","type":"MIXED","arc":"Revival of the Commandments"},
+    {"number":3,"title":"Sacred Treasure Lostvayne","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":4,"title":"The Ten Commandments on the Move","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":5,"title":"Overwhelming Violence","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":6,"title":"The Great Holy Knight Atones For His Sins","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":7,"title":"Where Memories Lead","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":8,"title":"The Druids' Holy Land","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":9,"title":"A Promise To A Loved One","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":10,"title":"What We Lacked","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":11,"title":"Father and Son","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":12,"title":"Where Love is Found","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":13,"title":"Farewell, Beloved Thief","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":14,"title":"Master of the Sun","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":15,"title":"A Bloodcurdling Confession","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":16,"title":"Death-Trap Maze","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":17,"title":"Legendary Figures","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":18,"title":"For Whom Does That Light Shine?","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":19,"title":"Meliodas vs the Ten Commandments","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":20,"title":"Pursuit of Hope","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":21,"title":"Certain Warmth","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":22,"title":"Return of the Sins","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":23,"title":"The Hero Rises!","type":"CANON","arc":"Revival of the Commandments"},
+    {"number":24,"title":"As Long As You Are Here","type":"CANON","arc":"Revival of the Commandments"}
+  ]
+}

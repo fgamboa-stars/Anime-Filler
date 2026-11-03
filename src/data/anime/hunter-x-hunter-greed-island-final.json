@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "hunter-x-hunter-greed-island-final",
+  "anilistId": 139,
+  "title": "Hunter x Hunter: Greed Island Final",
+  "alternativeTitles": [
+    "HxH Greed Island Final"
+  ],
+  "totalEpisodes": 14,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 79–92, renumbered to match AniList)",
+  "franchise": "Hunter x Hunter (1999)",
+  "seasonLabel": "Greed Island Final",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:39.619Z",
+  "episodes": [
+    {"number":1,"title":"Masadora × Big Strides × Bomb Devil","type":"CANON","arc":"Greed Island"},
+    {"number":2,"title":"Without Nen × New Year × Hunter Exam","type":"CANON","arc":"Greed Island"},
+    {"number":3,"title":"An Encounter × Chrollo × The Gold Dust Girl","type":"CANON","arc":"Greed Island"},
+    {"number":4,"title":"Contact × Razor × A United Front","type":"CANON","arc":"Greed Island"},
+    {"number":5,"title":"Meeting Again × Hisoka × Sporting Event","type":"CANON","arc":"Greed Island"},
+    {"number":6,"title":"Lighthouse × 8 People × Game Master","type":"CANON","arc":"Greed Island"},
+    {"number":7,"title":"Jan × Ken × Rock","type":"CANON","arc":"Greed Island"},
+    {"number":8,"title":"Unite × Impact × Bungee Gum","type":"CANON","arc":"Greed Island"},
+    {"number":9,"title":"Struggle × Pinch × War Declaration","type":"CANON","arc":"Greed Island"},
+    {"number":10,"title":"Stakeout × Preparation × Battle Start","type":"CANON","arc":"Greed Island"},
+    {"number":11,"title":"Bisky × Killua × New Special Attack","type":"CANON","arc":"Greed Island"},
+    {"number":12,"title":"Energy × Gyo × Little Flower","type":"CANON","arc":"Greed Island"},
+    {"number":13,"title":"Cruelty × Determination × Climax","type":"CANON","arc":"Greed Island"},
+    {"number":14,"title":"Game × Everything Cleared × Finale","type":"CANON","arc":"Greed Island"}
+  ]
+}

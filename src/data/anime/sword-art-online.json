@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online",
+  "anilistId": 11757,
+  "title": "Sword Art Online",
+  "alternativeTitles": [
+    "SAO"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Sword Art Online",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:47.830Z",
+  "episodes": [
+    {"number":1,"title":"The World of Swords","type":"CANON","arc":"Aincrad"},
+    {"number":2,"title":"Beater","type":"CANON","arc":"Aincrad"},
+    {"number":3,"title":"Red Nosed Reindeer","type":"CANON","arc":"Aincrad"},
+    {"number":4,"title":"The Black Swordsman","type":"CANON","arc":"Aincrad"},
+    {"number":5,"title":"Murder in the Safe Zone","type":"CANON","arc":"Aincrad"},
+    {"number":6,"title":"Illusionary Avenger","type":"CANON","arc":"Aincrad"},
+    {"number":7,"title":"The Temperature of the Heart","type":"CANON","arc":"Aincrad"},
+    {"number":8,"title":"The Sword Dance of Black and White","type":"CANON","arc":"Aincrad"},
+    {"number":9,"title":"The Blue-Eyed Demon","type":"CANON","arc":"Aincrad"},
+    {"number":10,"title":"Crimson Killing Intent","type":"CANON","arc":"Aincrad"},
+    {"number":11,"title":"The Girl of the Morning Dew","type":"CANON","arc":"Aincrad"},
+    {"number":12,"title":"Yui's Heart","type":"CANON","arc":"Aincrad"},
+    {"number":13,"title":"Edge of Hell's Abyss","type":"CANON","arc":"Aincrad"},
+    {"number":14,"title":"The End of the World","type":"CANON","arc":"Aincrad"},
+    {"number":15,"title":"Return","type":"CANON","arc":"Fairy Dance"},
+    {"number":16,"title":"Land of the Fairies","type":"CANON","arc":"Fairy Dance"},
+    {"number":17,"title":"Captive Queen","type":"CANON","arc":"Fairy Dance"},
+    {"number":18,"title":"To the World Tree","type":"CANON","arc":"Fairy Dance"},
+    {"number":19,"title":"The Lugru Corridor","type":"CANON","arc":"Fairy Dance"},
+    {"number":20,"title":"General of the Blazing Flame","type":"CANON","arc":"Fairy Dance"},
+    {"number":21,"title":"The Truth of Alfheim","type":"CANON","arc":"Fairy Dance"},
+    {"number":22,"title":"Grand Quest","type":"CANON","arc":"Fairy Dance"},
+    {"number":23,"title":"Bonds","type":"CANON","arc":"Fairy Dance"},
+    {"number":24,"title":"Gilded Hero","type":"CANON","arc":"Fairy Dance"},
+    {"number":25,"title":"The World Seed","type":"CANON","arc":"Fairy Dance"}
+  ]
+}

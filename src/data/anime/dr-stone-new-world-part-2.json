@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "dr-stone-new-world-part-2",
+  "anilistId": 162670,
+  "title": "Dr. Stone: New World Part 2",
+  "alternativeTitles": [
+    "Dr. STONE New World Part 2"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 48–58, renumbered to match AniList). The Ryusui special is listed separately on AniList",
+  "franchise": "Dr. Stone",
+  "seasonLabel": "New World Part 2",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:47:02.228Z",
+  "episodes": [
+    {"number":1,"title":"The Kingdom of Science's Counterattack","type":"CANON","arc":"New World"},
+    {"number":2,"title":"The Medusa's True Face","type":"CANON","arc":"New World"},
+    {"number":3,"title":"Deal Game, Test of Wit","type":"CANON","arc":"New World"},
+    {"number":4,"title":"Battle in Three Dimensions","type":"CANON","arc":"New World"},
+    {"number":5,"title":"Total War","type":"CANON","arc":"New World"},
+    {"number":6,"title":"Joker","type":"CANON","arc":"New World"},
+    {"number":7,"title":"Flicker of Doom","type":"CANON","arc":"New World"},
+    {"number":8,"title":"Last Man Standing","type":"CANON","arc":"New World"},
+    {"number":9,"title":"First Dream","type":"CANON","arc":"New World"},
+    {"number":10,"title":"\"Treasure Island\"","type":"CANON","arc":"New World"},
+    {"number":11,"title":"Beyond the New World","type":"CANON","arc":"New World"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-revengers-tenjiku",
+  "anilistId": 163329,
+  "title": "Tokyo Revengers: Tenjiku Arc",
+  "alternativeTitles": [
+    "Tokyo Revengers Season 2 Part 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 38–50, renumbered to match AniList)",
+  "franchise": "Tokyo Revengers",
+  "seasonLabel": "Tenjiku Arc",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:47:05.296Z",
+  "episodes": [
+    {"number":1,"title":"The longest day","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":2,"title":"Mortal enemy","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":3,"title":"Run out of patience","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":4,"title":"Come back to life","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":5,"title":"A bad hunch","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":6,"title":"Rise against","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":7,"title":"Turn the tide","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":8,"title":"I know in my head","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":9,"title":"The blue ogre","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":10,"title":"Brave heart","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":11,"title":"Nothing is left","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":12,"title":"Paradise lost","type":"CANON","arc":"Tenjiku Arc"},
+    {"number":13,"title":"Meet his fate","type":"CANON","arc":"Tenjiku Arc"}
+  ]
+}

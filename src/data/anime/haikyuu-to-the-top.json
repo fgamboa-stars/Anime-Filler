@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "haikyuu-to-the-top",
+  "anilistId": 106625,
+  "title": "Haikyu!! To the Top",
+  "alternativeTitles": [
+    "Haikyuu!! 4th Season"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 63–75, renumbered to match AniList). The two 2017 OVAs (Land vs. Air, The Path of the Ball) are listed separately on AniList",
+  "franchise": "Haikyu!!",
+  "seasonLabel": "To the Top",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:55.270Z",
+  "episodes": [
+    {"number":1,"title":"Self-Introduction","type":"CANON","arc":"To the Top"},
+    {"number":2,"title":"Lost","type":"CANON","arc":"To the Top"},
+    {"number":3,"title":"Perspective","type":"CANON","arc":"To the Top"},
+    {"number":4,"title":"Take It Easy","type":"CANON","arc":"To the Top"},
+    {"number":5,"title":"Hunger","type":"CANON","arc":"To the Top"},
+    {"number":6,"title":"Enhancements","type":"CANON","arc":"To the Top"},
+    {"number":7,"title":"Return","type":"CANON","arc":"To the Top"},
+    {"number":8,"title":"Challenger","type":"CANON","arc":"To the Top"},
+    {"number":9,"title":"Everyone's Night","type":"CANON","arc":"To the Top"},
+    {"number":10,"title":"Battle Lines","type":"CANON","arc":"To the Top"},
+    {"number":11,"title":"A Chance to Connect","type":"CANON","arc":"To the Top"},
+    {"number":12,"title":"Vivid","type":"CANON","arc":"To the Top"},
+    {"number":13,"title":"The Second Day","type":"CANON","arc":"To the Top"}
+  ]
+}

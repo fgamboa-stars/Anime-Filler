@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "hunter-x-hunter-greed-island",
+  "anilistId": 138,
+  "title": "Hunter x Hunter: Greed Island",
+  "alternativeTitles": [
+    "HxH Greed Island"
+  ],
+  "totalEpisodes": 8,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 71–78, renumbered to match AniList)",
+  "franchise": "Hunter x Hunter (1999)",
+  "seasonLabel": "Greed Island",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:39.026Z",
+  "episodes": [
+    {"number":1,"title":"Auction × Plan × 80 Percent","type":"CANON","arc":"Greed Island"},
+    {"number":2,"title":"Electricity × Aura × Special Attack","type":"CANON","arc":"Greed Island"},
+    {"number":3,"title":"Ren × Tests × Everyone's Journey","type":"CANON","arc":"Greed Island"},
+    {"number":4,"title":"Start × Spell × Town of Prizes","type":"CANON","arc":"Greed Island"},
+    {"number":5,"title":"Invitation × List × Show Me Rock!","type":"CANON","arc":"Greed Island"},
+    {"number":6,"title":"Take × Taken × Card Hell","type":"CANON","arc":"Greed Island"},
+    {"number":7,"title":"Bandit × Monster × Biscuit","type":"CANON","arc":"Greed Island"},
+    {"number":8,"title":"Training × Raw Ore × Scissor Hands","type":"CANON","arc":"Greed Island"}
+  ]
+}

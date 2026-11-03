@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "haikyuu-to-the-top-part-2",
+  "anilistId": 113538,
+  "title": "Haikyu!! To the Top Part 2",
+  "alternativeTitles": [
+    "Haikyuu!! 4th Season Part 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 76–87, renumbered to match AniList). The two 2017 OVAs (Land vs. Air, The Path of the Ball) are listed separately on AniList",
+  "franchise": "Haikyu!!",
+  "seasonLabel": "To the Top Part 2",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-03T05:46:55.851Z",
+  "episodes": [
+    {"number":1,"title":"Rhythm","type":"CANON","arc":"To the Top Part 2"},
+    {"number":2,"title":"Found","type":"CANON","arc":"To the Top Part 2"},
+    {"number":3,"title":"Broken Heart","type":"CANON","arc":"To the Top Part 2"},
+    {"number":4,"title":"Cats vs. Monkeys","type":"CANON","arc":"To the Top Part 2"},
+    {"number":5,"title":"Trap","type":"CANON","arc":"To the Top Part 2"},
+    {"number":6,"title":"The Ultimate Challengers","type":"CANON","arc":"To the Top Part 2"},
+    {"number":7,"title":"Leader","type":"CANON","arc":"To the Top Part 2"},
+    {"number":8,"title":"Hero","type":"CANON","arc":"To the Top Part 2"},
+    {"number":9,"title":"Pitons","type":"CANON","arc":"To the Top Part 2"},
+    {"number":10,"title":"The Birth of the Serene King","type":"CANON","arc":"To the Top Part 2"},
+    {"number":11,"title":"Monster’s Ball","type":"CANON","arc":"To the Top Part 2"},
+    {"number":12,"title":"The Promised Land","type":"CANON","arc":"To the Top Part 2"}
+  ]
+}

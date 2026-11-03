@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "spy-x-family-season-2",
+  "anilistId": 158927,
+  "title": "Spy x Family Season 2",
+  "alternativeTitles": [
+    "SPY x FAMILY Season 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–37, renumbered to match AniList)",
+  "franchise": "Spy x Family",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-03T05:46:59.314Z",
+  "episodes": [
+    {"number":1,"title":"Follow Mama And Papa","type":"CANON","arc":"Season 2"},
+    {"number":2,"title":"Bond's Strategy To Stay Alive / Damian's Field Research Trip","type":"CANON","arc":"Season 2"},
+    {"number":3,"title":"Mission and Family / The Elegant Bondman / The Heart of a Child / Waking Up","type":"CANON","arc":"Season 2"},
+    {"number":4,"title":"The Pastry of Knowledge / The Informant's Great Romance Plan II","type":"CANON","arc":"Season 2"},
+    {"number":5,"title":"The Plan to Cross the Border","type":"CANON","arc":"Season 2"},
+    {"number":6,"title":"The Fearsome Luxury Cruise Ship","type":"CANON","arc":"Season 2"},
+    {"number":7,"title":"Who Is This Mission For?","type":"CANON","arc":"Season 2"},
+    {"number":8,"title":"The Symphony Upon The Ship","type":"CANON","arc":"Season 2"},
+    {"number":9,"title":"The Hand That Connects to the Future","type":"CANON","arc":"Season 2"},
+    {"number":10,"title":"Enjoy the Resort to the Fullest / Bragging About Vacation","type":"CANON","arc":"Season 2"},
+    {"number":11,"title":"Berlint in Love / Nightfall's Daily Life","type":"CANON","arc":"Season 2"},
+    {"number":12,"title":"Part of the Family","type":"CANON","arc":"Season 2"}
+  ]
+}

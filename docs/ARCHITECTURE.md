@@ -7,7 +7,7 @@ Anime Filler Finder is a static single-page app. Everything happens in the brows
 | | AniList (remote) | Filler datasets (local) |
 | --- | --- | --- |
 | Provides | Titles, description, genres, studios, score, popularity, status, episode count, season, dates, cover and banner images | Per-episode classification (CANON, MIXED, ANIME_CANON, FILLER), episode titles, arcs |
-| Coverage | Every anime on AniList | Only anime that have been imported (21 series / 51 seasons as of this writing) |
+| Coverage | Every anime on AniList | Only anime that have been imported (47 series / 111 seasons as of this writing) |
 | Where | `https://graphql.anilist.co` (`VITE_ANILIST_API`) | `src/data/anime/<slug>.json` |
 | Loaded | On demand, cached | Lazily, one chunk per anime |
 

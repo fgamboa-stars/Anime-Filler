@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "spy-x-family",
+  "anilistId": 140960,
+  "title": "Spy x Family",
+  "alternativeTitles": [
+    "SPY x FAMILY",
+    "Spy Family"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Spy x Family",
+  "seasonLabel": "Part 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:58.155Z",
+  "episodes": [
+    {"number":1,"title":"Operation \"Strix\"","type":"CANON","arc":"Part 1"},
+    {"number":2,"title":"Secure a Wife","type":"CANON","arc":"Part 1"},
+    {"number":3,"title":"Prepare for the Interview","type":"CANON","arc":"Part 1"},
+    {"number":4,"title":"The Prestigious School's Interview","type":"CANON","arc":"Part 1"},
+    {"number":5,"title":"Will They Pass or Fail?","type":"CANON","arc":"Part 1"},
+    {"number":6,"title":"The Friendship Scheme","type":"CANON","arc":"Part 1"},
+    {"number":7,"title":"The Target's Second Son","type":"CANON","arc":"Part 1"},
+    {"number":8,"title":"The Counter-Secret Police Cover Operation","type":"CANON","arc":"Part 1"},
+    {"number":9,"title":"Show off How in Love You Are","type":"CANON","arc":"Part 1"},
+    {"number":10,"title":"The Great Dodgeball Plan","type":"CANON","arc":"Part 1"},
+    {"number":11,"title":"Stella","type":"CANON","arc":"Part 1"},
+    {"number":12,"title":"Penguin Park","type":"CANON","arc":"Part 1"}
+  ]
+}

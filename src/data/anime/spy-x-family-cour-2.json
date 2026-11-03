@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "spy-x-family-cour-2",
+  "anilistId": 142838,
+  "title": "Spy x Family Cour 2",
+  "alternativeTitles": [
+    "SPY x FAMILY Part 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–25, renumbered to match AniList)",
+  "franchise": "Spy x Family",
+  "seasonLabel": "Part 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:58.756Z",
+  "episodes": [
+    {"number":1,"title":"Project Apple","type":"CANON","arc":"Part 2"},
+    {"number":2,"title":"Disarm the Time Bomb","type":"CANON","arc":"Part 2"},
+    {"number":3,"title":"A New Family Member","type":"CANON","arc":"Part 2"},
+    {"number":4,"title":"Yor’s Kitchen / The Informant’s Great Romance Plan","type":"CANON","arc":"Part 2"},
+    {"number":5,"title":"Carry Out the Griffin Plan / Fullmetal Lady / Omelet Rice ♡","type":"CANON","arc":"Part 2"},
+    {"number":6,"title":"Uncle the Private Tutor / Daybreak","type":"CANON","arc":"Part 2"},
+    {"number":7,"title":"A Revenge Plot Against Desmond / Mama Becomes the Wind","type":"MIXED","arc":"Part 2"},
+    {"number":8,"title":"Investigate the General Hospital / Decipher the Perplexing Code","type":"CANON","arc":"Part 2"},
+    {"number":9,"title":"Nightfall / First Fit of Jealousy","type":"CANON","arc":"Part 2"},
+    {"number":10,"title":"The Undergrounds Tennis Tournament: The Campbelldon","type":"CANON","arc":"Part 2"},
+    {"number":11,"title":"The Unwavering Path","type":"CANON","arc":"Part 2"},
+    {"number":12,"title":"The Role Of A Mother And Wife / Shopping With Friends","type":"CANON","arc":"Part 2"},
+    {"number":13,"title":"First Contact","type":"CANON","arc":"Part 2"}
+  ]
+}
