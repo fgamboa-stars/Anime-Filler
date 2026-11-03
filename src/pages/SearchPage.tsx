@@ -40,6 +40,7 @@ export default function SearchPage() {
             </p>
           )}
 
+          <h2 className="sr-only">Results</h2>
           <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-6">
             {search.status === 'loading' && search.hits.length === 0
               ? Array.from({ length: 12 }, (_, i) => (

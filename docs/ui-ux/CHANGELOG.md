@@ -337,3 +337,34 @@ EpisodeDonut, ShareBar, EpisodeStrip, FillerRanking, WatchOrderPanel, ProgressSu
 
 **Components affected**
 AnimeHero, GuideCard, ArcList, the home hero
+
+---
+
+## 8. Verification fixes
+
+**What changed**
+- Episode-type badge tints are now mixed against the surface colour, not made transparent. Previously a canon badge on the light `#f4f4f4` page dropped to 4.45:1 (Lighthouse flagged it on Discover). It now measures the same on every background.
+- Added a visually hidden "Results" heading on the search page, so poster-card `h3`s no longer skip a heading level.
+- Updated `DESIGN_SYSTEM.md` for round 2.
+
+**Results**
+
+Lighthouse (mobile):
+
+| Route | Theme | Performance | Accessibility, best practices, SEO |
+|---|---|---|---|
+| Home | Light | 97 | 100 |
+| Home | Dark | 97 | 100 |
+| Anime page | Light | 94 | 100 |
+| Anime page | Dark | 94 | 100 |
+| Discover | Light | 96 | 100 |
+| Discover | Dark | 96 | 100 |
+| Search | Light and dark | not measured | Accessibility 100 |
+
+- CLS is at most 0.001.
+- 120 unit tests pass.
+- The 32-step interaction sweep has no failures.
+- The CSS bundle is 60.3 kB raw, up from 58.0 kB.
+
+**Files**
+`src/components/ui/badge.tsx`, `src/pages/SearchPage.tsx`, `docs/ui-ux/DESIGN_SYSTEM.md`

@@ -1,5 +1,7 @@
 # Filler Finder design system
 
+**Direction: premium neo-brutalist** (round 2). This is a grayscale, type-led system with 2px structural edges, hard offset shadows on interactive surfaces only, and heavy type. Round 1's tokens still apply; round 2 adds the edge, shadow and type tokens described below.
+
 A grayscale, type-led system with two themes. Colour is reserved for meaning: status (success, warning, danger, info) and the four episode types. Everything else is black, white or gray.
 
 Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root` and dark values on `.dark`. They are mapped into Tailwind with `@theme inline`, so `bg-surface`, `text-muted-foreground` and similar classes switch automatically with the theme.
@@ -8,10 +10,10 @@ Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root`
 
 | Token | Light | Dark | Use |
 |---|---|---|---|
-| `background` | #fafafa | #000000 | Page |
-| `surface` | #ffffff | #0a0a0a | Cards, fields, menus |
-| `surface-2` | #f4f4f5 | #141414 | Hover and selected rows, segmented track, skeletons |
-| `surface-3` | #ebebec | #1c1c1c | Pressed and selected on surface-2 |
+| `background` | #f4f4f4 | #000000 | Page |
+| `surface` | #ffffff | #0f0f0f | Cards, fields, menus |
+| `surface-2` | #f4f4f5 | #181818 | Hover and selected rows, segmented track, skeletons |
+| `surface-3` | #ebebec | #222222 | Pressed and selected on surface-2 |
 | `foreground` | #171717 | #ededed | Body and headings |
 | `muted-foreground` | #525252 | #a1a1a1 | Secondary text |
 | `subtle-foreground` | #646464 | #8f8f8f | Tertiary text, captions, icons |
@@ -31,16 +33,31 @@ Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root`
 
 **Verified contrast.** All 52 checked pairs pass: text at ≥4.5:1 on every surface, data marks and field borders at ≥3:1.
 
+## Neo-brutalist structure (round 2)
+
+| Token / utility | Light | Dark | Use |
+|---|---|---|---|
+| `--edge` | #171717 | #454545 | 2px border on panels, tiles, controls, chart frames, header/footer rules |
+| `--hard` | #171717 | #2e2e2e | Unblurred offset shadows |
+| `panel` | | | Static surface: 2px edge, 16px radius, no shadow |
+| `tile` | | | Interactive surface: panel plus 4px hard shadow. Lifts to 6px on hover or focus, and sinks to 0 when pressed |
+| `shadow-hard-sm` / `shadow-hard` / `shadow-hard-lg` | | | 2 / 4 / 6px offsets for controls, posters and menus |
+| `link-pill` | | | Secondary text link: 36px hit area, 2px underline on hover |
+| Page background | #f4f4f4 | #000000 | Surfaces are #ffffff and #0f0f0f |
+
+**Rule:** a shadow means "you can press this". Static panels never cast one.
+
 ## Typography
 
 **Geist Variable** for everything. Tabular numerals (`tabular`) for counts, percentages and episode numbers.
 
 | Utility | Size | Line height | Tracking | Weight | Use |
 |---|---|---|---|---|---|
-| `text-display` | clamp(44px, 7vw, 84px) | 0.95 | −0.045em | 650 | Home hero only |
-| `text-title` | clamp(36px, 5vw, 60px) | 1.0 | −0.04em | 650 | Page h1 |
-| `text-heading` | clamp(26px, 2.6vw, 36px) | 1.1 | −0.03em | 620 | Section h2 |
-| `text-subheading` | 18px | 1.35 | −0.015em | 600 | Card titles |
+| `text-display` | clamp(48px, 9vw, 112px) | 0.9 | −0.055em | 800 | Home hero only |
+| `text-title` | clamp(40px, 6vw, 72px) | 0.95 | −0.05em | 800 | Page h1 |
+| `text-heading` | clamp(30px, 3.4vw, 44px) | 1.02 | −0.04em | 750 | Section h2 |
+| `text-subheading` | 20px | 1.3 | −0.02em | 700 | Card titles |
+| `text-kpi` | clamp(40px, 5vw, 64px) | 0.9 | −0.05em | 800 | Headline figures |
 | `text-lead` | clamp(17px, 1.6vw, 20px) | 1.55 | −0.01em | 400, muted | Intro paragraphs |
 | body | 15–16px | 1.5 | — | 400 | |
 | `text-caption` | 13px | 1.4 | — | 400 | Field labels, metadata |
@@ -70,8 +87,9 @@ Tokens are CSS custom properties in `src/index.css`. Light values sit on `:root`
 | `Segmented` | View switcher: a `nav` of buttons with `aria-current`. |
 | `Notice` | Tones: `neutral`, `info`, `warning`, `danger`, `success`. Optional title (p/h2/h3) and actions. |
 | `SectionHeader`, `Stat` | Section opener; figure plus label as a `dt`/`dd` pair. |
+| `ShareBar` | Horizontal bar on a 0–100% scale, framed or plain. Always paired with a printed value. |
 | `Progress`, `Skeleton`, `Toast` | 8px grayscale bar; rounded shimmer; neutral pill with a status icon. |
-| `EpisodeDonut` | Part-to-whole ring, one segment per type, with gaps and rounded corners. Fixed order (canon, mixed, anime canon, filler). The filler share sits in the centre, and hovering or tapping a slice swaps it in. A legend beside it lists every share and count and doubles as the table view. Slices under 1.2% are drawn at 1.2% so they stay visible. |
+| `EpisodeDonut` | Part-to-whole ring, one segment per type, with gaps and rounded corners. Fixed order (canon, mixed, anime canon, filler). The filler share sits in the centre, and hovering or tapping a slice swaps it in. Legend rows are buttons: hover or keyboard focus previews a type, and click or Enter pins it (`aria-pressed`). Each row has a share bar, value and count, and the legend doubles as the table view. When a slice is active it moves 4px outward. Slices under 1.2% are drawn at 1.2% so they stay visible. |
 | `EpisodeStrip` | `sm` (10px) or `lg` (48/64px), optional `showAxis` and `animate`, watched track underneath. |
 | `ThemeSwitcher` | System / Light / Dark `radiogroup`. |
 
