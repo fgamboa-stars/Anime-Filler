@@ -49,7 +49,27 @@ export function groupStrip(group: FranchiseGroup): { number: number; type: Episo
 
 export function franchiseSiblings(entries: CatalogEntry[], entry: CatalogEntry): CatalogEntry[] {
   if (!entry.franchise) return [];
-  return entries
-    .filter((e) => e.franchise === entry.franchise)
-    .sort((a, b) => (a.franchiseOrder ?? 0) - (b.franchiseOrder ?? 0));
+  return entries.filter((e) => e.franchise === entry.franchise).sort((a, b) => (a.franchiseOrder ?? 0) - (b.franchiseOrder ?? 0));
+}
+
+/** Shown first on the home page and guide list; everything else follows alphabetically. */
+const FEATURED_ORDER = [
+  'naruto',
+  'naruto-shippuden',
+  'one-piece',
+  'bleach',
+  'dragon-ball-z',
+  'My Hero Academia',
+  'Attack on Titan',
+  'Demon Slayer',
+  'Jujutsu Kaisen',
+];
+
+/** Franchise groups in display order: featured series first, then A–Z. */
+export function featuredGroups(catalog: CatalogEntry[]): FranchiseGroup[] {
+  const rank = (key: string) => {
+    const i = FEATURED_ORDER.indexOf(key);
+    return i === -1 ? FEATURED_ORDER.length : i;
+  };
+  return groupCatalog(catalog).sort((a, b) => rank(a.key) - rank(b.key) || a.title.localeCompare(b.title));
 }

@@ -9,6 +9,7 @@ import HomePage from '@/pages/HomePage';
 import RouteErrorPage from '@/pages/RouteErrorPage';
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
 const AnimePage = lazy(() => import('@/pages/AnimePage'));
+const GuidesPage = lazy(() => import('@/pages/GuidesPage'));
 const DiscoverPage = lazy(() => import('@/pages/DiscoverPage'));
 const ProgressPage = lazy(() => import('@/pages/ProgressPage'));
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
@@ -22,6 +23,7 @@ export const routes: RouteObject[] = [
       { index: true, element: <HomePage /> },
       { path: 'search', element: <SearchPage /> },
       { path: 'anime/:id', element: <AnimePage /> },
+      { path: 'guides', element: <GuidesPage /> },
       { path: 'discover', element: <DiscoverPage /> },
       { path: 'progress', element: <ProgressPage /> },
       { path: '*', element: <NotFoundPage /> },

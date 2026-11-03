@@ -158,3 +158,15 @@ describe('client-side navigation', () => {
     }
   });
 });
+
+describe('guides page', () => {
+  it('lists every filler guide under its own nav tab', async () => {
+    mockAniList(() => ({ body: page([]) }));
+    const router = renderAt('/');
+    await userEvent.click(screen.getAllByRole('link', { name: 'Guides' })[0]);
+    expect(await screen.findByRole('heading', { level: 1, name: 'Filler guides' })).toBeInTheDocument();
+    expect(router.state.location.pathname).toBe('/guides');
+    expect(screen.getByRole('heading', { level: 3, name: 'Naruto' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 3, name: 'One Piece' })).toBeInTheDocument();
+  });
+});

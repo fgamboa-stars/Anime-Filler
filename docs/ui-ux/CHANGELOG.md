@@ -503,3 +503,26 @@ HomePage hero, GuideSearch (new, in HomePage), Starburst
 
 **Files**
 `src/pages/HomePage.tsx`, `src/components/retro/Starburst.tsx`, `src/test/pages.test.tsx`
+
+---
+
+## 12. Filler guides get their own tab
+
+**What changed**
+- **New Guides page.** The guide list is now at `/guides`, with a page title of "Filler guides" and the same series, season and episode counts and "Compare filler rankings" link. Its guide cards and featured ordering are unchanged.
+- **New nav tab.** "Guides" sits between Home and Discover, in both the desktop header and the mobile menu.
+- **Home page.** It now holds only the hero, the centred search and, when you have progress, Continue watching.
+- **Shared ordering.** The featured-first ordering moved to `featuredGroups()` in `src/utils/franchise.ts`, so Home (for its quick actions) and Guides use the same order.
+- **Loading.** The Guides page loads lazily, like the other secondary pages, so the home bundle no longer includes the guide cards.
+
+**Why it helps usability**
+- Home is a short landing page focused on search.
+- Browsing the full guide list is now one tab away and has its own address you can bookmark and share.
+
+**Accessibility**
+- The guide list now has a page-level `h1`.
+- The nav tab follows the existing `aria-current` pattern.
+- A new page test clicks the Guides tab and checks the heading and guide cards.
+
+**Files**
+`src/pages/GuidesPage.tsx` (new), `src/pages/HomePage.tsx`, `src/utils/franchise.ts`, `src/App.tsx`, `src/components/layout/AppLayout.tsx`, `src/test/pages.test.tsx`
