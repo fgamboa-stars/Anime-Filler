@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
-import { CircleAlert, RotateCcw } from 'lucide-react';
+import { RotateCcw } from 'lucide-react';
+import { PixelIcon } from '@/components/retro/PixelIcon';
+import { Window } from '@/components/retro/Window';
 import { Button } from '@/components/ui/button';
 import { AniListError } from '@/services/anilist';
 import { cn } from '@/utils/cn';
@@ -29,23 +31,30 @@ interface StateMessageProps {
   className?: string;
 }
 
+/** Status and error messages, styled as a retro "system" dialog. */
 export function StateMessage({ title, children, onRetry, action, icon, className }: StateMessageProps) {
   return (
-    <div className={cn('flex flex-col items-start gap-3 rounded-xl border border-dashed border-border p-6', className)}>
-      <div className="flex items-center gap-2 text-foreground">
-        {icon ?? <CircleAlert className="size-5 text-mixed" aria-hidden />}
-        <p className="font-semibold">{title}</p>
-      </div>
-      {children && <div className="max-w-prose text-sm text-muted-foreground">{children}</div>}
-      <div className="flex flex-wrap gap-2">
-        {onRetry && (
-          <Button variant="secondary" size="sm" onClick={onRetry}>
-            <RotateCcw aria-hidden />
-            Try again
-          </Button>
+    <Window title="system" className={cn('max-w-2xl', className)} bodyClassName="flex items-start gap-4 p-5 sm:gap-5 sm:p-6">
+      <span className="mt-0.5 text-foreground [&_svg]:size-7" aria-hidden>
+        {icon ?? <PixelIcon name="warning" size={3} />}
+      </span>
+      <div className="min-w-0 flex-1 space-y-4">
+        <div className="space-y-1.5">
+          <p className="text-label text-[13px]">{title}</p>
+          {children && <div className="max-w-prose text-sm text-muted-foreground">{children}</div>}
+        </div>
+        {(onRetry || action) && (
+          <div className="flex flex-wrap gap-2.5">
+            {onRetry && (
+              <Button size="sm" onClick={onRetry}>
+                <RotateCcw aria-hidden />
+                Try again
+              </Button>
+            )}
+            {action}
+          </div>
         )}
-        {action}
       </div>
-    </div>
+    </Window>
   );
 }

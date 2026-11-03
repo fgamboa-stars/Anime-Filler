@@ -1,82 +1,181 @@
 @import 'tailwindcss';
-@import '@fontsource-variable/bricolage-grotesque/wght.css';
-@import '@fontsource-variable/figtree/wght.css';
+@import '@fontsource/archivo-black/400.css';
+@import '@fontsource/space-mono/400.css';
+@import '@fontsource/space-mono/700.css';
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Palette — "late-night broadcast": deep ink-indigo surfaces, warm off-white type,
- * and four signal colours reserved strictly for episode classifications.
+ * Design tokens — see docs/ui-ux/DESIGN_SYSTEM.md.
+ * Grayscale for all chrome. Colour is reserved for meaning: CTAs and states
+ * (success / warning / danger) and episode classifications (data viz).
+ * Every text pair is ≥ 4.5:1 and every control/data colour ≥ 3:1 in both themes.
  */
 :root {
-  --background: #16142a;
-  --foreground: #efeaf8;
-  --card: #1e1b37;
-  --card-foreground: #efeaf8;
-  --popover: #221f3e;
-  --popover-foreground: #efeaf8;
-  --primary: #efeaf8;
-  --primary-foreground: #16142a;
-  --secondary: #2a2649;
-  --secondary-foreground: #efeaf8;
-  --muted: #252140;
-  --muted-foreground: #a9a3c7;
-  --accent: #2f2a52;
-  --accent-foreground: #efeaf8;
-  --destructive: #ff5d73;
-  --border: #34305a;
-  --input: #3a3563;
-  --ring: #a493ff;
-  --radius: 0.75rem;
+  color-scheme: light;
 
-  --canon: #3ddca6;
-  --filler: #ff5d73;
-  --mixed: #f6b941;
-  --anime-canon: #5aa9ff;
-  --unwatched: #3a3563;
+  /* Retro-brutalist: paper, ink, one acid accent. */
+  --background: #e9e9e6;
+  --surface: #f8f8f6;
+  --surface-2: #dcdcd9;
+  --surface-3: #cfcfcb;
+  --foreground: #0a0a0a;
+  --muted-foreground: #3a3a38;
+  --subtle-foreground: #575754;
+  --border: #b9b9b5;
+  --border-strong: #0a0a0a;
+  --edge: #0a0a0a;
+  --hard: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #f8f8f6;
+  --ring: #0a0a0a;
+  --lime: #c9f234;
+  --lime-foreground: #0a0a0a;
+  --overlay: rgb(233 233 230 / 0.85);
+
+  --success: #15803d;
+  --warning: #b45309;
+  --danger: #b91c1c;
+  --info: #1d4ed8;
+
+  /* Episode classifications: fill colours (≥ 3:1 on surface) and text colours (≥ 4.5:1). */
+  --canon: #059669;
+  --mixed: #c27c0e;
+  --anime-canon: #2563eb;
+  --filler: #dc2626;
+  --canon-text: #047857;
+  --mixed-text: #92400e;
+  --anime-canon-text: #1d4ed8;
+  --filler-text: #b91c1c;
+  --track: #dcdcd9;
+
+  --shadow-xs: 0 0 0 0 transparent;
+  --shadow-sm: 0 0 0 0 transparent;
+  --shadow-md: 0 0 0 0 transparent;
+  --shadow-lg: 0 0 0 0 transparent;
+  --highlight: inset 0 0 0 0 transparent;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --background: #0b0b0b;
+  --surface: #151515;
+  --surface-2: #262626;
+  --surface-3: #333333;
+  --foreground: #ecebe6;
+  --muted-foreground: #b8b7b2;
+  --subtle-foreground: #9c9b96;
+  --border: #3a3a3a;
+  --border-strong: #ecebe6;
+  --edge: #ecebe6;
+  --hard: #4a4a48;
+  --primary: #ecebe6;
+  --primary-foreground: #0b0b0b;
+  --ring: #ecebe6;
+  --lime: #d4ff3f;
+  --lime-foreground: #0b0b0b;
+  --overlay: rgb(11 11 11 / 0.8);
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --info: #60a5fa;
+
+  --canon: #10a37a;
+  --mixed: #bf8a0f;
+  --anime-canon: #3b82f6;
+  --filler: #ef4444;
+  --canon-text: #34d399;
+  --mixed-text: #fbbf24;
+  --anime-canon-text: #60a5fa;
+  --filler-text: #f87171;
+  --track: #2e2e2e;
+
+  --shadow-xs: 0 0 0 0 transparent;
+  --shadow-sm: 0 0 0 0 transparent;
+  --shadow-md: 0 0 0 0 transparent;
+  --shadow-lg: 0 0 0 0 transparent;
+  --highlight: inset 0 0 0 0 transparent;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
   --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-overlay: var(--overlay);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
   --color-canon: var(--canon);
-  --color-filler: var(--filler);
   --color-mixed: var(--mixed);
   --color-anime-canon: var(--anime-canon);
-  --color-unwatched: var(--unwatched);
+  --color-filler: var(--filler);
+  --color-canon-text: var(--canon-text);
+  --color-mixed-text: var(--mixed-text);
+  --color-anime-canon-text: var(--anime-canon-text);
+  --color-filler-text: var(--filler-text);
+  --color-track: var(--track);
+  --color-edge: var(--edge);
+  --color-lime: var(--lime);
+  --color-lime-foreground: var(--lime-foreground);
+  --color-hard: var(--hard);
 
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 6px);
+  /* Legacy aliases so shadcn-style class names keep working. */
+  --color-card: var(--surface);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--foreground);
+  --color-muted: var(--surface-2);
+  --color-secondary: var(--surface-2);
+  --color-secondary-foreground: var(--foreground);
+  --color-accent: var(--surface-3);
+  --color-accent-foreground: var(--foreground);
+  --color-input: var(--border-strong);
+  --color-destructive: var(--danger);
 
-  --font-sans: 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
-  --font-display: 'Bricolage Grotesque Variable', 'Figtree Variable', ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+
+  --font-sans: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-display: 'Archivo Black', 'Arial Black', 'Helvetica Neue', sans-serif;
 
   --animate-shimmer: shimmer 1.6s ease-in-out infinite;
-  --animate-toast-in: toast-in 220ms cubic-bezier(0.2, 0.9, 0.3, 1.2);
-  --animate-strip-in: strip-in 900ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-toast-in: toast-in 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-strip-in: strip-in 1000ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-fade-in: fade-in 180ms ease-out both;
+  --animate-donut-in: donut-in 600ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+
+  @keyframes donut-in {
+    from {
+      opacity: 0;
+      transform: scale(0.94) rotate(-8deg);
+    }
+  }
 
   @keyframes shimmer {
     0%,
     100% {
-      opacity: 0.55;
+      opacity: 0.6;
     }
     50% {
       opacity: 1;
@@ -85,7 +184,7 @@
   @keyframes toast-in {
     from {
       opacity: 0;
-      transform: translateY(8px) scale(0.98);
+      transform: translateY(6px);
     }
     to {
       opacity: 1;
@@ -94,10 +193,20 @@
   }
   @keyframes strip-in {
     from {
-      clip-path: inset(0 100% 0 0);
+      clip-path: inset(0 100% 0 0 round 6px);
     }
     to {
-      clip-path: inset(0 0 0 0);
+      clip-path: inset(0 0 0 0 round 6px);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
     }
   }
 }
@@ -107,28 +216,126 @@
     @apply border-border;
   }
   html {
-    color-scheme: dark;
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-feature-settings: 'ss01';
     min-height: 100dvh;
+    transition:
+      background-color 200ms ease,
+      color 200ms ease;
   }
   h1,
   h2,
-  h3 {
-    @apply font-display;
-    font-optical-sizing: auto;
+  h3,
+  h4 {
     text-wrap: balance;
   }
   :focus-visible {
-    outline: 2px solid var(--ring);
-    outline-offset: 2px;
+    outline: 2px dashed var(--ring);
+    outline-offset: 3px;
   }
   ::selection {
-    background: color-mix(in oklab, var(--ring) 45%, transparent);
+    background: var(--lime);
+    color: var(--lime-foreground);
   }
+  /* Pixel cursors (decorative; the system cursor is the fallback). */
+  html {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='34' shape-rendering='crispEdges'%3E%3Crect x='0' y='0' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='2' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='4' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='4' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='6' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='8' width='6' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='10' width='8' height='2' fill='%23ffffff'/%3E%3Crect x='10' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='12' width='10' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='14' width='12' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='16' width='14' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='18' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='18' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='20' width='10' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='20' width='10' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='22' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='22' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='24' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='4' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='24' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='26' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='26' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='28' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='30' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='32' width='4' height='2' fill='%230a0a0a'/%3E%3C/svg%3E") 0 0, auto;
+  }
+  a[href],
+  button:not(:disabled),
+  [role='button'],
+  [role='option'],
+  [role='radio'],
+  label[for],
+  select,
+  summary {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='36' shape-rendering='crispEdges'%3E%3Crect x='10' y='0' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='2' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='2' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='2' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='4' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='6' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='8' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='8' width='6' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='10' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='10' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='10' width='6' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='22' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='12' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='14' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='22' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='28' y='14' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='16' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='16' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='16' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='28' y='16' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='18' width='6' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='18' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='20' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='20' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='22' width='22' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='24' width='22' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='26' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='28' width='18' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='30' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='32' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='32' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='32' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='34' width='20' height='2' fill='%230a0a0a'/%3E%3C/svg%3E") 10 0, pointer;
+  }
+  input:not([type='checkbox']):not([type='radio']),
+  textarea {
+    cursor: text;
+  }
+  /* Chunky retro scrollbars. */
+  html {
+    scrollbar-color: var(--foreground) var(--surface-2);
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--surface-2);
+    border-left: 2px solid var(--edge);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--foreground);
+    border: 3px solid var(--surface-2);
+  }
+}
+
+/* ── Type scale ──────────────────────────────────────────────── */
+@utility text-display {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 10vw, 7.5rem);
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@utility text-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6.5vw, 4.75rem);
+  line-height: 0.9;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@utility text-heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.6vw, 2.75rem);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@utility text-subheading {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  line-height: 1.15;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* Headline figures: filler %, counts, time saved. */
+@utility text-kpi {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+/* Mono caps label, used for window titles and meta lines. */
+@utility text-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@utility text-lead {
+  font-size: clamp(0.9375rem, 1.3vw, 1.0625rem);
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--muted-foreground);
+}
+@utility text-caption {
+  font-size: 0.8125rem;
+  line-height: 1.4;
 }
 
 @utility tabular {
@@ -137,7 +344,89 @@
 
 @utility content-auto {
   content-visibility: auto;
-  contain-intrinsic-size: auto 56px;
+  contain-intrinsic-size: auto 64px;
+}
+
+/* Surfaces: one definition for every card-like container. */
+/* Page container: 1200px max, 16/24/32px gutters. */
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 75rem;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+/*
+ * Two surface tiers.
+ * panel: static content. 2px edge, no shadow.
+ * tile: interactive surface. Adds a hard offset shadow that grows on hover
+ * and collapses when pressed, so clickability is visible before hovering.
+ */
+@utility panel {
+  background-color: var(--surface);
+  border: 2px solid var(--edge);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--hard);
+}
+@utility surface-card {
+  background-color: var(--surface);
+  border: 2px solid var(--edge);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--hard);
+}
+@utility tile {
+  background-color: var(--surface);
+  border: 2px solid var(--edge);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--hard);
+  transition:
+    transform 150ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 150ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  &:hover,
+  &:has(:focus-visible) {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 0 var(--hard);
+  }
+  &:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0 0 0 0 var(--hard);
+  }
+}
+/* Compact text link with a 36px hit area, used for secondary actions inside cards. */
+@utility link-pill {
+  display: inline-flex;
+  height: 2.25rem;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  padding-inline: 0.5rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition:
+    color 150ms,
+    text-decoration-color 150ms;
+  &:hover {
+    color: var(--foreground);
+    text-decoration-color: currentColor;
+  }
+}
+/* Hard shadows for controls (buttons, fields that act like buttons). */
+@utility shadow-hard-sm {
+  box-shadow: 2px 2px 0 0 var(--hard);
+}
+@utility shadow-hard {
+  box-shadow: 4px 4px 0 0 var(--hard);
+}
+@utility shadow-hard-lg {
+  box-shadow: 6px 6px 0 0 var(--hard);
 }
 
 @media (prefers-reduced-motion: reduce) {

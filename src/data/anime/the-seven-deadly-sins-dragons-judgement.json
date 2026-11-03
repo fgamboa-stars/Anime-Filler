@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins-dragons-judgement",
+  "anilistId": 116752,
+  "title": "The Seven Deadly Sins: Dragon's Judgement",
+  "alternativeTitles": [
+    "Nanatsu no Taizai: Fundo no Shinpan"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 77–100, renumbered to match AniList)",
+  "franchise": "The Seven Deadly Sins",
+  "seasonLabel": "Dragon's Judgement",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-03T05:46:52.944Z",
+  "episodes": [
+    {"number":1,"title":"From Purgatory","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":2,"title":"A Meeting with the Unknown","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":3,"title":"A Single-Minded Love","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":4,"title":"The Victims of the Holy War","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":5,"title":"The Tragic Strike","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":6,"title":"Confront Despair!!","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":7,"title":"Hope, Conflict, and Despair","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":8,"title":"The Doorway to Hope","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":9,"title":"That Which Gathers","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":10,"title":"The Salvation of the Sun","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":11,"title":"The One Who Stands Against a God","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":12,"title":"We'll All Be Your Strength","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":13,"title":"The End of a Long Journey","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":14,"title":"Farewell, Seven Deadly Sins","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":15,"title":"Fated Brothers","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":16,"title":"The Final Battle","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":17,"title":"The Voice Calling Your Name","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":18,"title":"The King Sings Alone","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":19,"title":"The Struggle","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":20,"title":"Mortal Enemies","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":21,"title":"What the Witch Had Always Wanted","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":22,"title":"A Taste of Chaos","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":23,"title":"An Everlasting Kingdom","type":"CANON","arc":"Dragon's Judgement"},
+    {"number":24,"title":"Heirs","type":"CANON","arc":"Dragon's Judgement"}
+  ]
+}

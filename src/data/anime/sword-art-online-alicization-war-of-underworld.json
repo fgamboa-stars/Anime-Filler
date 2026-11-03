@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online-alicization-war-of-underworld",
+  "anilistId": 108759,
+  "title": "Sword Art Online: Alicization - War of Underworld",
+  "alternativeTitles": [
+    "SAO War of Underworld"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–36, renumbered to match AniList)",
+  "franchise": "Sword Art Online",
+  "seasonLabel": "War of Underworld",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:49.537Z",
+  "episodes": [
+    {"number":1,"title":"In the Far North","type":"CANON","arc":"War of Underworld"},
+    {"number":2,"title":"Raids","type":"CANON","arc":"War of Underworld"},
+    {"number":3,"title":"The Final Load Test","type":"CANON","arc":"War of Underworld"},
+    {"number":4,"title":"Dark Territory","type":"CANON","arc":"War of Underworld"},
+    {"number":5,"title":"The Night Before Battle","type":"CANON","arc":"War of Underworld"},
+    {"number":6,"title":"Battle of the Knights","type":"CANON","arc":"War of Underworld"},
+    {"number":7,"title":"Stigma of the Disqualified","type":"CANON","arc":"War of Underworld"},
+    {"number":8,"title":"Blood and Life","type":"CANON","arc":"War of Underworld"},
+    {"number":9,"title":"Sword and Fist","type":"CANON","arc":"War of Underworld"},
+    {"number":10,"title":"Stacia, the Goddess of Creation","type":"CANON","arc":"War of Underworld"},
+    {"number":11,"title":"Heartless Choice","type":"CANON","arc":"War of Underworld"},
+    {"number":12,"title":"Ray of Light","type":"CANON","arc":"War of Underworld"}
+  ]
+}

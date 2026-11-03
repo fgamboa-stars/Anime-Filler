@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-ghoul-re-2",
+  "anilistId": 102351,
+  "title": "Tokyo Ghoul:re 2",
+  "alternativeTitles": [
+    "Tokyo Ghoul re Season 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Tokyo Ghoul",
+  "seasonLabel": ":re 2",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-03T05:46:47.238Z",
+  "episodes": [
+    {"number":1,"title":"Place: And So, Once Again","type":"CANON","arc":":re 2"},
+    {"number":2,"title":"VOLT: White Darkness","type":"CANON","arc":":re 2"},
+    {"number":3,"title":"union: Close Game","type":"CANON","arc":":re 2"},
+    {"number":4,"title":"vive: Those Left Behind","type":"CANON","arc":":re 2"},
+    {"number":5,"title":"MovE: Confluence, Confusion","type":"CANON","arc":":re 2"},
+    {"number":6,"title":"FACE: Effulgence","type":"CANON","arc":":re 2"},
+    {"number":7,"title":"proof: Bonds","type":"CANON","arc":":re 2"},
+    {"number":8,"title":"incarnation: Awakened Child","type":"CANON","arc":":re 2"},
+    {"number":9,"title":"Morse: Remembrances","type":"CANON","arc":":re 2"},
+    {"number":10,"title":"call: The Far Side of Tragedy","type":"CANON","arc":":re 2"},
+    {"number":11,"title":"ACT: Encounters","type":"CANON","arc":":re 2"},
+    {"number":12,"title":"Final Episode","type":"CANON","arc":":re 2"}
+  ]
+}

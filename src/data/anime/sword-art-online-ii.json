@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online-ii",
+  "anilistId": 20594,
+  "title": "Sword Art Online II",
+  "alternativeTitles": [
+    "SAO II",
+    "Sword Art Online 2"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–49, renumbered to match AniList)",
+  "franchise": "Sword Art Online",
+  "seasonLabel": "II",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:48.402Z",
+  "episodes": [
+    {"number":1,"title":"The World of Guns","type":"CANON","arc":"Phantom Bullet"},
+    {"number":2,"title":"Cold-Hearted Sniper","type":"CANON","arc":"Phantom Bullet"},
+    {"number":3,"title":"Memories of Fresh Blood","type":"CANON","arc":"Phantom Bullet"},
+    {"number":4,"title":"GGO","type":"CANON","arc":"Phantom Bullet"},
+    {"number":5,"title":"Swords and Guns","type":"CANON","arc":"Phantom Bullet"},
+    {"number":6,"title":"Showdown in the Wilderness","type":"CANON","arc":"Phantom Bullet"},
+    {"number":7,"title":"Crimson Memories","type":"CANON","arc":"Phantom Bullet"},
+    {"number":8,"title":"Bullet of Bullets","type":"CANON","arc":"Phantom Bullet"},
+    {"number":9,"title":"Death Gun","type":"CANON","arc":"Phantom Bullet"},
+    {"number":10,"title":"Death Chaser","type":"CANON","arc":"Phantom Bullet"},
+    {"number":11,"title":"What It Means To Be Strong","type":"CANON","arc":"Phantom Bullet"},
+    {"number":12,"title":"Bullet of a Phantom","type":"CANON","arc":"Phantom Bullet"},
+    {"number":13,"title":"Phantom Bullet","type":"CANON","arc":"Phantom Bullet"},
+    {"number":14,"title":"One Small Step","type":"CANON","arc":"Phantom Bullet"},
+    {"number":15,"title":"Queen of the Lake","type":"CANON","arc":"Calibur"},
+    {"number":16,"title":"King of the Giants","type":"CANON","arc":"Calibur"},
+    {"number":17,"title":"Excalibur","type":"CANON","arc":"Calibur"},
+    {"number":18,"title":"House in the Forest","type":"CANON","arc":"Mother's Rosario"},
+    {"number":19,"title":"Zekken","type":"CANON","arc":"Mother's Rosario"},
+    {"number":20,"title":"Sleeping Knights","type":"CANON","arc":"Mother's Rosario"},
+    {"number":21,"title":"The Monument of the Swordsmen","type":"CANON","arc":"Mother's Rosario"},
+    {"number":22,"title":"The End of the Journey","type":"CANON","arc":"Mother's Rosario"},
+    {"number":23,"title":"The Dream Begins","type":"CANON","arc":"Mother's Rosario"},
+    {"number":24,"title":"Mother's Rosario","type":"CANON","arc":"Mother's Rosario"}
+  ]
+}

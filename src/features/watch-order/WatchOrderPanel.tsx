@@ -1,6 +1,9 @@
 import { useMemo } from 'react';
 import { ClipboardCopy, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Window } from '@/components/retro/Window';
+import { Stat } from '@/components/ui/stat';
+import { cn } from '@/utils/cn';
 import { useToast } from '@/components/ui/toast';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
 import { copyText } from '@/hooks/useClipboard';
@@ -36,73 +39,101 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
 
   return (
     <section aria-labelledby="watch-order-heading" className="flex flex-col gap-6">
-      <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h2 id="watch-order-heading" className="text-2xl font-bold tracking-tight">
+          <h2 id="watch-order-heading" className="text-heading">
             {arc ? `${arc.name} watch order` : 'Canon watch order'}
           </h2>
-          <p className="mt-1 max-w-prose text-sm text-muted-foreground">
+          <p className="mt-1.5 max-w-prose text-muted-foreground">
             Watch the green ranges, skip the red ones. {arc ? 'Limited to one arc. ' : ''}
             {arc && (
-              <button type="button" onClick={onClearArc} className="font-semibold text-foreground underline underline-offset-4">
+              <button
+                type="button"
+                onClick={onClearArc}
+                className="font-medium text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
+              >
                 Show the whole series
               </button>
             )}
           </p>
         </div>
-        <div className="flex flex-wrap gap-2">
-          <Button
-            onClick={async () => {
-              const ok = await copyText(watchOrderToText(order, heading, window.location.href));
-              toast.show(ok ? 'Watch order copied' : 'Couldn’t copy the watch order', ok ? 'success' : 'error');
-            }}
-          >
-            <ClipboardCopy aria-hidden />
-            Copy watch order
-          </Button>
-        </div>
+        <Button
+          className="self-start sm:self-auto"
+          onClick={async () => {
+            const ok = await copyText(watchOrderToText(order, heading, window.location.href));
+            toast.show(ok ? 'Watch order copied' : 'Couldn’t copy the watch order', ok ? 'success' : 'error');
+          }}
+        >
+          <ClipboardCopy aria-hidden />
+          Copy watch order
+        </Button>
       </div>
 
-      {(hasMixed || hasAnimeCanon) && (
-        <fieldset className="flex flex-wrap gap-x-6 gap-y-2 rounded-xl border border-border bg-card px-4 py-3 text-sm">
-          <legend className="sr-only">Episodes to include</legend>
-          {hasMixed && (
-            <label className="flex cursor-pointer items-center gap-2">
-              <input type="checkbox" checked={includeMixed} onChange={(e) => setIncludeMixed(e.target.checked)} className="size-4 accent-[var(--canon)]" />
-              Watch mixed canon/filler episodes
-            </label>
-          )}
-          {hasAnimeCanon && (
-            <label className="flex cursor-pointer items-center gap-2">
-              <input
-                type="checkbox"
-                checked={includeAnimeCanon}
-                onChange={(e) => setIncludeAnimeCanon(e.target.checked)}
-                className="size-4 accent-[var(--canon)]"
-              />
-              Watch anime-canon episodes
-            </label>
-          )}
-        </fieldset>
-      )}
+      <Window title="watch_order.txt" bodyClassName="flex flex-col gap-6 p-5 sm:p-6">
+        <dl className="grid grid-cols-3 gap-4 sm:gap-6">
+          <Stat
+            label="To watch"
+            value={
+              <>
+                {order.watchCount}
+                <span className="text-base font-medium text-muted-foreground"> eps</span>
+              </>
+            }
+          />
+          <Stat
+            label="To skip"
+            value={
+              <>
+                {order.skipCount}
+                <span className="text-base font-medium text-muted-foreground"> eps</span>
+              </>
+            }
+          />
+          <Stat
+            label={
+              <span className="inline-flex items-center gap-1.5">
+                <Clock className="size-3.5" aria-hidden /> Time saved
+              </span>
+            }
+            value={
+              <>
+                {hoursSaved(order.skipCount)}
+                <span className="text-base font-medium text-muted-foreground"> hours</span>
+              </>
+            }
+          />
+        </dl>
+        <EpisodeStrip episodes={stripEpisodes} size="sm" label={`${order.watchCount} episodes to watch and ${order.skipCount} to skip`} />
+        {(hasMixed || hasAnimeCanon) && (
+          <fieldset className="flex flex-col gap-1 border-t border-border pt-4 text-sm sm:flex-row sm:flex-wrap sm:gap-x-6">
+            <legend className="sr-only">Episodes to include</legend>
+            {hasMixed && (
+              <label className="flex min-h-11 cursor-pointer items-center gap-3">
+                <input
+                  type="checkbox"
+                  checked={includeMixed}
+                  onChange={(e) => setIncludeMixed(e.target.checked)}
+                  className="size-[18px] accent-[var(--foreground)]"
+                />
+                Watch mixed canon/filler episodes
+              </label>
+            )}
+            {hasAnimeCanon && (
+              <label className="flex min-h-11 cursor-pointer items-center gap-3">
+                <input
+                  type="checkbox"
+                  checked={includeAnimeCanon}
+                  onChange={(e) => setIncludeAnimeCanon(e.target.checked)}
+                  className="size-[18px] accent-[var(--foreground)]"
+                />
+                Watch anime-canon episodes
+              </label>
+            )}
+          </fieldset>
+        )}
+      </Window>
 
-      <EpisodeStrip episodes={stripEpisodes} size="sm" label={`${order.watchCount} episodes to watch and ${order.skipCount} to skip`} />
-
-      <dl className="grid grid-cols-3 gap-3">
-        <Stat label="To watch" value={order.watchCount} tone="text-canon" />
-        <Stat label="To skip" value={order.skipCount} tone="text-filler" />
-        <div className="rounded-xl border border-border bg-card p-4">
-          <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
-            <Clock className="size-3.5" aria-hidden /> Time saved
-          </dt>
-          <dd className="mt-1 font-display text-2xl font-bold sm:text-3xl">
-            <span className="tabular">{hoursSaved(order.skipCount)}</span>
-            <span className="text-base font-semibold text-muted-foreground"> hours</span>
-          </dd>
-        </div>
-      </dl>
-
-      <div className="grid gap-5 md:grid-cols-2">
+      <div className="grid gap-4 md:grid-cols-2">
         <RangeColumn title="Watch" ranges={order.watch.map(formatRange)} tone="canon" />
         <RangeColumn title="Skip" ranges={order.skip.map(formatRange)} tone="filler" empty="Nothing to skip here." />
       </div>
@@ -110,38 +141,30 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
   );
 }
 
-function Stat({ label, value, tone }: { label: string; value: number; tone: string }) {
-  return (
-    <div className="rounded-xl border border-border bg-card p-4">
-      <dt className="text-xs text-muted-foreground">{label}</dt>
-      <dd className={`mt-1 font-display text-2xl font-bold sm:text-3xl ${tone}`}>
-        <span className="tabular">{value}</span>
-        <span className="text-base font-semibold text-muted-foreground"> eps</span>
-      </dd>
-    </div>
-  );
-}
-
 function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: string[]; tone: 'canon' | 'filler'; empty?: string }) {
   return (
-    <div className="rounded-xl border border-border bg-card p-5">
-      <h3 className={`font-display text-lg font-bold ${tone === 'canon' ? 'text-canon' : 'text-filler'}`}>
-        {title} <span className="text-sm font-medium text-muted-foreground">({ranges.length} ranges)</span>
+    <Window title={`${title.toLowerCase()}.list`} bodyClassName="p-5 sm:p-6">
+      <h3 className="flex items-center gap-2.5 text-subheading">
+        <span aria-hidden className={cn('size-3 ', tone === 'canon' ? 'bg-canon' : 'bg-filler')} />
+        {title} <span className="text-sm font-normal text-muted-foreground">({ranges.length} ranges)</span>
       </h3>
       {ranges.length ? (
-        <ul className="mt-3 flex flex-wrap gap-2">
+        <ul className="mt-4 flex flex-wrap gap-2">
           {ranges.map((r) => (
             <li
               key={r}
-              className={`tabular rounded-md px-2.5 py-1 text-sm font-semibold ${tone === 'canon' ? 'bg-canon/12 text-canon' : 'bg-filler/12 text-filler'}`}
+              className={cn(
+                'tabular border-[1.5px] px-2.5 py-1 text-sm font-semibold',
+                tone === 'canon' ? 'border-canon/55 bg-canon/10 text-canon-text' : 'border-filler/55 bg-filler/10 text-filler-text',
+              )}
             >
               {r}
             </li>
           ))}
         </ul>
       ) : (
-        <p className="mt-3 text-sm text-muted-foreground">{empty}</p>
+        <p className="mt-4 text-sm text-muted-foreground">{empty}</p>
       )}
-    </div>
+    </Window>
   );
 }

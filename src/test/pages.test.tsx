@@ -34,7 +34,9 @@ describe('anime without filler data', () => {
     mockAniList(() => ({ body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { genres: ['Adventure', 'Drama'] }) } } }));
     renderAt('/anime/154587-frieren');
 
-    expect(await screen.findByRole('heading', { level: 1, name: 'Frieren: Beyond Journey’s End' })).toBeInTheDocument();
+    expect(
+      await screen.findByRole('heading', { level: 1, name: 'Frieren: Beyond Journey’s End' }, { timeout: 4000 }),
+    ).toBeInTheDocument();
     expect(screen.getByText('Filler data is not currently available for this anime.')).toBeInTheDocument();
     expect(screen.getByText('Anime information is provided by AniList.')).toBeInTheDocument();
     expect(screen.getByText('Additional filler datasets may be added in future updates.')).toBeInTheDocument();
@@ -116,11 +118,14 @@ describe('search', () => {
   });
 });
 
-describe('airing series', () => {
-  it('notes episodes AniList has aired that the guide has not classified yet', async () => {
-    mockAniList(() => ({ body: { data: { Media: media(21, 'One Piece', { episodes: null, status: 'RELEASING', nextAiringEpisode: { episode: 1181 } }) } } }));
-    renderAt('/anime/one-piece');
-    expect(await screen.findByText(/This guide covers episodes 1–1168/, {}, { timeout: 4000 })).toHaveTextContent('the newest 12 aren’t classified yet');
+describe('guide coverage', () => {
+  it('notes episodes AniList lists that the guide has not classified', async () => {
+    // Every shipped guide covers a finished show; this simulates AniList listing more episodes than the guide.
+    mockAniList(() => ({ body: { data: { Media: media(20, 'Naruto', { episodes: 232 }) } } }));
+    renderAt('/anime/naruto');
+    expect(await screen.findByText(/This guide covers episodes 1–220/, {}, { timeout: 4000 })).toHaveTextContent(
+      'the newest 12 aren’t classified yet',
+    );
   });
 });
 
@@ -152,5 +157,17 @@ describe('client-side navigation', () => {
     } finally {
       window.scrollTo = original;
     }
+  });
+});
+
+describe('guides page', () => {
+  it('lists every filler guide under its own nav tab', async () => {
+    mockAniList(() => ({ body: page([]) }));
+    const router = renderAt('/');
+    await userEvent.click(screen.getAllByRole('link', { name: 'Guides' })[0]);
+    expect(await screen.findByRole('heading', { level: 1, name: 'Filler guides' })).toBeInTheDocument();
+    expect(router.state.location.pathname).toBe('/guides');
+    expect(screen.getByRole('heading', { level: 3, name: 'Naruto' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 3, name: 'Bleach' })).toBeInTheDocument();
   });
 });

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-revengers-christmas-showdown",
+  "anilistId": 142853,
+  "title": "Tokyo Revengers: Christmas Showdown",
+  "alternativeTitles": [
+    "Tokyo Revengers Season 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–37, renumbered to match AniList)",
+  "franchise": "Tokyo Revengers",
+  "seasonLabel": "Christmas Showdown",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:47:04.691Z",
+  "episodes": [
+    {"number":1,"title":"It is what it is","type":"CANON","arc":"Christmas Showdown"},
+    {"number":2,"title":"Gotta go","type":"CANON","arc":"Christmas Showdown"},
+    {"number":3,"title":"Stand alone","type":"CANON","arc":"Christmas Showdown"},
+    {"number":4,"title":"Family bonds","type":"CANON","arc":"Christmas Showdown"},
+    {"number":5,"title":"Christmas Eve","type":"CANON","arc":"Christmas Showdown"},
+    {"number":6,"title":"Whip up morale","type":"CANON","arc":"Christmas Showdown"},
+    {"number":7,"title":"Sibling rivalry","type":"CANON","arc":"Christmas Showdown"},
+    {"number":8,"title":"Strive together","type":"CANON","arc":"Christmas Showdown"},
+    {"number":9,"title":"Dawning of a new era","type":"CANON","arc":"Christmas Showdown"},
+    {"number":10,"title":"The light of my life","type":"CANON","arc":"Christmas Showdown"},
+    {"number":11,"title":"On my way home","type":"CANON","arc":"Christmas Showdown"},
+    {"number":12,"title":"Last order","type":"CANON","arc":"Christmas Showdown"},
+    {"number":13,"title":"When it rains, it pours","type":"CANON","arc":"Christmas Showdown"}
+  ]
+}

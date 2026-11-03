@@ -13,12 +13,13 @@ export const TYPE_DESCRIPTIONS: Record<EpisodeType, string> = {
   FILLER: 'Anime-original side story — safe to skip',
 };
 
-export function EpisodeTypeBadge({ type, className }: { type: EpisodeType; className?: string }) {
+/** `compact` hides the visible label below the sm breakpoint (icon + colour remain; the label stays for screen readers). */
+export function EpisodeTypeBadge({ type, className, compact = false }: { type: EpisodeType; className?: string; compact?: boolean }) {
   const Icon = ICON[type];
   return (
     <Badge variant={VARIANT[type]} className={className} title={TYPE_DESCRIPTIONS[type]}>
-      <Icon aria-hidden strokeWidth={3} />
-      {TYPE_LABELS[type]}
+      <Icon aria-hidden strokeWidth={2.5} />
+      {compact ? <span className="sr-only sm:not-sr-only">{TYPE_LABELS[type]}</span> : TYPE_LABELS[type]}
     </Badge>
   );
 }
@@ -31,8 +32,8 @@ export const TYPE_COLOR_CLASS: Record<EpisodeType, string> = {
 };
 
 export const TYPE_TEXT_CLASS: Record<EpisodeType, string> = {
-  CANON: 'text-canon',
-  FILLER: 'text-filler',
-  MIXED: 'text-mixed',
-  ANIME_CANON: 'text-anime-canon',
+  CANON: 'text-canon-text',
+  FILLER: 'text-filler-text',
+  MIXED: 'text-mixed-text',
+  ANIME_CANON: 'text-anime-canon-text',
 };

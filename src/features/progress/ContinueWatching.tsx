@@ -9,25 +9,25 @@ export function ContinueWatching({ limit = 4, emptyState }: { limit?: number; em
   if (items.length === 0) return <>{emptyState ?? null}</>;
 
   return (
-    <ul className="grid gap-3 sm:grid-cols-2">
+    <ul className="grid gap-4 sm:grid-cols-2">
       {items.map((p) => {
         const stats = progressStats(p, p.totalEpisodes);
         return (
           <li key={p.slug}>
             <Link
               to={`/anime/${p.slug}${stats.nextEpisode ? `#ep-${stats.nextEpisode}` : ''}`}
-              className="flex items-center gap-4 rounded-xl border border-border bg-card p-4 transition-colors hover:border-ring/60"
+              className="tile group flex items-center gap-4 p-5"
             >
-              <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+              <span className="flex size-11 shrink-0 items-center justify-center border-2 border-edge bg-primary text-primary-foreground dark:border-primary">
                 <Play className="size-4 fill-current" aria-hidden />
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block truncate font-semibold">{p.title}</span>
+                <span className="block truncate text-lg font-bold tracking-[-0.025em]">{p.title}</span>
                 <span className="block text-sm text-muted-foreground">
-                  {stats.nextEpisode ? `Up next: episode ${stats.nextEpisode}` : 'Finished'} — <span className="tabular">{stats.watchedCount}</span> /{' '}
-                  <span className="tabular">{stats.total}</span> watched
+                  {stats.nextEpisode ? `Up next: episode ${stats.nextEpisode}` : 'Finished'} —{' '}
+                  <span className="tabular">{stats.watchedCount}</span> / <span className="tabular">{stats.total}</span> watched
                 </span>
-                <Progress value={stats.percent} label={`${p.title}: ${stats.percent}% complete`} className="mt-2" />
+                <Progress value={stats.percent} label={`${p.title}: ${stats.percent}% complete`} className="mt-3" />
               </span>
             </Link>
           </li>

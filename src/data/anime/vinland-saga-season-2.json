@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "vinland-saga-season-2",
+  "anilistId": 136430,
+  "title": "Vinland Saga Season 2",
+  "alternativeTitles": [
+    "VINLAND SAGA SEASON 2"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–48, renumbered to match AniList)",
+  "franchise": "Vinland Saga",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:47:06.510Z",
+  "episodes": [
+    {"number":1,"title":"Slave","type":"MIXED","arc":"Farmland Saga"},
+    {"number":2,"title":"Ketil's Farm","type":"CANON","arc":"Farmland Saga"},
+    {"number":3,"title":"Snake","type":"CANON","arc":"Farmland Saga"},
+    {"number":4,"title":"Awakening","type":"CANON","arc":"Farmland Saga"},
+    {"number":5,"title":"The Path of Blood","type":"CANON","arc":"Farmland Saga"},
+    {"number":6,"title":"We Need a Horse","type":"CANON","arc":"Farmland Saga"},
+    {"number":7,"title":"Iron Fist Ketil","type":"CANON","arc":"Farmland Saga"},
+    {"number":8,"title":"An Empty Man","type":"CANON","arc":"Farmland Saga"},
+    {"number":9,"title":"Oath","type":"CANON","arc":"Farmland Saga"},
+    {"number":10,"title":"Cursed Head","type":"CANON","arc":"Farmland Saga"},
+    {"number":11,"title":"The King and the Sword","type":"CANON","arc":"Farmland Saga"},
+    {"number":12,"title":"For The Love That Was Lost","type":"CANON","arc":"Farmland Saga"},
+    {"number":13,"title":"Dark Clouds","type":"CANON","arc":"Farmland Saga"},
+    {"number":14,"title":"Freedom","type":"CANON","arc":"Farmland Saga"},
+    {"number":15,"title":"Storm","type":"CANON","arc":"Farmland Saga"},
+    {"number":16,"title":"Cause","type":"CANON","arc":"Farmland Saga"},
+    {"number":17,"title":"Way Home","type":"CANON","arc":"Farmland Saga"},
+    {"number":18,"title":"The First Measure","type":"CANON","arc":"Farmland Saga"},
+    {"number":19,"title":"Battle at Ketil's Farm","type":"CANON","arc":"Farmland Saga"},
+    {"number":20,"title":"Pain","type":"CANON","arc":"Farmland Saga"},
+    {"number":21,"title":"Courage","type":"CANON","arc":"Farmland Saga"},
+    {"number":22,"title":"Emperor of Rebellion","type":"CANON","arc":"Farmland Saga"},
+    {"number":23,"title":"Two Paths","type":"CANON","arc":"Farmland Saga"},
+    {"number":24,"title":"Hometown","type":"CANON","arc":"Farmland Saga"}
+  ]
+}

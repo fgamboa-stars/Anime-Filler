@@ -2,17 +2,23 @@ import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/utils/cn';
 
+/**
+ * Small labels. Neutral by default; the coloured variants are reserved for episode
+ * types and status, and always use the AA-contrast "-text" tokens on a light tint.
+ */
 const badgeVariants = cva(
-  'inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-semibold [&_svg]:size-3.5 [&_svg]:shrink-0',
+  'inline-flex items-center gap-1.5 whitespace-nowrap border-2 px-2 py-0.5 text-[11px] font-bold tracking-[0.05em] uppercase [&_svg]:size-3.5 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
-        default: 'border-transparent bg-secondary text-secondary-foreground',
+        default: 'border-edge bg-surface-2 text-foreground',
         outline: 'border-border text-muted-foreground',
-        canon: 'border-canon/30 bg-canon/12 text-canon',
-        filler: 'border-filler/30 bg-filler/12 text-filler',
-        mixed: 'border-mixed/30 bg-mixed/12 text-mixed',
-        animeCanon: 'border-anime-canon/30 bg-anime-canon/12 text-anime-canon',
+        solid: 'border-edge bg-primary text-primary-foreground',
+        lime: 'border-edge bg-lime text-lime-foreground',
+        canon: 'border-canon/50 bg-[color-mix(in_oklab,var(--canon)_10%,var(--surface))] text-canon-text',
+        filler: 'border-filler/50 bg-[color-mix(in_oklab,var(--filler)_10%,var(--surface))] text-filler-text',
+        mixed: 'border-mixed/55 bg-[color-mix(in_oklab,var(--mixed)_10%,var(--surface))] text-mixed-text',
+        animeCanon: 'border-anime-canon/50 bg-[color-mix(in_oklab,var(--anime-canon)_10%,var(--surface))] text-anime-canon-text',
       },
     },
     defaultVariants: { variant: 'default' },

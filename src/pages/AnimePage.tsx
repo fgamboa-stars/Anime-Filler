@@ -1,10 +1,13 @@
 import { useCallback, useEffect, useMemo } from 'react';
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { Database, Info } from 'lucide-react';
-import { EpisodeStrip, StripLegend } from '@/components/EpisodeStrip';
+import { Database } from 'lucide-react';
+import { EpisodeDonut } from '@/components/EpisodeDonut';
+import { Window } from '@/components/retro/Window';
 import { ShareButton } from '@/components/ShareButton';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { Button } from '@/components/ui/button';
+import { Notice } from '@/components/ui/notice';
+import { Segmented } from '@/components/ui/segmented';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AnimeHero } from '@/features/anime/AnimeHero';
 import { ArcList } from '@/features/arcs/ArcList';
@@ -58,7 +61,7 @@ export default function AnimePage() {
         )}
       </AnimeHero>
 
-      <div className="mx-auto mt-8 max-w-7xl px-4 sm:px-6">
+      <div className="container-page mt-10">
         {entry && <SeasonNav entry={entry} />}
         {entry ? (
           dataset.status === 'error' ? (
@@ -66,7 +69,7 @@ export default function AnimePage() {
               {describeError(dataset.error)}
             </StateMessage>
           ) : dataset.data ? (
-            <FillerGuide dataset={dataset.data} entry={entry} aired={airedEpisodes(media)} />
+            <FillerGuide dataset={dataset.data} aired={airedEpisodes(media)} />
           ) : (
             <GuideSkeleton />
           )
@@ -82,11 +85,11 @@ function SeasonNav({ entry }: { entry: CatalogEntry }) {
   const siblings = franchiseSiblings(getCatalog(), entry);
   if (siblings.length < 2) return null;
   return (
-    <nav aria-label={`${entry.franchise} seasons`} className="mb-8">
-      <p className="mb-2 text-sm text-muted-foreground">
+    <nav aria-label={`${entry.franchise} seasons`} className="mb-10">
+      <p className="mb-3 text-caption text-muted-foreground">
         {entry.franchise}: {siblings.length} seasons
       </p>
-      <ul className="flex gap-2 overflow-x-auto pb-1">
+      <ul className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:px-0">
         {siblings.map((s) => {
           const current = s.slug === entry.slug;
           return (
@@ -95,12 +98,14 @@ function SeasonNav({ entry }: { entry: CatalogEntry }) {
                 to={`/anime/${s.slug}`}
                 aria-current={current ? 'page' : undefined}
                 className={cn(
-                  'inline-flex h-9 items-center gap-2 rounded-full border px-4 text-sm font-semibold transition-colors',
-                  current ? 'border-foreground bg-foreground text-background' : 'border-border hover:bg-secondary',
+                  'inline-flex h-10 items-center gap-2 border px-4 text-sm font-medium transition-colors',
+                  current ? 'border-foreground bg-foreground text-background' : 'border-border bg-surface hover:border-border-strong',
                 )}
               >
                 {seasonLabel(s)}
-                <span className={cn('tabular text-xs', current ? 'text-background/70' : 'text-muted-foreground')}>{s.totalEpisodes} eps</span>
+                <span className={cn('tabular text-xs', current ? 'text-background/70' : 'text-subtle-foreground')}>
+                  {s.totalEpisodes} eps
+                </span>
               </Link>
             </li>
           );
@@ -112,23 +117,25 @@ function SeasonNav({ entry }: { entry: CatalogEntry }) {
 
 function NoFillerData() {
   return (
-    <section aria-labelledby="no-filler-heading" className="rounded-2xl border border-mixed/35 bg-mixed/[0.06] p-6 sm:p-8">
-      <div className="flex items-start gap-3">
-        <Info className="mt-0.5 size-5 shrink-0 text-mixed" aria-hidden />
-        <div className="space-y-2">
-          <h2 id="no-filler-heading" className="font-sans text-lg font-semibold">
-            Filler data is not currently available for this anime.
-          </h2>
-          <p className="text-muted-foreground">Anime information is provided by AniList.</p>
-          <p className="text-muted-foreground">Additional filler datasets may be added in future updates.</p>
-          <div className="flex flex-wrap gap-2 pt-3">
-            <Button asChild size="sm" variant="secondary">
+    <section aria-labelledby="no-filler-heading">
+      <Notice
+        tone="warning"
+        titleAs="h2"
+        titleId="no-filler-heading"
+        title="Filler data is not currently available for this anime."
+        className="p-5 sm:p-6 [&_h2]:text-subheading"
+        actions={
+          <>
+            <Button asChild size="sm">
               <Link to="/discover">Browse anime with filler guides</Link>
             </Button>
-            <ShareButton variant="ghost" />
-          </div>
-        </div>
-      </div>
+            <ShareButton variant="outline" />
+          </>
+        }
+      >
+        <p>Anime information is provided by AniList.</p>
+        <p>Additional filler datasets may be added in future updates.</p>
+      </Notice>
     </section>
   );
 }
@@ -136,8 +143,8 @@ function NoFillerData() {
 function GuideSkeleton() {
   return (
     <div className="space-y-4" role="status" aria-label="Loading episode guide">
-      <Skeleton className="h-12 w-full" />
-      <Skeleton className="h-20 w-full" />
+      <Skeleton className="h-56 w-full " />
+      <Skeleton className="h-24 w-full " />
       {Array.from({ length: 6 }, (_, i) => (
         <Skeleton key={i} className="h-14 w-full" />
       ))}
@@ -151,7 +158,7 @@ const TABS: { view: AnimeView; label: string }[] = [
   { view: 'arcs', label: 'Arcs' },
 ];
 
-function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entry: CatalogEntry; aired: number | null }) {
+function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: number | null }) {
   const { filters, view, setFilters, setView, resetFilters } = useEpisodeFilters(dataset.slug);
   const location = useLocation();
   const navigate = useNavigate();
@@ -170,7 +177,10 @@ function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entr
   const onToggle = useCallback((n: number) => toggleEpisode(dataset.slug, n, meta), [toggleEpisode, dataset.slug, meta]);
   const onMarkUpTo = useCallback((n: number) => markUpTo(dataset.slug, n, meta), [markUpTo, dataset.slug, meta]);
   const onArcClick = useCallback((slug: string) => setFilters({ arc: slug }), [setFilters]);
-  const jumpTo = useCallback((n: number) => navigate({ pathname: location.pathname, search: '', hash: `ep-${n}` }), [navigate, location.pathname]);
+  const jumpTo = useCallback(
+    (n: number) => navigate({ pathname: location.pathname, search: '', hash: `ep-${n}` }),
+    [navigate, location.pathname],
+  );
 
   // Scroll to #ep-N once it is rendered (deep links and "Continue" buttons).
   useEffect(() => {
@@ -190,49 +200,38 @@ function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entr
   return (
     <div className="flex flex-col gap-8">
       <section aria-label="Series overview" className="flex flex-col gap-4">
-        <EpisodeStrip
-          episodes={dataset.episodes}
-          watched={watched}
-          label={`${dataset.title}: ${dataset.counts.CANON} canon, ${dataset.counts.MIXED} mixed, ${dataset.counts.ANIME_CANON} anime canon and ${dataset.counts.FILLER} filler episodes`}
-        />
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <StripLegend counts={dataset.counts} />
-          <p className="text-sm text-muted-foreground">
-            <span className="tabular font-semibold text-filler">{entry.fillerPercentage}%</span> filler
-          </p>
-        </div>
+        <Window title={`${dataset.slug}.stats`} bodyClassName="p-5 sm:p-8">
+          <div className="mb-8">
+            <h2 className="text-heading text-balance">
+              <span className="tabular text-filler-text">{dataset.counts.FILLER}</span> of{' '}
+              <span className="tabular">{dataset.episodes.length}</span> episodes are filler
+            </h2>
+            <p className="mt-1.5 text-muted-foreground">How the series splits by episode type.</p>
+          </div>
+          <EpisodeDonut
+            counts={dataset.counts}
+            label={`${dataset.title}: ${dataset.counts.CANON} canon, ${dataset.counts.MIXED} mixed, ${dataset.counts.ANIME_CANON} anime canon and ${dataset.counts.FILLER} filler episodes`}
+          />
+        </Window>
         {unclassified > 0 && (
-          <p className="flex items-start gap-2 rounded-xl border border-mixed/35 bg-mixed/[0.06] px-4 py-3 text-sm">
-            <Info className="mt-0.5 size-4 shrink-0 text-mixed" aria-hidden />
-            <span>
+          <Notice tone="info">
+            <p className="text-foreground">
               This guide covers episodes 1–{lastClassified}. AniList lists {aired} aired episodes, so the newest{' '}
               {unclassified === 1 ? 'episode isn’t' : `${unclassified} aren’t`} classified yet.
-            </span>
-          </p>
+            </p>
+          </Notice>
         )}
         <ProgressSummary dataset={dataset} onJump={jumpTo} />
       </section>
 
-      <div className="flex flex-col gap-3 border-b border-border sm:flex-row sm:items-end sm:justify-between">
-        <nav aria-label="Episode guide sections" className="-mb-px flex gap-1 overflow-x-auto">
-          {TABS.map((t) => (
-            <button
-              key={t.view}
-              type="button"
-              aria-current={view === t.view ? 'page' : undefined}
-              onClick={() => setView(t.view)}
-              className={cn(
-                'shrink-0 border-b-2 px-4 pt-2 pb-3 text-sm font-semibold transition-colors',
-                view === t.view ? 'border-foreground text-foreground' : 'border-transparent text-muted-foreground hover:text-foreground',
-              )}
-            >
-              {t.label}
-            </button>
-          ))}
-        </nav>
-        <div className="pb-3">
-          <ShareButton variant="ghost" />
-        </div>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <Segmented
+          label="Episode guide sections"
+          options={TABS.map((t) => ({ value: t.view, label: t.label }))}
+          value={view}
+          onChange={setView}
+        />
+        <ShareButton variant="ghost" />
       </div>
 
       {view === 'episodes' && (
@@ -277,9 +276,9 @@ function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entr
           ) : (
             <StateMessage
               title="No episodes match these filters"
-              icon={<Database className="size-5 text-muted-foreground" aria-hidden />}
+              icon={<Database className="text-muted-foreground" />}
               action={
-                <Button size="sm" variant="secondary" onClick={resetFilters}>
+                <Button size="sm" variant="outline" onClick={resetFilters}>
                   Reset filters
                 </Button>
               }
@@ -296,7 +295,7 @@ function FillerGuide({ dataset, entry, aired }: { dataset: PreparedDataset; entr
 
       {view === 'arcs' && <ArcList arcs={dataset.arcs} episodes={dataset.episodes} watched={watched} />}
 
-      {dataset.source && <p className="text-xs text-muted-foreground">{dataset.source}.</p>}
+      {dataset.source && <p className="text-xs text-subtle-foreground">{dataset.source}.</p>}
     </div>
   );
 }

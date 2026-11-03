@@ -16,9 +16,12 @@ export function Progress({ value, label, className, indicatorClassName }: Progre
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={Math.round(v)}
-      className={cn('h-1.5 w-full overflow-hidden rounded-full bg-unwatched', className)}
+      className={cn('h-3.5 w-full overflow-hidden border-2 border-edge bg-surface', className)}
     >
-      <div className={cn('h-full rounded-full bg-canon transition-[width] duration-500', indicatorClassName)} style={{ width: `${v}%` }} />
+      <div
+        className={cn('h-full bg-foreground transition-[width] duration-500 motion-reduce:transition-none', indicatorClassName)}
+        style={{ width: `${v}%` }}
+      />
     </div>
   );
 }

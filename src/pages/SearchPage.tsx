@@ -14,13 +14,13 @@ export default function SearchPage() {
   const withData = search.hits.filter((h) => h.item.catalog).length;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{q ? <>Results for “{q}”</> : 'Search anime'}</h1>
-      <SearchBox key={q} initialQuery={q} className="mt-6 max-w-2xl" />
+    <div className="container-page py-12 sm:py-16">
+      <h1 className="text-title text-balance">{q ? <>Results for “{q}”</> : 'Search anime'}</h1>
+      <SearchBox key={q} initialQuery={q} className="mt-8 max-w-2xl" />
 
       {search.correctedTo && (
         <p className="mt-4 text-sm text-muted-foreground">
-          No exact matches, so we searched for <span className="font-semibold text-foreground">{search.correctedTo}</span> instead.
+          No exact matches, so we searched for <span className="font-medium text-foreground">{search.correctedTo}</span> instead.
         </p>
       )}
 
@@ -34,13 +34,15 @@ export default function SearchPage() {
             </StateMessage>
           )}
 
-          {search.status === 'success' && search.hits.length > 0 && (
-            <p className="mt-6 text-sm text-muted-foreground" aria-live="polite">
-              {search.hits.length} results{withData > 0 ? `, ${withData} with filler data` : ''}
-            </p>
-          )}
+          {/* Always rendered so the grid doesn't jump down when the count arrives. */}
+          <p className="mt-6 min-h-6 text-sm text-muted-foreground" aria-live="polite">
+            {search.status === 'success' && search.hits.length > 0
+              ? `${search.hits.length} results${withData > 0 ? `, ${withData} with filler data` : ''}`
+              : null}
+          </p>
 
-          <ul className="mt-6 grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          <h2 className="sr-only">Results</h2>
+          <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-6">
             {search.status === 'loading' && search.hits.length === 0
               ? Array.from({ length: 12 }, (_, i) => (
                   <li key={i}>
@@ -62,9 +64,12 @@ export default function SearchPage() {
           </ul>
 
           {search.status === 'success' && search.hits.length === 0 && (
-            <StateMessage title={`No anime match “${q}”`} icon={<SearchX className="size-5 text-muted-foreground" aria-hidden />} className="mt-4">
+            <StateMessage title={`No anime match “${q}”`} icon={<SearchX className="text-muted-foreground" />} className="mt-4">
               Check the spelling or try the Japanese title. You can also{' '}
-              <Link to="/discover" className="text-foreground underline underline-offset-4">
+              <Link
+                to="/discover"
+                className="text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
+              >
                 browse highly rated anime
               </Link>
               .

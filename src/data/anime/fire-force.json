@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "fire-force",
+  "anilistId": 105310,
+  "title": "Fire Force",
+  "alternativeTitles": [
+    "Enen no Shouboutai"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Fire Force",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:47:02.871Z",
+  "episodes": [
+    {"number":1,"title":"Shinra Kusakabe Enlists","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"The Heart of a Fire Soldier","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"The Rookie Fire Soldier Games","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"The Hero and the Princess","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"The Battle Begins","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"The Spark of Promise","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"The Investigation of the 1st Commences","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"Infernal Insects","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"The Spreading Malice","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"The Promise","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Formation of Special Fire Force Company 8 / The Mightiest Hikeshi","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"Eve of Hostilities in Asakusa","type":"CANON","arc":"Season 1"},
+    {"number":13,"title":"The Trap is Set","type":"CANON","arc":"Season 1"},
+    {"number":14,"title":"For Whom the Flame Burns","type":"CANON","arc":"Season 1"},
+    {"number":15,"title":"The Blacksmith's Dream","type":"CANON","arc":"Season 1"},
+    {"number":16,"title":"We Are Family","type":"CANON","arc":"Season 1"},
+    {"number":17,"title":"Black and White and Gray","type":"CANON","arc":"Season 1"},
+    {"number":18,"title":"The Secrets of Pyrokinesis","type":"CANON","arc":"Season 1"},
+    {"number":19,"title":"Into the Nether","type":"CANON","arc":"Season 1"},
+    {"number":20,"title":"Wearing His Pride","type":"CANON","arc":"Season 1"},
+    {"number":21,"title":"Those Connected","type":"CANON","arc":"Season 1"},
+    {"number":22,"title":"A Brother's Determination","type":"CANON","arc":"Season 1"},
+    {"number":23,"title":"Smiles","type":"CANON","arc":"Season 1"},
+    {"number":24,"title":"The Burning Past","type":"CANON","arc":"Season 1"}
+  ]
+}

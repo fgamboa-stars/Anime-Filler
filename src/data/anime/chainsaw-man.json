@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "chainsaw-man",
+  "anilistId": 127230,
+  "title": "Chainsaw Man",
+  "alternativeTitles": [
+    "CSM"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-03T05:46:57.595Z",
+  "episodes": [
+    {"number":1,"title":"Dog & Chainsaw","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"Arrival in Tokyo","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"Meowy's Whereabouts","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"Rescue","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"Gun Devil","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"Kill Denji","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"Taste of a Kiss","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"Gunfire","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"From Kyoto","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Bruised & Battered","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Mission Start","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"Katana vs. Chainsaw","type":"CANON","arc":"Season 1"}
+  ]
+}

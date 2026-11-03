@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "kaiju-no-8",
+  "anilistId": 153288,
+  "title": "Kaiju No. 8",
+  "alternativeTitles": [
+    "Kaijuu 8-gou",
+    "Kaiju No 8"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-03T05:47:07.139Z",
+  "episodes": [
+    {"number":1,"title":"The Man Who Became a Kaiju","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"The Kaiju Who Defeats Kaiju","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"Revenge Match","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"Fortitude 9.8","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"Joining Up!","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"Sagamihara Neutralization Operation at Daybreak","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"Kaiju No. 9","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"Welcome to the Defense Force","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"Raid on Tachikawa Base","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Secret Revealed","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"Kaiju No. 8 Captured","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"Kafka Hibino","type":"MIXED","arc":"Season 1"}
+  ]
+}

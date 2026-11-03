@@ -27,6 +27,8 @@ interface EpisodeStripProps {
   label: string;
   size?: 'sm' | 'lg';
   animate?: boolean;
+  /** Show first/last episode numbers under the strip (large size only). */
+  showAxis?: boolean;
   className?: string;
 }
 
@@ -35,7 +37,15 @@ interface EpisodeStripProps {
  * a coloured band in broadcast order — like a seek bar for the entire show.
  * Watched episodes appear as a thin track underneath.
  */
-export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, label, size = 'lg', animate = false, className }: EpisodeStripProps) {
+export const EpisodeStrip = memo(function EpisodeStrip({
+  episodes,
+  watched,
+  label,
+  size = 'lg',
+  animate = false,
+  showAxis = false,
+  className,
+}: EpisodeStripProps) {
   const runs = useMemo(() => toRuns(episodes), [episodes]);
   const watchedRuns = useMemo(() => {
     if (!watched || watched.size === 0) return [];
@@ -55,8 +65,8 @@ export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, labe
     <div className={cn('w-full', className)} role="img" aria-label={label}>
       <div
         className={cn(
-          'flex w-full overflow-hidden rounded-[3px] gap-px',
-          size === 'lg' ? 'h-10 sm:h-12' : 'h-3',
+          'flex w-full gap-px overflow-hidden border-2 border-edge bg-surface',
+          size === 'lg' ? 'h-14 sm:h-[4.5rem]' : 'h-3.5 ',
           animate && 'animate-strip-in',
         )}
       >
@@ -70,14 +80,20 @@ export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, labe
         ))}
       </div>
       {watchedRuns.length > 0 && (
-        <div className="relative mt-1 h-1 w-full rounded-full bg-unwatched/60">
+        <div className={cn('relative w-full bg-track', size === 'lg' ? 'mt-1.5 h-1.5' : 'mt-1 h-1')}>
           {watchedRuns.map((r) => (
             <div
               key={r.start}
-              className="absolute inset-y-0 rounded-full bg-foreground"
+              className="absolute inset-y-0 bg-foreground"
               style={{ left: `${((r.start - first) / total) * 100}%`, width: `${((r.end - r.start + 1) / total) * 100}%` }}
             />
           ))}
+        </div>
+      )}
+      {showAxis && size === 'lg' && episodes.length > 1 && (
+        <div aria-hidden className="tabular mt-2 flex justify-between text-xs text-subtle-foreground">
+          <span>Ep {first}</span>
+          <span>Ep {episodes[episodes.length - 1].number}</span>
         </div>
       )}
     </div>
@@ -87,14 +103,14 @@ export const EpisodeStrip = memo(function EpisodeStrip({ episodes, watched, labe
 export function StripLegend({ counts, className }: { counts: EpisodeTypeCounts; className?: string }) {
   const order: EpisodeType[] = ['CANON', 'MIXED', 'ANIME_CANON', 'FILLER'];
   return (
-    <dl className={cn('flex flex-wrap gap-x-5 gap-y-1.5 text-sm', className)}>
+    <dl className={cn('flex flex-wrap gap-x-6 gap-y-2 text-sm', className)}>
       {order
         .filter((t) => counts[t] > 0)
         .map((t) => (
           <div key={t} className="flex items-center gap-2">
-            <span aria-hidden className={cn('size-2.5 rounded-[2px]', TYPE_COLOR_CLASS[t])} />
+            <span aria-hidden className={cn('size-3 ', TYPE_COLOR_CLASS[t])} />
             <dt className="text-muted-foreground">{TYPE_LABELS[t]}</dt>
-            <dd className="tabular font-semibold">{counts[t]}</dd>
+            <dd className="tabular font-semibold text-foreground">{counts[t]}</dd>
           </div>
         ))}
     </dl>

@@ -95,10 +95,15 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
         <label htmlFor={`${listId}-input`} className="sr-only">
           Search all anime
         </label>
-        <Search
-          className={cn('pointer-events-none absolute top-1/2 -translate-y-1/2 text-muted-foreground', lg ? 'left-5 size-5' : 'left-3.5 size-4')}
+        <span
           aria-hidden
-        />
+          className={cn(
+            'pointer-events-none absolute inset-y-0 left-0 z-10 flex items-center justify-center border-r-2 text-foreground',
+            lg ? 'w-14 border-edge sm:w-16' : 'w-10 border-input',
+          )}
+        >
+          <Search className={lg ? 'size-5' : 'size-4'} strokeWidth={2.5} />
+        </span>
         <input
           ref={inputRef}
           id={`${listId}-input`}
@@ -120,8 +125,10 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
           className={cn(
-            'w-full appearance-none rounded-full border border-input bg-card text-foreground placeholder:text-muted-foreground outline-none transition-colors focus:border-ring focus:ring-2 focus:ring-ring/40 [&::-webkit-search-cancel-button]:hidden',
-            lg ? 'h-14 pr-14 pl-13 text-base sm:text-lg' : 'h-10 pr-10 pl-10 text-sm',
+            'w-full appearance-none border-2 bg-surface text-foreground outline-none transition-[border-color,box-shadow] placeholder:text-subtle-foreground focus-visible:outline-none [&::-webkit-search-cancel-button]:hidden',
+            lg
+              ? 'h-14 border-edge pr-14 pl-[4.5rem] text-base shadow-hard focus:shadow-hard-lg sm:h-16 sm:pl-20 sm:text-lg'
+              : 'h-10 border-input pr-10 pl-[3.25rem] text-sm focus:shadow-hard-sm',
           )}
         />
         {query && (
@@ -131,10 +138,17 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
               setQuery('');
               inputRef.current?.focus();
             }}
-            className={cn('absolute top-1/2 -translate-y-1/2 rounded-full p-1.5 text-muted-foreground hover:text-foreground', lg ? 'right-4' : 'right-2')}
+            className={cn(
+              'absolute top-1/2 inline-flex size-9 -translate-y-1/2 items-center justify-center text-muted-foreground hover:bg-surface-2 hover:text-foreground',
+              lg ? 'right-3' : 'right-0.5',
+            )}
             aria-label="Clear search"
           >
-            {search.isPending && query.trim().length >= 2 ? <Loader2 className="size-4 animate-spin" aria-hidden /> : <X className="size-4" aria-hidden />}
+            {search.isPending && query.trim().length >= 2 ? (
+              <Loader2 className="size-4 animate-spin" aria-hidden />
+            ) : (
+              <X className="size-4" aria-hidden />
+            )}
           </button>
         )}
       </form>
@@ -144,7 +158,7 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
           id={listId}
           role="listbox"
           aria-label="Anime suggestions"
-          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[70vh] overflow-auto rounded-2xl border border-border bg-popover p-1.5 shadow-2xl shadow-black/40"
+          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[70vh] overflow-auto border-2 border-edge bg-surface p-1.5 shadow-hard"
         >
           {search.correctedTo && (
             <li role="presentation" className="px-3 pt-2 pb-1 text-xs text-muted-foreground">
@@ -168,10 +182,12 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => choose(i)}
                 onMouseEnter={() => setActive(i)}
-                className={cn('flex cursor-pointer items-center gap-3 rounded-xl px-2 py-2', active === i && 'bg-secondary')}
+                className={cn('flex cursor-pointer items-center gap-3 px-2 py-2', active === i && 'bg-surface-2 dark:bg-surface-3')}
               >
-                <div className="h-12 w-8 shrink-0 overflow-hidden rounded bg-muted">
-                  {m?.coverImage.medium && <img src={m.coverImage.medium} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} />}
+                <div className="h-12 w-8 shrink-0 overflow-hidden bg-surface-3">
+                  {m?.coverImage.medium && (
+                    <img src={m.coverImage.medium} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} />
+                  )}
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-semibold">
@@ -180,7 +196,9 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                   {facts && <p className="truncate text-xs text-muted-foreground">{facts}</p>}
                 </div>
                 {hit.item.catalog ? (
-                  <span className="shrink-0 rounded-full bg-canon/12 px-2 py-0.5 text-[11px] font-semibold text-canon">Filler data</span>
+                  <span className="shrink-0 border border-canon/25 bg-canon/10 px-2 py-0.5 text-[11px] font-medium text-canon-text">
+                    Filler data
+                  </span>
                 ) : null}
               </li>
             );
@@ -192,7 +210,10 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
             onMouseDown={(e) => e.preventDefault()}
             onClick={goToResults}
             onMouseEnter={() => setActive(suggestions.length)}
-            className={cn('flex cursor-pointer items-center gap-2 rounded-xl px-3 py-2.5 text-sm text-muted-foreground', active === suggestions.length && 'bg-secondary text-foreground')}
+            className={cn(
+              'flex cursor-pointer items-center gap-2 px-3 py-2.5 text-sm text-muted-foreground',
+              active === suggestions.length && 'bg-surface-2 text-foreground dark:bg-surface-3',
+            )}
           >
             <Search className="size-4" aria-hidden />
             See all results for “{query.trim()}”

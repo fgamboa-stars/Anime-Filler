@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "blue-exorcist-kyoto-saga",
+  "anilistId": 21861,
+  "title": "Blue Exorcist: Kyoto Saga",
+  "alternativeTitles": [
+    "Ao no Exorcist: Kyoto Fujouou-hen"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–37, renumbered to match AniList)",
+  "franchise": "Blue Exorcist",
+  "seasonLabel": "Kyoto Saga",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:46:57.045Z",
+  "episodes": [
+    {"number":1,"title":"Small Beginnings","type":"CANON","arc":"Kyoto Saga"},
+    {"number":2,"title":"Strange Bedfellows","type":"CANON","arc":"Kyoto Saga"},
+    {"number":3,"title":"Suspicion Will Raise Bogies","type":"CANON","arc":"Kyoto Saga"},
+    {"number":4,"title":"Act of Treachery","type":"CANON","arc":"Kyoto Saga"},
+    {"number":5,"title":"Mysterious Connections","type":"CANON","arc":"Kyoto Saga"},
+    {"number":6,"title":"A Wolf in Sheep's Clothing","type":"CANON","arc":"Kyoto Saga"},
+    {"number":7,"title":"Like a Fire Burning Bright","type":"CANON","arc":"Kyoto Saga"},
+    {"number":8,"title":"From Father to Son","type":"CANON","arc":"Kyoto Saga"},
+    {"number":9,"title":"Through Thick and Thin","type":"CANON","arc":"Kyoto Saga"},
+    {"number":10,"title":"Unbowed and Unbroken","type":"CANON","arc":"Kyoto Saga"},
+    {"number":11,"title":"Shine Bright as the Sun","type":"CANON","arc":"Kyoto Saga"},
+    {"number":12,"title":"Candid and Open","type":"CANON","arc":"Kyoto Saga"}
+  ]
+}

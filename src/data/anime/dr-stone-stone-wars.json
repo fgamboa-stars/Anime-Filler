@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "dr-stone-stone-wars",
+  "anilistId": 113936,
+  "title": "Dr. Stone: Stone Wars",
+  "alternativeTitles": [
+    "Dr. STONE: STONE WARS"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–35, renumbered to match AniList). The Ryusui special is listed separately on AniList",
+  "franchise": "Dr. Stone",
+  "seasonLabel": "Stone Wars",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:47:01.051Z",
+  "episodes": [
+    {"number":1,"title":"Stone Wars Beginning","type":"CANON","arc":"Stone Wars"},
+    {"number":2,"title":"Hot Line","type":"CANON","arc":"Stone Wars"},
+    {"number":3,"title":"Call from the Dead","type":"CANON","arc":"Stone Wars"},
+    {"number":4,"title":"Full Assault","type":"CANON","arc":"Stone Wars"},
+    {"number":5,"title":"Steam Gorilla","type":"CANON","arc":"Stone Wars"},
+    {"number":6,"title":"Prison Break","type":"CANON","arc":"Stone Wars"},
+    {"number":7,"title":"Secret Mission","type":"CANON","arc":"Stone Wars"},
+    {"number":8,"title":"Final Battle","type":"CANON","arc":"Stone Wars"},
+    {"number":9,"title":"To Destroy and to Save","type":"CANON","arc":"Stone Wars"},
+    {"number":10,"title":"Humanity's Strongest Tag Team","type":"CANON","arc":"Stone Wars"},
+    {"number":11,"title":"Prologue of Dr. Stone","type":"CANON","arc":"Stone Wars"}
+  ]
+}

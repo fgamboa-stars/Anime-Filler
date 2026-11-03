@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "fire-force-season-2",
+  "anilistId": 114236,
+  "title": "Fire Force Season 2",
+  "alternativeTitles": [
+    "Enen no Shouboutai: Ni no Shou"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–48, renumbered to match AniList)",
+  "franchise": "Fire Force",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-03T05:47:03.478Z",
+  "episodes": [
+    {"number":1,"title":"A Fire Soldier's Fight / A Man’s Fight","type":"MIXED","arc":"Season 2"},
+    {"number":2,"title":"Flames of Madness","type":"CANON","arc":"Season 2"},
+    {"number":3,"title":"A New Flashpoint","type":"CANON","arc":"Season 2"},
+    {"number":4,"title":"Groping Through the Fire","type":"CANON","arc":"Season 2"},
+    {"number":5,"title":"Corna (Sign of the Devil) / A Secret Plan","type":"CANON","arc":"Season 2"},
+    {"number":6,"title":"The Time to Choose","type":"CANON","arc":"Season 2"},
+    {"number":7,"title":"Road to the Oasis","type":"CANON","arc":"Season 2"},
+    {"number":8,"title":"Smoldering Malevolence","type":"CANON","arc":"Season 2"},
+    {"number":9,"title":"The Core","type":"CANON","arc":"Season 2"},
+    {"number":10,"title":"The Woman in Black","type":"CANON","arc":"Season 2"},
+    {"number":11,"title":"Dark Hero","type":"CANON","arc":"Season 2"},
+    {"number":12,"title":"Shadows Cast by Divine Light","type":"CANON","arc":"Season 2"},
+    {"number":13,"title":"A Pair of One-Eyes","type":"CANON","arc":"Season 2"},
+    {"number":14,"title":"The Ashen Reaper","type":"CANON","arc":"Season 2"},
+    {"number":15,"title":"A Three-Way Melee","type":"CANON","arc":"Season 2"},
+    {"number":16,"title":"Mind Blown","type":"CANON","arc":"Season 2"},
+    {"number":17,"title":"Boys, Be Weak","type":"CANON","arc":"Season 2"},
+    {"number":18,"title":"The Holy Woman’s Anguish / The Man Assault","type":"CANON","arc":"Season 2"},
+    {"number":19,"title":"The Oze Family","type":"CANON","arc":"Season 2"},
+    {"number":20,"title":"Weapons of Destruction","type":"CANON","arc":"Season 2"},
+    {"number":21,"title":"Enemy Contact","type":"CANON","arc":"Season 2"},
+    {"number":22,"title":"Plot for Extinction","type":"CANON","arc":"Season 2"},
+    {"number":23,"title":"Firecat","type":"CANON","arc":"Season 2"},
+    {"number":24,"title":"Signs of Upheaval","type":"CANON","arc":"Season 2"}
+  ]
+}

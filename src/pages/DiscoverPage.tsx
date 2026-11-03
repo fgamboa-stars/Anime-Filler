@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
-import { EpisodeStrip } from '@/components/EpisodeStrip';
+import { ShareBar } from '@/components/ui/share-bar';
+import { Window } from '@/components/retro/Window';
 import { StateMessage, describeError } from '@/components/StateMessage';
+import { SectionHeader } from '@/components/ui/section-header';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
 import { findCatalogByAniListId, getCatalog } from '@/services/datasets';
-import { groupCatalog, groupStrip, type FranchiseGroup } from '@/utils/franchise';
+import { groupCatalog, type FranchiseGroup } from '@/utils/franchise';
 
 export default function DiscoverPage() {
   useDocumentTitle('Discover');
@@ -18,13 +20,13 @@ export default function DiscoverPage() {
   const topRated = useTopRated(12);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Discover</h1>
-      <p className="mt-2 max-w-prose text-muted-foreground">
+    <div className="container-page py-12 sm:py-16">
+      <h1 className="text-title">Discover</h1>
+      <p className="text-lead mt-3 max-w-prose">
         Filler rankings are calculated from the episode guides on this site. Ratings come from AniList members.
       </p>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-2">
+      <div className="mt-12 grid gap-4 lg:grid-cols-2 lg:gap-6">
         <FillerRanking
           id="most-filler"
           title="Most filler"
@@ -41,17 +43,14 @@ export default function DiscoverPage() {
         />
       </div>
 
-      <section aria-labelledby="top-rated-heading" className="mt-16">
-        <h2 id="top-rated-heading" className="text-2xl font-bold tracking-tight">
-          Highest rated
-        </h2>
-        <p className="mt-1 text-sm text-muted-foreground">Top TV anime by AniList average score.</p>
+      <section aria-labelledby="top-rated-heading" className="mt-20">
+        <SectionHeader id="top-rated-heading" title="Highest rated" description="Top TV anime by AniList average score." />
         {topRated.status === 'error' ? (
           <StateMessage className="mt-6" title="Couldn’t load ratings from AniList" onRetry={topRated.retry}>
             {describeError(topRated.error)}
           </StateMessage>
         ) : (
-          <ul className="mt-6 grid grid-cols-2 gap-x-5 gap-y-9 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-6">
             {topRated.data
               ? topRated.data.map((m) => (
                   <li key={m.id}>
@@ -84,28 +83,37 @@ function FillerRanking({
   media: MediaSummary[];
 }) {
   return (
-    <section aria-labelledby={id} className="rounded-2xl border border-border bg-card p-5 sm:p-6">
-      <h2 id={id} className="text-xl font-bold tracking-tight">
+    <Window as="section" aria-labelledby={id} title={`${id}.txt`} bodyClassName="p-5 sm:p-7">
+      <h2 id={id} className="text-subheading">
         {title}
       </h2>
       <p className="mt-1 text-sm text-muted-foreground">{description}</p>
-      <ol className="mt-5 flex flex-col gap-4">
+      <ol className="mt-6 flex flex-col divide-y divide-border">
         {entries.map((group, i) => {
           const m = media.find((x) => x.id === group.first.anilistId);
           return (
-            <li key={group.key} className="flex items-center gap-4">
-              <span className="tabular w-5 text-right font-display text-lg font-bold text-muted-foreground">{i + 1}</span>
+            <li key={group.key} className="flex items-center gap-4 py-4 first:pt-0 last:pb-0">
+              <span className="tabular w-7 shrink-0 text-right font-[family-name:var(--font-display)] text-2xl text-subtle-foreground">
+                {i + 1}
+              </span>
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline justify-between gap-3">
-                  <Link to={`/anime/${group.first.slug}`} className="truncate font-semibold hover:underline underline-offset-4">
+                  <Link
+                    to={`/anime/${group.first.slug}`}
+                    className="truncate font-bold tracking-[-0.015em] underline decoration-transparent decoration-2 underline-offset-4 hover:decoration-foreground"
+                  >
                     {group.title}
                   </Link>
                   <span className="tabular shrink-0 text-sm">
-                    <span className={`font-semibold ${group.fillerPercentage === 0 ? 'text-canon' : 'text-filler'}`}>{group.fillerPercentage}%</span>
+                    <span
+                      className={`text-lg font-bold ${group.fillerPercentage === 0 ? 'text-canon-text' : 'text-filler-text'}`}
+                    >
+                      {group.fillerPercentage}%
+                    </span>
                     <span className="text-muted-foreground"> filler</span>
                   </span>
                 </div>
-                <EpisodeStrip episodes={groupStrip(group)} size="sm" label={`${group.title} episode strip`} className="mt-2" />
+                <ShareBar framed value={group.fillerPercentage} barClassName="bg-filler" className="mt-2" />
                 <p className="mt-1.5 text-xs text-muted-foreground">
                   {group.counts.FILLER} of {group.totalEpisodes} episodes are filler
                   {group.entries.length > 1 ? ` across ${group.entries.length} seasons` : ''}
@@ -117,10 +125,8 @@ function FillerRanking({
         })}
       </ol>
       {entries.length < 3 && (
-        <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">
-          Rankings grow as more filler guides are imported.
-        </p>
+        <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">Rankings grow as more filler guides are imported.</p>
       )}
-    </section>
+    </Window>
   );
 }

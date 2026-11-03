@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "tokyo-ghoul",
+  "anilistId": 20605,
+  "title": "Tokyo Ghoul",
+  "alternativeTitles": [
+    "Tokyo Kushu"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Tokyo Ghoul",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-03T05:46:45.523Z",
+  "episodes": [
+    {"number":1,"title":"Tragedy","type":"CANON","arc":"Season 1"},
+    {"number":2,"title":"Incubation","type":"CANON","arc":"Season 1"},
+    {"number":3,"title":"Dove","type":"CANON","arc":"Season 1"},
+    {"number":4,"title":"Supper","type":"CANON","arc":"Season 1"},
+    {"number":5,"title":"Scars","type":"CANON","arc":"Season 1"},
+    {"number":6,"title":"Cloudburst","type":"CANON","arc":"Season 1"},
+    {"number":7,"title":"Captivity","type":"CANON","arc":"Season 1"},
+    {"number":8,"title":"Circular","type":"CANON","arc":"Season 1"},
+    {"number":9,"title":"Birdcage","type":"CANON","arc":"Season 1"},
+    {"number":10,"title":"Aogiri","type":"CANON","arc":"Season 1"},
+    {"number":11,"title":"High Spirits","type":"CANON","arc":"Season 1"},
+    {"number":12,"title":"Ghoul","type":"CANON","arc":"Season 1"}
+  ]
+}
