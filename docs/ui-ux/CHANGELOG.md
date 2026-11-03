@@ -368,3 +368,84 @@ Lighthouse (mobile):
 
 **Files**
 `src/components/ui/badge.tsx`, `src/pages/SearchPage.tsx`, `docs/ui-ux/DESIGN_SYSTEM.md`
+
+---
+
+## 9. Retro-brutalist direction (from the "Brutalist Web Elements" reference)
+
+The previous neo-brutalist version is saved as the local git tag `neo-brutalist-v1`, at commit `09384fe`. Its Vercel preview deployment stays reachable. Pushing the tag itself was refused by the git proxy.
+
+**What changed**
+- **Type.**
+  - Archivo Black for every heading and headline figure, set in uppercase (it replaces Geist).
+  - Space Mono for all body text, controls and labels.
+  - New `text-label` style (mono, caps, wide tracking) for window titles and meta lines.
+- **Geometry.** Every corner is square: all radius tokens are 0, and per-component rounding was removed.
+- **Colour.**
+  - Paper `#e9e9e6` and ink `#0a0a0a` in light mode; `#0b0b0b` and off-white `#ecebe6` in dark mode.
+  - One acid-lime accent (`--lime`), used only for the "Filler data available" sticker-badge, hover highlights, text selection and the starburst.
+  - Episode-type colours are unchanged.
+  - Light-mode mixed text was darkened to `#92400e` so it passes on the darker paper.
+- **Windows.** A new `Window` component adds a black title bar with a file-name caption (e.g. `naruto-shippuden.stats`, `filters.cfg`, `episodes.txt`, `progress.sav`) and inert window controls. It is used for:
+  - the donut chart (home and anime page)
+  - filters
+  - the episode list
+  - progress
+  - watch order and its Watch/Skip lists
+  - the Discover rankings
+  - every status or error message, titled `system`, with a pixel warning icon
+  - Windows cast a 4px hard shadow.
+- **Controls.**
+  - Buttons are mono caps with a 3px hard shadow that presses flat.
+  - Outline and secondary buttons echo the reference's PUBLISH/CANCEL pair.
+  - Select menus have a solid black caret block, like the reference's "File ▼" menu.
+  - The search field has its magnifier in a separate bordered cell.
+  - Chips and tabs are mono caps; unselected chips turn lime on hover.
+  - Focus outlines are dashed, a retro cue that stays highly visible.
+- **Reset progress.** The single "Confirm reset" button is now an inline system prompt: a pixel warning icon, the question "Reset all progress for this series? This can't be undone." and **Confirm reset** / **Cancel** buttons, with Escape to dismiss. It is announced as an `alertdialog`.
+- **Home.**
+  - 4-line uppercase display headline.
+  - A slash meta line ("Search / Filter / Watch order / Track progress").
+  - A black stat box on desktop (series count and episodes classified).
+  - A lime "No sign-up" starburst sticker.
+- **Footer.** A decorative barcode ("Watch the story") and a mono caps baseline strip.
+- **Details.**
+  - Pixel-art arrow and hand cursors.
+  - Chunky square scrollbars.
+  - A pixel hourglass on the loading screen.
+  - A pixel smiley on the empty progress page.
+
+**Why it helps usability**
+- Everything you can act on (buttons, chips, selects, search) has the same heavy, pressable look, and status messages all share one recognisable dialog form.
+- Reset now asks a clear question and offers an explicit Cancel; before, the confirmation disappeared as soon as focus moved.
+
+**Why it helps visual quality**
+- It gives the product a distinct, memorable identity drawn from the reference: windows, stickers, cursors, barcode and mono type. Data colour stays the only saturated element apart from the single lime accent.
+
+**Accessibility**
+- 62 text, control and data colour pairs were re-checked; all pass in both themes after the mixed-text fix.
+- Window title bars, stickers, barcode and pixel icons are hidden from assistive tech.
+- Uppercase is CSS-only, so screen readers and accessible names keep sentence case.
+- Pixel cursors fall back to the system cursor, and text fields keep the text cursor.
+- Lighthouse accessibility is 100 on every page tested, in both themes.
+
+**Mobile**
+- Windows stack full-width.
+- The stat box and sticker hide on small screens; the headline, meta line and search stay.
+- Menu items use the display face at 48px row height.
+
+**Performance**
+- Two static font files (Archivo Black 400, Space Mono 400/700) replace the variable Geist font.
+- Lighthouse performance (mobile): 92–96 on home, anime and Discover.
+- On the search page, fixed a layout shift (0.62 → under 0.1) by always reserving the results-count line. The small shift that remains comes from AniList results replacing local matches.
+
+**Tradeoffs and risks**
+- Monospace body text is less efficient to read in long paragraphs; descriptions are capped at about 68 characters per line to compensate.
+- The heavy uppercase display face makes long anime titles wrap to more lines.
+- Pixel cursors are decoration and can be removed by deleting one CSS block.
+
+**Files**
+`src/index.css`, `package.json`, `package-lock.json`, `src/components/retro/{Window,PixelIcon,Barcode,Starburst}.tsx` (new), `src/components/ui/*`, `src/components/{StateMessage,FillerAvailabilityBadge,EpisodeDonut,Highlight,Poster,AnimeCard,EpisodeStrip,ThemeSwitcher}.tsx`, `src/components/layout/{AppLayout,Logo,PageFallback}.tsx`, `src/features/**/*.tsx`, `src/pages/*.tsx`
+
+**Components affected**
+Window (new), PixelIcon (new), Barcode (new), Starburst (new), every UI primitive, StateMessage, ProgressSummary, EpisodeFilters, EpisodeList, WatchOrderPanel, FillerRanking, EpisodeDonut, AnimeHero, AppLayout, HomePage

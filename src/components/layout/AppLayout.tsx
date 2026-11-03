@@ -6,6 +6,7 @@ import { cn } from '@/utils/cn';
 import { Logo } from './Logo';
 import { PageFallback } from './PageFallback';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
+import { Barcode } from '@/components/retro/Barcode';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
@@ -32,13 +33,13 @@ export function AppLayout() {
     <div className="flex min-h-dvh flex-col">
       <a
         href="#main"
-        className="sr-only z-50 rounded-full bg-primary px-4 py-2 text-primary-foreground focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+        className="sr-only z-50 bg-primary px-4 py-2 text-primary-foreground focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
       >
         Skip to content
       </a>
       <header className="sticky top-0 z-30 border-b-2 border-edge bg-background/85 backdrop-blur-xl backdrop-saturate-150">
         <div className="container-page flex h-16 items-center gap-4">
-          <Link to="/" className="-mx-1 inline-flex h-11 shrink-0 items-center rounded-lg px-1">
+          <Link to="/" className="-mx-1 inline-flex h-11 shrink-0 items-center px-1">
             <Logo />
             <span className="sr-only">, home</span>
           </Link>
@@ -51,7 +52,7 @@ export function AppLayout() {
                     end={item.end}
                     className={({ isActive }) =>
                       cn(
-                        'inline-flex h-9 items-center rounded-md border-2 border-transparent px-3.5 text-sm font-semibold text-muted-foreground transition-colors hover:text-foreground',
+                        'inline-flex h-9 items-center border-2 border-transparent px-3 text-xs font-bold tracking-[0.06em] text-muted-foreground uppercase transition-colors hover:border-edge hover:text-foreground',
                         isActive && 'border-edge bg-surface text-foreground',
                       )
                     }
@@ -67,7 +68,7 @@ export function AppLayout() {
             <ThemeSwitcher className="hidden md:inline-flex" />
             <button
               type="button"
-              className="-mr-1 inline-flex size-11 items-center justify-center rounded-md border-2 border-edge bg-surface md:hidden"
+              className="-mr-1 inline-flex size-11 items-center justify-center border-2 border-edge bg-surface md:hidden"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
@@ -89,7 +90,7 @@ export function AppLayout() {
                       end={item.end}
                       className={({ isActive }) =>
                         cn(
-                          'flex h-12 items-center rounded-md px-3 text-lg font-semibold text-muted-foreground',
+                          'flex h-12 items-center px-3 font-[family-name:var(--font-display)] text-xl text-muted-foreground uppercase',
                           isActive && 'bg-primary text-primary-foreground',
                         )
                       }
@@ -115,16 +116,22 @@ export function AppLayout() {
       </main>
 
       <footer className="mt-20 border-t-2 border-edge bg-surface">
-        <div className="container-page flex flex-col gap-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-start sm:justify-between">
-          <Logo />
-          <div className="max-w-xl space-y-2 sm:text-right">
+        <div className="container-page grid gap-8 py-10 text-sm text-muted-foreground sm:grid-cols-[auto_1fr] sm:items-end">
+          <div className="flex flex-col gap-3">
+            <Logo />
+            <div className="text-foreground">
+              <Barcode text="watch the story" className="h-10 w-44" />
+              <p className="text-label mt-1.5">Watch the story</p>
+            </div>
+          </div>
+          <div className="max-w-xl space-y-2 sm:justify-self-end sm:text-right">
             <p>
               Anime information, ratings and artwork are provided by{' '}
               <a
                 href="https://anilist.co"
                 target="_blank"
                 rel="noreferrer"
-                className="text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground"
+                className="text-foreground underline decoration-2 underline-offset-4 hover:bg-lime hover:text-lime-foreground"
               >
                 AniList
               </a>
@@ -132,6 +139,12 @@ export function AppLayout() {
             </p>
             <p>Free to use. No account, no tracking — progress stays in your browser.</p>
           </div>
+        </div>
+        <div className="border-t-2 border-edge">
+          <p className="container-page text-label flex justify-between gap-4 py-3 text-muted-foreground">
+            <span>Filler finder</span>
+            <span>Canon / Mixed / Filler</span>
+          </p>
         </div>
       </footer>
     </div>

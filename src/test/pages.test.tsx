@@ -118,9 +118,13 @@ describe('search', () => {
 
 describe('airing series', () => {
   it('notes episodes AniList has aired that the guide has not classified yet', async () => {
-    mockAniList(() => ({ body: { data: { Media: media(21, 'One Piece', { episodes: null, status: 'RELEASING', nextAiringEpisode: { episode: 1181 } }) } } }));
+    mockAniList(() => ({
+      body: { data: { Media: media(21, 'One Piece', { episodes: null, status: 'RELEASING', nextAiringEpisode: { episode: 1181 } }) } },
+    }));
     renderAt('/anime/one-piece');
-    expect(await screen.findByText(/This guide covers episodes 1–1168/, {}, { timeout: 4000 })).toHaveTextContent('the newest 12 aren’t classified yet');
+    expect(await screen.findByText(/This guide covers episodes 1–1168/, {}, { timeout: 4000 })).toHaveTextContent(
+      'the newest 12 aren’t classified yet',
+    );
   });
 });
 

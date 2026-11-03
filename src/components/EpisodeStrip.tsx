@@ -66,7 +66,7 @@ export const EpisodeStrip = memo(function EpisodeStrip({
       <div
         className={cn(
           'flex w-full gap-px overflow-hidden border-2 border-edge bg-surface',
-          size === 'lg' ? 'h-14 rounded-lg sm:h-[4.5rem]' : 'h-3.5 rounded-[6px]',
+          size === 'lg' ? 'h-14 sm:h-[4.5rem]' : 'h-3.5 ',
           animate && 'animate-strip-in',
         )}
       >
@@ -80,11 +80,11 @@ export const EpisodeStrip = memo(function EpisodeStrip({
         ))}
       </div>
       {watchedRuns.length > 0 && (
-        <div className={cn('relative w-full rounded-full bg-track', size === 'lg' ? 'mt-1.5 h-1.5' : 'mt-1 h-1')}>
+        <div className={cn('relative w-full bg-track', size === 'lg' ? 'mt-1.5 h-1.5' : 'mt-1 h-1')}>
           {watchedRuns.map((r) => (
             <div
               key={r.start}
-              className="absolute inset-y-0 rounded-full bg-foreground"
+              className="absolute inset-y-0 bg-foreground"
               style={{ left: `${((r.start - first) / total) * 100}%`, width: `${((r.end - r.start + 1) / total) * 100}%` }}
             />
           ))}
@@ -108,7 +108,7 @@ export function StripLegend({ counts, className }: { counts: EpisodeTypeCounts; 
         .filter((t) => counts[t] > 0)
         .map((t) => (
           <div key={t} className="flex items-center gap-2">
-            <span aria-hidden className={cn('size-3 rounded-[3px]', TYPE_COLOR_CLASS[t])} />
+            <span aria-hidden className={cn('size-3 ', TYPE_COLOR_CLASS[t])} />
             <dt className="text-muted-foreground">{TYPE_LABELS[t]}</dt>
             <dd className="tabular font-semibold text-foreground">{counts[t]}</dd>
           </div>

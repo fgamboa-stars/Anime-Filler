@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
 import { ShareBar } from '@/components/ui/share-bar';
+import { Window } from '@/components/retro/Window';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { SectionHeader } from '@/components/ui/section-header';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
@@ -82,7 +83,7 @@ function FillerRanking({
   media: MediaSummary[];
 }) {
   return (
-    <section aria-labelledby={id} className="surface-card p-5 sm:p-7">
+    <Window as="section" aria-labelledby={id} title={`${id}.txt`} bodyClassName="p-5 sm:p-7">
       <h2 id={id} className="text-subheading">
         {title}
       </h2>
@@ -92,7 +93,7 @@ function FillerRanking({
           const m = media.find((x) => x.id === group.first.anilistId);
           return (
             <li key={group.key} className="flex items-center gap-4 py-4 first:pt-0 last:pb-0">
-              <span className="tabular w-7 shrink-0 text-right text-2xl font-extrabold tracking-[-0.05em] text-subtle-foreground">
+              <span className="tabular w-7 shrink-0 text-right font-[family-name:var(--font-display)] text-2xl text-subtle-foreground">
                 {i + 1}
               </span>
               <div className="min-w-0 flex-1">
@@ -105,7 +106,7 @@ function FillerRanking({
                   </Link>
                   <span className="tabular shrink-0 text-sm">
                     <span
-                      className={`text-lg font-extrabold tracking-[-0.03em] ${group.fillerPercentage === 0 ? 'text-canon-text' : 'text-filler-text'}`}
+                      className={`text-lg font-bold ${group.fillerPercentage === 0 ? 'text-canon-text' : 'text-filler-text'}`}
                     >
                       {group.fillerPercentage}%
                     </span>
@@ -126,6 +127,6 @@ function FillerRanking({
       {entries.length < 3 && (
         <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">Rankings grow as more filler guides are imported.</p>
       )}
-    </section>
+    </Window>
   );
 }

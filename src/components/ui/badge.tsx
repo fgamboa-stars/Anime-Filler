@@ -7,13 +7,14 @@ import { cn } from '@/utils/cn';
  * types and status, and always use the AA-contrast "-text" tokens on a light tint.
  */
 const badgeVariants = cva(
-  'inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border-[1.5px] px-2.5 py-0.5 text-xs font-semibold [&_svg]:size-3.5 [&_svg]:shrink-0',
+  'inline-flex items-center gap-1.5 whitespace-nowrap border-2 px-2 py-0.5 text-[11px] font-bold tracking-[0.05em] uppercase [&_svg]:size-3.5 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
-        default: 'border-border-strong/40 bg-surface-2 text-muted-foreground',
+        default: 'border-edge bg-surface-2 text-foreground',
         outline: 'border-border text-muted-foreground',
-        solid: 'border-transparent bg-primary text-primary-foreground',
+        solid: 'border-edge bg-primary text-primary-foreground',
+        lime: 'border-edge bg-lime text-lime-foreground',
         canon: 'border-canon/50 bg-[color-mix(in_oklab,var(--canon)_10%,var(--surface))] text-canon-text',
         filler: 'border-filler/50 bg-[color-mix(in_oklab,var(--filler)_10%,var(--surface))] text-filler-text',
         mixed: 'border-mixed/55 bg-[color-mix(in_oklab,var(--mixed)_10%,var(--surface))] text-mixed-text',

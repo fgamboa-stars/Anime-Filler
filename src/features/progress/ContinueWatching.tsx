@@ -18,7 +18,7 @@ export function ContinueWatching({ limit = 4, emptyState }: { limit?: number; em
               to={`/anime/${p.slug}${stats.nextEpisode ? `#ep-${stats.nextEpisode}` : ''}`}
               className="tile group flex items-center gap-4 p-5"
             >
-              <span className="flex size-11 shrink-0 items-center justify-center rounded-md border-2 border-edge bg-primary text-primary-foreground dark:border-primary">
+              <span className="flex size-11 shrink-0 items-center justify-center border-2 border-edge bg-primary text-primary-foreground dark:border-primary">
                 <Play className="size-4 fill-current" aria-hidden />
               </span>
               <span className="min-w-0 flex-1">

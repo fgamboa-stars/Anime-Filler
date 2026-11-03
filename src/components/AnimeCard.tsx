@@ -37,10 +37,7 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
       />
       <div className="flex flex-col gap-1.5">
         <h3 className="text-[15px] leading-snug font-bold tracking-[-0.015em]">
-          <Link
-            to={animePath({ anilistId: id, title })}
-            className="outline-none after:absolute after:inset-0 after:rounded-lg focus-visible:underline"
-          >
+          <Link to={animePath({ anilistId: id, title })} className="outline-none after:absolute after:inset-0 focus-visible:underline">
             <Highlight text={title} ranges={highlights} />
           </Link>
         </h3>
@@ -69,9 +66,9 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
 export function AnimeCardSkeleton() {
   return (
     <div className="flex flex-col gap-3" aria-hidden>
-      <div className="aspect-[2/3] animate-shimmer rounded-lg bg-surface-2" />
-      <div className="h-4 w-4/5 animate-shimmer rounded-md bg-surface-2" />
-      <div className="h-3 w-1/2 animate-shimmer rounded-md bg-surface-2" />
+      <div className="aspect-[2/3] animate-shimmer bg-surface-2" />
+      <div className="h-4 w-4/5 animate-shimmer bg-surface-2" />
+      <div className="h-3 w-1/2 animate-shimmer bg-surface-2" />
     </div>
   );
 }

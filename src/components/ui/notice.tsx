@@ -28,7 +28,7 @@ interface NoticeProps {
 export function Notice({ tone = 'neutral', title, children, icon, actions, className, titleAs: TitleTag = 'p', titleId }: NoticeProps) {
   const t = TONE[tone];
   return (
-    <div className={cn('flex items-start gap-3 rounded-lg border-2 px-4 py-3.5 text-sm sm:px-5 sm:py-4', t.box, className)}>
+    <div className={cn('flex items-start gap-3 border-2 px-4 py-3.5 text-sm sm:px-5 sm:py-4', t.box, className)}>
       <span className={cn('mt-0.5 shrink-0 [&_svg]:size-[18px]', t.icon)} aria-hidden>
         {icon ?? <t.Icon />}
       </span>

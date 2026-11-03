@@ -15,7 +15,7 @@ interface SegmentedProps<T extends string> {
 export function Segmented<T extends string>({ label, options, value, onChange, className }: SegmentedProps<T>) {
   return (
     <nav aria-label={label} className={cn('max-w-full overflow-x-auto', className)}>
-      <div className="inline-flex gap-1 rounded-md border-2 border-edge bg-surface p-1">
+      <div className="inline-flex gap-1 border-2 border-edge bg-surface p-1">
         {options.map((o) => {
           const active = o.value === value;
           return (
@@ -25,7 +25,7 @@ export function Segmented<T extends string>({ label, options, value, onChange, c
               aria-current={active ? 'page' : undefined}
               onClick={() => onChange(o.value)}
               className={cn(
-                'h-9 shrink-0 rounded-[6px] px-4 text-sm font-semibold transition-[background-color,color] duration-150',
+                'h-9 shrink-0 px-4 text-xs font-bold tracking-[0.06em] uppercase transition-[background-color,color] duration-150',
                 active ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-surface-2 hover:text-foreground',
               )}
             >

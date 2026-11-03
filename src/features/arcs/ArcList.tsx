@@ -57,10 +57,7 @@ export function ArcList({ arcs, episodes, watched }: ArcListProps) {
                 label={`${arc.name}: ${arc.counts.FILLER} filler of ${eps.length}`}
               />
               <div className="-mx-2 -mb-1 flex flex-wrap text-sm font-medium">
-                <Link
-                  to={`${pathname}?arc=${arc.slug}`}
-                  className="link-pill"
-                >
+                <Link to={`${pathname}?arc=${arc.slug}`} className="link-pill">
                   View episodes
                 </Link>
                 {arc.counts.FILLER > 0 && arc.counts.FILLER < eps.length && (
@@ -71,10 +68,7 @@ export function ArcList({ arcs, episodes, watched }: ArcListProps) {
                     Canon only
                   </Link>
                 )}
-                <Link
-                  to={`${pathname}?view=watch-order&arc=${arc.slug}`}
-                  className="link-pill text-muted-foreground"
-                >
+                <Link to={`${pathname}?view=watch-order&arc=${arc.slug}`} className="link-pill text-muted-foreground">
                   Arc watch order
                 </Link>
               </div>

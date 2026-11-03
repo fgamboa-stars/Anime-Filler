@@ -2,6 +2,7 @@ import { memo, useState } from 'react';
 import { Check, ChevronsUp } from 'lucide-react';
 import { EpisodeTypeBadge, TYPE_COLOR_CLASS } from '@/components/EpisodeTypeBadge';
 import { Button } from '@/components/ui/button';
+import { Window } from '@/components/retro/Window';
 import type { Episode } from '@/types';
 import { cn } from '@/utils/cn';
 
@@ -25,20 +26,22 @@ export function EpisodeList({ episodes, watched, hideTitles, onToggle, onMarkUpT
 
   return (
     <div>
-      <ol className="surface-card divide-y divide-border overflow-hidden" aria-label="Episodes">
-        {shown.map((ep, i) => (
-          <EpisodeRow
-            key={ep.number}
-            ep={ep}
-            watched={watched.has(ep.number)}
-            hideTitle={hideTitles}
-            onToggle={onToggle}
-            onMarkUpTo={onMarkUpTo}
-            onArcClick={onArcClick}
-            showArc={i === 0 || shown[i - 1].arcSlug !== ep.arcSlug}
-          />
-        ))}
-      </ol>
+      <Window title="episodes.txt" bodyClassName="overflow-hidden">
+        <ol className="divide-y divide-border" aria-label="Episodes">
+          {shown.map((ep, i) => (
+            <EpisodeRow
+              key={ep.number}
+              ep={ep}
+              watched={watched.has(ep.number)}
+              hideTitle={hideTitles}
+              onToggle={onToggle}
+              onMarkUpTo={onMarkUpTo}
+              onArcClick={onArcClick}
+              showArc={i === 0 || shown[i - 1].arcSlug !== ep.arcSlug}
+            />
+          ))}
+        </ol>
+      </Window>
       {shown.length < episodes.length && (
         <div className="mt-6 flex justify-center">
           <Button variant="outline" onClick={() => setLimit((l) => l + PAGE * 2)}>
@@ -70,17 +73,14 @@ const EpisodeRow = memo(function EpisodeRow({ ep, watched, hideTitle, showArc, o
         watched && 'bg-surface-2/40',
       )}
     >
-      <span
-        aria-hidden
-        className={cn('absolute inset-y-0 left-0 w-1.5', TYPE_COLOR_CLASS[ep.type], watched && 'opacity-40')}
-      />
+      <span aria-hidden className={cn('absolute inset-y-0 left-0 w-1.5', TYPE_COLOR_CLASS[ep.type], watched && 'opacity-40')} />
       <div className="relative flex shrink-0 items-center">
         <input
           id={checkboxId}
           type="checkbox"
           checked={watched}
           onChange={() => onToggle(ep.number)}
-          className="peer size-6 cursor-pointer appearance-none rounded-[6px] border-2 border-input bg-surface transition-colors hover:border-foreground checked:border-foreground checked:bg-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          className="peer size-6 cursor-pointer appearance-none border-2 border-input bg-surface transition-colors hover:border-foreground checked:border-foreground checked:bg-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
         />
         <Check
           className="pointer-events-none absolute inset-0 m-auto size-4 text-background opacity-0 peer-checked:opacity-100"
@@ -90,7 +90,7 @@ const EpisodeRow = memo(function EpisodeRow({ ep, watched, hideTitle, showArc, o
       </div>
       <span
         className={cn(
-          'tabular w-9 shrink-0 text-right text-base font-extrabold tracking-[-0.04em] sm:w-12 sm:text-lg',
+          'tabular w-9 shrink-0 text-right text-base font-bold sm:w-12',
           watched ? 'text-subtle-foreground' : 'text-foreground',
         )}
       >

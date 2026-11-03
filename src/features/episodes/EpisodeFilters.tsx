@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react';
 import { ArrowDownWideNarrow, ArrowUpNarrowWide, EyeOff, Eye, RotateCcw, Search, SlidersHorizontal } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Window } from '@/components/retro/Window';
 import { ToggleChip } from '@/components/ui/chip';
 import { Input } from '@/components/ui/input';
 import { Select } from '@/components/ui/select';
@@ -50,7 +51,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
   const advancedCount = (filters.arc ? 1 : 0) + (filters.watched !== 'all' ? 1 : 0) + (filters.sort === 'desc' ? 1 : 0);
 
   return (
-    <div className="surface-card flex flex-col gap-4 p-3 sm:p-4">
+    <Window title="filters.cfg" bodyClassName="flex flex-col gap-4 p-3 sm:p-4">
       <div className="flex gap-2">
         <div className="relative min-w-0 flex-1">
           <label htmlFor={`${id}-q`} className="sr-only">
@@ -76,7 +77,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
           <SlidersHorizontal aria-hidden />
           Filters
           {advancedCount > 0 && (
-            <span className="tabular inline-flex size-5 items-center justify-center rounded-full bg-primary text-[11px] text-primary-foreground">
+            <span className="tabular inline-flex size-5 items-center justify-center bg-primary text-[11px] text-primary-foreground">
               {advancedCount}
               <span className="sr-only"> active</span>
             </span>
@@ -94,7 +95,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
             const on = filters.types.includes(t);
             return (
               <ToggleChip key={t} pressed={on} onPressedChange={() => toggleType(t)}>
-                <span aria-hidden className={cn('size-2.5 rounded-[3px]', TYPE_COLOR_CLASS[t], on && 'ring-2 ring-background/30')} />
+                <span aria-hidden className={cn('size-2.5 ', TYPE_COLOR_CLASS[t], on && 'ring-2 ring-background/30')} />
                 {TYPE_LABELS[t]}
                 <span className={cn('tabular text-xs', on ? 'text-background/70' : 'text-subtle-foreground')}>{counts[t]}</span>
               </ToggleChip>
@@ -170,6 +171,6 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
           </Button>
         </div>
       )}
-    </div>
+    </Window>
   );
 }

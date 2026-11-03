@@ -16,7 +16,7 @@ export function Stat({
   return (
     <div className={cn('flex flex-col-reverse gap-1', className)}>
       <dt className="text-sm text-muted-foreground">{label}</dt>
-      <dd className={cn('tabular text-3xl font-extrabold tracking-[-0.045em] sm:text-4xl', valueClassName)}>{value}</dd>
+      <dd className={cn('tabular font-[family-name:var(--font-display)] text-3xl sm:text-4xl', valueClassName)}>{value}</dd>
     </div>
   );
 }

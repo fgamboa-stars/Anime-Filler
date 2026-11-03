@@ -9,22 +9,22 @@ import { cn } from '@/utils/cn';
  * Default and large sizes meet the 44px touch target.
  */
 const pressable =
-  'shadow-hard-sm hover:-translate-x-px hover:-translate-y-px hover:shadow-[3px_3px_0_0_var(--hard)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none motion-reduce:transform-none';
+  'shadow-[3px_3px_0_0_var(--hard)] hover:-translate-x-px hover:-translate-y-px hover:shadow-[4px_4px_0_0_var(--hard)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none motion-reduce:transform-none';
 
 const buttonVariants = cva(
-  'inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold tracking-[-0.01em] transition-[background-color,border-color,color,box-shadow,transform] duration-150 outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
+  'inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap text-[13px] font-bold tracking-[0.06em] uppercase transition-[background-color,border-color,color,box-shadow,transform] duration-150 outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
-        default: cn('border-2 border-edge bg-primary text-primary-foreground hover:bg-primary/90 dark:border-primary', pressable),
+        default: cn('border-2 border-edge bg-primary text-primary-foreground hover:bg-primary/88', pressable),
         secondary: cn('border-2 border-edge bg-surface-2 text-foreground hover:bg-surface-3', pressable),
         outline: cn('border-2 border-edge bg-surface text-foreground hover:bg-surface-2', pressable),
-        ghost: 'text-foreground hover:bg-surface-2',
-        link: 'rounded-none px-0 text-foreground underline decoration-2 decoration-border-strong underline-offset-4 hover:decoration-foreground',
+        ghost: 'border-2 border-transparent text-foreground hover:border-edge hover:bg-surface',
+        link: 'px-0 normal-case tracking-normal text-foreground underline decoration-2 underline-offset-4 hover:bg-lime hover:text-lime-foreground',
       },
       size: {
         default: 'h-11 px-5',
-        sm: 'h-9 px-3.5 text-[13px]',
+        sm: 'h-9 px-3.5 text-xs',
         lg: 'h-12 px-6 text-[15px]',
         icon: 'size-11',
         'icon-sm': 'size-9',

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo } from 'react';
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Database } from 'lucide-react';
 import { EpisodeDonut } from '@/components/EpisodeDonut';
+import { Window } from '@/components/retro/Window';
 import { ShareButton } from '@/components/ShareButton';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { Button } from '@/components/ui/button';
@@ -97,7 +98,7 @@ function SeasonNav({ entry }: { entry: CatalogEntry }) {
                 to={`/anime/${s.slug}`}
                 aria-current={current ? 'page' : undefined}
                 className={cn(
-                  'inline-flex h-10 items-center gap-2 rounded-full border px-4 text-sm font-medium transition-colors',
+                  'inline-flex h-10 items-center gap-2 border px-4 text-sm font-medium transition-colors',
                   current ? 'border-foreground bg-foreground text-background' : 'border-border bg-surface hover:border-border-strong',
                 )}
               >
@@ -142,8 +143,8 @@ function NoFillerData() {
 function GuideSkeleton() {
   return (
     <div className="space-y-4" role="status" aria-label="Loading episode guide">
-      <Skeleton className="h-56 w-full rounded-lg" />
-      <Skeleton className="h-24 w-full rounded-lg" />
+      <Skeleton className="h-56 w-full " />
+      <Skeleton className="h-24 w-full " />
       {Array.from({ length: 6 }, (_, i) => (
         <Skeleton key={i} className="h-14 w-full" />
       ))}
@@ -199,7 +200,7 @@ function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: numb
   return (
     <div className="flex flex-col gap-8">
       <section aria-label="Series overview" className="flex flex-col gap-4">
-        <div className="surface-card p-5 sm:p-8">
+        <Window title={`${dataset.slug}.stats`} bodyClassName="p-5 sm:p-8">
           <div className="mb-8">
             <h2 className="text-heading text-balance">
               <span className="tabular text-filler-text">{dataset.counts.FILLER}</span> of{' '}
@@ -211,7 +212,7 @@ function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: numb
             counts={dataset.counts}
             label={`${dataset.title}: ${dataset.counts.CANON} canon, ${dataset.counts.MIXED} mixed, ${dataset.counts.ANIME_CANON} anime canon and ${dataset.counts.FILLER} filler episodes`}
           />
-        </div>
+        </Window>
         {unclassified > 0 && (
           <Notice tone="info">
             <p className="text-foreground">

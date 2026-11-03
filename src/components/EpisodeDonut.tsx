@@ -142,11 +142,11 @@ export const EpisodeDonut = memo(function EpisodeDonut({ counts, label, classNam
           )}
         </svg>
         <div aria-hidden className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-          <span className="tabular text-4xl leading-none font-extrabold tracking-[-0.06em] text-foreground lg:text-[2.75rem]">
+          <span className="tabular font-[family-name:var(--font-display)] text-[1.75rem] leading-none text-foreground sm:text-3xl lg:text-4xl">
             {formatShare(counts[focus], total)}
           </span>
           <span className="mt-1.5 inline-flex max-w-[9rem] items-center gap-1.5 text-sm leading-tight font-medium text-muted-foreground">
-            <span className={cn('size-2 shrink-0 rounded-[2px]', TYPE_COLOR_CLASS[focus])} />
+            <span className={cn('size-2 shrink-0 ', TYPE_COLOR_CLASS[focus])} />
             {TYPE_LABELS[focus].toLowerCase()}
           </span>
         </div>
@@ -168,18 +168,18 @@ export const EpisodeDonut = memo(function EpisodeDonut({ counts, label, classNam
                   onBlur={() => setHovered(null)}
                   onClick={() => toggle(t)}
                   className={cn(
-                    'grid w-full grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-2 rounded-md border-2 px-3 py-2.5 text-left transition-[opacity,border-color,background-color] duration-150',
+                    'grid w-full grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-2 border-2 px-3 py-2.5 text-left transition-[opacity,border-color,background-color] duration-150',
                     pinned === t ? 'border-edge bg-surface-2' : 'border-transparent hover:bg-surface-2',
                     active && active !== t && 'opacity-45',
                   )}
                 >
-                  <span aria-hidden className={cn('size-3 rounded-[3px]', TYPE_COLOR_CLASS[t])} />
+                  <span aria-hidden className={cn('size-3 ', TYPE_COLOR_CLASS[t])} />
                   <span className="min-w-0">
                     <span className="block font-semibold text-foreground">{TYPE_LABELS[t]}</span>
                     {!compact && <span className="mt-0.5 hidden text-sm text-muted-foreground sm:block">{TYPE_DESCRIPTIONS[t]}</span>}
                   </span>
                   <span className="tabular text-right">
-                    <span className="block text-lg leading-tight font-extrabold tracking-[-0.03em] text-foreground">
+                    <span className="block text-lg leading-tight font-bold text-foreground">
                       {formatShare(counts[t], total)}
                     </span>
                     <span className="block text-xs text-muted-foreground">

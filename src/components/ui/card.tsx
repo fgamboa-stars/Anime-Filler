@@ -8,16 +8,7 @@ interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
 
 /** Surface container: 24px radius, hairline border, soft elevation. */
 export function Card({ className, interactive, ...props }: CardProps) {
-  return (
-    <div
-      className={cn(
-        interactive ? 'tile' : 'panel',
-        'text-foreground',
-        className,
-      )}
-      {...props}
-    />
-  );
+  return <div className={cn(interactive ? 'tile' : 'panel', 'text-foreground', className)} {...props} />;
 }
 
 export function CardHeader({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {

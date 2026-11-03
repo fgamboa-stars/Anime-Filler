@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Play, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Window } from '@/components/retro/Window';
+import { PixelIcon } from '@/components/retro/PixelIcon';
 import { Progress } from '@/components/ui/progress';
 import { progressStats, useProgressStore } from '@/store/progressStore';
 import type { PreparedDataset } from '@/types';
@@ -16,10 +18,10 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
   const nextCanon = progressStats(entry, total, (n) => typeOf.get(n) !== 'FILLER').nextEpisode;
 
   return (
-    <div className="surface-card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:gap-8 sm:p-6">
+    <Window title="progress.sav" bodyClassName="flex flex-col gap-4 p-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-8 sm:p-6">
       <div className="min-w-0 flex-1">
         <p className="flex flex-wrap items-baseline gap-x-3">
-          <span className="text-3xl font-extrabold tracking-[-0.05em] sm:text-4xl">
+          <span className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl">
             <span className="tabular">{stats.watchedCount}</span>
             <span className="text-subtle-foreground"> / </span>
             <span className="tabular">{stats.total}</span>
@@ -46,28 +48,43 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
             Next incl. filler: {stats.nextEpisode}
           </Button>
         )}
-        {stats.watchedCount > 0 &&
-          (confirming ? (
+        {stats.watchedCount > 0 && !confirming && (
+          <Button size="sm" variant="ghost" onClick={() => setConfirming(true)}>
+            <RotateCcw aria-hidden />
+            Reset progress
+          </Button>
+        )}
+      </div>
+      {confirming && (
+        <div
+          role="alertdialog"
+          aria-labelledby={`${dataset.slug}-reset-title`}
+          onKeyDown={(e) => {
+            if (e.key === 'Escape') setConfirming(false);
+          }}
+          className="flex flex-wrap items-center gap-x-4 gap-y-3 border-2 border-edge bg-surface-2 p-3 sm:basis-full"
+        >
+          <PixelIcon name="warning" size={2} />
+          <p id={`${dataset.slug}-reset-title`} className="text-label min-w-0 flex-1">
+            Reset all progress for this series? This can’t be undone.
+          </p>
+          <div className="flex gap-2">
             <Button
               size="sm"
-              variant="outline"
-              className="border-danger/50 text-danger hover:border-danger hover:bg-danger/[0.06]"
               onClick={() => {
                 resetAnime(dataset.slug);
                 setConfirming(false);
               }}
-              onBlur={() => setConfirming(false)}
               autoFocus
             >
               Confirm reset
             </Button>
-          ) : (
-            <Button size="sm" variant="ghost" onClick={() => setConfirming(true)}>
-              <RotateCcw aria-hidden />
-              Reset progress
+            <Button size="sm" variant="secondary" onClick={() => setConfirming(false)}>
+              Cancel
             </Button>
-          ))}
-      </div>
-    </div>
+          </div>
+        </div>
+      )}
+    </Window>
   );
 }

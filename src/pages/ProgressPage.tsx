@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Tv } from 'lucide-react';
+import { PixelIcon } from '@/components/retro/PixelIcon';
 import { Button } from '@/components/ui/button';
 import { StateMessage } from '@/components/StateMessage';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
@@ -22,7 +22,7 @@ export default function ProgressPage() {
           emptyState={
             <StateMessage
               title="Nothing in progress yet"
-              icon={<Tv className="text-muted-foreground" />}
+              icon={<PixelIcon name="smiley" size={3} />}
               action={
                 first && (
                   <Button asChild size="sm">

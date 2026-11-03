@@ -56,7 +56,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
       <div className="container-page relative pt-10 sm:pt-16">
         <div className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           {loading && !media ? (
-            <Skeleton className="aspect-[2/3] w-36 shrink-0 rounded-lg sm:w-52" />
+            <Skeleton className="aspect-[2/3] w-36 shrink-0 sm:w-52" />
           ) : (
             <Poster
               src={media?.coverImage.large ?? media?.coverImage.extraLarge}
@@ -75,7 +75,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
           <div className="min-w-0 flex-1 sm:pt-4">
             <FillerAvailabilityBadge available={!!catalog} />
             {title ? (
-              <h1 className="mt-4 text-[clamp(2.25rem,5.5vw,4rem)] leading-[1] font-semibold tracking-[-0.04em] text-balance">{title}</h1>
+              <h1 className="text-title mt-4 text-balance">{title}</h1>
             ) : (
               <Skeleton className="mt-3 h-12 w-3/4" />
             )}
@@ -105,7 +105,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
                 {media.genres.map((g) => (
                   <li
                     key={g}
-                    className="rounded-full border border-border bg-surface/70 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur-sm"
+                    className="border-2 border-edge bg-surface px-2.5 py-0.5 text-[11px] font-bold tracking-[0.05em] text-foreground uppercase"
                   >
                     {g}
                   </li>
@@ -118,7 +118,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
                 <Skeleton className="mt-4 h-5 w-64" />
                 <div className="mt-4 flex gap-2">
                   {[56, 72, 64, 80].map((w) => (
-                    <Skeleton key={w} className="h-[26px] rounded-full" style={{ width: w }} />
+                    <Skeleton key={w} className="h-[26px] " style={{ width: w }} />
                   ))}
                 </div>
                 <div className="mt-5 space-y-[9px]">

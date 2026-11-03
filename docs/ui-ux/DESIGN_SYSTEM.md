@@ -1,5 +1,15 @@
 # Filler Finder design system
 
+> **Current direction: retro-brutalist (round 3).** These rules take precedence over anything below that conflicts with them.
+>
+> - **Type:** Archivo Black for uppercase display headings and figures; Space Mono for everything else. `text-label` is the mono caps meta style.
+> - **Geometry:** square corners everywhere (all radius tokens are 0).
+> - **Colour:** paper/ink (light `#e9e9e6` / `#0a0a0a`; dark `#0b0b0b` / `#ecebe6`) plus one accent, `--lime` (`#c9f234` light, `#d4ff3f` dark), always paired with black text. It is used only for availability badges, hover highlights, text selection and stickers.
+> - **Windows:** `Window` title bars (black bar, file-name caption, inert controls) frame key content. Windows and tiles cast 4px hard shadows; buttons cast 3px and press flat.
+> - **Retro details:** pixel icons (`PixelIcon`: smiley, hourglass, warning), pixel cursors, square scrollbars, a decorative barcode, and the starburst sticker.
+> - **Episode-type colours:** unchanged and colour-vision validated.
+> - The neo-brutalist version is preserved at git tag `neo-brutalist-v1`.
+
 **Direction: premium neo-brutalist** (round 2). This is a grayscale, type-led system with 2px structural edges, hard offset shadows on interactive surfaces only, and heavy type. Round 1's tokens still apply; round 2 adds the edge, shadow and type tokens described below.
 
 A grayscale, type-led system with two themes. Colour is reserved for meaning: status (success, warning, danger, info) and the four episode types. Everything else is black, white or gray.

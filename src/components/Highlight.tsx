@@ -9,7 +9,7 @@ export function Highlight({ text, ranges }: { text: string; ranges: readonly Ran
   ranges.forEach(([start, end], i) => {
     if (start > cursor) parts.push(text.slice(cursor, start));
     parts.push(
-      <mark key={i} className="rounded-[2px] bg-transparent text-foreground underline decoration-ring decoration-2 underline-offset-[3px]">
+      <mark key={i} className="bg-transparent text-foreground underline decoration-ring decoration-2 underline-offset-[3px]">
         {text.slice(start, end + 1)}
       </mark>,
     );

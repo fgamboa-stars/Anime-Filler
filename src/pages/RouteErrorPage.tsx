@@ -14,9 +14,7 @@ export default function RouteErrorPage() {
       <h1 className="text-title text-balance">This page hit a problem.</h1>
       <p className="text-lead mt-4">Reload to try again. Your watch progress is saved in this browser and isn’t affected.</p>
       {detail && (
-        <p className="mt-6 rounded-md border-2 border-edge bg-surface-2 px-4 py-3 font-mono text-[13px] text-muted-foreground">
-          Error: {detail}
-        </p>
+        <p className="mt-6 border-2 border-edge bg-surface-2 px-4 py-3 font-mono text-[13px] text-muted-foreground">Error: {detail}</p>
       )}
       <div className="mt-8 flex flex-wrap gap-2">
         <Button onClick={() => window.location.reload()}>

@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { ClipboardCopy, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Window } from '@/components/retro/Window';
 import { Stat } from '@/components/ui/stat';
 import { cn } from '@/utils/cn';
 import { useToast } from '@/components/ui/toast';
@@ -68,7 +69,7 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
         </Button>
       </div>
 
-      <div className="surface-card flex flex-col gap-6 p-5 sm:p-6">
+      <Window title="watch_order.txt" bodyClassName="flex flex-col gap-6 p-5 sm:p-6">
         <dl className="grid grid-cols-3 gap-4 sm:gap-6">
           <Stat
             label="To watch"
@@ -130,7 +131,7 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
             )}
           </fieldset>
         )}
-      </div>
+      </Window>
 
       <div className="grid gap-4 md:grid-cols-2">
         <RangeColumn title="Watch" ranges={order.watch.map(formatRange)} tone="canon" />
@@ -142,9 +143,9 @@ export function WatchOrderPanel({ title, episodes, arc, onClearArc }: WatchOrder
 
 function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: string[]; tone: 'canon' | 'filler'; empty?: string }) {
   return (
-    <div className="surface-card p-5 sm:p-6">
+    <Window title={`${title.toLowerCase()}.list`} bodyClassName="p-5 sm:p-6">
       <h3 className="flex items-center gap-2.5 text-subheading">
-        <span aria-hidden className={cn('size-3 rounded-[3px]', tone === 'canon' ? 'bg-canon' : 'bg-filler')} />
+        <span aria-hidden className={cn('size-3 ', tone === 'canon' ? 'bg-canon' : 'bg-filler')} />
         {title} <span className="text-sm font-normal text-muted-foreground">({ranges.length} ranges)</span>
       </h3>
       {ranges.length ? (
@@ -153,7 +154,7 @@ function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: st
             <li
               key={r}
               className={cn(
-                'tabular rounded-sm border-[1.5px] px-2.5 py-1 text-sm font-semibold',
+                'tabular border-[1.5px] px-2.5 py-1 text-sm font-semibold',
                 tone === 'canon' ? 'border-canon/55 bg-canon/10 text-canon-text' : 'border-filler/55 bg-filler/10 text-filler-text',
               )}
             >
@@ -164,6 +165,6 @@ function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: st
       ) : (
         <p className="mt-4 text-sm text-muted-foreground">{empty}</p>
       )}
-    </div>
+    </Window>
   );
 }

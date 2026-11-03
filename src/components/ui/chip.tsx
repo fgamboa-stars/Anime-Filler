@@ -15,10 +15,10 @@ export const ToggleChip = React.forwardRef<HTMLButtonElement, ToggleChipProps>(
       aria-pressed={pressed}
       onClick={() => onPressedChange(!pressed)}
       className={cn(
-        'inline-flex h-10 shrink-0 items-center gap-2 rounded-full border-2 px-4 text-sm font-semibold transition-colors [&_svg]:size-4 [&_svg]:shrink-0',
+        'inline-flex h-10 shrink-0 items-center gap-2 border-2 px-3.5 text-xs font-bold tracking-[0.05em] uppercase transition-colors [&_svg]:size-4 [&_svg]:shrink-0',
         pressed
           ? 'border-foreground bg-foreground text-background'
-          : 'border-border-strong/50 bg-surface text-muted-foreground hover:border-foreground hover:text-foreground',
+          : 'border-edge bg-surface text-foreground hover:bg-lime hover:text-lime-foreground',
         className,
       )}
       {...props}

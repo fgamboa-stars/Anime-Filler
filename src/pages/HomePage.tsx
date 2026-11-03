@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
 import { EpisodeDonut } from '@/components/EpisodeDonut';
+import { Starburst } from '@/components/retro/Starburst';
+import { Window } from '@/components/retro/Window';
 import { Poster } from '@/components/Poster';
 import { SearchBox } from '@/features/search/SearchBox';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
@@ -52,11 +54,40 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="container-page pt-16 pb-16 sm:pt-28 sm:pb-24">
-          <h1 className="text-display max-w-4xl text-balance">Watch the story. Skip the filler.</h1>
-          <p className="text-lead mt-6 max-w-xl">
-            Search any anime on AniList. Where filler data exists, every episode is marked canon, mixed or filler — so you can build a watch
-            order and pick up where you left off.
-          </p>
+          <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_13rem]">
+            <div>
+              <h1 className="text-display max-w-4xl">
+                Watch the story.
+                <br />
+                Skip the filler.
+              </h1>
+              <p className="text-label mt-6 text-muted-foreground">Search / Filter / Watch order / Track progress</p>
+              <p className="text-lead mt-6 max-w-xl">
+                Search any anime on AniList. Where filler data exists, every episode is marked canon, mixed or filler — so you can build a
+                watch order and pick up where you left off.
+              </p>
+            </div>
+            <div className="relative hidden lg:block">
+              <p className="text-label mb-6 text-muted-foreground">
+                A free episode guide for anime fans who want the story without the detours.
+              </p>
+              <dl className="border-2 border-edge bg-primary p-4 text-primary-foreground shadow-hard">
+                <div className="flex flex-col-reverse">
+                  <dt className="text-label">Series</dt>
+                  <dd className="text-kpi">{groups.length}</dd>
+                </div>
+                <div className="text-label mt-4 flex flex-col-reverse border-t-2 border-primary-foreground/30 pt-3">
+                  <dt>episodes classified</dt>
+                  <dd className="tabular">{catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')}</dd>
+                </div>
+              </dl>
+              <Starburst className="absolute -right-8 -bottom-14 size-28 rotate-[10deg] text-lg">
+                No
+                <br />
+                sign-up
+              </Starburst>
+            </div>
+          </div>
           <SearchBox size="lg" className="mt-10 max-w-2xl" />
           <div className="mt-6 flex flex-wrap gap-2.5">
             <Button asChild variant="outline" size="sm">
@@ -80,7 +111,7 @@ export default function HomePage() {
           </div>
 
           {showcase && (
-            <div className="panel mt-16 p-5 sm:mt-24 sm:p-10">
+            <Window title={`${showcase.slug}.stats`} className="mt-16 sm:mt-24" bodyClassName="p-5 sm:p-10">
               <div className="mb-8 max-w-2xl">
                 <p className="text-sm text-muted-foreground">
                   <Link
@@ -99,7 +130,7 @@ export default function HomePage() {
                 counts={showcase.counts}
                 label={`${showcase.title}: ${showcase.counts.CANON} canon, ${showcase.counts.MIXED} mixed, ${showcase.counts.ANIME_CANON} anime canon and ${showcase.counts.FILLER} filler episodes`}
               />
-            </div>
+            </Window>
           )}
         </div>
       </section>
@@ -168,15 +199,10 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
   const multi = group.entries.length > 1;
   return (
     <article className="tile relative flex h-full gap-4 p-4 sm:p-5">
-      <Poster
-        src={media?.coverImage.large}
-        color={media?.coverImage.color}
-        title={group.title}
-        className="w-20 shrink-0 self-start rounded-md"
-      />
+      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={group.title} className="w-20 shrink-0 self-start " />
       <div className="flex min-w-0 flex-1 flex-col">
         <h3 className="text-base leading-snug font-semibold tracking-[-0.01em]">
-          <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-lg focus-visible:underline">
+          <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 focus-visible:underline">
             {group.title}
           </Link>
         </h3>
@@ -197,11 +223,7 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
           {multi ? (
             <>
               {group.entries.slice(0, SEASON_LINKS).map((e) => (
-                <Link
-                  key={e.slug}
-                  to={`/anime/${e.slug}`}
-                  className="link-pill max-w-[11rem] text-muted-foreground"
-                >
+                <Link key={e.slug} to={`/anime/${e.slug}`} className="link-pill max-w-[11rem] text-muted-foreground">
                   <span className="truncate">{seasonLabel(e)}</span>
                 </Link>
               ))}
@@ -217,17 +239,11 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
             </>
           ) : (
             <>
-              <Link
-                to={`/anime/${first.slug}?view=watch-order`}
-                className="link-pill text-muted-foreground"
-              >
+              <Link to={`/anime/${first.slug}?view=watch-order`} className="link-pill text-muted-foreground">
                 Watch order
               </Link>
               {first.counts.FILLER > 0 && (
-                <Link
-                  to={`/anime/${first.slug}?type=filler`}
-                  className="link-pill text-muted-foreground"
-                >
+                <Link to={`/anime/${first.slug}?type=filler`} className="link-pill text-muted-foreground">
                   Filler only
                 </Link>
               )}

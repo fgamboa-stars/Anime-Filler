@@ -17,10 +17,7 @@ export function Poster({ src, srcSet, sizes, title, color, className, priority =
   const showImage = src && !failed;
   return (
     <div
-      className={cn(
-        'relative aspect-[2/3] overflow-hidden rounded-lg border-2 border-edge bg-surface-2',
-        className,
-      )}
+      className={cn('relative aspect-[2/3] overflow-hidden border-2 border-edge bg-surface-2', className)}
       data-color={color ?? undefined}
     >
       {showImage ? (

@@ -19,14 +19,10 @@ export function ShareBar({ value, barClassName = 'bg-foreground', framed = false
   return (
     <div
       aria-hidden
-      className={cn(
-        'relative w-full overflow-hidden rounded-full',
-        framed ? 'h-3.5 border-2 border-edge bg-surface' : 'h-1.5 bg-track',
-        className,
-      )}
+      className={cn('relative w-full overflow-hidden ', framed ? 'h-3.5 border-2 border-edge bg-surface' : 'h-1.5 bg-track', className)}
     >
       <div
-        className={cn('absolute inset-y-0 left-0 rounded-full transition-[width] duration-500 motion-reduce:transition-none', barClassName)}
+        className={cn('absolute inset-y-0 left-0 transition-[width] duration-500 motion-reduce:transition-none', barClassName)}
         style={{ width: v > 0 ? `max(${v}%, 4px)` : 0 }}
       />
     </div>

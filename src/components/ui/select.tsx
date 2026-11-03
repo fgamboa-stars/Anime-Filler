@@ -7,10 +7,15 @@ import { fieldClass } from './input';
 const Select = React.forwardRef<HTMLSelectElement, React.SelectHTMLAttributes<HTMLSelectElement> & { wrapperClassName?: string }>(
   ({ className, wrapperClassName, children, ...props }, ref) => (
     <div className={cn('relative', wrapperClassName)}>
-      <select ref={ref} className={cn(fieldClass, 'cursor-pointer appearance-none pr-10', className)} {...props}>
+      <select ref={ref} className={cn(fieldClass, 'cursor-pointer appearance-none pr-12', className)} {...props}>
         {children}
       </select>
-      <ChevronDown className="pointer-events-none absolute top-1/2 right-3.5 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-y-[2px] right-[2px] flex w-9 items-center justify-center bg-primary text-primary-foreground"
+      >
+        <ChevronDown className="size-4" strokeWidth={3} />
+      </span>
     </div>
   ),
 );

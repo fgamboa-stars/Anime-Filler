@@ -1,5 +1,7 @@
 @import 'tailwindcss';
-@import '@fontsource-variable/geist/index.css';
+@import '@fontsource/archivo-black/400.css';
+@import '@fontsource/space-mono/400.css';
+@import '@fontsource/space-mono/700.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -12,22 +14,24 @@
 :root {
   color-scheme: light;
 
-  --background: #f4f4f4;
-  --surface: #ffffff;
-  --surface-2: #f4f4f5;
-  --surface-3: #ebebec;
-  --foreground: #171717;
-  --muted-foreground: #525252;
-  --subtle-foreground: #646464;
-  --border: #e2e2e2;
-  --border-strong: #8a8a8a;
-  /* Neo-brutalist structure: 2px edges and hard, unblurred offset shadows. */
-  --edge: #171717;
-  --hard: #171717;
-  --primary: #171717;
-  --primary-foreground: #fafafa;
-  --ring: #171717;
-  --overlay: rgb(244 244 244 / 0.82);
+  /* Retro-brutalist: paper, ink, one acid accent. */
+  --background: #e9e9e6;
+  --surface: #f8f8f6;
+  --surface-2: #dcdcd9;
+  --surface-3: #cfcfcb;
+  --foreground: #0a0a0a;
+  --muted-foreground: #3a3a38;
+  --subtle-foreground: #575754;
+  --border: #b9b9b5;
+  --border-strong: #0a0a0a;
+  --edge: #0a0a0a;
+  --hard: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #f8f8f6;
+  --ring: #0a0a0a;
+  --lime: #c9f234;
+  --lime-foreground: #0a0a0a;
+  --overlay: rgb(233 233 230 / 0.85);
 
   --success: #15803d;
   --warning: #b45309;
@@ -40,36 +44,38 @@
   --anime-canon: #2563eb;
   --filler: #dc2626;
   --canon-text: #047857;
-  --mixed-text: #b45309;
+  --mixed-text: #92400e;
   --anime-canon-text: #1d4ed8;
   --filler-text: #b91c1c;
-  --track: #e6e6e6;
+  --track: #dcdcd9;
 
-  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.04);
-  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.04), 0 2px 8px -2px rgb(0 0 0 / 0.06);
-  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.04), 0 12px 32px -12px rgb(0 0 0 / 0.14);
-  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.04), 0 24px 56px -16px rgb(0 0 0 / 0.22);
+  --shadow-xs: 0 0 0 0 transparent;
+  --shadow-sm: 0 0 0 0 transparent;
+  --shadow-md: 0 0 0 0 transparent;
+  --shadow-lg: 0 0 0 0 transparent;
   --highlight: inset 0 0 0 0 transparent;
 }
 
 .dark {
   color-scheme: dark;
 
-  --background: #000000;
-  --surface: #0f0f0f;
-  --surface-2: #181818;
-  --surface-3: #222222;
-  --foreground: #ededed;
-  --muted-foreground: #a1a1a1;
-  --subtle-foreground: #8f8f8f;
-  --border: #262626;
-  --border-strong: #6b6b6b;
-  --edge: #454545;
-  --hard: #2e2e2e;
-  --primary: #ededed;
-  --primary-foreground: #0a0a0a;
-  --ring: #ededed;
-  --overlay: rgb(0 0 0 / 0.72);
+  --background: #0b0b0b;
+  --surface: #151515;
+  --surface-2: #262626;
+  --surface-3: #333333;
+  --foreground: #ecebe6;
+  --muted-foreground: #b8b7b2;
+  --subtle-foreground: #9c9b96;
+  --border: #3a3a3a;
+  --border-strong: #ecebe6;
+  --edge: #ecebe6;
+  --hard: #4a4a48;
+  --primary: #ecebe6;
+  --primary-foreground: #0b0b0b;
+  --ring: #ecebe6;
+  --lime: #d4ff3f;
+  --lime-foreground: #0b0b0b;
+  --overlay: rgb(11 11 11 / 0.8);
 
   --success: #4ade80;
   --warning: #fbbf24;
@@ -84,14 +90,13 @@
   --mixed-text: #fbbf24;
   --anime-canon-text: #60a5fa;
   --filler-text: #f87171;
-  --track: #262626;
+  --track: #2e2e2e;
 
-  /* Dark UIs show depth with light, not shadow: hairline + faint top highlight. */
   --shadow-xs: 0 0 0 0 transparent;
-  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.6);
-  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.6), 0 16px 40px -16px rgb(0 0 0 / 0.9);
-  --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.6), 0 32px 64px -20px rgb(0 0 0 / 1);
-  --highlight: inset 0 1px 0 0 rgb(255 255 255 / 0.05);
+  --shadow-sm: 0 0 0 0 transparent;
+  --shadow-md: 0 0 0 0 transparent;
+  --shadow-lg: 0 0 0 0 transparent;
+  --highlight: inset 0 0 0 0 transparent;
 }
 
 @theme inline {
@@ -122,6 +127,8 @@
   --color-filler-text: var(--filler-text);
   --color-track: var(--track);
   --color-edge: var(--edge);
+  --color-lime: var(--lime);
+  --color-lime-foreground: var(--lime-foreground);
   --color-hard: var(--hard);
 
   /* Legacy aliases so shadcn-style class names keep working. */
@@ -137,19 +144,20 @@
   --color-input: var(--border-strong);
   --color-destructive: var(--danger);
 
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
-  --radius-xl: 20px;
-  --radius-2xl: 24px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
 
   --shadow-xs: var(--shadow-xs);
   --shadow-sm: var(--shadow-sm);
   --shadow-md: var(--shadow-md);
   --shadow-lg: var(--shadow-lg);
 
-  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-display: 'Archivo Black', 'Arial Black', 'Helvetica Neue', sans-serif;
 
   --animate-shimmer: shimmer 1.6s ease-in-out infinite;
   --animate-toast-in: toast-in 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -213,7 +221,6 @@
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-feature-settings: 'ss01', 'cv11';
     min-height: 100dvh;
     transition:
       background-color 200ms ease,
@@ -226,51 +233,104 @@
     text-wrap: balance;
   }
   :focus-visible {
-    outline: 2px solid var(--ring);
-    outline-offset: 2px;
+    outline: 2px dashed var(--ring);
+    outline-offset: 3px;
   }
   ::selection {
-    background: color-mix(in oklab, var(--foreground) 18%, transparent);
+    background: var(--lime);
+    color: var(--lime-foreground);
+  }
+  /* Pixel cursors (decorative; the system cursor is the fallback). */
+  html {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='34' shape-rendering='crispEdges'%3E%3Crect x='0' y='0' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='2' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='4' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='4' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='6' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='8' width='6' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='10' width='8' height='2' fill='%23ffffff'/%3E%3Crect x='10' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='12' width='10' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='14' width='12' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='16' width='14' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='18' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='18' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='20' width='10' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='20' width='10' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='22' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='22' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='12' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='24' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='4' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='24' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='26' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='26' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='28' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='30' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='16' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='12' y='32' width='4' height='2' fill='%230a0a0a'/%3E%3C/svg%3E") 0 0, auto;
+  }
+  a[href],
+  button:not(:disabled),
+  [role='button'],
+  [role='option'],
+  [role='radio'],
+  label[for],
+  select,
+  summary {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='36' shape-rendering='crispEdges'%3E%3Crect x='10' y='0' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='2' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='2' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='2' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='4' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='4' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='6' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='6' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='8' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='8' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='8' width='6' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='10' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='10' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='10' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='10' width='6' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='12' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='22' y='12' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='12' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='14' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='16' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='20' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='22' y='14' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='28' y='14' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='14' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='16' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='6' y='16' width='4' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='16' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='28' y='16' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='16' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='0' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='18' width='6' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='18' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='18' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='2' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='20' width='4' height='2' fill='%23ffffff'/%3E%3Crect x='8' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='20' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='30' y='20' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='22' width='22' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='22' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='4' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='24' width='22' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='24' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='26' width='20' height='2' fill='%23ffffff'/%3E%3Crect x='28' y='26' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='6' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='28' width='18' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='28' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='30' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='30' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='32' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='10' y='32' width='16' height='2' fill='%23ffffff'/%3E%3Crect x='26' y='32' width='2' height='2' fill='%230a0a0a'/%3E%3Crect x='8' y='34' width='20' height='2' fill='%230a0a0a'/%3E%3C/svg%3E") 10 0, pointer;
+  }
+  input:not([type='checkbox']):not([type='radio']),
+  textarea {
+    cursor: text;
+  }
+  /* Chunky retro scrollbars. */
+  html {
+    scrollbar-color: var(--foreground) var(--surface-2);
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--surface-2);
+    border-left: 2px solid var(--edge);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--foreground);
+    border: 3px solid var(--surface-2);
   }
 }
 
 /* ── Type scale ──────────────────────────────────────────────── */
 @utility text-display {
-  font-size: clamp(3rem, 9vw, 7rem);
-  line-height: 0.9;
-  letter-spacing: -0.055em;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 10vw, 7.5rem);
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 @utility text-title {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-  line-height: 0.95;
-  letter-spacing: -0.05em;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6.5vw, 4.75rem);
+  line-height: 0.9;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 @utility text-heading {
-  font-size: clamp(1.875rem, 3.4vw, 2.75rem);
-  line-height: 1.02;
-  letter-spacing: -0.04em;
-  font-weight: 750;
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.6vw, 2.75rem);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 @utility text-subheading {
-  font-size: 1.25rem;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  line-height: 1.15;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 /* Headline figures: filler %, counts, time saved. */
 @utility text-kpi {
+  font-family: var(--font-display);
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 0.9;
-  letter-spacing: -0.05em;
-  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-weight: 400;
   font-variant-numeric: tabular-nums;
 }
+/* Mono caps label, used for window titles and meta lines. */
+@utility text-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 @utility text-lead {
-  font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
-  line-height: 1.55;
-  letter-spacing: -0.01em;
+  font-size: clamp(0.9375rem, 1.3vw, 1.0625rem);
+  line-height: 1.6;
+  letter-spacing: 0;
   color: var(--muted-foreground);
 }
 @utility text-caption {
@@ -311,17 +371,19 @@
 @utility panel {
   background-color: var(--surface);
   border: 2px solid var(--edge);
-  border-radius: var(--radius-lg);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--hard);
 }
 @utility surface-card {
   background-color: var(--surface);
   border: 2px solid var(--edge);
-  border-radius: var(--radius-lg);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--hard);
 }
 @utility tile {
   background-color: var(--surface);
   border: 2px solid var(--edge);
-  border-radius: var(--radius-lg);
+  border-radius: 0;
   box-shadow: 4px 4px 0 0 var(--hard);
   transition:
     transform 150ms cubic-bezier(0.2, 0.8, 0.2, 1),

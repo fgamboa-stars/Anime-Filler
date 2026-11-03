@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge';
 
 export function FillerAvailabilityBadge({ available, className }: { available: boolean; className?: string }) {
   return available ? (
-    <Badge variant="canon" className={className}>
+    <Badge variant="lime" className={className}>
       <CircleCheck aria-hidden />
       Filler data available
     </Badge>

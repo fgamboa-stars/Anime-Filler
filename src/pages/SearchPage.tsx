@@ -34,11 +34,12 @@ export default function SearchPage() {
             </StateMessage>
           )}
 
-          {search.status === 'success' && search.hits.length > 0 && (
-            <p className="mt-6 text-sm text-muted-foreground" aria-live="polite">
-              {search.hits.length} results{withData > 0 ? `, ${withData} with filler data` : ''}
-            </p>
-          )}
+          {/* Always rendered so the grid doesn't jump down when the count arrives. */}
+          <p className="mt-6 min-h-6 text-sm text-muted-foreground" aria-live="polite">
+            {search.status === 'success' && search.hits.length > 0
+              ? `${search.hits.length} results${withData > 0 ? `, ${withData} with filler data` : ''}`
+              : null}
+          </p>
 
           <h2 className="sr-only">Results</h2>
           <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-6">
