@@ -449,3 +449,42 @@ The previous neo-brutalist version is saved as the local git tag `neo-brutalist-
 
 **Components affected**
 Window (new), PixelIcon (new), Barcode (new), Starburst (new), every UI primitive, StateMessage, ProgressSummary, EpisodeFilters, EpisodeList, WatchOrderPanel, FillerRanking, EpisodeDonut, AnimeHero, AppLayout, HomePage
+
+---
+
+## 10. Home page: red sticker, centred search, guide filter
+
+**What changed**
+- **Sticker.** The "No sign-up" starburst now uses the site's filler red (`--filler`) with white text and an ink outline, instead of lime. The text is 20px heavy, which counts as large text for contrast purposes.
+- **Showcase removed.** The Naruto Shippuden stats window (donut chart and legend) is gone from the home page. The donut still appears on every anime page.
+- **Centred search.** The AniList search is now centred on the page under a "Search every anime on AniList" label, and the quick-action buttons are centred beneath it.
+- **New guide filter.** A `guides.idx` window above the "Full filler guides" grid filters the 21 series on the page, separately from the AniList search.
+  - It matches series titles, season titles and season labels, ignoring case and punctuation.
+  - A live "N of 21 series" count is shown, and there is a clear button.
+  - If nothing matches, a system message offers **Clear search** or **Search all of AniList** for that term.
+
+**Why it helps usability**
+- Searching every anime and narrowing the on-page list are two different jobs, so they now have separate, clearly labelled places.
+- The home page reaches the guide list much sooner.
+
+**Why it helps visual quality**
+- The hero now reads as a single centred column with the search as its focal point.
+- The red sticker ties the hero to the data colours rather than adding a second accent.
+
+**Accessibility**
+- The guide filter has a visible label and a polite live count.
+- The clear button is labelled "Clear guide filter".
+- White on `#dc2626` measures 4.83:1, and on the dark-mode `#ef4444` it is 3.76:1, which passes for large text.
+
+**Mobile**
+- The search and buttons centre in a single column.
+- The filter window stacks its label, field and count.
+
+**Tests**
+- New page test: filtering to "dragon ball" shows only Dragon Ball series and the matching count. A term with no matches shows the empty message, and **Clear search** resets the field.
+
+**Files**
+`src/pages/HomePage.tsx`, `src/components/retro/Starburst.tsx`, `src/test/pages.test.tsx`
+
+**Components affected**
+HomePage hero, GuideSearch (new, in HomePage), Starburst

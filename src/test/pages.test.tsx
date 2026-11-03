@@ -158,3 +158,27 @@ describe('client-side navigation', () => {
     }
   });
 });
+
+describe('home page guide filter', () => {
+  it('filters the filler-guide list separately from the AniList search', async () => {
+    mockAniList(() => ({ body: page([]) }));
+    renderAt('/');
+    const user = userEvent.setup();
+    const filter = await screen.findByLabelText('Find a guide');
+    const list = () => screen.getByRole('heading', { name: 'Full filler guides' }).closest('section')!;
+
+    await user.type(filter, 'dragon ball');
+    const titles = within(list())
+      .getAllByRole('heading', { level: 3 })
+      .map((h) => h.textContent);
+    expect(titles.length).toBeGreaterThan(0);
+    expect(titles.every((t) => /dragon ball/i.test(t ?? ''))).toBe(true);
+    expect(within(list()).getByText(/of/, { selector: 'p[aria-live]' })).toHaveTextContent(`${titles.length} of`);
+
+    await user.clear(filter);
+    await user.type(filter, 'zzzz');
+    expect(screen.getByText('No filler guides match “zzzz”')).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Clear search' }));
+    expect(filter).toHaveValue('');
+  });
+});
