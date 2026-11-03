@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T05:47:10.377Z",
+  "generatedAt": "2026-11-03T16:04:58.663Z",
   "anime": [
     {
       "slug": "attack-on-titan",
@@ -466,26 +466,6 @@
       "seasonLabel": "Swordsmith Village Arc",
       "franchiseOrder": 4,
       "updatedAt": "2026-11-02T20:49:00.976Z"
-    },
-    {
-      "slug": "detective-conan",
-      "anilistId": 235,
-      "title": "Detective Conan",
-      "alternativeTitles": [
-        "Case Closed",
-        "Meitantei Conan"
-      ],
-      "totalEpisodes": 1219,
-      "counts": {
-        "CANON": 640,
-        "FILLER": 578,
-        "MIXED": 0,
-        "ANIME_CANON": 1
-      },
-      "fillerPercentage": 47.4,
-      "arcCount": 13,
-      "strip": "C5F1C7F1C2F1C1F1C1F1C2F3C2F2C2F1C2F2C3F1C2F2C1F1C3F1C1F1C1F2C2F1C1F2C1F4C3F1C1F2C4F2C2F1C3F4C1F4C1F1C8F6C7F2C2F5C7F1C4F1C2F1C4F5C2F1C2F4C3F1C3F1C5F1C3F9C8F3C2F4C2F5C2F3C8F1C6F1C2F3C7F1C2F1C2F2C2F3C2F3C1F2C7F1C2F1C4F3C10F7C2F1C10F2C2F5C5F1C8F1C4F1C5F2C2F2C3F1C2F1C2F3C2F3C2F1C2F5C3F1C3F2C2F2C3F1C5F3C3F2C2F2C3F3C2F2C1F1C6F2C2F1C1F4C5F1C1F3C3F1C2F1C1F1C6F1C2F1C3F1C2F1C1F1C2F1C2F1C2F1C22F1C5F3C6F1C8F1C2F3C2F1C2F2C4F4C5F1C2F3C2F1C6F1C4F1C5F1C2F1C2F3C2F1C2F6C21F3C2F8C16F1C4F4C2F2C6F4C5F4C2F7C8F3C6F6C4F1C2F2C2F1C1F3C4F2C6F1C2F1C3F2C2F2C4F3C4F5C5F1C4F3C2F14C5F1C2F6C2F3C2F1C3F3C2F5C2F2C4F2C2F6C4F1C2F4C3F3C2F1C2F2C6F3C4F3C2F6C2F5C2F1C2F4C4F12C2F9C3F16C4F8C2F8C3F4C2F1C3F5C2F5C3F3C2F3C1F3C3F2C1F3C1F2C2F6C2F4C3F9C2F4C3F5C2F6C2F3C2F5C2F2C2F4C2F6C2F5C2F3C2F7C2F2C4F12C4F1C4F5C2F4C2F1A1F5C2F9C2F8C3F3",
-      "updatedAt": "2026-11-03T05:47:07.775Z"
     },
     {
       "slug": "dr-stone",
@@ -1627,25 +1607,6 @@
       "updatedAt": "2026-11-02T01:23:55.821Z"
     },
     {
-      "slug": "one-piece",
-      "anilistId": 21,
-      "title": "One Piece",
-      "alternativeTitles": [
-        "ONE PIECE"
-      ],
-      "totalEpisodes": 1168,
-      "counts": {
-        "CANON": 1010,
-        "FILLER": 94,
-        "MIXED": 43,
-        "ANIME_CANON": 21
-      },
-      "fillerPercentage": 8,
-      "arcCount": 52,
-      "strip": "C44M3C2A2C2F7M1C6M2C23A1C4F2C1M1F1C28F13C52F11C6A4C3F6M1C52F5C7F2C10F1C13F3C6F11C17M1C27F3C21F2C10A3M1C4F4C23A4F2C30M1C2F1C4A3C6A1C13M1C21F1C31M1F4C11F1C34M1F2M1C4M1C19M1C3M1C21M1C10M1C40M1C5A1M1C8F4M1C23A1C1M2C1F3C6M1C13M1C3M1C70M2C1M5C1M4C4F2C10F1C16M1C63M2C1M1C37F2C53A1C84",
-      "updatedAt": "2026-11-02T03:59:39.522Z"
-    },
-    {
       "slug": "pokemon",
       "anilistId": 527,
       "title": "Pokémon (1997–2023)",
@@ -1902,28 +1863,6 @@
       "seasonLabel": "Season 2",
       "franchiseOrder": 3,
       "updatedAt": "2026-11-03T05:46:59.314Z"
-    },
-    {
-      "slug": "spy-x-family-season-3",
-      "anilistId": 177937,
-      "title": "Spy x Family Season 3",
-      "alternativeTitles": [
-        "SPY x FAMILY Season 3"
-      ],
-      "totalEpisodes": 11,
-      "counts": {
-        "CANON": 10,
-        "FILLER": 0,
-        "MIXED": 1,
-        "ANIME_CANON": 0
-      },
-      "fillerPercentage": 0,
-      "arcCount": 1,
-      "strip": "M1C10",
-      "franchise": "Spy x Family",
-      "seasonLabel": "Season 3",
-      "franchiseOrder": 4,
-      "updatedAt": "2026-11-03T05:46:59.897Z"
     },
     {
       "slug": "sword-art-online",

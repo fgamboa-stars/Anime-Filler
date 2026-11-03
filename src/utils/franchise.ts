@@ -56,7 +56,6 @@ export function franchiseSiblings(entries: CatalogEntry[], entry: CatalogEntry):
 const FEATURED_ORDER = [
   'naruto',
   'naruto-shippuden',
-  'one-piece',
   'bleach',
   'dragon-ball-z',
   'My Hero Academia',
