@@ -547,3 +547,18 @@ HomePage hero, GuideSearch (new, in HomePage), Starburst
 
 **Files**
 `src/pages/HomePage.tsx`
+
+---
+
+## 15. Two-option theme switch
+
+**What changed**
+- Removed the "System" option. The switch now offers only Light and Dark.
+- A visitor who hasn't picked a theme still gets the theme their device uses. The switch shows that theme as selected, so one option is always highlighted. Picking one saves it, as before.
+
+**Accessibility**
+- It is still a labelled radio group, now with two radios, and `aria-checked` reflects the theme on screen.
+- The test was updated to cover this.
+
+**Files**
+`src/components/ThemeSwitcher.tsx`, `src/components/ThemeSwitcher.test.tsx`

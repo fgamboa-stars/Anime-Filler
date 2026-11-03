@@ -16,11 +16,13 @@ describe('ThemeSwitcher', () => {
     document.documentElement.classList.remove('dark');
   });
 
-  it('exposes the three options as a labelled radio group', () => {
+  it('offers light and dark, selecting the one the device uses by default', () => {
     render(<Harness />);
     expect(screen.getByRole('radiogroup', { name: 'Colour theme' })).toBeInTheDocument();
-    expect(screen.getByRole('radio', { name: 'System theme' })).toHaveAttribute('aria-checked', 'true');
-    expect(screen.getAllByRole('radio')).toHaveLength(3);
+    expect(screen.getAllByRole('radio')).toHaveLength(2);
+    // jsdom reports no dark-mode preference, so "system" resolves to light.
+    expect(screen.getByRole('radio', { name: 'Light theme' })).toHaveAttribute('aria-checked', 'true');
+    expect(screen.getByRole('radio', { name: 'Dark theme' })).toHaveAttribute('aria-checked', 'false');
   });
 
   it('applies and persists the chosen theme', async () => {

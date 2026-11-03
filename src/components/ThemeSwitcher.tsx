@@ -1,16 +1,19 @@
-import { Monitor, Moon, Sun } from 'lucide-react';
-import { usePreferencesStore, type ThemePreference } from '@/store/preferencesStore';
+import { Moon, Sun } from 'lucide-react';
+import { useResolvedTheme } from '@/hooks/useTheme';
+import { usePreferencesStore } from '@/store/preferencesStore';
 import { cn } from '@/utils/cn';
 
-const OPTIONS: { value: ThemePreference; label: string; icon: typeof Sun }[] = [
-  { value: 'system', label: 'System theme', icon: Monitor },
+const OPTIONS: { value: 'light' | 'dark'; label: string; icon: typeof Sun }[] = [
   { value: 'light', label: 'Light theme', icon: Sun },
   { value: 'dark', label: 'Dark theme', icon: Moon },
 ];
 
-/** Three-way theme control, exposed to assistive tech as a radio group. */
+/**
+ * Light/dark switch, exposed to assistive tech as a radio group. Until someone picks one,
+ * the site follows the device setting and the matching option shows as selected.
+ */
 export function ThemeSwitcher({ className }: { className?: string }) {
-  const theme = usePreferencesStore((s) => s.theme);
+  const theme = useResolvedTheme();
   const setTheme = usePreferencesStore((s) => s.setTheme);
   return (
     <div
