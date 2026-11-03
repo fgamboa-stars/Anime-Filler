@@ -144,7 +144,7 @@ function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: st
   return (
     <div className="surface-card p-5 sm:p-6">
       <h3 className="flex items-center gap-2.5 text-subheading">
-        <span aria-hidden className={cn('size-2.5 rounded-full', tone === 'canon' ? 'bg-canon' : 'bg-filler')} />
+        <span aria-hidden className={cn('size-3 rounded-[3px]', tone === 'canon' ? 'bg-canon' : 'bg-filler')} />
         {title} <span className="text-sm font-normal text-muted-foreground">({ranges.length} ranges)</span>
       </h3>
       {ranges.length ? (
@@ -153,8 +153,8 @@ function RangeColumn({ title, ranges, tone, empty }: { title: string; ranges: st
             <li
               key={r}
               className={cn(
-                'tabular rounded-sm border px-2.5 py-1 text-sm font-medium',
-                tone === 'canon' ? 'border-canon/25 bg-canon/10 text-canon-text' : 'border-filler/25 bg-filler/10 text-filler-text',
+                'tabular rounded-sm border-[1.5px] px-2.5 py-1 text-sm font-semibold',
+                tone === 'canon' ? 'border-canon/55 bg-canon/10 text-canon-text' : 'border-filler/55 bg-filler/10 text-filler-text',
               )}
             >
               {r}

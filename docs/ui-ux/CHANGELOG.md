@@ -261,3 +261,49 @@ Each significant change on the `ui-ux-improvements` branch is recorded here. Eve
 
 **Components affected**
 Button, Input, Select, ToggleChip, Segmented, Badge, Notice, Progress, Toast, Card, Stat, Skeleton, ThemeSwitcher, Poster, AnimeCard, AppLayout, Logo, SearchBox, EpisodeFilters, EpisodeList, ContinueWatching, AnimeHero, GuideCard
+
+---
+
+## 6. Chart modernization
+
+**What changed**
+- **Donut (`EpisodeDonut`).**
+  - Heavier centre figure (weight 800, tight tracking) with a colour swatch next to its label.
+  - On hover, focus or selection, the active slice moves 4px outward along its angle and the other slices dim.
+  - Each legend row is now a button. Hover or keyboard focus previews that type in the centre, and click or Enter pins it (`aria-pressed`).
+  - Each legend row has a share bar on a 0–100% scale, so magnitude can be seen as well as read.
+  - Values are set in heavy tabular figures.
+  - Descriptions hide on phones to keep the legend short.
+- **Ranked bars (Discover).** The episode strips in the "Most filler" and "Least filler" panels are replaced by an edged bar on a shared 0–100% scale, using the filler colour. The value is printed beside each bar, and rank numbers are larger and heavier.
+- **Episode strips.** One framed style everywhere: a 2px edge with 1px surface gaps between runs. Large strips are 56–72px tall with an 8px radius; small strips are 14px with a 6px radius.
+- **Watch order.** KPI figures (to watch, to skip, hours saved) use the heavier `Stat`. Range chips have stronger 1.5px tinted borders, and the column markers are square swatches.
+- **Progress.** The watched count is a 30–36px heavy figure next to the edged meter.
+- **New `ShareBar` primitive:** a horizontal 0–100% bar, either framed or plain. It is hidden from assistive tech because its value is always printed beside it.
+
+**Why it helps usability**
+- Close values (12.8% vs 8%) can now be compared at a glance.
+- Rankings show their order visually.
+- Every chart interaction can be done by keyboard.
+
+**Why it helps visual quality**
+- The charts read like presentation slides: a bold KPI, consistent framing, rounded marks with surface gaps, and restrained motion. This follows the fintech/analytics references while staying grayscale.
+
+**Accessibility**
+- The legend buttons have state and readable names (type, percentage, episode count).
+- The SVG keeps its full summary.
+- Bars are decorative duplicates of printed values.
+- Slice colours are unchanged and still pass the colour-vision validator in both themes.
+- Motion stops under reduced motion.
+
+**Mobile**
+- Legend descriptions are hidden below 640px.
+- Bars and strips stretch to the container width.
+
+**Tradeoffs and risks**
+- Discover no longer shows each series' episode strip. The strip is still on every guide card and anime page.
+
+**Files**
+`src/components/EpisodeDonut.tsx`, `src/components/EpisodeDonut.test.tsx`, `src/components/ui/share-bar.tsx` (new), `src/components/EpisodeStrip.tsx`, `src/pages/DiscoverPage.tsx`, `src/features/watch-order/WatchOrderPanel.tsx`, `src/features/progress/ProgressSummary.tsx`
+
+**Components affected**
+EpisodeDonut, ShareBar, EpisodeStrip, FillerRanking, WatchOrderPanel, ProgressSummary, Stat

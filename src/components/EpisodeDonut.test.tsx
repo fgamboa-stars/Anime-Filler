@@ -36,7 +36,19 @@ describe('EpisodeDonut', () => {
     const { container } = render(<EpisodeDonut counts={counts} label="split" />);
     const centre = container.querySelector('[aria-hidden].absolute')!;
     expect(centre).toHaveTextContent('40.6%filler');
-    await user.hover(screen.getByText('Canon').closest('div')!);
+    await user.hover(screen.getByRole('button', { name: /Canon/ }));
     expect(centre).toHaveTextContent('46.4%canon');
+  });
+
+  it('pins a type from the keyboard', async () => {
+    const user = userEvent.setup();
+    const { container } = render(<EpisodeDonut counts={counts} label="split" />);
+    const centre = container.querySelector('[aria-hidden].absolute')!;
+    const mixed = screen.getByRole('button', { name: /Mixed/ });
+    mixed.focus();
+    await user.keyboard('{Enter}');
+    expect(mixed).toHaveAttribute('aria-pressed', 'true');
+    mixed.blur();
+    expect(centre).toHaveTextContent('12.8%mixed');
   });
 });

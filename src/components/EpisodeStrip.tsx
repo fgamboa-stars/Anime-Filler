@@ -65,8 +65,8 @@ export const EpisodeStrip = memo(function EpisodeStrip({
     <div className={cn('w-full', className)} role="img" aria-label={label}>
       <div
         className={cn(
-          'flex w-full overflow-hidden',
-          size === 'lg' ? 'h-12 gap-px rounded-[6px] sm:h-16' : 'h-2.5 gap-px rounded-[3px]',
+          'flex w-full gap-px overflow-hidden border-2 border-edge bg-surface',
+          size === 'lg' ? 'h-14 rounded-lg sm:h-[4.5rem]' : 'h-3.5 rounded-[6px]',
           animate && 'animate-strip-in',
         )}
       >

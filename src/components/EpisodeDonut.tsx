@@ -2,6 +2,7 @@ import { memo, useMemo, useState } from 'react';
 import type { EpisodeType, EpisodeTypeCounts } from '@/types';
 import { TYPE_LABELS } from '@/utils/dataset';
 import { cn } from '@/utils/cn';
+import { ShareBar } from './ui/share-bar';
 import { TYPE_COLOR_CLASS, TYPE_DESCRIPTIONS } from './EpisodeTypeBadge';
 
 /** Clockwise from 12 o'clock: the story types first, filler last, so filler closes the ring. */
@@ -61,7 +62,11 @@ interface EpisodeDonutProps {
  * hovering a segment or legend row brings that type into the centre.
  */
 export const EpisodeDonut = memo(function EpisodeDonut({ counts, label, className, compact = false }: EpisodeDonutProps) {
-  const [active, setActive] = useState<EpisodeType | null>(null);
+  // Hover/focus previews a type; clicking a slice or legend row pins it.
+  const [hovered, setHovered] = useState<EpisodeType | null>(null);
+  const [pinned, setPinned] = useState<EpisodeType | null>(null);
+  const active = hovered ?? pinned;
+  const toggle = (t: EpisodeType) => setPinned((p) => (p === t ? null : t));
   const types = ORDER.filter((t) => counts[t] > 0);
   const total = types.reduce((n, t) => n + counts[t], 0);
 
@@ -77,7 +82,7 @@ export const EpisodeDonut = memo(function EpisodeDonut({ counts, label, classNam
     return types.map((t, i) => {
       const a0 = a;
       a += shares[i] * Math.PI * 2;
-      return { type: t, d: types.length === 1 ? null : sectorPath(a0, a) };
+      return { type: t, d: types.length === 1 ? null : sectorPath(a0, a), mid: (a0 + a) / 2 };
     });
   }, [counts, total, types]);
 
@@ -104,63 +109,89 @@ export const EpisodeDonut = memo(function EpisodeDonut({ counts, label, classNam
                 className={cn('animate-donut-in', TYPE_STROKE[seg.type])}
               />
             ) : (
-              <path
+              <g
                 key={seg.type}
-                d={seg.d}
-                strokeWidth={CORNER * 2}
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                onMouseEnter={() => setActive(seg.type)}
-                onMouseLeave={() => setActive(null)}
-                onClick={() => setActive((a) => (a === seg.type ? null : seg.type))}
-                style={{ animationDelay: `${i * 70}ms`, transformOrigin: 'center' }}
-                className={cn(
-                  'animate-donut-in cursor-default transition-opacity duration-150',
-                  TYPE_FILL[seg.type],
-                  TYPE_STROKE[seg.type],
-                  active && active !== seg.type && 'opacity-30',
-                )}
+                className="transition-transform duration-200 ease-out motion-reduce:transition-none"
+                style={{
+                  transform:
+                    active === seg.type
+                      ? `translate(${(Math.sin(seg.mid) * 4).toFixed(2)}px, ${(-Math.cos(seg.mid) * 4).toFixed(2)}px)`
+                      : undefined,
+                }}
               >
-                <title>{`${TYPE_LABELS[seg.type]}: ${counts[seg.type]} episodes (${formatShare(counts[seg.type], total)})`}</title>
-              </path>
+                <path
+                  d={seg.d}
+                  strokeWidth={CORNER * 2}
+                  strokeLinejoin="round"
+                  strokeLinecap="round"
+                  onMouseEnter={() => setHovered(seg.type)}
+                  onMouseLeave={() => setHovered(null)}
+                  onClick={() => toggle(seg.type)}
+                  style={{ animationDelay: `${i * 70}ms`, transformOrigin: 'center' }}
+                  className={cn(
+                    'animate-donut-in cursor-pointer transition-opacity duration-150',
+                    TYPE_FILL[seg.type],
+                    TYPE_STROKE[seg.type],
+                    active && active !== seg.type && 'opacity-30',
+                  )}
+                >
+                  <title>{`${TYPE_LABELS[seg.type]}: ${counts[seg.type]} episodes (${formatShare(counts[seg.type], total)})`}</title>
+                </path>
+              </g>
             ),
           )}
         </svg>
         <div aria-hidden className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-          <span className="tabular text-3xl font-semibold tracking-[-0.04em] text-foreground lg:text-4xl">
+          <span className="tabular text-4xl leading-none font-extrabold tracking-[-0.06em] text-foreground lg:text-[2.75rem]">
             {formatShare(counts[focus], total)}
           </span>
-          <span className="mt-1 max-w-[8rem] text-sm leading-tight text-muted-foreground">{TYPE_LABELS[focus].toLowerCase()}</span>
+          <span className="mt-1.5 inline-flex max-w-[9rem] items-center gap-1.5 text-sm leading-tight font-medium text-muted-foreground">
+            <span className={cn('size-2 shrink-0 rounded-[2px]', TYPE_COLOR_CLASS[focus])} />
+            {TYPE_LABELS[focus].toLowerCase()}
+          </span>
         </div>
       </div>
 
       <figcaption className="min-w-0">
         <span className="sr-only">Episodes by type</span>
-        <dl className="divide-y divide-border">
-          {types.map((t) => (
-            <div
-              key={t}
-              onMouseEnter={() => setActive(t)}
-              onMouseLeave={() => setActive(null)}
-              className={cn(
-                'grid grid-cols-[auto_1fr_auto] items-baseline gap-x-3 py-3 transition-opacity duration-150 first:pt-0 last:pb-0',
-                active && active !== t && 'opacity-40',
-              )}
-            >
-              <span aria-hidden className={cn('size-3 translate-y-px self-center rounded-[4px]', TYPE_COLOR_CLASS[t])} />
-              <dt className="min-w-0">
-                <span className="font-medium text-foreground">{TYPE_LABELS[t]}</span>
-                {!compact && <span className="mt-0.5 block text-sm text-muted-foreground">{TYPE_DESCRIPTIONS[t]}</span>}
-              </dt>
-              <dd className="tabular text-right">
-                <span className="font-semibold text-foreground">{formatShare(counts[t], total)}</span>
-                <span className="block text-sm text-muted-foreground">
-                  {counts[t]} {counts[t] === 1 ? 'episode' : 'episodes'}
-                </span>
-              </dd>
-            </div>
-          ))}
-        </dl>
+        <ul className="flex flex-col gap-1">
+          {types.map((t) => {
+            const share = (counts[t] / total) * 100;
+            return (
+              <li key={t}>
+                <button
+                  type="button"
+                  aria-pressed={pinned === t}
+                  onMouseEnter={() => setHovered(t)}
+                  onMouseLeave={() => setHovered(null)}
+                  onFocus={() => setHovered(t)}
+                  onBlur={() => setHovered(null)}
+                  onClick={() => toggle(t)}
+                  className={cn(
+                    'grid w-full grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-2 rounded-md border-2 px-3 py-2.5 text-left transition-[opacity,border-color,background-color] duration-150',
+                    pinned === t ? 'border-edge bg-surface-2' : 'border-transparent hover:bg-surface-2',
+                    active && active !== t && 'opacity-45',
+                  )}
+                >
+                  <span aria-hidden className={cn('size-3 rounded-[3px]', TYPE_COLOR_CLASS[t])} />
+                  <span className="min-w-0">
+                    <span className="block font-semibold text-foreground">{TYPE_LABELS[t]}</span>
+                    {!compact && <span className="mt-0.5 hidden text-sm text-muted-foreground sm:block">{TYPE_DESCRIPTIONS[t]}</span>}
+                  </span>
+                  <span className="tabular text-right">
+                    <span className="block text-lg leading-tight font-extrabold tracking-[-0.03em] text-foreground">
+                      {formatShare(counts[t], total)}
+                    </span>
+                    <span className="block text-xs text-muted-foreground">
+                      {counts[t]} {counts[t] === 1 ? 'episode' : 'episodes'}
+                    </span>
+                  </span>
+                  <ShareBar value={share} barClassName={TYPE_COLOR_CLASS[t]} className="col-span-3" />
+                </button>
+              </li>
+            );
+          })}
+        </ul>
       </figcaption>
     </figure>
   );

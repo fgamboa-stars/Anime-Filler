@@ -19,7 +19,7 @@ export function ProgressSummary({ dataset, onJump }: { dataset: PreparedDataset;
     <div className="surface-card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:gap-8 sm:p-6">
       <div className="min-w-0 flex-1">
         <p className="flex flex-wrap items-baseline gap-x-3">
-          <span className="text-2xl font-semibold tracking-tight">
+          <span className="text-3xl font-extrabold tracking-[-0.05em] sm:text-4xl">
             <span className="tabular">{stats.watchedCount}</span>
             <span className="text-subtle-foreground"> / </span>
             <span className="tabular">{stats.total}</span>

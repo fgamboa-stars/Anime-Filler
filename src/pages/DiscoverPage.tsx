@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
-import { EpisodeStrip } from '@/components/EpisodeStrip';
+import { ShareBar } from '@/components/ui/share-bar';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { SectionHeader } from '@/components/ui/section-header';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
 import { findCatalogByAniListId, getCatalog } from '@/services/datasets';
-import { groupCatalog, groupStrip, type FranchiseGroup } from '@/utils/franchise';
+import { groupCatalog, type FranchiseGroup } from '@/utils/franchise';
 
 export default function DiscoverPage() {
   useDocumentTitle('Discover');
@@ -92,23 +92,27 @@ function FillerRanking({
           const m = media.find((x) => x.id === group.first.anilistId);
           return (
             <li key={group.key} className="flex items-center gap-4 py-4 first:pt-0 last:pb-0">
-              <span className="tabular w-6 shrink-0 text-right text-lg font-semibold text-subtle-foreground">{i + 1}</span>
+              <span className="tabular w-7 shrink-0 text-right text-2xl font-extrabold tracking-[-0.05em] text-subtle-foreground">
+                {i + 1}
+              </span>
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline justify-between gap-3">
                   <Link
                     to={`/anime/${group.first.slug}`}
-                    className="truncate font-semibold tracking-[-0.01em] underline-offset-4 hover:underline"
+                    className="truncate font-bold tracking-[-0.015em] underline decoration-transparent decoration-2 underline-offset-4 hover:decoration-foreground"
                   >
                     {group.title}
                   </Link>
                   <span className="tabular shrink-0 text-sm">
-                    <span className={`font-semibold ${group.fillerPercentage === 0 ? 'text-canon-text' : 'text-filler-text'}`}>
+                    <span
+                      className={`text-lg font-extrabold tracking-[-0.03em] ${group.fillerPercentage === 0 ? 'text-canon-text' : 'text-filler-text'}`}
+                    >
                       {group.fillerPercentage}%
                     </span>
                     <span className="text-muted-foreground"> filler</span>
                   </span>
                 </div>
-                <EpisodeStrip episodes={groupStrip(group)} size="sm" label={`${group.title} episode strip`} className="mt-2" />
+                <ShareBar framed value={group.fillerPercentage} barClassName="bg-filler" className="mt-2" />
                 <p className="mt-1.5 text-xs text-muted-foreground">
                   {group.counts.FILLER} of {group.totalEpisodes} episodes are filler
                   {group.entries.length > 1 ? ` across ${group.entries.length} seasons` : ''}
