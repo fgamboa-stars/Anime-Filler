@@ -59,21 +59,21 @@ export function ArcList({ arcs, episodes, watched }: ArcListProps) {
               <div className="-mx-2 -mb-1 flex flex-wrap text-sm font-medium">
                 <Link
                   to={`${pathname}?arc=${arc.slug}`}
-                  className="inline-flex h-9 items-center rounded-full px-2 underline-offset-4 hover:underline"
+                  className="link-pill"
                 >
                   View episodes
                 </Link>
                 {arc.counts.FILLER > 0 && arc.counts.FILLER < eps.length && (
                   <Link
                     to={`${pathname}?arc=${arc.slug}&type=canon,mixed,anime-canon`}
-                    className="inline-flex h-9 items-center rounded-full px-2 text-canon-text underline-offset-4 hover:underline"
+                    className="link-pill text-canon-text hover:text-canon-text"
                   >
                     Canon only
                   </Link>
                 )}
                 <Link
                   to={`${pathname}?view=watch-order&arc=${arc.slug}`}
-                  className="inline-flex h-9 items-center rounded-full px-2 text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  className="link-pill text-muted-foreground"
                 >
                   Arc watch order
                 </Link>

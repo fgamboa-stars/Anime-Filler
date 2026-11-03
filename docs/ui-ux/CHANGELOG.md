@@ -307,3 +307,33 @@ Button, Input, Select, ToggleChip, Segmented, Badge, Notice, Progress, Toast, Ca
 
 **Components affected**
 EpisodeDonut, ShareBar, EpisodeStrip, FillerRanking, WatchOrderPanel, ProgressSummary, Stat
+
+---
+
+## 7. Page hierarchy and shared patterns
+
+**What changed**
+- **Anime page.** The facts card ("Format / Status / Episodes…") is now a compact row inside the hero between two 2px rules, with bold values. This removes a full panel and moves the chart and episode list up the page.
+- **Home.** The hero quick actions wrap into at most two rows on phones (previously three), with slightly more spacing.
+- **New `link-pill` utility.** One definition replaces the secondary-link styling that was copied six times across guide cards and arc cards: 36px hit area, weight 600, and a 2px underline on hover.
+- **Inherited by every page** (Discover, Search, Progress, 404, error) from the foundation tokens: titles at weight 800, edged panels, edged buttons.
+
+**Why it helps usability**
+- The core task (episode list, filters) starts higher on the anime page.
+- The secondary links in guide cards and arc cards now look and behave identically.
+
+**Why it helps visual quality**
+- Thick rules frame the facts the way a report's data line does, with less card-on-card repetition.
+
+**Accessibility**
+- Unchanged semantics: the facts remain a `dl`, and links keep their names and 36px targets.
+
+**Mobile**
+- Hero actions take one fewer row.
+- The facts row is a two-column grid on phones.
+
+**Files**
+`src/features/anime/AnimeHero.tsx`, `src/pages/HomePage.tsx`, `src/features/arcs/ArcList.tsx`, `src/index.css`
+
+**Components affected**
+AnimeHero, GuideCard, ArcList, the home hero

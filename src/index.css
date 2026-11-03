@@ -336,6 +336,26 @@
     box-shadow: 0 0 0 0 var(--hard);
   }
 }
+/* Compact text link with a 36px hit area, used for secondary actions inside cards. */
+@utility link-pill {
+  display: inline-flex;
+  height: 2.25rem;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  padding-inline: 0.5rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition:
+    color 150ms,
+    text-decoration-color 150ms;
+  &:hover {
+    color: var(--foreground);
+    text-decoration-color: currentColor;
+  }
+}
 /* Hard shadows for controls (buttons, fields that act like buttons). */
 @utility shadow-hard-sm {
   box-shadow: 2px 2px 0 0 var(--hard);

@@ -58,7 +58,7 @@ export default function HomePage() {
             order and pick up where you left off.
           </p>
           <SearchBox size="lg" className="mt-10 max-w-2xl" />
-          <div className="mt-5 flex flex-wrap gap-2">
+          <div className="mt-6 flex flex-wrap gap-2.5">
             <Button asChild variant="outline" size="sm">
               <Link to={`/anime/${featuredSlug}?type=filler`}>
                 <ListX aria-hidden />
@@ -200,7 +200,7 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
                 <Link
                   key={e.slug}
                   to={`/anime/${e.slug}`}
-                  className="inline-flex h-9 max-w-[11rem] items-center rounded-full px-2 text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  className="link-pill max-w-[11rem] text-muted-foreground"
                 >
                   <span className="truncate">{seasonLabel(e)}</span>
                 </Link>
@@ -208,7 +208,7 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
               {group.entries.length > SEASON_LINKS && (
                 <Link
                   to={`/anime/${group.entries[SEASON_LINKS].slug}`}
-                  className="inline-flex h-9 items-center rounded-full px-2 text-subtle-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  className="link-pill text-subtle-foreground"
                   aria-label={`${group.entries.length - SEASON_LINKS} more ${group.title} seasons`}
                 >
                   +{group.entries.length - SEASON_LINKS} more
@@ -219,14 +219,14 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
             <>
               <Link
                 to={`/anime/${first.slug}?view=watch-order`}
-                className="inline-flex h-9 items-center rounded-full px-2 text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                className="link-pill text-muted-foreground"
               >
                 Watch order
               </Link>
               {first.counts.FILLER > 0 && (
                 <Link
                   to={`/anime/${first.slug}?type=filler`}
-                  className="inline-flex h-9 items-center rounded-full px-2 text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  className="link-pill text-muted-foreground"
                 >
                   Filler only
                 </Link>

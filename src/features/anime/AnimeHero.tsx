@@ -156,7 +156,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
         </div>
 
         {loading && !media && (
-          <div aria-hidden className="surface-card mt-10 grid grid-cols-2 gap-x-6 gap-y-5 p-5 sm:grid-cols-3 sm:p-6 lg:grid-cols-6">
+          <div aria-hidden className="mt-10 grid grid-cols-2 gap-x-6 gap-y-4 border-y-2 border-edge py-4 sm:grid-cols-3 lg:grid-cols-6">
             {Array.from({ length: 6 }, (_, i) => (
               <div key={i}>
                 <Skeleton className="h-3 w-12" />
@@ -168,20 +168,20 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
         {loading && !media && <Skeleton aria-hidden className="mt-3 h-4 w-56" />}
 
         {facts.some(([, v]) => v) && (media || !loading) && (
-          <dl className="surface-card mt-10 grid grid-cols-2 gap-x-6 gap-y-5 p-5 sm:grid-cols-3 sm:p-6 lg:grid-cols-6">
+          <dl className="mt-10 grid grid-cols-2 gap-x-6 gap-y-4 border-y-2 border-edge py-4 sm:grid-cols-3 lg:grid-cols-6">
             {facts
               .filter(([, v]) => v)
               .map(([k, v]) => (
                 <div key={k}>
                   <dt className="text-xs text-muted-foreground">{k}</dt>
-                  <dd className="mt-1 text-sm font-medium">{v}</dd>
+                  <dd className="mt-0.5 text-sm font-bold">{v}</dd>
                 </div>
               ))}
           </dl>
         )}
 
         {media?.siteUrl && (
-          <p className="mt-3 px-1 text-xs text-muted-foreground">
+          <p className="mt-3 text-xs text-muted-foreground">
             Anime information is provided by{' '}
             <a
               href={media.siteUrl}
