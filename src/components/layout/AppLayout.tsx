@@ -36,7 +36,7 @@ export function AppLayout() {
       >
         Skip to content
       </a>
-      <header className="sticky top-0 z-30 border-b border-border bg-background/80 backdrop-blur-xl backdrop-saturate-150">
+      <header className="sticky top-0 z-30 border-b-2 border-edge bg-background/85 backdrop-blur-xl backdrop-saturate-150">
         <div className="container-page flex h-16 items-center gap-4">
           <Link to="/" className="-mx-1 inline-flex h-11 shrink-0 items-center rounded-lg px-1">
             <Logo />
@@ -51,8 +51,8 @@ export function AppLayout() {
                     end={item.end}
                     className={({ isActive }) =>
                       cn(
-                        'inline-flex h-9 items-center rounded-full px-3.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground',
-                        isActive && 'bg-surface-2 text-foreground',
+                        'inline-flex h-9 items-center rounded-md border-2 border-transparent px-3.5 text-sm font-semibold text-muted-foreground transition-colors hover:text-foreground',
+                        isActive && 'border-edge bg-surface text-foreground',
                       )
                     }
                   >
@@ -67,7 +67,7 @@ export function AppLayout() {
             <ThemeSwitcher className="hidden md:inline-flex" />
             <button
               type="button"
-              className="-mr-2 inline-flex size-11 items-center justify-center rounded-full hover:bg-surface-2 md:hidden"
+              className="-mr-1 inline-flex size-11 items-center justify-center rounded-md border-2 border-edge bg-surface md:hidden"
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
@@ -78,7 +78,7 @@ export function AppLayout() {
           </div>
         </div>
         {menuOpen && (
-          <div id="mobile-menu" className="animate-fade-in border-t border-border px-4 pt-4 pb-6 md:hidden">
+          <div id="mobile-menu" className="animate-fade-in border-t-2 border-edge px-4 pt-4 pb-6 md:hidden">
             <SearchBox className="mb-3" onNavigate={() => setMenuOpen(false)} />
             <nav aria-label="Mobile">
               <ul className="flex flex-col gap-1">
@@ -89,8 +89,8 @@ export function AppLayout() {
                       end={item.end}
                       className={({ isActive }) =>
                         cn(
-                          'flex h-12 items-center rounded-xl px-3 text-base font-medium text-muted-foreground',
-                          isActive && 'bg-surface-2 text-foreground',
+                          'flex h-12 items-center rounded-md px-3 text-lg font-semibold text-muted-foreground',
+                          isActive && 'bg-primary text-primary-foreground',
                         )
                       }
                     >
@@ -100,7 +100,7 @@ export function AppLayout() {
                 ))}
               </ul>
             </nav>
-            <div className="mt-4 flex items-center justify-between border-t border-border pt-4">
+            <div className="mt-4 flex items-center justify-between border-t-2 border-edge pt-4">
               <span className="text-sm text-muted-foreground">Theme</span>
               <ThemeSwitcher />
             </div>
@@ -114,7 +114,7 @@ export function AppLayout() {
         </Suspense>
       </main>
 
-      <footer className="mt-16 border-t border-border">
+      <footer className="mt-20 border-t-2 border-edge bg-surface">
         <div className="container-page flex flex-col gap-6 py-10 text-sm text-muted-foreground sm:flex-row sm:items-start sm:justify-between">
           <Logo />
           <div className="max-w-xl space-y-2 sm:text-right">

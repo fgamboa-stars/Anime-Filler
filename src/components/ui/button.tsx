@@ -4,23 +4,27 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/utils/cn';
 
 /**
- * Buttons. "default" is the inverted primary (black on light, white on dark) and is the
- * only filled button style; keep one per view. Default and large sizes meet the 44px touch target.
+ * Buttons. Edged variants carry a 2px border and a hard offset shadow, and pressing one
+ * moves it into its shadow. "default" is the inverted primary; keep one per view.
+ * Default and large sizes meet the 44px touch target.
  */
+const pressable =
+  'shadow-hard-sm hover:-translate-x-px hover:-translate-y-px hover:shadow-[3px_3px_0_0_var(--hard)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none motion-reduce:transform-none';
+
 const buttonVariants = cva(
-  'inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-[background-color,border-color,color,box-shadow,transform] duration-150 outline-none select-none active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
+  'inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold tracking-[-0.01em] transition-[background-color,border-color,color,box-shadow,transform] duration-150 outline-none select-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
-        default: 'bg-primary text-primary-foreground shadow-xs hover:bg-primary/88',
-        secondary: 'bg-surface-2 text-foreground hover:bg-surface-3',
-        outline: 'border border-border bg-surface text-foreground shadow-xs hover:border-border-strong hover:bg-surface-2',
+        default: cn('border-2 border-edge bg-primary text-primary-foreground hover:bg-primary/90 dark:border-primary', pressable),
+        secondary: cn('border-2 border-edge bg-surface-2 text-foreground hover:bg-surface-3', pressable),
+        outline: cn('border-2 border-edge bg-surface text-foreground hover:bg-surface-2', pressable),
         ghost: 'text-foreground hover:bg-surface-2',
-        link: 'rounded-none px-0 text-foreground underline decoration-border-strong underline-offset-4 hover:decoration-foreground active:scale-100',
+        link: 'rounded-none px-0 text-foreground underline decoration-2 decoration-border-strong underline-offset-4 hover:decoration-foreground',
       },
       size: {
         default: 'h-11 px-5',
-        sm: 'h-9 px-4 text-[13px]',
+        sm: 'h-9 px-3.5 text-[13px]',
         lg: 'h-12 px-6 text-[15px]',
         icon: 'size-11',
         'icon-sm': 'size-9',

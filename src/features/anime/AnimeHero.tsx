@@ -56,7 +56,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
       <div className="container-page relative pt-10 sm:pt-16">
         <div className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           {loading && !media ? (
-            <Skeleton className="aspect-[2/3] w-36 shrink-0 rounded-2xl sm:w-52" />
+            <Skeleton className="aspect-[2/3] w-36 shrink-0 rounded-lg sm:w-52" />
           ) : (
             <Poster
               src={media?.coverImage.large ?? media?.coverImage.extraLarge}
@@ -69,7 +69,7 @@ export function AnimeHero({ media, catalog, loading, children }: AnimeHeroProps)
               color={media?.coverImage.color}
               title={title}
               priority
-              className="w-36 shrink-0 shadow-lg sm:w-52"
+              className="w-36 shrink-0 shadow-hard-lg sm:w-52"
             />
           )}
           <div className="min-w-0 flex-1 sm:pt-4">

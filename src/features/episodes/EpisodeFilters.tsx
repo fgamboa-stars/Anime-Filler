@@ -68,7 +68,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
         </div>
         <Button
           variant="outline"
-          className="rounded-xl md:hidden"
+          className="md:hidden"
           aria-expanded={moreOpen}
           aria-controls={`${id}-more`}
           onClick={() => setMoreOpen((o) => !o)}
@@ -140,7 +140,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
         <div className="flex items-end">
           <Button
             variant="outline"
-            className="w-full rounded-xl"
+            className="w-full"
             onClick={() => onChange({ sort: filters.sort === 'asc' ? 'desc' : 'asc' })}
             title={filters.sort === 'asc' ? 'Switch to newest first' : 'Switch to oldest first'}
           >
@@ -151,7 +151,7 @@ export function EpisodeFilters({ filters, arcs, counts, onChange, onReset }: Epi
         <div className="flex items-end">
           <Button
             variant="outline"
-            className="w-full rounded-xl"
+            className="w-full"
             aria-pressed={hideTitles}
             onClick={() => setHideTitles(!hideTitles)}
             title="Blur episode titles to avoid spoilers"

@@ -11,8 +11,8 @@ export function Card({ className, interactive, ...props }: CardProps) {
   return (
     <div
       className={cn(
-        'surface-card text-foreground',
-        interactive && 'transition-[box-shadow,border-color,transform] duration-200 hover:border-border-strong/60 hover:shadow-md',
+        interactive ? 'tile' : 'panel',
+        'text-foreground',
         className,
       )}
       {...props}

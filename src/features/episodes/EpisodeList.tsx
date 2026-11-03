@@ -72,7 +72,7 @@ const EpisodeRow = memo(function EpisodeRow({ ep, watched, hideTitle, showArc, o
     >
       <span
         aria-hidden
-        className={cn('absolute inset-y-2.5 left-0 w-[3px] rounded-r-full', TYPE_COLOR_CLASS[ep.type], watched && 'opacity-40')}
+        className={cn('absolute inset-y-0 left-0 w-1.5', TYPE_COLOR_CLASS[ep.type], watched && 'opacity-40')}
       />
       <div className="relative flex shrink-0 items-center">
         <input
@@ -80,7 +80,7 @@ const EpisodeRow = memo(function EpisodeRow({ ep, watched, hideTitle, showArc, o
           type="checkbox"
           checked={watched}
           onChange={() => onToggle(ep.number)}
-          className="peer size-6 cursor-pointer appearance-none rounded-[7px] border-[1.5px] border-input bg-surface transition-colors hover:border-foreground checked:border-foreground checked:bg-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          className="peer size-6 cursor-pointer appearance-none rounded-[6px] border-2 border-input bg-surface transition-colors hover:border-foreground checked:border-foreground checked:bg-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
         />
         <Check
           className="pointer-events-none absolute inset-0 m-auto size-4 text-background opacity-0 peer-checked:opacity-100"
@@ -90,7 +90,7 @@ const EpisodeRow = memo(function EpisodeRow({ ep, watched, hideTitle, showArc, o
       </div>
       <span
         className={cn(
-          'tabular w-9 shrink-0 text-right text-[15px] font-semibold tracking-tight sm:w-12 sm:text-base',
+          'tabular w-9 shrink-0 text-right text-base font-extrabold tracking-[-0.04em] sm:w-12 sm:text-lg',
           watched ? 'text-subtle-foreground' : 'text-foreground',
         )}
       >

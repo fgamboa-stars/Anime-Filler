@@ -33,13 +33,13 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
         color={media?.coverImage.color}
         title={title}
         priority={priority}
-        className="shadow-sm transition-[transform,box-shadow] duration-300 group-hover:-translate-y-1 group-hover:shadow-lg group-focus-within:-translate-y-1 motion-reduce:transform-none"
+        className="shadow-hard transition-[transform,box-shadow] duration-150 group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 group-hover:shadow-hard-lg group-focus-within:-translate-x-0.5 group-focus-within:-translate-y-0.5 group-focus-within:shadow-hard-lg motion-reduce:transform-none"
       />
       <div className="flex flex-col gap-1.5">
-        <h3 className="text-[15px] leading-snug font-semibold tracking-[-0.01em]">
+        <h3 className="text-[15px] leading-snug font-bold tracking-[-0.015em]">
           <Link
             to={animePath({ anilistId: id, title })}
-            className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline"
+            className="outline-none after:absolute after:inset-0 after:rounded-lg focus-visible:underline"
           >
             <Highlight text={title} ranges={highlights} />
           </Link>
@@ -69,7 +69,7 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
 export function AnimeCardSkeleton() {
   return (
     <div className="flex flex-col gap-3" aria-hidden>
-      <div className="aspect-[2/3] animate-shimmer rounded-2xl bg-surface-2" />
+      <div className="aspect-[2/3] animate-shimmer rounded-lg bg-surface-2" />
       <div className="h-4 w-4/5 animate-shimmer rounded-md bg-surface-2" />
       <div className="h-3 w-1/2 animate-shimmer rounded-md bg-surface-2" />
     </div>

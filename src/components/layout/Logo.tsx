@@ -9,7 +9,7 @@ export function Logo() {
         <span className="w-1.5 rounded-[1px] bg-mixed" />
         <span className="w-1.5 rounded-[1px] bg-canon" />
       </span>
-      <span className="text-[17px] leading-none font-semibold tracking-[-0.03em]">
+      <span className="text-lg leading-none font-extrabold tracking-[-0.045em]">
         Filler<span className="font-medium text-muted-foreground">Finder</span>
       </span>
     </span>

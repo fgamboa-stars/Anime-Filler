@@ -142,8 +142,8 @@ function NoFillerData() {
 function GuideSkeleton() {
   return (
     <div className="space-y-4" role="status" aria-label="Loading episode guide">
-      <Skeleton className="h-56 w-full rounded-3xl" />
-      <Skeleton className="h-24 w-full rounded-3xl" />
+      <Skeleton className="h-56 w-full rounded-lg" />
+      <Skeleton className="h-24 w-full rounded-lg" />
       {Array.from({ length: 6 }, (_, i) => (
         <Skeleton key={i} className="h-14 w-full" />
       ))}

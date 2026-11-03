@@ -16,7 +16,7 @@ export function Progress({ value, label, className, indicatorClassName }: Progre
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={Math.round(v)}
-      className={cn('h-2 w-full overflow-hidden rounded-full bg-track', className)}
+      className={cn('h-3.5 w-full overflow-hidden rounded-full border-2 border-edge bg-surface', className)}
     >
       <div
         className={cn(

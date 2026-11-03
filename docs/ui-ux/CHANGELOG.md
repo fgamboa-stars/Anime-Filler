@@ -195,3 +195,69 @@ Each significant change on the `ui-ux-improvements` branch is recorded here. Eve
 
 **Files**
 `src/components/EpisodeDonut.tsx` (new), `src/components/EpisodeDonut.test.tsx` (new), `src/pages/AnimePage.tsx`, `src/pages/HomePage.tsx`, `src/index.css`, `docs/ui-ux/DESIGN_SYSTEM.md`
+
+---
+
+## 5. Neo-brutalist foundation: edges, hard shadows, heavier type
+
+**What changed**
+- **New tokens.**
+  - `--edge` is the 2px structural border colour: ink `#171717` in light mode, `#454545` in dark.
+  - `--hard` is the unblurred offset-shadow colour: ink in light mode, `#2e2e2e` in dark.
+  - The light page is now `#f4f4f4` so white panels stand out.
+  - Dark surfaces are lifted to `#0f0f0f`, `#181818` and `#222222` so panels separate from the black page.
+  - Radii are tightened to 6/10/16/20/24.
+- **Two surface tiers.**
+  - `panel` is for static content: 2px edge, 16px radius, no shadow.
+  - `tile` is for interactive surfaces: it adds a 4px hard shadow, lifts to 6px on hover or keyboard focus, and sinks into its shadow when pressed.
+  - The old `surface-card` now maps to `panel`. Guide cards, continue-watching cards, and poster cards in search and Discover use the tile style.
+- **Type.**
+  - Display: 48–112px at weight 800.
+  - Title: 40–72px at 800.
+  - Heading: 30–44px at 750.
+  - Subheading: 20px at 700.
+  - New `text-kpi` style for headline figures.
+  - Episode numbers and the wordmark are set heavier.
+- **Controls.**
+  - Buttons are 10px-radius rectangles with 2px edges and a 2px hard shadow. They lift by 1px on hover and press into the shadow.
+  - Fields and selects have 2px borders and gain a hard shadow on focus. The hero search is an edged control with a 4px shadow.
+  - Chips have 2px borders, and pressed chips are filled ink.
+  - The segmented control and theme switcher use an ink fill for the active option.
+  - Badges have 1.5px borders at a higher tint.
+  - Notices have 2px tone borders.
+  - Progress is a 14px edged meter with an ink fill.
+  - Toasts are edged, with a hard shadow.
+- **Shell.**
+  - 2px header and footer rules.
+  - The active nav item is an edged box.
+  - The mobile menu toggle is an edged square, and the active mobile nav row is filled ink.
+  - The footer sits on a white panel.
+
+**Why it helps usability**
+- Clickable things now look clickable at rest, because only tiles and buttons cast a shadow.
+- Pressing gives physical feedback.
+- Edges show where each group starts and ends without relying on shadows.
+
+**Why it helps visual quality**
+- It delivers the brief's neo-brutalist signature (thick borders, hard shadows, heavy type) while staying grayscale and calm. Colour remains reserved for data and status.
+
+**Accessibility**
+- Text tokens were re-checked on the new surfaces: 52 of 52 pairs pass.
+- Field borders stay at ≥3:1 (3.6:1 in dark mode).
+- Edges survive forced-colours mode, where shadows disappear.
+- Press and hover movement is turned off under reduced motion.
+- Focus rings are unchanged.
+
+**Mobile**
+- The menu toggle is a 44px edged target.
+- Mobile nav rows are 48px with larger text.
+
+**Tradeoffs and risks**
+- In light mode the ink edges are deliberately strong; this is the intended look, not a bug.
+- Dark mode uses charcoal shadows rather than white ones, so the depth effect is quieter there by design.
+
+**Files**
+`src/index.css`, `src/components/ui/{button,input,chip,segmented,badge,notice,progress,toast,card,stat,skeleton}.tsx`, `src/components/{ThemeSwitcher,Poster,AnimeCard}.tsx`, `src/components/layout/{AppLayout,Logo}.tsx`, `src/features/search/SearchBox.tsx`, `src/features/episodes/{EpisodeFilters,EpisodeList}.tsx`, `src/features/progress/ContinueWatching.tsx`, `src/features/anime/AnimeHero.tsx`, `src/pages/{HomePage,AnimePage,RouteErrorPage}.tsx`
+
+**Components affected**
+Button, Input, Select, ToggleChip, Segmented, Badge, Notice, Progress, Toast, Card, Stat, Skeleton, ThemeSwitcher, Poster, AnimeCard, AppLayout, Logo, SearchBox, EpisodeFilters, EpisodeList, ContinueWatching, AnimeHero, GuideCard

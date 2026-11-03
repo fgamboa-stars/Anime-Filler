@@ -16,13 +16,13 @@ export function ContinueWatching({ limit = 4, emptyState }: { limit?: number; em
           <li key={p.slug}>
             <Link
               to={`/anime/${p.slug}${stats.nextEpisode ? `#ep-${stats.nextEpisode}` : ''}`}
-              className="surface-card group flex items-center gap-4 p-5 transition-[box-shadow,border-color] duration-200 hover:border-border-strong/60 hover:shadow-md"
+              className="tile group flex items-center gap-4 p-5"
             >
-              <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground transition-transform group-hover:scale-105 motion-reduce:transform-none">
+              <span className="flex size-11 shrink-0 items-center justify-center rounded-md border-2 border-edge bg-primary text-primary-foreground dark:border-primary">
                 <Play className="size-4 fill-current" aria-hidden />
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block truncate font-semibold tracking-[-0.01em]">{p.title}</span>
+                <span className="block truncate text-lg font-bold tracking-[-0.025em]">{p.title}</span>
                 <span className="block text-sm text-muted-foreground">
                   {stats.nextEpisode ? `Up next: episode ${stats.nextEpisode}` : 'Finished'} —{' '}
                   <span className="tabular">{stats.watchedCount}</span> / <span className="tabular">{stats.total}</span> watched

@@ -80,7 +80,7 @@ export default function HomePage() {
           </div>
 
           {showcase && (
-            <div className="surface-card mt-16 p-5 shadow-lg sm:mt-24 sm:p-10">
+            <div className="panel mt-16 p-5 sm:mt-24 sm:p-10">
               <div className="mb-8 max-w-2xl">
                 <p className="text-sm text-muted-foreground">
                   <Link
@@ -167,16 +167,16 @@ function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummar
   const episodes = useMemo(() => groupStrip(group), [group]);
   const multi = group.entries.length > 1;
   return (
-    <article className="surface-card relative flex h-full gap-4 p-4 transition-[box-shadow,border-color] duration-200 hover:border-border-strong/60 hover:shadow-md sm:p-5">
+    <article className="tile relative flex h-full gap-4 p-4 sm:p-5">
       <Poster
         src={media?.coverImage.large}
         color={media?.coverImage.color}
         title={group.title}
-        className="w-20 shrink-0 self-start rounded-xl"
+        className="w-20 shrink-0 self-start rounded-md"
       />
       <div className="flex min-w-0 flex-1 flex-col">
         <h3 className="text-base leading-snug font-semibold tracking-[-0.01em]">
-          <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-2xl focus-visible:underline">
+          <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-lg focus-visible:underline">
             {group.title}
           </Link>
         </h3>

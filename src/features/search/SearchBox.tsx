@@ -123,8 +123,10 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
           className={cn(
-            'w-full appearance-none rounded-full border border-input bg-surface text-foreground shadow-xs outline-none transition-[border-color,box-shadow] placeholder:text-subtle-foreground hover:border-foreground/60 focus:border-foreground focus:ring-4 focus:ring-foreground/10 focus-visible:outline-none [&::-webkit-search-cancel-button]:hidden',
-            lg ? 'h-14 pr-14 pl-13 text-base shadow-md sm:h-16 sm:text-lg' : 'h-10 pr-10 pl-10 text-sm',
+            'w-full appearance-none rounded-md border-2 bg-surface text-foreground outline-none transition-[border-color,box-shadow] placeholder:text-subtle-foreground focus-visible:outline-none [&::-webkit-search-cancel-button]:hidden',
+            lg
+              ? 'h-14 border-edge pr-14 pl-13 text-base shadow-hard focus:shadow-hard-lg sm:h-16 sm:text-lg'
+              : 'h-10 border-input pr-10 pl-10 text-sm hover:border-foreground/70 focus:border-foreground focus:shadow-hard-sm',
           )}
         />
         {query && (
@@ -154,7 +156,7 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
           id={listId}
           role="listbox"
           aria-label="Anime suggestions"
-          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[70vh] overflow-auto rounded-2xl border border-border bg-surface p-1.5 shadow-lg dark:bg-surface-2"
+          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[70vh] overflow-auto rounded-lg border-2 border-edge bg-surface p-1.5 shadow-hard"
         >
           {search.correctedTo && (
             <li role="presentation" className="px-3 pt-2 pb-1 text-xs text-muted-foreground">
@@ -179,7 +181,7 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                 onClick={() => choose(i)}
                 onMouseEnter={() => setActive(i)}
                 className={cn(
-                  'flex cursor-pointer items-center gap-3 rounded-xl px-2 py-2',
+                  'flex cursor-pointer items-center gap-3 rounded-md px-2 py-2',
                   active === i && 'bg-surface-2 dark:bg-surface-3',
                 )}
               >
@@ -210,7 +212,7 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
             onClick={goToResults}
             onMouseEnter={() => setActive(suggestions.length)}
             className={cn(
-              'flex cursor-pointer items-center gap-2 rounded-xl px-3 py-2.5 text-sm text-muted-foreground',
+              'flex cursor-pointer items-center gap-2 rounded-md px-3 py-2.5 text-sm text-muted-foreground',
               active === suggestions.length && 'bg-surface-2 text-foreground dark:bg-surface-3',
             )}
           >
