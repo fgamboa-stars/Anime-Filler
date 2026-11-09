@@ -11,3 +11,6 @@ reports
 .DS_Store
 npm-debug.log*
 .vite
+
+# Local Claude scratch output
+Claude outputs/
