@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "slug": "rurouni-kenshin-2023-rurouni-kenshin-meiji-kenkaku-romantan-2023",
+  "slug": "rurouni-kenshin-2023",
   "anilistId": 142877,
-  "title": "Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))",
+  "title": "Rurouni Kenshin (2023)",
   "alternativeTitles": [
     "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-    "Rurouni Kenshin (2023)",
     "Samurai X (2023)",
     "Kenshin le vagabond (2023)"
   ],
   "totalEpisodes": 24,
   "source": "Classifications compiled from AnimeFillerList.com",
-  "updatedAt": "2026-11-09T14:23:11.590Z",
+  "updatedAt": "2026-11-09T17:05:40.658Z",
   "episodes": [
     {"number":1,"title":"Kenshin - Himura Battousai","type":"CANON","arc":"Standalone Episodes"},
     {"number":2,"title":"Tokyo Samurai - Myojin Yahiko","type":"CANON","arc":"Standalone Episodes"},

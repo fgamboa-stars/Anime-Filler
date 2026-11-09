@@ -58,6 +58,8 @@ async function importShow(entry: ManifestEntry, dryRun: boolean): Promise<string
     if (owner && !entry.imported?.includes(owner.slug))
       throw new Error(`AniList ID ${season.anilistId} already belongs to "${owner.title}" (${owner.slug}), which this helper did not create`);
     let slug = owner?.slug ?? (slugify(title) || `anime-${season.anilistId}`);
+    // Two seasons can slugify alike ("Kaguya-sama: Love is War" and "…Love is War?"); never let one overwrite the other.
+    if (!owner && slugs.includes(slug)) slug = `${slug}-season-${i + 1}`;
     if (!owner && existing.some((d) => d.slug === slug)) slug = `${slug}-${season.anilistId}`;
 
     const { offset, episodes } = parts[i];

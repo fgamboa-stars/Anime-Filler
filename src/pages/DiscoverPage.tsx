@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
 import { ShareBar } from '@/components/ui/share-bar';
@@ -5,6 +6,7 @@ import { Window } from '@/components/retro/Window';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { SectionHeader } from '@/components/ui/section-header';
 import { NoFillerSection } from '@/features/discover/NoFillerSection';
+import { isAnimeOriginal, rankLeastFiller, rankMostFiller } from '@/features/discover/rankings';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
@@ -15,8 +17,9 @@ export default function DiscoverPage() {
   useDocumentTitle('Discover');
   const catalog = getCatalog();
   const groups = groupCatalog(catalog);
-  const mostFiller = [...groups].sort((a, b) => b.fillerPercentage - a.fillerPercentage || b.totalEpisodes - a.totalEpisodes).slice(0, 8);
-  const leastFiller = [...groups].sort((a, b) => a.fillerPercentage - b.fillerPercentage || b.totalEpisodes - a.totalEpisodes).slice(0, 8);
+  const mostFiller = rankMostFiller(groups);
+  const leastFiller = rankLeastFiller(groups);
+  const animeOriginal = groups.filter((g) => isAnimeOriginal(g.counts));
   const catalogMedia = useAnimeByIds(groups.map((g) => g.first.anilistId));
   const topRated = useTopRated(12);
 
@@ -34,13 +37,34 @@ export default function DiscoverPage() {
           description="Series where skipping saves the most time."
           entries={mostFiller}
           media={catalogMedia.data ?? []}
+          note={
+            animeOriginal.length > 0 && (
+              <>
+                Left out: {animeOriginal.length} anime-original series (such as{' '}
+                {animeOriginal
+                  .slice(0, 2)
+                  .map((g) => g.title)
+                  .join(' and ')}
+                ), where every episode is marked filler because the anime tells its own story.
+              </>
+            )
+          }
         />
         <FillerRanking
           id="least-filler"
           title="Least filler"
-          description="Series that stay closest to the source."
+          description="Series with some filler that stay closest to the source."
           entries={leastFiller}
           media={catalogMedia.data ?? []}
+          note={
+            <>
+              Series with no filler at all are listed under{' '}
+              <a href="#no-filler-heading" className="underline underline-offset-2 hover:text-foreground">
+                No filler
+              </a>
+              .
+            </>
+          }
         />
       </div>
 
@@ -78,12 +102,14 @@ function FillerRanking({
   description,
   entries,
   media,
+  note,
 }: {
   id: string;
   title: string;
   description: string;
   entries: FranchiseGroup[];
   media: MediaSummary[];
+  note?: ReactNode;
 }) {
   return (
     <Window as="section" aria-labelledby={id} title={`${id}.txt`} bodyClassName="p-5 sm:p-7">
@@ -127,6 +153,7 @@ function FillerRanking({
           );
         })}
       </ol>
+      {note && <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">{note}</p>}
       {entries.length < 3 && (
         <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">Rankings grow as more filler guides are imported.</p>
       )}

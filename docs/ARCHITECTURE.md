@@ -7,7 +7,7 @@ Anime Filler Finder is a static single-page app. Everything happens in the brows
 | | AniList (remote) | Filler datasets (local) |
 | --- | --- | --- |
 | Provides | Titles, description, genres, studios, score, popularity, status, episode count, season, dates, cover and banner images | Per-episode classification (CANON, MIXED, ANIME_CANON, FILLER), episode titles, arcs |
-| Coverage | Every anime on AniList | Only anime that have been imported (201 finished series / 332 seasons as of this writing; still-airing shows are left out because classifications are imported by hand) |
+| Coverage | Every anime on AniList | Only anime that have been imported (201 finished series / 334 seasons as of this writing; still-airing shows are left out because classifications are imported by hand) |
 | Where | `https://graphql.anilist.co` (`VITE_ANILIST_API`) | `src/data/anime/<slug>.json` |
 | Loaded | On demand, cached | Lazily, one chunk per anime |
 
@@ -27,6 +27,8 @@ The two are joined by the **AniList Media ID**. Each dataset stores `anilistId`,
 ```
 
 ### "No filler" on Discover
+
+The **Most/Least filler** rankings (`src/features/discover/rankings.ts`) skip anime-original series (every episode filler, such as Kirby), and Least filler skips filler-free series, which the No filler section covers.
 
 Discover's **No filler** section has two lists, switched with `?nofiller=likely`:
 

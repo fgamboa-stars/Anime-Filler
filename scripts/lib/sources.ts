@@ -94,6 +94,20 @@ export async function getMedia(ids: number[]): Promise<AniListMedia[]> {
   return ids.map((id) => mediaCache.get(id)).filter((m): m is AniListMedia => Boolean(m));
 }
 
+/** Episode titles AniList lists from streaming services, per media ID (empty when it has none). */
+export async function getStreamingTitles(ids: number[]): Promise<Map<number, string[]>> {
+  const out = new Map<number, string[]>();
+  const unique = [...new Set(ids)];
+  for (let i = 0; i < unique.length; i += 50) {
+    const data = await anilist<{ Page: { media: { id: number; streamingEpisodes: { title: string | null }[] | null }[] } }>(
+      `query ($ids: [Int]) { Page(perPage: 50) { media(id_in: $ids) { id streamingEpisodes { title } } } }`,
+      { ids: unique.slice(i, i + 50) },
+    );
+    for (const m of data.Page.media) out.set(m.id, (m.streamingEpisodes ?? []).map((e) => e.title ?? '').filter(Boolean));
+  }
+  return out;
+}
+
 export async function searchSeries(term: string): Promise<AniListMedia[]> {
   const data = await anilist<{ Page: { media: AniListMedia[] } }>(
     `query ($s: String) { Page(perPage: 6) { media(search: $s, type: ANIME, sort: SEARCH_MATCH) { ${MEDIA_FIELDS} } } }`,

@@ -5,12 +5,14 @@ import {
   isNonSeriesListing,
   parseAflIndex,
   parseAflShow,
+  parseStreamingTitles,
   pickTitle,
   searchTermsFor,
   seasonLabelFor,
   splitSeasons,
   titleMatchScore,
   toImporterCsv,
+  verifySeasonTitles,
 } from './afl.ts';
 import { parseCsv } from './csv.ts';
 import { validateRecords } from './importer.ts';
@@ -70,6 +72,10 @@ describe('AnimeFillerList parsing', () => {
   it('builds search terms from bracketed alternative names', () => {
     expect(searchTermsFor('Assassination Classroom (Ansatsu Kyoushitsu)')).toEqual(['Assassination Classroom', 'Ansatsu Kyoushitsu']);
     expect(searchTermsFor('Toradora!')).toEqual(['Toradora!']);
+    expect(searchTermsFor('Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))')).toEqual([
+      'Rurouni Kenshin (2023)',
+      'Rurouni Kenshin: Meiji Kenkaku Romantan (2023)',
+    ]);
   });
 });
 
@@ -109,6 +115,7 @@ describe('naming', () => {
     expect(seasonLabelFor('Assassination Classroom Second Season', ['Assassination Classroom'], 1)).toBe('Second Season');
     expect(seasonLabelFor('Blue Exorcist: Kyoto Saga', ['Blue Exorcist'], 1)).toBe('Kyoto Saga');
     expect(seasonLabelFor('Something Else', ['Blue Exorcist'], 2)).toBe('Season 3');
+    expect(seasonLabelFor('Full Metal Panic? Fumoffu', ['Full Metal Panic!'], 1)).toBe('Fumoffu');
   });
 });
 
@@ -138,5 +145,26 @@ describe('titleMatchScore', () => {
   it('rejects a different show whose episode total happens to match', () => {
     expect(titleMatchScore('Fate/stay night [Unlimited Blade Works]', ['Fate/Zero Season 2', 'Fate/Zero 2nd Season'])).toBeLessThan(0.5);
     expect(titleMatchScore('Tsukimonogatari', ['Nekomonogatari Black', 'Nekomonogatari (Kuro)'])).toBe(0);
+  });
+});
+
+describe('season split check', () => {
+  const guide = ['Arrival', 'The Storm', 'Night Market', 'Farewell'].map((title, i) => ({ number: i + 1, title }));
+
+  it('reads streaming titles and renumbers continuously numbered later seasons', () => {
+    expect([...parseStreamingTitles(['Episode 26 - Arrival', 'Episode 27 - The Storm'])]).toEqual([
+      [1, 'Arrival'],
+      [2, 'The Storm'],
+    ]);
+    // A prologue listed as "Episode 0" keeps its number.
+    expect(parseStreamingTitles(['Episode 0 - Omen', 'Episode 1 - Arrival']).get(1)).toBe('Arrival');
+  });
+
+  it('accepts lined-up titles and reports a split that is one episode off', () => {
+    const same = parseStreamingTitles(guide.map((e) => `Episode ${e.number} - ${e.title}`));
+    expect(verifySeasonTitles(guide, same).status).toBe('ok');
+    const shifted = parseStreamingTitles(['Recap', ...guide.map((e) => e.title)].map((t, i) => `Episode ${i + 1} - ${t}`));
+    expect(verifySeasonTitles(guide, shifted)).toMatchObject({ status: 'shifted', shift: 1 });
+    expect(verifySeasonTitles(guide, new Map()).status).toBe('no-data');
   });
 });

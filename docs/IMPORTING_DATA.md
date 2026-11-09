@@ -114,6 +114,7 @@ npm run afl:match -- toradora         # or only specific shows (the part after /
 npm run afl:import                    # write data/seed/<slug>.csv and import every matched show
 npm run afl:import -- toradora        # or only specific shows (re-imports them)
 npm run afl:import -- --dry-run       # report only; CSVs go to .cache/afl/dry-run/
+npm run afl:verify                    # check the season splits (see below)
 ```
 
 **What counts as a match.** `afl:match` searches AniList for the show and follows its TV seasons (prequels and sequels). A show is matched only if:
@@ -127,6 +128,15 @@ Everything else is recorded as `skipped` with a reason: films/OVAs/specials list
 **Reviewing.** `data/afl/manifest.json` lists each show's status, its AniList seasons and their episode counts. To fix a match by hand, set `"status": "manual"` and edit `seasons`. Manual entries are never overwritten by `afl:match`.
 
 **Importing.** `afl:import` checks again on AniList that every season is finished and that its episode count hasn't changed. It then splits AnimeFillerList's continuous numbering into AniList's seasons, renumbered from 1 per season. It writes one CSV per season to `data/seed/` and runs the normal importer with `--replace --strict --offline`. Seasons are linked as a franchise automatically. The importer refuses an AniList ID that already belongs to a guide the helper didn't create, so hand-curated guides are never overwritten.
+
+**Checking the season splits.** Two lists can add up to the same total and still be split wrongly, for example if AnimeFillerList puts a spin-off between two seasons. Run:
+
+```bash
+npm run afl:verify                    # every show imported by the helper
+npm run afl:verify -- full-metal-panic
+```
+
+It compares each season's episode titles with the titles AniList lists from streaming services and writes `reports/afl-verify.md`. **Shifted** means the titles only line up when moved by an episode or two: fix that season (usually with a `manual` manifest entry) and re-import. **Unclear** seasons are worth a glance, but most are just different translations, or AniList listing another season's titles. Lists that AniList attaches to several seasons are ignored. The check caught Full Metal Panic!: AnimeFillerList runs the first series, *Fumoffu*, then *The Second Raid*, so its manifest entry is set by hand.
 
 **Arcs.** AnimeFillerList doesn't publish story arcs, so helper-imported guides group every episode under "Standalone Episodes". To add arcs later, fill in the `arc` column of the CSV in `data/seed/` and re-import it with `npm run import:csv -- data/seed/<slug>.csv --replace`.
 

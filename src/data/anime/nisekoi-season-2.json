@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "nisekoi-season-2",
+  "anilistId": 20876,
+  "title": "Nisekoi:",
+  "alternativeTitles": [
+    "Nisekoi2 -False Love-"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 21–32, renumbered to match AniList)",
+  "franchise": "Nisekoi: False Love",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T17:10:05.448Z",
+  "episodes": [
+    {"number":1,"title":"From Now On / Please Notice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Fate / Showdown","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Need","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Mother","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Teach Me / Master Raku","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Delicious","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Little Sister","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Magical Pâtissière Kosaki / Work","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Cleanup Day / Visiting the Sick","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Support","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"I Want to Lose Weight / Good Morning","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Search / Just Testing","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

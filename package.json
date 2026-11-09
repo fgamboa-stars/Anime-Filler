@@ -18,7 +18,8 @@
     "data:index": "tsx scripts/build-index.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "afl:match": "tsx scripts/afl-match.ts",
-    "afl:import": "tsx scripts/afl-import.ts"
+    "afl:import": "tsx scripts/afl-import.ts",
+    "afl:verify": "tsx scripts/afl-verify.ts"
   },
   "dependencies": {
     "@fontsource/archivo-black": "^5.3.0",

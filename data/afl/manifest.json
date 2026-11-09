@@ -1580,7 +1580,7 @@
       "afl": "full-metal-panic",
       "name": "Full Metal Panic!",
       "checkedAt": "2026-11-09T04:56:09.521Z",
-      "status": "matched",
+      "status": "manual",
       "episodes": 49,
       "seasons": [
         {
@@ -1589,20 +1589,21 @@
           "episodes": 24
         },
         {
+          "anilistId": 72,
+          "title": "Full Metal Panic? Fumoffu",
+          "episodes": 12
+        },
+        {
           "anilistId": 73,
           "title": "Full Metal Panic! The Second Raid",
           "episodes": 13
-        },
-        {
-          "anilistId": 21451,
-          "title": "Full Metal Panic! Invisible Victory",
-          "episodes": 12
         }
       ],
+      "reason": "Set by hand: AnimeFillerList runs Full Metal Panic!, Fumoffu, then The Second Raid (Fumoffu is not a SEQUEL on AniList, so matching chose Invisible Victory).",
       "imported": [
         "full-metal-panic",
-        "full-metal-panic-the-second-raid",
-        "full-metal-panic-invisible-victory"
+        "full-metal-panic-fumoffu",
+        "full-metal-panic-the-second-raid"
       ]
     },
     {
@@ -2343,7 +2344,7 @@
       ],
       "imported": [
         "kaguya-sama-love-is-war",
-        "kaguya-sama-love-is-war",
+        "kaguya-sama-love-is-war-season-2",
         "kaguya-sama-love-is-war-ultra-romantic",
         "kaguya-sama-love-is-war-the-first-kiss-that-never-ends"
       ]
@@ -2996,7 +2997,7 @@
       ],
       "imported": [
         "nisekoi",
-        "nisekoi"
+        "nisekoi-season-2"
       ]
     },
     {
@@ -3592,7 +3593,7 @@
         }
       ],
       "imported": [
-        "rurouni-kenshin-2023-rurouni-kenshin-meiji-kenkaku-romantan-2023"
+        "rurouni-kenshin-2023"
       ]
     },
     {

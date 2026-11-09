@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { CircleCheck, CircleHelp } from 'lucide-react';
 import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
@@ -68,7 +68,7 @@ export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; m
         description={
           view === 'verified'
             ? 'Every episode checked: these guides have no filler episodes.'
-            : `An estimate for anime without a guide yet: finished TV series of ${LIKELY_NO_FILLER_MAX_EPISODES} episodes or fewer rarely have filler.`
+            : `An estimate for anime without a guide yet: most finished TV series of ${LIKELY_NO_FILLER_MAX_EPISODES} episodes or fewer have no filler (about 1 in 8 in our guides has some).`
         }
         action={
           <Segmented<View>
@@ -119,11 +119,23 @@ export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; m
   );
 }
 
+/** Cards to aim for per "Show more", and a cap on AniList pages fetched in one go. */
+const LIKELY_STEP = 18;
+const LIKELY_MAX_PAGES = 10;
+
 function LikelyList() {
   const [pages, setPages] = useState(1);
+  const [wanted, setWanted] = useState(LIKELY_STEP);
   const likely = useLikelyNoFiller(pages);
   // Shows with a guide are covered by "Verified" (or have filler), so they are left out here.
   const items = (likely.data?.media ?? []).filter((m) => !hasFillerData(m.id));
+  const canLoadMore = Boolean(likely.data?.hasNextPage) && pages < LIKELY_MAX_PAGES;
+
+  // Popular short series mostly have guides now, so one AniList page can leave only a few
+  // cards. Keep fetching pages (each cached for a day) until there are enough to show.
+  useEffect(() => {
+    if (likely.status === 'success' && items.length < wanted && canLoadMore) setPages((n) => n + 1);
+  }, [likely.status, items.length, wanted, canLoadMore]);
 
   if (likely.status === 'error' && !likely.data)
     return (
@@ -150,8 +162,16 @@ function LikelyList() {
       <p className="mt-8 max-w-prose text-xs text-muted-foreground">
         “Likely” is not checked episode by episode. Recap episodes or the odd original episode can still turn up.
       </p>
-      {likely.data?.hasNextPage && (
-        <Button variant="outline" className="mt-6" disabled={likely.status === 'loading'} onClick={() => setPages((n) => n + 1)}>
+      {canLoadMore && (
+        <Button
+          variant="outline"
+          className="mt-6"
+          disabled={likely.status === 'loading'}
+          onClick={() => {
+            setWanted(items.length + LIKELY_STEP);
+            setPages((n) => n + 1);
+          }}
+        >
           Show more
         </Button>
       )}

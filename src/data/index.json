@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T14:24:51.947Z",
+  "generatedAt": "2026-11-09T17:10:05.616Z",
   "anime": [
     {
       "slug": "86-eighty-six-part-2",
@@ -2342,29 +2342,7 @@
       "franchise": "Full Metal Panic!",
       "seasonLabel": "Season 1",
       "franchiseOrder": 1,
-      "updatedAt": "2026-11-09T14:20:36.152Z"
-    },
-    {
-      "slug": "full-metal-panic-invisible-victory",
-      "anilistId": 21451,
-      "title": "Full Metal Panic! Invisible Victory",
-      "alternativeTitles": [
-        "FULL METAL PANIC! IV"
-      ],
-      "totalEpisodes": 12,
-      "counts": {
-        "CANON": 12,
-        "FILLER": 0,
-        "MIXED": 0,
-        "ANIME_CANON": 0
-      },
-      "fillerPercentage": 0,
-      "arcCount": 1,
-      "strip": "C12",
-      "franchise": "Full Metal Panic!",
-      "seasonLabel": "Invisible Victory",
-      "franchiseOrder": 3,
-      "updatedAt": "2026-11-09T14:20:37.675Z"
+      "updatedAt": "2026-11-09T17:06:58.490Z"
     },
     {
       "slug": "full-metal-panic-the-second-raid",
@@ -2375,18 +2353,40 @@
       ],
       "totalEpisodes": 13,
       "counts": {
-        "CANON": 1,
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Full Metal Panic!",
+      "seasonLabel": "The Second Raid",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T17:06:59.637Z"
+    },
+    {
+      "slug": "full-metal-panic-fumoffu",
+      "anilistId": 72,
+      "title": "Full Metal Panic? Fumoffu",
+      "alternativeTitles": [
+        "Full Metal Panic Fumoffu"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
         "FILLER": 12,
         "MIXED": 0,
         "ANIME_CANON": 0
       },
-      "fillerPercentage": 92.3,
+      "fillerPercentage": 100,
       "arcCount": 1,
-      "strip": "F12C1",
+      "strip": "F12",
       "franchise": "Full Metal Panic!",
-      "seasonLabel": "The Second Raid",
+      "seasonLabel": "Fumoffu",
       "franchiseOrder": 2,
-      "updatedAt": "2026-11-09T14:20:37.016Z"
+      "updatedAt": "2026-11-09T17:06:59.069Z"
     },
     {
       "slug": "fullmetal-alchemist-2003",
@@ -3700,6 +3700,31 @@
       "updatedAt": "2026-11-09T14:21:29.316Z"
     },
     {
+      "slug": "kaguya-sama-love-is-war",
+      "anilistId": 101921,
+      "title": "Kaguya-sama: Love is War",
+      "alternativeTitles": [
+        "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+        "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains",
+        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+        "Kaguya-sama : L'Amour est une guerre"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Kaguya-sama: Love is War",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T17:10:02.039Z"
+    },
+    {
       "slug": "kaguya-sama-love-is-war-the-first-kiss-that-never-ends",
       "anilistId": 151384,
       "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
@@ -3721,7 +3746,7 @@
       "franchise": "Kaguya-sama: Love is War",
       "seasonLabel": "The First Kiss That Never Ends-",
       "franchiseOrder": 4,
-      "updatedAt": "2026-11-09T14:21:33.641Z"
+      "updatedAt": "2026-11-09T17:10:03.873Z"
     },
     {
       "slug": "kaguya-sama-love-is-war-ultra-romantic",
@@ -3746,17 +3771,13 @@
       "franchise": "Kaguya-sama: Love is War",
       "seasonLabel": "Ultra Romantic-",
       "franchiseOrder": 3,
-      "updatedAt": "2026-11-09T14:21:32.961Z"
+      "updatedAt": "2026-11-09T17:10:03.273Z"
     },
     {
-      "slug": "kaguya-sama-love-is-war",
+      "slug": "kaguya-sama-love-is-war-season-2",
       "anilistId": 112641,
       "title": "Kaguya-sama: Love is War?",
       "alternativeTitles": [
-        "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
-        "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains",
-        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
-        "Kaguya-sama : L'Amour est une guerre",
         "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
         "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 2",
         "Kaguya-sama: Love is War Season 2",
@@ -3773,9 +3794,9 @@
       "arcCount": 1,
       "strip": "C12",
       "franchise": "Kaguya-sama: Love is War",
-      "seasonLabel": "?",
+      "seasonLabel": "Season 2",
       "franchiseOrder": 2,
-      "updatedAt": "2026-11-09T14:21:32.321Z"
+      "updatedAt": "2026-11-09T17:10:02.634Z"
     },
     {
       "slug": "kaiju-no-8",
@@ -4724,10 +4745,31 @@
     },
     {
       "slug": "nisekoi",
+      "anilistId": 18897,
+      "title": "Nisekoi",
+      "alternativeTitles": [
+        "Nisekoi: False Love"
+      ],
+      "totalEpisodes": 20,
+      "counts": {
+        "CANON": 20,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C20",
+      "franchise": "Nisekoi: False Love",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T17:10:04.852Z"
+    },
+    {
+      "slug": "nisekoi-season-2",
       "anilistId": 20876,
       "title": "Nisekoi:",
       "alternativeTitles": [
-        "Nisekoi: False Love",
         "Nisekoi2 -False Love-"
       ],
       "totalEpisodes": 12,
@@ -4743,7 +4785,7 @@
       "franchise": "Nisekoi: False Love",
       "seasonLabel": "Season 2",
       "franchiseOrder": 2,
-      "updatedAt": "2026-11-09T14:22:28.259Z"
+      "updatedAt": "2026-11-09T17:10:05.448Z"
     },
     {
       "slug": "no-game-no-life",
@@ -5485,12 +5527,11 @@
       "updatedAt": "2026-11-02T20:49:09.939Z"
     },
     {
-      "slug": "rurouni-kenshin-2023-rurouni-kenshin-meiji-kenkaku-romantan-2023",
+      "slug": "rurouni-kenshin-2023",
       "anilistId": 142877,
-      "title": "Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))",
+      "title": "Rurouni Kenshin (2023)",
       "alternativeTitles": [
         "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-        "Rurouni Kenshin (2023)",
         "Samurai X (2023)",
         "Kenshin le vagabond (2023)"
       ],
@@ -5504,7 +5545,7 @@
       "fillerPercentage": 0,
       "arcCount": 1,
       "strip": "C24",
-      "updatedAt": "2026-11-09T14:23:11.590Z"
+      "updatedAt": "2026-11-09T17:05:40.658Z"
     },
     {
       "slug": "saga-of-tanya-the-evil",

@@ -65,8 +65,20 @@ export function isNonSeriesListing(name: string): boolean {
 
 /** "Assassination Classroom (Ansatsu Kyoushitsu)" → ["Assassination Classroom", "Ansatsu Kyoushitsu"]. */
 export function searchTermsFor(name: string): string[] {
-  const m = name.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
-  const terms = m ? [m[1], m[2]] : [name];
+  const trimmed = name.trim();
+  let terms = [trimmed];
+  // The trailing bracket group is the alternative name. It may contain brackets itself:
+  // "Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))".
+  if (trimmed.endsWith(')')) {
+    let depth = 0;
+    for (let i = trimmed.length - 1; i >= 0; i--) {
+      if (trimmed[i] === ')') depth++;
+      else if (trimmed[i] === '(' && --depth === 0) {
+        terms = [trimmed.slice(0, i), trimmed.slice(i + 1, -1)];
+        break;
+      }
+    }
+  }
   return [...new Set(terms.map((t) => t.trim()).filter(Boolean))];
 }
 
@@ -167,9 +179,11 @@ export function pickTitle(english: string | null, romaji: string | null): string
 export function seasonLabelFor(title: string, prefixes: string[], index: number): string {
   if (index === 0) return 'Season 1';
   const lower = title.toLowerCase();
-  for (const prefix of [...prefixes].sort((a, b) => b.length - a.length)) {
+  // Also try each prefix without trailing punctuation: "Full Metal Panic!" → "Full Metal Panic? Fumoffu".
+  const candidates = [...new Set(prefixes.flatMap((p) => [p, p.replace(/[\s!?.:]+$/, '')]))];
+  for (const prefix of candidates.sort((a, b) => b.length - a.length)) {
     if (prefix && lower.startsWith(prefix.toLowerCase())) {
-      const rest = title.slice(prefix.length).replace(/^[\s:–—\-.,!]+/, '').trim();
+      const rest = title.slice(prefix.length).replace(/^[\s:–—\-.,!?]+/, '').trim();
       if (rest) return rest;
     }
   }
@@ -186,4 +200,64 @@ export function toImporterCsv(animeTitle: string, anilistId: number, episodes: A
   const lines = ['animeTitle,episodeNumber,title,type,arc,anilistId'];
   for (const ep of episodes) lines.push([animeTitle, ep.number, ep.title, ep.type, '', anilistId].map(csvField).join(','));
   return `${lines.join('\n')}\n`;
+}
+
+// ── Season split check (afl:verify) ─────────────────────────────────────────
+
+/**
+ * Reads AniList's `streamingEpisodes` titles ("Episode 3 - Title", from Crunchyroll and
+ * other services) into episode numbers relative to the season: some services number a
+ * later season continuously, so the lowest number listed becomes episode 1.
+ */
+export function parseStreamingTitles(titles: string[]): Map<number, string> {
+  const parsed: [number, string][] = [];
+  for (const raw of titles) {
+    const m = raw.match(/^\s*(?:episode|ep\.?)\s*(\d+)\s*[-–—:.]\s*(.+?)\s*$/i);
+    if (m) parsed.push([Number(m[1]), m[2]]);
+  }
+  if (!parsed.length) return new Map();
+  // "Episode 0" (a prologue) keeps its number; a list starting above 1 is renumbered from 1.
+  const lowest = Math.min(...parsed.map(([n]) => n));
+  const start = lowest <= 1 ? 1 : lowest;
+  return new Map(parsed.map(([n, t]) => [n - start + 1, t]));
+}
+
+/** Whether two titles of the same episode plausibly match (shared words, either direction). */
+export function episodeTitlesMatch(a: string, b: string): boolean {
+  const wa = titleWords(a);
+  const wb = new Set(titleWords(b));
+  if (!wa.length || !wb.size) return false;
+  const shared = new Set(wa.filter((w) => wb.has(w))).size;
+  return shared / Math.min(new Set(wa).size, wb.size) >= 0.5;
+}
+
+export type SplitVerdict =
+  | { status: 'ok' | 'unclear'; compared: number; matched: number }
+  | { status: 'shifted'; compared: number; matched: number; shift: number }
+  | { status: 'no-data' };
+
+/**
+ * Compares a season's guide titles with AniList's streaming titles. If the titles line up
+ * better when moved by one or two episodes, the season split (or numbering) is off.
+ */
+export function verifySeasonTitles(guide: { number: number; title: string }[], streaming: Map<number, string>): SplitVerdict {
+  const score = (shift: number) => {
+    let compared = 0;
+    let matched = 0;
+    for (const e of guide) {
+      const other = streaming.get(e.number + shift);
+      if (!other) continue;
+      compared++;
+      if (episodeTitlesMatch(e.title, other)) matched++;
+    }
+    return { compared, matched };
+  };
+  const base = score(0);
+  if (base.compared < 3) return { status: 'no-data' };
+  if (base.matched / base.compared >= 0.6) return { status: 'ok', ...base };
+  for (const shift of [-1, 1, -2, 2]) {
+    const s = score(shift);
+    if (s.compared >= 3 && s.matched / s.compared >= 0.6) return { status: 'shifted', shift, ...s };
+  }
+  return { status: 'unclear', ...base };
 }

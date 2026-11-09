@@ -234,3 +234,42 @@ describe('guides page', () => {
     expect(screen.getByRole('heading', { level: 3, name: 'Bleach' })).toBeInTheDocument();
   });
 });
+
+describe('anime-original series', () => {
+  it('explains a series whose every episode is filler', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(2390, 'Kirby: Right Back at Ya!', { episodes: 100 }) } } }));
+    renderAt('/anime/kirby-right-back-at-ya');
+    expect(await screen.findByText('Every episode is marked filler because this anime tells its own story.', {}, { timeout: 4000 })).toBeInTheDocument();
+  });
+
+  it('does not say so for an all-filler season of a franchise with canon', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(72, 'Full Metal Panic? Fumoffu', { episodes: 12 }) } } }));
+    renderAt('/anime/full-metal-panic-fumoffu');
+    expect(await screen.findByRole('navigation', { name: 'Full Metal Panic! seasons' }, { timeout: 4000 })).toBeInTheDocument();
+    expect(screen.queryByText(/this anime tells its own story/)).not.toBeInTheDocument();
+  });
+});
+
+describe('discover: likely list', () => {
+  it('keeps loading AniList pages until there are shows without a guide to list', async () => {
+    const fetchMock = mockAniList((variables, query) => {
+      if (!query.includes('episodes_lesser')) return { body: page([]) };
+      const first = variables.page === 1;
+      return {
+        body: {
+          data: {
+            Page: {
+              pageInfo: { hasNextPage: first },
+              // Page 1 holds only a show that has a guide.
+              media: first ? [media(4224, 'Toradora!', { episodes: 25 })] : [media(1, 'Cowboy Bebop', { episodes: 26 })],
+            },
+          },
+        },
+      };
+    });
+    renderAt('/discover?nofiller=likely');
+    const section = await screen.findByRole('region', { name: 'No filler' });
+    expect(await within(section).findByRole('heading', { level: 3, name: 'Cowboy Bebop' }, { timeout: 4000 })).toBeInTheDocument();
+    expect(fetchMock.mock.calls.some(([, init]) => String((init as RequestInit).body).includes('"page":2'))).toBe(true);
+  });
+});

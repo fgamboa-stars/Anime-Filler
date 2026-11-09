@@ -7,6 +7,7 @@ import { ShareButton } from '@/components/ShareButton';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { Button } from '@/components/ui/button';
 import { Notice } from '@/components/ui/notice';
+import { isAnimeOriginal } from '@/features/discover/rankings';
 import { Segmented } from '@/components/ui/segmented';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AnimeHero } from '@/features/anime/AnimeHero';
@@ -135,8 +136,8 @@ function NoFillerData({ media }: { media: MediaDetail | null }) {
           }
         >
           <p>
-            It is a finished TV series of {media!.episodes} episodes. Series this short rarely have filler, but these episodes haven’t
-            been checked one by one.
+            It is a finished TV series of {media!.episodes} episodes. Most series this short have no filler (in our guides, about 1 in 8
+            has some), but these episodes haven’t been checked one by one.
           </p>
         </Notice>
       </section>
@@ -221,6 +222,12 @@ function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: numb
   const allVisibleWatched = visible.length > 0 && visible.every((e) => watched.has(e.number));
   const lastClassified = dataset.episodes[dataset.episodes.length - 1]?.number ?? 0;
   const unclassified = aired && aired > lastClassified ? aired - lastClassified : 0;
+  // Only when the whole series is filler: one all-filler season of a franchise (Fumoffu) is ordinary skippable filler.
+  const wholeSeriesOriginal = useMemo(() => {
+    const entry = findCatalogBySlug(dataset.slug);
+    const seasons = entry ? franchiseSiblings(getCatalog(), entry) : [];
+    return seasons.length ? seasons.every((e) => isAnimeOriginal(e.counts)) : isAnimeOriginal(dataset.counts);
+  }, [dataset.slug, dataset.counts]);
 
   return (
     <div className="flex flex-col gap-8">
@@ -238,6 +245,14 @@ function FillerGuide({ dataset, aired }: { dataset: PreparedDataset; aired: numb
             label={`${dataset.title}: ${dataset.counts.CANON} canon, ${dataset.counts.MIXED} mixed, ${dataset.counts.ANIME_CANON} anime canon and ${dataset.counts.FILLER} filler episodes`}
           />
         </Window>
+        {wholeSeriesOriginal && (
+          <Notice tone="info" title="Every episode is marked filler because this anime tells its own story.">
+            <p>
+              It doesn’t follow a source story, so there is no canon to skip ahead to. Here “filler” means “anime-original”, not
+              “skippable”.
+            </p>
+          </Notice>
+        )}
         {unclassified > 0 && (
           <Notice tone="info">
             <p className="text-foreground">
