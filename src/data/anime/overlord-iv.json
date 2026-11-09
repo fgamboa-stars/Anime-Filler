@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "overlord-iv",
+  "anilistId": 133844,
+  "title": "Overlord IV",
+  "alternativeTitles": [
+    "Overlord 4"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 40–52, renumbered to match AniList)",
+  "franchise": "Overlord",
+  "seasonLabel": "IV",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-09T14:22:41.608Z",
+  "episodes": [
+    {"number":1,"title":"Ainz Ooal Gown Nation of Leading Darkness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Re-Estize Kingdom","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Baharuth Empire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Ruler of Conspiracy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"In Pursuit of the Land of Dwarves","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Impending Crisis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Frost Dragon Lord","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"An Unexpected Move","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Countdown to Extinction","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Last King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Well-Prepared Traps","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Invasion of the Royal Capital","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Witch of the Falling Kingdom","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

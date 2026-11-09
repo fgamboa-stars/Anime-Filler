@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "komi-cant-communicate-part-2",
+  "anilistId": 142984,
+  "title": "Komi Can't Communicate Part 2",
+  "alternativeTitles": [
+    "Komi-san wa Komyushou Desu",
+    "Komi-san wa, Komyushou desu. 2",
+    "Komi Can't Communicate Season 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Komi Can't Communicate",
+  "seasonLabel": "Part 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:21:42.511Z",
+  "episodes": [
+    {"number":1,"title":"It's just the arrival of winter / It's just a delinquent / It's just studying at Nakanaka's / It's just a final exam","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"It's just a typhoon / It's just a fantasy / It's just a cat cafe / It's just the 'I love you' game","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"It's just a feeling / It's just a fantasy, part 2 / It's just an invitation to lunch / It's just roasted sweet potatoes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"It's just a merry Christmas","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"It's just a snowman / It's just a snowball fight / It's just the end of the year / It's just New Year's","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"It's just like every new year / It's just ice skating / It's just the common cold","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"It's just a misunderstanding / It's just a hallucination / It's just a narcissist / It's just a group decision for the school trip","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"It's just the school trip","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"It's just the second day of the school trip","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"It's just Valentine's Day","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"It's just tights./It's just an oni's metal club./It's just sweetness./It's just a fight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"It's just White day. / It has just been one year","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

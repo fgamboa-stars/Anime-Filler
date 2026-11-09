@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "edens-zero-season-2",
+  "anilistId": 144932,
+  "title": "EDENS ZERO Season 2",
+  "alternativeTitles": [
+    "EDENS ZERO 2nd Season",
+    "Edens Zero: Seria 2"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–50, renumbered to match AniList)",
+  "franchise": "EDENS ZERO",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:08.015Z",
+  "episodes": [
+    {"number":1,"title":"Belial Gore","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Element 4","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Wind Blows Through the Sakura Cosmos","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"No.29","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Intercession","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Our Future","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"4 vs. 4","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Sword of Edens","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Shiki vs. Drakken","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Advent of the Demon King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Edens One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Clash of the Cosmos","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Woman They Called Pirate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Nadia, Love of My Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"A Robot in Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"In the Doghouse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Battle of Foresta","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Star Drain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Darling Little Piece of Junk","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Kiss & Die","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The Doomsday System","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Oceans 6","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Judgment Day","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Desert Oasis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Prelude to the Aoi War","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

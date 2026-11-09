@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "negima-1546",
+  "anilistId": 1546,
+  "title": "Negima!?",
+  "alternativeTitles": [
+    "Mahou Sensei Negima?!",
+    "Negima!? Magister Negi Magi",
+    "Negima Remake"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:22.875Z",
+  "episodes": [
+    {"number":1,"title":"What? 31 students right off the bat!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"No way! That's what you do for a probationary contract!?'","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Oh-ho, so that's how a probationary contract card is used","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Teacher...... It's my first time......","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Security deposits and key fees are expensive in Tokyo. Wait, that's not what the probationary contract's about?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Pardon me....... Might I not be excused with either the forehead or the cheek?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Um... I think there are some good things about not being seen, but I do think there are times when it's better to be seen","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Professor; please make us adults","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"You hide the \"heart\" with a \"sword\" and read it as ninja. It is a little different than how you write \"serious\" and read it as \"for real\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Professor Negi went behind my back?! I shall never condone such a thing!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Huh, so the Baron is a kind of rose. I thought it was a kind of potato","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"After much quibbling, in the end it all comes down to is how you feel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Rather than a question of you being the enemy, the issue is really whether or not you are a nuisance to the Master","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Well, sure, being cute and cheerful may be all I have going for me, but you didn't have to be so harsh...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Frankly speaking, in the face of magic, scientific theory might as well be nonexistent","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Yesterday's foe is today's friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Natsumi, family will always be the home run king of bonds. Don't you agree?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"There's a bastard who gets all happy with secrets, then reveals them, and it really pisses me off","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"It's great to go back to being a kid again and having fun. Although, I can have fun without going back to being a kid, too","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"They say, bigger the blander; but that's not necessarily true in actuality","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"A man silently eats his Ramen Takamichi","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Aiya! Something strange is beginning to happen! This must surely be the end of the world!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"That's right, because we're your partners!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Professor Negi, it appears this is the climax","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"To Get Along is a Thing of Beauty","type":"CANON","arc":"Standalone Episodes"},
+    {"number":26,"title":"I will not say that I am lonely! Because, I have faith that we will surely meet again!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "overlord",
+  "anilistId": 20832,
+  "title": "Overlord",
+  "alternativeTitles": [
+    "Over Lord"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Overlord",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:39.681Z",
+  "episodes": [
+    {"number":1,"title":"End and Beginning","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Floor Guardians","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Battle of Carne Village","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Ruler of Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Two Adventurers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Journey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Wise King of Forest","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Twin Swords of Slashing Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Dark Warrior","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"True Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Confusion and Understanding","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Bloody Valkyrie","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Player VS Non Player Character","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

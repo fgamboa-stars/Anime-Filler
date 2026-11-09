@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-on-the-side-sword-oratoria",
+  "anilistId": 21676,
+  "title": "Is It Wrong to Try to Pick Up Girls In a Dungeon? On the Side: Sword Oratoria",
+  "alternativeTitles": [
+    "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
+    "Sword Oratoria: Is it Wrong to Try to Pick Up Girls in a Dungeon? On the Side",
+    "Is It Wrong to Hope to Meet a Girl in a Dungeon? On the Side: Sword Oratoria",
+    "Danmachi Sword Oratoria",
+    "¿Qué tiene de malo ligar en una mazmorra? Sword Oratoria"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:22.321Z",
+  "episodes": [
+    {"number":1,"title":"The Sword Princess and the Elf","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Fittings and Purchases","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Festivals and Courage","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Murder and the Jewel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Red-head and the Lone Ruler","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Subjugation and Escape","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Requests and Divisions","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Corruption and the Maid","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Training and Jealousy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Boy and the Hero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Adventure and the Unknown","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Kin to the Gods (Sword Oratoria)","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

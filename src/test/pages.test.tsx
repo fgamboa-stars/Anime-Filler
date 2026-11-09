@@ -31,7 +31,10 @@ afterEach(() => {
 
 describe('anime without filler data', () => {
   it('shows AniList metadata and the "not available" notice', async () => {
-    mockAniList(() => ({ body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { genres: ['Adventure', 'Drama'] }) } } }));
+    // 52 episodes: too long to count as "likely no filler".
+    mockAniList(() => ({
+      body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { genres: ['Adventure', 'Drama'], episodes: 52 }) } },
+    }));
     renderAt('/anime/154587-frieren');
 
     expect(
@@ -45,6 +48,25 @@ describe('anime without filler data', () => {
     expect(screen.getByText('Test Studio')).toBeInTheDocument();
     // HTML in AniList descriptions is reduced to plain paragraphs.
     expect(screen.getByText('A test description.')).toBeInTheDocument();
+  });
+
+  it('says a short finished series likely has no filler', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { episodes: 12 }) } } }));
+    renderAt('/anime/154587-frieren');
+
+    expect(await screen.findByText('No filler guide yet, but this anime likely has no filler.', {}, { timeout: 4000 })).toBeInTheDocument();
+    expect(screen.getByText(/finished TV series of 12 episodes/)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'More likely no-filler anime' })).toHaveAttribute(
+      'href',
+      '/discover?nofiller=likely#no-filler-heading',
+    );
+  });
+
+  it('does not call an airing series likely filler-free', async () => {
+    mockAniList(() => ({ body: { data: { Media: media(154587, 'Frieren: Beyond Journey’s End', { episodes: 12, status: 'RELEASING' }) } } }));
+    renderAt('/anime/154587-frieren');
+
+    expect(await screen.findByText('Filler data is not currently available for this anime.', {}, { timeout: 4000 })).toBeInTheDocument();
   });
 
   it('redirects a numeric AniList ID to the dataset slug when filler data exists', async () => {
@@ -160,12 +182,53 @@ describe('client-side navigation', () => {
   });
 });
 
+describe('discover: no filler', () => {
+  it('lists verified filler-free guides, then AniList estimates without a guide', async () => {
+    mockAniList((_variables, query) => {
+      if (query.includes('episodes_lesser'))
+        return {
+          body: {
+            data: {
+              Page: {
+                pageInfo: { hasNextPage: false },
+                media: [
+                  media(154587, 'Frieren: Beyond Journey’s End', { episodes: 28 }), // too long: filtered out
+                  media(4224, 'Toradora!', { episodes: 25 }), // has a guide: covered by "Verified"
+                  media(1, 'Cowboy Bebop', { episodes: 26 }),
+                ],
+              },
+            },
+          },
+        };
+      return { body: page([]) };
+    });
+    const router = renderAt('/discover');
+
+    const section = await screen.findByRole('region', { name: 'No filler' });
+    // The preview shows the most popular few; open the full list.
+    await userEvent.click(within(section).getByRole('button', { name: /^Show all [0-9]+$/ }));
+    // Death Note's guide has no filler episodes; Naruto's does.
+    expect(within(section).getByRole('heading', { level: 3, name: 'Death Note' })).toBeInTheDocument();
+    expect(within(section).queryByRole('heading', { level: 3, name: 'Naruto' })).not.toBeInTheDocument();
+    expect(within(section).getAllByText('No filler').length).toBeGreaterThan(0);
+
+    await userEvent.click(within(section).getByRole('button', { name: 'Likely' }));
+    expect(router.state.location.search).toBe('?nofiller=likely');
+    expect(await within(section).findByRole('heading', { level: 3, name: 'Cowboy Bebop' })).toBeInTheDocument();
+    expect(within(section).getByText('Likely no filler')).toBeInTheDocument();
+    expect(within(section).queryByRole('heading', { level: 3, name: 'Toradora!' })).not.toBeInTheDocument();
+    expect(within(section).queryByRole('heading', { level: 3, name: /Frieren/ })).not.toBeInTheDocument();
+    expect(within(section).queryByRole('button', { name: 'Show more' })).not.toBeInTheDocument();
+  });
+});
+
 describe('guides page', () => {
   it('lists every filler guide under its own nav tab', async () => {
     mockAniList(() => ({ body: page([]) }));
     const router = renderAt('/');
     await userEvent.click(screen.getAllByRole('link', { name: 'Guides' })[0]);
-    expect(await screen.findByRole('heading', { level: 1, name: 'Filler guides' })).toBeInTheDocument();
+    // Hundreds of guides: allow the page a moment to render in jsdom.
+    expect(await screen.findByRole('heading', { level: 1, name: 'Filler guides' }, { timeout: 8000 })).toBeInTheDocument();
     expect(router.state.location.pathname).toBe('/guides');
     expect(screen.getByRole('heading', { level: 3, name: 'Naruto' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { level: 3, name: 'Bleach' })).toBeInTheDocument();

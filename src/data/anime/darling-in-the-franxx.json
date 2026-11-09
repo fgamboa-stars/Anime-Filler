@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "darling-in-the-franxx",
+  "anilistId": 99423,
+  "title": "Darling in the FranXX",
+  "alternativeTitles": [
+    "Darling in the Franxx",
+    "DARLING in the FRANXX",
+    "DitF",
+    "DarliFra"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:46.159Z",
+  "episodes": [
+    {"number":1,"title":"Alone and Lonesome","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"What It Means to Connect","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Fighting Puppet","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Flap Flap","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Your Thorn, My Badge","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"DARLING in the FRANXX","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Shooting Star Moratorium","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Boys x Girls","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Triangle Bomb","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The City of Eternity","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Partner Shuffle","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Garden Where It All Began","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Beast and the Prince","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Punishment and Confession","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Bird that Shares Wings","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Days Of Our Lives","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Eden","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"When the Sakura Blooms","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Inhumanity","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"A New World","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"For You, My Love","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Stargazers","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"DARLING in the FRANXX","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Never Let Me Go","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

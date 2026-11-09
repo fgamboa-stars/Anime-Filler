@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "drifters",
+  "anilistId": 21123,
+  "title": "Drifters",
+  "alternativeTitles": [
+    "DRIFTERS"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:05.012Z",
+  "episodes": [
+    {"number":1,"title":"Fight Song","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Footsteps","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Army of Ours--Sortie at Dawn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Active Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Bring Back Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Men of Destiny","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Chaos Diver","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Mystery CALL ME","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Serious Bomber","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Baba Yetu","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Adventure of the Pistol Daimyō ~Bullet Counting Song~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Staring at Shinsengumi ~The Song of the Fervid Kyūshū Man~","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

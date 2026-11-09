@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "shadows-house-2nd-season",
+  "anilistId": 139093,
+  "title": "SHADOWS HOUSE 2nd Season",
+  "alternativeTitles": [
+    "Shadows House 2nd Season"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–25, renumbered to match AniList)",
+  "franchise": "Shadows House",
+  "seasonLabel": "2nd Season",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:30.382Z",
+  "episodes": [
+    {"number":1,"title":"Those Newly Come of Age","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Best Star Bearer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Great Cleaning","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Potential Suspects","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Midnight Meeting of Peers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Night Sky","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Individual Investigations","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Identity of Master Robe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Last Lessons","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Value of Friends","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Answer of the Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Those Who Fight Back","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

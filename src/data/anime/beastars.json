@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "beastars",
+  "anilistId": 107660,
+  "title": "BEASTARS",
+  "alternativeTitles": [
+    "BEASTARS - O Lobo Bom"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Beastars",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:19:02.726Z",
+  "episodes": [
+    {"number":1,"title":"The Moon and the Beast","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Academy’s Top Dogs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Wolf is Born","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Give it Your All","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Two Sides to the Story","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Blurred Vision - Dream or Reality?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Below the Fur Coat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Caught like Floss in a Canine's Teeth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Into the Lion's Den","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Wolf in Sheep's Clothing","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"To the Neon District","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"In the Storm's Wake","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

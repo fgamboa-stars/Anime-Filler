@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "slug": "toradora",
+  "anilistId": 4224,
+  "title": "Toradora!",
+  "alternativeTitles": [
+    "Tiger X Dragon"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T01:29:47.929Z",
+  "episodes": [
+    {"number":1,"title":"Tiger and Dragon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Ryūji and Taiga","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Your Song","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"That Moment's Expression","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Ami Kawashima","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"True Self","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Pool Opening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"For Whose Sake?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Let's Go to the Ocean, You Say","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Fireworks","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Ōhashi High School Cultural Festival - Part I","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Ōhashi High School Cultural Festival - Part II","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Ōhashi High School Cultural Festival - Part III","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Palmtop Tiger of Happiness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Stars are Far","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"One Step Forward","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Mercury Retrogrades at Christmas","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Under the Fir Tree","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Christmas Eve Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Forever Like This","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"No Matter What","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"The Scene With You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"The Road That We Must Advance On","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Confession","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Toradora!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

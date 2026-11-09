@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "silver-spoon",
+  "anilistId": 16918,
+  "title": "Silver Spoon",
+  "alternativeTitles": [
+    "Gin no Saji",
+    "Ginsaji"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Silver Spoon",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:23:31.437Z",
+  "episodes": [
+    {"number":1,"title":"Welcome to Ezonoo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Hachiken Rides a Horse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Hachiken Meets Pork Bowl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Hachiken Bakes Pizza","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hachiken Runs Off","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"Hachiken Goes to Stay with the Mikages","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Hachiken Goes to Giga Farm","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Hachiken Makes a Huge Mistake","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Hachiken Hesitates Over Pork Bowl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Hachiken Says Goodbye to Pork Bowl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Take Off Running, Hachiken","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-dress-up-darling-season-2",
+  "anilistId": 154768,
+  "title": "My Dress-Up Darling Season 2",
+  "alternativeTitles": [
+    "Sono Bisque Doll wa Koi wo Suru",
+    "Sono Bisque Doll wa Koi wo Suru Season 2",
+    "Sono Kisekae Ningyou wa Koi wo suru",
+    "Kisekoi 2",
+    "Si Boneka Rias Sedang Jatuh Cinta"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "My Dress-Up Darling",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:13.799Z",
+  "episodes": [
+    {"number":1,"title":"Wakana Gojo, 15 Years Old, Teenager","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"You Can Equip Boobs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"I Wuuuuv Slice-of-Life Scenes! ♥♥♥","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Has All My Measurements Memorized","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"800 Million","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"I'll Make It Happen, No Matter What with These Two Hands","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Capture Those Delicious Memories!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Only Way I Can Think of to Express That Gratitude Is with Money","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Because I Don't Intend to Sleep Tonight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"So We're Gonna Do It All Right Now?!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"I Didn't Think Anything Good Would Ever Happen to Me","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Dear My Dress-Up Darling","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

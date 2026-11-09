@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "ijiranaide-nagatoro-san",
+  "anilistId": 120697,
+  "title": "Ijiranaide, Nagatoro-san",
+  "alternativeTitles": [
+    "DON'T TOY WITH ME, MISS NAGATORO",
+    "Arrête de me chauffer, Nagatoro!",
+    "Jangan main-main denganku, Nona Nagatoro Serangan Ke-2 ",
+    "No me rayes, Nagatoro"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:55.962Z",
+  "episodes": [
+    {"number":1,"title":"Senpai is a bit... / Senpai, don't you ever get angry?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"You Got Your Wish, Senpai! / 'Sup, Senpai?!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Let's Do It Again Sometime, Senpai/Senpai! Come here~!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Senpai, You've Gone Beet Red/Senpai needs a little more...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"If We Buzz That Fluff, Senpai/Thanks for the Treat, Senpai!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"You're Such a Wimp, Senpai~♥/Senpai! Let's Go to the Beach!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Senpai, Why Don't We Go to the Festival?/This Is Like a Date, Isn't It, Senpai? ♥","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"It May Be More Fun Than You'd Expect, Ex-Senpai ♥/Let's Do Rock-Paper-Scissors, Senpai!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Senpai's Such a Closet Perv!!/There's No Way Creepy Senpai Could Go on a Proper Date!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"You Seem Pretty Stiff, Senpai/I'll Do It For You, Senpai!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Whadda You Think of It, Senpai?/Come One! Just Admit You Want It, Senpai!♥","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Has Spring Finally Come for Senpai, The Unpopular Lone Louse?!/She Said Something About Love, Didn't She, Senpai?","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

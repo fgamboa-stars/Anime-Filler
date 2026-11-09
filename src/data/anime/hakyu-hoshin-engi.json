@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "hakyu-hoshin-engi",
+  "anilistId": 99727,
+  "title": "Hakyu Hoshin Engi",
+  "alternativeTitles": [
+    "Hakyuu Houshin Engi",
+    "HAKYU HOSHIN ENGI",
+    "Hakyuu: Houshin Engi",
+    "Soul Hunter",
+    "Senkai-den Houshin Engi"
+  ],
+  "totalEpisodes": 23,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:00.211Z",
+  "episodes": [
+    {"number":1,"title":"The Hoshin List","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Nataku","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Yozen","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Buseioh's Rebellion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Two Paths","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Curtain Falls on the Aging Wise Man","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Great Sennin World War Begins!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Juzetsujin Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Concentration","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Rain of Blood","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Insect","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"New Romantic","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Mirror","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Parasite","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Shadow and Light","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Tsuten Kyoshu","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Fugen Shinjin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Battle to the Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Bunchu","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"When the Stars Rain Down","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Blinding Light, Deafening Silence, and Then...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"The Brave Warrior's Soul Is Released","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Aged Symbols and Diverging Winds","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "golden-kamuy-season-2",
+  "anilistId": 102977,
+  "title": "Golden Kamuy Season 2",
+  "alternativeTitles": [
+    "Golden Kamuy 2nd Season",
+    "Golden Kamui 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Golden Kamuy",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:51.156Z",
+  "episodes": [
+    {"number":1,"title":"Edogai-kun","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Fakes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Let's Talk About the Past","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Great Plan to Infiltrate the Asahikawa 7th Division!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Inside the Belly","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Ani Nekko","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Kamuy Hopunire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Blue Eyes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Sound of an Ambush","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"On the Night of the New Moon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Overwhelmed","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Call Out","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "golden-kamuy",
+  "anilistId": 99699,
+  "title": "Golden Kamuy",
+  "alternativeTitles": [
+    "Golden Kamui"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Golden Kamuy",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:20:50.555Z",
+  "episodes": [
+    {"number":1,"title":"Wenkamuy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Nopperabo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Kamuy Mosir","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Grim Reaper","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Race","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Hunter's Soul","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Complication","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Eyes of a Murderer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Gleaming","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Fellow Traveler","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Everybody, Get Together! It's a Murder Hotel!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Trickster Fox","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

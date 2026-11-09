@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "fist-of-the-blue-sky-regenesis",
+  "anilistId": 100408,
+  "title": "Fist of the Blue Sky: Regenesis",
+  "alternativeTitles": [
+    "Souten no Ken: REGENESIS"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:24.986Z",
+  "episodes": [
+    {"number":1,"title":"Successor to the Divine Fist of the North Star: Kasumi Kenshiro","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Unattainable Desires","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Bloodstained Death Bird Demon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Origin of the Divine Fist of the North Star","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Grudge of the Hungry Wolf","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Departing Swallow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Two Thousand Year Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Battle of Destiny","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Forgiver","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Young Successor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Heaven Dipper Sacred Yin Fist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Fists of Pengyou","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

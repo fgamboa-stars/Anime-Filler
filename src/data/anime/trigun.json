@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "trigun",
+  "anilistId": 6,
+  "title": "Trigun",
+  "alternativeTitles": [
+    "TRIGUN"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:25.292Z",
+  "episodes": [
+    {"number":1,"title":"The $60,000,000,000 Man","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"Truth of Mistake","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"Peace Maker","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Love & Peace","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hard Puncher","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Lost July","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"B. D. N.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"And Between the Wasteland and Sky","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Murder Machine","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Quick Draw","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Escape from Pain","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"Diablo","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"Vash the Stampede","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":14,"title":"Little Arcadia","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Demon's Eye","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":16,"title":"Fifth Moon","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":17,"title":"Rem Saverem","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":18,"title":"Goodbye for Now","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":19,"title":"Hang Fire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":20,"title":"Flying Ship","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":21,"title":"Out of Time","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":22,"title":"Alternative","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":23,"title":"Paradise","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":24,"title":"Sin","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":25,"title":"Live Through","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":26,"title":"Under the Sky so Blue","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

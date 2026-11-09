@@ -1,0 +1,160 @@
+import { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { CircleCheck, CircleHelp } from 'lucide-react';
+import { AnimeCard, AnimeCardSkeleton } from '@/components/AnimeCard';
+import { StateMessage, describeError } from '@/components/StateMessage';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { SectionHeader } from '@/components/ui/section-header';
+import { Segmented } from '@/components/ui/segmented';
+import { useLikelyNoFiller } from '@/hooks/useAnimeData';
+import { LIKELY_NO_FILLER_MAX_EPISODES, displayTitle, type MediaSummary } from '@/services/anilist';
+import { hasFillerData } from '@/services/datasets';
+import type { FranchiseGroup } from '@/utils/franchise';
+
+type View = 'verified' | 'likely';
+
+const VERIFIED_PREVIEW = 18;
+
+const GRID = 'mt-8 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-6';
+
+export function VerifiedNoFillerBadge() {
+  return (
+    <Badge variant="canon">
+      <CircleCheck aria-hidden />
+      No filler
+    </Badge>
+  );
+}
+
+export function LikelyNoFillerBadge() {
+  return (
+    <Badge variant="outline">
+      <CircleHelp aria-hidden />
+      Likely no filler
+    </Badge>
+  );
+}
+
+/**
+ * Discover section listing anime without filler: "Verified" comes from this
+ * site's episode guides, "Likely" is an AniList-based estimate for anime that
+ * have no guide yet.
+ */
+export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; media: MediaSummary[] }) {
+  const [params, setParams] = useSearchParams();
+  const view: View = params.get('nofiller') === 'likely' ? 'likely' : 'verified';
+  const setView = (next: View) =>
+    setParams(
+      (p) => {
+        if (next === 'likely') p.set('nofiller', 'likely');
+        else p.delete('nofiller');
+        return p;
+      },
+      { replace: true, preventScrollReset: true },
+    );
+
+  const [showAllVerified, setShowAllVerified] = useState(false);
+  const verified = groups
+    .filter((g) => g.counts.FILLER === 0)
+    .map((g) => ({ group: g, media: media.find((m) => m.id === g.first.anilistId) ?? null }))
+    .sort((a, b) => (b.media?.popularity ?? 0) - (a.media?.popularity ?? 0) || a.group.title.localeCompare(b.group.title));
+
+  return (
+    <section aria-labelledby="no-filler-heading" className="mt-20">
+      <SectionHeader
+        id="no-filler-heading"
+        title="No filler"
+        description={
+          view === 'verified'
+            ? 'Every episode checked: these guides have no filler episodes.'
+            : `An estimate for anime without a guide yet: finished TV series of ${LIKELY_NO_FILLER_MAX_EPISODES} episodes or fewer rarely have filler.`
+        }
+        action={
+          <Segmented<View>
+            label="No-filler list"
+            value={view}
+            onChange={setView}
+            options={[
+              { value: 'verified', label: `Verified (${verified.length})` },
+              { value: 'likely', label: 'Likely' },
+            ]}
+          />
+        }
+      />
+      {view === 'verified' ? (
+        verified.length ? (
+          <>
+          <ul className={GRID}>
+            {(showAllVerified ? verified : verified.slice(0, VERIFIED_PREVIEW)).map(({ group, media: m }) => (
+              <li key={group.key}>
+                <AnimeCard
+                  id={group.first.anilistId}
+                  title={group.title}
+                  media={m}
+                  catalog={group.first}
+                  label={<VerifiedNoFillerBadge />}
+                />
+                {group.counts.MIXED > 0 && (
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    {group.counts.MIXED} mixed {group.counts.MIXED === 1 ? 'episode' : 'episodes'}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+          {verified.length > VERIFIED_PREVIEW && (
+            <Button variant="outline" className="mt-8" onClick={() => setShowAllVerified((v) => !v)}>
+              {showAllVerified ? 'Show fewer' : `Show all ${verified.length}`}
+            </Button>
+          )}
+          </>
+        ) : (
+          <p className="mt-6 text-muted-foreground">No guide is filler-free yet.</p>
+        )
+      ) : (
+        <LikelyList />
+      )}
+    </section>
+  );
+}
+
+function LikelyList() {
+  const [pages, setPages] = useState(1);
+  const likely = useLikelyNoFiller(pages);
+  // Shows with a guide are covered by "Verified" (or have filler), so they are left out here.
+  const items = (likely.data?.media ?? []).filter((m) => !hasFillerData(m.id));
+
+  if (likely.status === 'error' && !likely.data)
+    return (
+      <StateMessage className="mt-6" title="Couldn’t load the list from AniList" onRetry={likely.retry}>
+        {describeError(likely.error)}
+      </StateMessage>
+    );
+
+  return (
+    <>
+      <ul className={GRID}>
+        {items.map((m) => (
+          <li key={m.id}>
+            <AnimeCard id={m.id} title={displayTitle(m.title)} media={m} catalog={null} label={<LikelyNoFillerBadge />} />
+          </li>
+        ))}
+        {likely.status === 'loading' &&
+          Array.from({ length: 12 }, (_, i) => (
+            <li key={`s${i}`}>
+              <AnimeCardSkeleton />
+            </li>
+          ))}
+      </ul>
+      <p className="mt-8 max-w-prose text-xs text-muted-foreground">
+        “Likely” is not checked episode by episode. Recap episodes or the odd original episode can still turn up.
+      </p>
+      {likely.data?.hasNextPage && (
+        <Button variant="outline" className="mt-6" disabled={likely.status === 'loading'} onClick={() => setPages((n) => n + 1)}>
+          Show more
+        </Button>
+      )}
+    </>
+  );
+}

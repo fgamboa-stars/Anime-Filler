@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "ace-attorney",
+  "anilistId": 21360,
+  "title": "Ace Attorney",
+  "alternativeTitles": [
+    "Gyakuten Saiban",
+    "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari!"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Ace Attorney",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:18:43.459Z",
+  "episodes": [
+    {"number":1,"title":"The First Turnabout","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Turnabout Sisters – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Turnabout Sisters – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Turnabout Sisters – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Turnabout Samurai – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Turnabout Samurai – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Turnabout Samurai – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Turnabout Goodbyes – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Turnabout Goodbyes – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Turnabout Goodbyes – 3rd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Turnabout Goodbyes – 4th Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Turnabout Goodbyes – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Turnabout Promise","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":14,"title":"Reunion and Turnabout – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Reunion and Turnabout – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Reunion and Turnabout – 3rd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Reunion and Turnabout – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Turnabout Big Top – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Turnabout Big Top – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Turnabout Big Top – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Farewell, My Turnabout – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Farewell, My Turnabout – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Farewell, My Turnabout – 3rd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Farewell, My Turnabout – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

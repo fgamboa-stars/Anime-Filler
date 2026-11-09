@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "yu-gi-oh-capsule-monsters",
+  "anilistId": 123074,
+  "title": "Yu-Gi-Oh! Capsule Monsters",
+  "alternativeTitles": [
+    "Yu☆Gi☆Oh! Duel Monsters ALEX"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:47.960Z",
+  "episodes": [
+    {"number":1,"title":"Getting Played","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"Divide and Conquer","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"Reunited at Last","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Fortress of Fear","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"Eye of the Storm","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"Trial of Light and Shadow","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Red-Eyes Black Curse","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"Fruits of Evolution","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Fiendish Five, Part 1","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Fiendish Five, Part 2","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"The True King, Part 1","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"The True King, Part 2","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

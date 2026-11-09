@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "code-geass-lelouch-of-the-rebellion",
+  "anilistId": 1575,
+  "title": "Code Geass: Lelouch of the Rebellion",
+  "alternativeTitles": [
+    "Code Geass: Hangyaku no Lelouch",
+    "Code Geass: Lelouch de la Rebelión"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Code Geass: Lelouch of the Rebellion",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:19:38.903Z",
+  "episodes": [
+    {"number":1,"title":"Stage 01 - The Day a New Demon Was Born","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Stage 02 - The White Knight Awakens","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Stage 03 - The False Classmate","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Stage 04 - His Name is Zero","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Stage 05 - The Princess and the Witch","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Stage 06 - The Stolen Mask","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Stage 07 - Attack Cornelia","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Stage 08 - The Black Knights","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Stage 09 - Refrain","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Stage 10 - Guren Dances","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Stage 11 - Battle for Narita","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Stage 12 - The Messenger From Kyoto","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Stage 13 - Shirley at Gunpoint","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Stage 14 - Geass vs. Geass","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Stage 15 - Cheering Mao","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Stage 16 - Nunnally Held Hostage","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Stage 17 - Knight","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Stage 18 - I Order you, Suzaku Kururugi","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Stage 19 - Island of the Gods","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Stage 20 - The Battle for Kyushu","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Stage 21 - The School Festival Declaration","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Stage 22 - Bloodstained Euphy","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Stage 23 - At Least with Sorrow","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Stage 24 - The Collapsing Stage","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Stage 25 - Zero","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

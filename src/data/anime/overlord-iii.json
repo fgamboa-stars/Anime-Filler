@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "overlord-iii",
+  "anilistId": 101474,
+  "title": "Overlord III",
+  "alternativeTitles": [
+    "Over Lord 3"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 27–39, renumbered to match AniList)",
+  "franchise": "Overlord",
+  "seasonLabel": "III",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:22:40.946Z",
+  "episodes": [
+    {"number":1,"title":"A Ruler's Melancholy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Carne Village Once More","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Enri's Upheaval and Hectic Days","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Giant of the East, Demon Snake of the West","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Two Leaders","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Invitation to Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Butterfly Entangled in a Spider's Web","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Handful of Hope","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"War of Words","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Preparations for War","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Another Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Massacre","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"PVP: Player vs Player","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

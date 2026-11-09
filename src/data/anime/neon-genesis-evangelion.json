@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "neon-genesis-evangelion",
+  "anilistId": 30,
+  "title": "Neon Genesis Evangelion",
+  "alternativeTitles": [
+    "Shin Seiki Evangelion",
+    "NGE",
+    "Eva"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:25.237Z",
+  "episodes": [
+    {"number":1,"title":"Angel Attack","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Beast","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Transfer","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Hedgehog’s Dilemma","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Rei I","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Rei II","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Human Work","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Asuka Strikes!","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Both of You, Dance Like You Want to Win!","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Magma Diver","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Day Tokyo-3 Stood Still","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"She said, 'Don't make others suffer for your personal hatred","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Lilliputian Hitcher","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Weaving a Story","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Those women longed for the touch of others' lips, and thus invited their kisses","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Splitting of the Breast","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Fourth Child","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Ambivalence","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Introjection","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Weaving a Story 2: oral stage","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"He was aware that he was still a child","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Don't Be","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Rei III","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Beginning and the End, or 'Knockin' on Heaven's Door","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Do you love me?","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":26,"title":"Take care of yourself","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

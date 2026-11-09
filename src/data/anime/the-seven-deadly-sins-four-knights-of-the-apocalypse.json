@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-seven-deadly-sins-four-knights-of-the-apocalypse",
+  "anilistId": 148862,
+  "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
+  "alternativeTitles": [
+    "Mokushiroku no Yonkishi",
+    "Nanatsu no Taizai: Mokushiroku no Yonkishi",
+    "The Seven Deadly Sins: Os Quatro Cavaleiros do Apocalipse",
+    "The Seven Deadly Sins: Los cuatro jinetes del apocalipsis"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:17.997Z",
+  "episodes": [
+    {"number":1,"title":"The Boy Sets Out on Adventure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Unknown Power","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Four Knights of the Apocalypse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Demon of Echo Gorge","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Resolve Further Honed","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Sistana Shaken","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Name of the Magic","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Young Heroes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Master and Pupil","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Roar of Destruction","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"A Real Holy Knight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A Sinister Endeavor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Cornered","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Goat Sin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Dark Talismans","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Departing from Sin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The King of Liones","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Knights of Prophecy Meet","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Liones in Flames","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Taming a Wild Horse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The Four Knights vs. the Servants of Chaos","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"A Freezing, Burning Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Royal Holy Knights vs. Melagaland","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Advent","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "slug": "tsukimonogatari",
+  "anilistId": 20918,
+  "title": "Tsukimonogatari",
+  "alternativeTitles": [
+    "Possession Tale"
+  ],
+  "totalEpisodes": 4,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:30.307Z",
+  "episodes": [
+    {"number":1,"title":"Yotsugi Doll, Part One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Yotsugi Doll, Part Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Yotsugi Doll, Part Three","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Yotsugi Doll, Part Four","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

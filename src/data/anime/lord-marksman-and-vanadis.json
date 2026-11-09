@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "lord-marksman-and-vanadis",
+  "anilistId": 20809,
+  "title": "Lord Marksman and Vanadis",
+  "alternativeTitles": [
+    "Madan No Ou to Vanadis",
+    "Madan no Ou to Vanadis",
+    "The King of the Magic Bullet and Vanadis"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:51.442Z",
+  "episodes": [
+    {"number":1,"title":"Wind Princess of the Battlefield","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Return Home","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Return of the Magic Marksman","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Snow Princess of the Frozen Ripple","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Storming of the Tatra Mountains","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Black Knight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"To Protect","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"2,000 vs. 20,000","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Thunder Swirl and Luminous Flame","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Ormea Campaign","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Two War Maidens","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Holy Grotto","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Widening World","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

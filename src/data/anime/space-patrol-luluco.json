@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "space-patrol-luluco",
+  "anilistId": 21637,
+  "title": "Space Patrol Luluco",
+  "alternativeTitles": [
+    "Uchuu Patrol Luluco"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:43.594Z",
+  "episodes": [
+    {"number":1,"title":"I'm a Normal Middle School Student","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"A New Transfer Student Arrives!","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Battlefield Classroom","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Into the Sky All Alone","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"What Should I Do?","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"That One Part Awakens","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Trap of Fate's Threads","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Trap of the Mystical Power","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The True Trap","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"It's All Over","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"I Was Clueless","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Confession","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"I'll Give Chase to the Ends of the Universe","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

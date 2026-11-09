@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "record-of-ragnarok",
+  "anilistId": 127399,
+  "title": "Record of Ragnarok",
+  "alternativeTitles": [
+    "Shuumatsu no Walküre",
+    "Shuumatsu no Valkyrie",
+    "Shuumatsu no Walkure",
+    "Valkyrie Apocalypse"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:59.477Z",
+  "episodes": [
+    {"number":1,"title":"Ragnarok","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Worthy Opponent","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Killer Move","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Joy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"FILE No.00000000001","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Great Emulation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Expelled from Paradise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Grace Abounding","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Tyrant of the Ocean","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Greatest Loser","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Swallow Gazes into the Abyss","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"And Ragnarok Goes On","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

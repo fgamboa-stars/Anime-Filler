@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "86-eighty-six",
+  "anilistId": 116589,
+  "title": "86: Eighty Six",
+  "alternativeTitles": [
+    "86 EIGHTY-SIX",
+    "86--EIGHTY-SIX"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "86: Eighty Six",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:18:33.883Z",
+  "episodes": [
+    {"number":1,"title":"Undertaker","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Spearhead","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"I Don't Want To Die","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Real Name","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"I'm With You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Through to the End","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Will You Remember Me?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Let's Go","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Goodbye","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Thank You","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Here We Go","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

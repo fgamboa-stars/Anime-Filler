@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "classroom-of-the-elite-season-2",
+  "anilistId": 145545,
+  "title": "Classroom of the Elite Season 2",
+  "alternativeTitles": [
+    "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+    "You-Zitsu 2",
+    "Youjitsu 2",
+    "Cote 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–25, renumbered to match AniList)",
+  "franchise": "Classroom of the Elite",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:19:32.551Z",
+  "episodes": [
+    {"number":1,"title":"Remember to Keep a Clear Head in Difficult Times","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"There Are Two Main Human Sins from Which All the Others Derive: Impatience and Indolence","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Greatest Souls Are Capable of the Greatest Vices as Well as of the Greatest Virtues","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Material Has to Be Created","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Every Failure Is a Step to Success.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Adversity Is the First Path to Truth.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"To Doubt Everything or to Believe Everything Are Two Equally Convenient Solutions; Both Dispense with the Necessity of Reflection.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Wound Is at Her Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"If You Make a Mistake and Do Not Correct It, This Is Called a Mistake.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"People, Often Deceived by An Illusive Good, Desire Their Own Ruin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"A Man Who Cannot Command Himself Will Always Be a Slave.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Force Without Wisdom Falls of Its Own Weight.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Worst Enemy You Can Meet Will Always Be Yourself","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

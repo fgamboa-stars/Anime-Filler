@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "one-punch-man-season-2",
+  "anilistId": 97668,
+  "title": "One-Punch Man Season 2",
+  "alternativeTitles": [
+    "One Punch Man 2",
+    "OPM2",
+    "Wanpanman 2",
+    "One-Punch Man Phần 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "One-Punch Man",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:35.562Z",
+  "episodes": [
+    {"number":1,"title":"The Hero's Return","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Human Monster","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Hunt Begins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Metal Bat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Martial Arts Tournament","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Monster Uprising","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Class S Heroes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Resistance of the Strong","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Troubles of the Strongest","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Justice Under Siege","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Varieties of Pride","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Wiping of the Disciple's Butt","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

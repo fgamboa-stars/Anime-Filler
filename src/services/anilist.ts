@@ -259,15 +259,59 @@ export async function getAnimeDetail(id: number, { signal }: { signal?: AbortSig
   return data.Media;
 }
 
+/** AniList returns at most 50 items per page, so larger lists are fetched in chunks. */
+const IDS_PER_REQUEST = 50;
+
 export async function getAnimeByIds(ids: number[], { signal }: { signal?: AbortSignal } = {}) {
   if (ids.length === 0) return [];
-  const sorted = [...ids].sort((a, b) => a - b);
-  const data = await anilistRequest<{ Page: { media: MediaSummary[] } }>(
-    `query ($ids: [Int]) { Page(perPage: 50) { media(id_in: $ids, type: ANIME) { ${SUMMARY_FIELDS} } } }`,
-    { ids: sorted },
-    { signal, cacheKey: `ids:${sorted.join(',')}`, ttl: 12 * HOUR },
+  const sorted = [...new Set(ids)].sort((a, b) => a - b);
+  const out: MediaSummary[] = [];
+  for (let i = 0; i < sorted.length; i += IDS_PER_REQUEST) {
+    const chunk = sorted.slice(i, i + IDS_PER_REQUEST);
+    const data = await anilistRequest<{ Page: { media: MediaSummary[] } }>(
+      `query ($ids: [Int]) { Page(perPage: 50) { media(id_in: $ids, type: ANIME) { ${SUMMARY_FIELDS} } } }`,
+      { ids: chunk },
+      { signal, cacheKey: `ids:${chunk.join(',')}`, ttl: 12 * HOUR },
+    );
+    out.push(...data.Page.media);
+  }
+  return out;
+}
+
+/** Longest series still treated as "likely no filler": two cours. */
+export const LIKELY_NO_FILLER_MAX_EPISODES = 26;
+const SERIES_FORMATS = new Set(['TV', 'TV_SHORT', 'ONA']);
+
+/**
+ * Estimate, not a classification: a finished TV series of two cours or fewer
+ * rarely has filler, because short adaptations don't outrun their source.
+ */
+export function isLikelyNoFiller(media: Pick<MediaSummary, 'status' | 'format' | 'episodes'> | null | undefined): boolean {
+  return (
+    !!media &&
+    media.status === 'FINISHED' &&
+    !!media.format &&
+    SERIES_FORMATS.has(media.format) &&
+    media.episodes != null &&
+    media.episodes > 0 &&
+    media.episodes <= LIKELY_NO_FILLER_MAX_EPISODES
   );
-  return data.Page.media;
+}
+
+/** Popular finished TV series short enough to be "likely no filler". One page per call. */
+export async function getLikelyNoFiller({ signal, page = 1, perPage = 50 }: { signal?: AbortSignal; page?: number; perPage?: number } = {}) {
+  const data = await anilistRequest<{ Page: { pageInfo: { hasNextPage: boolean }; media: MediaSummary[] } }>(
+    `query ($page: Int, $perPage: Int, $maxEpisodes: Int) {
+      Page(page: $page, perPage: $perPage) {
+        pageInfo { hasNextPage }
+        media(type: ANIME, isAdult: false, status: FINISHED, format_in: [TV], episodes_lesser: $maxEpisodes,
+              popularity_greater: 30000, sort: POPULARITY_DESC) { ${SUMMARY_FIELDS} }
+      }
+    }`,
+    { page, perPage, maxEpisodes: LIKELY_NO_FILLER_MAX_EPISODES + 1 },
+    { signal, cacheKey: `likely-no-filler:${perPage}:${page}`, ttl: 24 * HOUR },
+  );
+  return { media: data.Page.media.filter(isLikelyNoFiller), hasNextPage: data.Page.pageInfo.hasNextPage };
 }
 
 export async function getTopRated({ signal, perPage = 12 }: { signal?: AbortSignal; perPage?: number } = {}) {

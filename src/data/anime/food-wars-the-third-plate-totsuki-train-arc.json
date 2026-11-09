@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars-the-third-plate-totsuki-train-arc",
+  "anilistId": 100773,
+  "title": "Food Wars! The Third Plate: Totsuki Train Arc",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Shokugeki no Souma: San no Sara - Tootsuki Ressha-hen"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 50–61, renumbered to match AniList)",
+  "franchise": "Food Wars!",
+  "seasonLabel": "The Third Plate: Totsuki Train Arc",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-09T14:20:29.078Z",
+  "episodes": [
+    {"number":1,"title":"Advancement Exam","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Onward on the Totsuki Train","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Jeanne D'Arc Rises","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Revenge Match","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Umami Tightrope","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"For Whom","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Declaration of War","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Erina's Diligent Studies","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Pioneer of the Wastelands","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"To the Final Battleground","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Bearing Polar Star Dormitory","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Basis for Strength","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

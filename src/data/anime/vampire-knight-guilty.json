@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "vampire-knight-guilty",
+  "anilistId": 4752,
+  "title": "Vampire Knight: Guilty",
+  "alternativeTitles": [
+    "Vampire Knight Guilty",
+    "Vampire Kishi 2",
+    "Vampire Knight 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–26, renumbered to match AniList)",
+  "franchise": "Vampire Knight",
+  "seasonLabel": "Guilty",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:24:35.640Z",
+  "episodes": [
+    {"number":1,"title":"Burden of Sinners ~Guilty~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Eternal Promise ~Paradox~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Azure Portrait","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Devil's Awakening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Subordinate's Trap","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Fake Lovers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Kiss of Thorns","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Spiraling Recollections","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Revival of the Mad Emperor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Prelude to the Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Two Souls","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"World's End","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Vampire's Knight","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

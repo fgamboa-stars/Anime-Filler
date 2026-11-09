@@ -103,6 +103,35 @@ npm run dev             # open /anime/<slug>
 
 Commit the new `src/data/anime/<slug>.json` and the updated `src/data/index.json`. Deploying rebuilds the site; the new dataset becomes its own lazily loaded chunk automatically.
 
+## Importing from AnimeFillerList (helper)
+
+For finished shows, the AnimeFillerList helper does steps 1 and 2 for you. It takes two commands, with a review in between:
+
+```bash
+npm run afl:match                     # match every AnimeFillerList show to AniList (slow, see below)
+npm run afl:match -- toradora         # or only specific shows (the part after /shows/ in the URL)
+# review data/afl/manifest.json
+npm run afl:import                    # write data/seed/<slug>.csv and import every matched show
+npm run afl:import -- toradora        # or only specific shows (re-imports them)
+npm run afl:import -- --dry-run       # report only; CSVs go to .cache/afl/dry-run/
+```
+
+**What counts as a match.** `afl:match` searches AniList for the show and follows its TV seasons (prequels and sequels). A show is matched only if:
+
+- the seasons' episode counts add up to **exactly** the number of episodes AnimeFillerList lists, and
+- **every season has finished airing** (status `FINISHED`). Airing, upcoming, cancelled and on-hiatus shows are skipped.
+- the seasons include the show the search found, and the first season's title resembles the AnimeFillerList name. This stops an unrelated entry whose episode total happens to match (Fate/Zero for *Unlimited Blade Works*) from being accepted.
+
+Everything else is recorded as `skipped` with a reason: films/OVAs/specials listings, pages without an episode table, numbering that isn't a clean 1…n list, count mismatches, unfinished seasons, and shows already in the catalog. An "Episode 0" pre-series special is left out, because AniList lists it as its own entry.
+
+**Reviewing.** `data/afl/manifest.json` lists each show's status, its AniList seasons and their episode counts. To fix a match by hand, set `"status": "manual"` and edit `seasons`. Manual entries are never overwritten by `afl:match`.
+
+**Importing.** `afl:import` checks again on AniList that every season is finished and that its episode count hasn't changed. It then splits AnimeFillerList's continuous numbering into AniList's seasons, renumbered from 1 per season. It writes one CSV per season to `data/seed/` and runs the normal importer with `--replace --strict --offline`. Seasons are linked as a franchise automatically. The importer refuses an AniList ID that already belongs to a guide the helper didn't create, so hand-curated guides are never overwritten.
+
+**Arcs.** AnimeFillerList doesn't publish story arcs, so helper-imported guides group every episode under "Standalone Episodes". To add arcs later, fill in the `arc` column of the CSV in `data/seed/` and re-import it with `npm run import:csv -- data/seed/<slug>.csv --replace`.
+
+**Being polite to the sources.** AnimeFillerList has no API and no terms of use beyond a copyright notice; its `robots.txt` allows show pages with a 10-second crawl delay. The helper waits at least 10 seconds between page downloads and caches every page in `.cache/afl/` (git-ignored), so a page is downloaded once. AniList calls are paced to about 25 a minute, under its limit of 30, and only request IDs, titles, status and episode counts. Matching every show on AnimeFillerList takes about an hour the first time. Every guide keeps the "Classifications compiled from AnimeFillerList.com" attribution.
+
 ## Updating an existing anime
 
 Import a CSV containing only the changed or new rows. Merge mode updates matching episode numbers and adds new ones; everything else is kept. Use `--replace` to start over from a complete file.

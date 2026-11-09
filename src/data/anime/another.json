@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "another",
+  "anilistId": 11111,
+  "title": "Another",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:18:55.421Z",
+  "episodes": [
+    {"number":1,"title":"Rough sketch","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Blueprint","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Bone work","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Put flesh","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Build limbs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Face to face","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Sphere joint","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Hair stand","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Body paint","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Glass eye","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Makeup","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Stand by oneself","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

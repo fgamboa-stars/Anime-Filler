@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "re-zero-starting-life-in-another-world-season-2",
+  "anilistId": 108632,
+  "title": "Re:ZERO -Starting Life in Another World- Season 2",
+  "alternativeTitles": [
+    "Re: Zero- Kara Hajimeru Isekai Seikatsu",
+    "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+    "Re:Zero kara Hajimeru Isekai Seikatsu (2020)"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–38, renumbered to match AniList)",
+  "franchise": "Re:ZERO -Starting Life in Another World-",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:57.682Z",
+  "episodes": [
+    {"number":1,"title":"Each One's Promise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Next Location","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Long-Awaited Reunion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Parent and Child","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Step Forward","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Maiden's Gospel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Value of Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Love Love Love Love Love Love You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"I Know Hell","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Taste of Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Witches' Tea Party","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Sounds That Make You Want to Cry","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

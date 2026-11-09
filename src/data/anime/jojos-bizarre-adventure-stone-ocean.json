@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "jojos-bizarre-adventure-stone-ocean",
+  "anilistId": 131942,
+  "title": "JoJo's Bizarre Adventure: STONE OCEAN",
+  "alternativeTitles": [
+    "JoJo no Kimyou na Bouken: Stone Ocean",
+    "JoJo's Bizarre Adventure: Stone Ocean",
+    "JoJo's Bizarre Adventure Part 6",
+    "JoJo no Kimyou na Bouken Part 6"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 153–164, renumbered to match AniList)",
+  "franchise": "JoJo's Bizarre Adventure",
+  "seasonLabel": "STONE OCEAN",
+  "franchiseOrder": 6,
+  "updatedAt": "2026-11-09T14:21:27.778Z",
+  "episodes": [
+    {"number":1,"title":"Stone Ocean","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Stone Free","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Visitor, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Visitor, Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Prisoner of Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Ermes's Sticker","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"There's Six of Us!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Foo Fighters","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Marilyn Manson, the Debt Collector","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Operation Savage Garden (Head to the Courtyard!), Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Operation Savage Garden (Head to the Courtyard!), Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Torrential Downpour Warning","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "btooom",
+  "anilistId": 14345,
+  "title": "BTOOOM!",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:19.565Z",
+  "episodes": [
+    {"number":1,"title":"START","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Bloody High School Girl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Survival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Best in the World","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Attack","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Night of Sacrifice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Virtual Bride","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"White Ghost","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Strongest Player","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"High Level","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Revival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Bonds","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "shadows-house",
+  "anilistId": 125038,
+  "title": "Shadows House",
+  "alternativeTitles": [
+    "SHADOWS HOUSE",
+    "Shadow House",
+    "Dinh Thự Bóng"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Shadows House",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:23:29.149Z",
+  "episodes": [
+    {"number":1,"title":"The Shadow and Her Doll","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Outside the Room","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Soot Sickness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Watchers in the Night","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Debut","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Garden Labyrinth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"An Incomplete Map","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"In the Palm of His Hand","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Birdcage and Flowers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Final Pair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Dark Drink","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"To Lord Grandfather's Wing","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"For the Sake of the Shadows Family","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "emma-a-victorian-romance",
+  "anilistId": 345,
+  "title": "Emma: A Victorian Romance",
+  "alternativeTitles": [
+    "Eikoku Koi Monogatari Emma",
+    "Ema - Um Romance Vitoriano"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Emma: A Victorian Romance",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:20:11.708Z",
+  "episodes": [
+    {"number":1,"title":"The Gift","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Two Worlds","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Confession","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Mudie's","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Dinner Party","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Visit","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Crystal Palace","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Pocketwatch","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Alone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Missing One Another","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Past","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Lily of the Valley","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

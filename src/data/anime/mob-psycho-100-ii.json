@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "mob-psycho-100-ii",
+  "anilistId": 101338,
+  "title": "Mob Psycho 100 II",
+  "alternativeTitles": [
+    "Mob Psycho Hyaku"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–25, renumbered to match AniList)",
+  "franchise": "Mob Psycho 100",
+  "seasonLabel": "II",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:08.956Z",
+  "episodes": [
+    {"number":1,"title":"Ripped Apart ~Someone Is Watching~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Urban Legends ~Encountering Rumors~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"One Danger After Another ~Degeneration~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Inside ~Evil Spirit~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Discord ~Choices~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Poor, Lonely, Whitey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Cornered ~True Identity~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Even Then ~Continue Forward~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Show Me What You've Got ~Band Together~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Collision ~Power Type~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Guidance ~Psychic Sensor~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Battle for Social Rehabilitation ~Friendship~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Boss Fight ~The Final Light~","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

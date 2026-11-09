@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "slug": "burn-the-witch",
+  "anilistId": 116673,
+  "title": "BURN THE WITCH",
+  "alternativeTitles": [],
+  "totalEpisodes": 3,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:21.981Z",
+  "episodes": [
+    {"number":1,"title":"Witches Blow a New Pipe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Ghillie Suit / She Makes Me Special","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"If a lion could speak, we couldn't understand","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

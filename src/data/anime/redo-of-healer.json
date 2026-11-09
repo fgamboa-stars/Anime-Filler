@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "redo-of-healer",
+  "anilistId": 113425,
+  "title": "Redo of Healer",
+  "alternativeTitles": [
+    "Kaifuku Jutsushi no Yarinaoshi",
+    "La Venganza del Sanador"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:01.941Z",
+  "episodes": [
+    {"number":1,"title":"The Healer Starts Over!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Healer Ruins Princess Flare!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Healer Buys a Slave!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Healer Acquires Setsuna!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Healer Finds a New Toy!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Healer Sheds Blood and Tears!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Healer Enforces Justice!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Healer Meets the Demon Lord!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Healer Takes Revenge for a Meal!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Healer Becomes a Single, Lovely Flower!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Healer is Troubled by Norn's Brutality!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Healer Embarks on a New Journey!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

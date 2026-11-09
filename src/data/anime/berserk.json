@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "berserk",
+  "anilistId": 33,
+  "title": "Berserk",
+  "alternativeTitles": [
+    "Berserk Kenpuden",
+    "Kenpuu Denki Berserk",
+    "Kenfu Denki Berserk",
+    "Sword-Wind Chronicle Berserk",
+    "Berserk (1997)"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:05.249Z",
+  "episodes": [
+    {"number":1,"title":"The Black Swordsman","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"Band of the Hawk","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"First Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Hand of God","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Wind of Swords","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Zodd the Immortal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Sword's Owner","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Conspiracy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Assassination","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Noble Man","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Together","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Prepared For Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Bonfire of Dreams","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Decisive Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Conquerer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Moment of Glory","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Tombstone of Flames","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Separation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Sparks","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Confession","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Inflitration","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Eve Of The Feast","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Eclipse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Time Of Eternity","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

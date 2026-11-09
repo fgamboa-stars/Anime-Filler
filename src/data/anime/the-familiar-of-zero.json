@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-familiar-of-zero",
+  "anilistId": 1195,
+  "title": "The Familiar of Zero",
+  "alternativeTitles": [
+    "Zero No Tsukaima",
+    "Zero no Tsukaima",
+    "Zero's Familiar",
+    "La Magia de Zero"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "The Familiar Of Zero",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:24:02.716Z",
+  "episodes": [
+    {"number":1,"title":"Louise the Zero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Commoner Familiar","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Feverish Temptation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Maid's Crisis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Tristein's Princess","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A Thief's Identity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Louise's Part-Time Job","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Tabitha's Secret","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Louise's Change of Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Princess' Request","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Louise's Marriage","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Zero Treasure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Louise the Void","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

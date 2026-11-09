@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "hellsing",
+  "anilistId": 270,
+  "title": "Hellsing",
+  "alternativeTitles": [
+    "HELLSING"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:12.647Z",
+  "episodes": [
+    {"number":1,"title":"The Undead","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Club M","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Sword Dancer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Innocent as a Human","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"Brotherhood","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Dead Zone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Duel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Kill House","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Red Rose Vertigo","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Master of Monster","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Transcend Force","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"Total Destruction","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"Hellfire","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

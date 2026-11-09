@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "rent-a-girlfriend",
+  "anilistId": 113813,
+  "title": "Rent-a-Girlfriend",
+  "alternativeTitles": [
+    "Kanojo, Okarishimasu",
+    "I'd like to Borrow a Girlfriend",
+    "Kanokari",
+    "Pacar Sewaan"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Rent-A-Girlfriend",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:23:04.313Z",
+  "episodes": [
+    {"number":1,"title":"Rental Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Ex-Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Beach and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Friend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hot Springs and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Provisional Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Christmas and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Lies and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Friend's Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Truth and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Confession and Girlfriend","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "noragami",
+  "anilistId": 20447,
+  "title": "Noragami",
+  "alternativeTitles": [
+    "Stray God"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Noragami",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:32.437Z",
+  "episodes": [
+    {"number":1,"title":"A Housecat, a Stray God and a Tail","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Snow-like","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Bidden Calamity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Where Happiness Lies","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Borderline","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Scary Person","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Uncertainty and Destiny","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Over the Line","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Name","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Regarded With Hate","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"Abandoned God","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A Scrap of a Memory","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

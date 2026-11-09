@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "to-the-abandoned-sacred-beasts",
+  "anilistId": 107672,
+  "title": "To the Abandoned Sacred Beasts",
+  "alternativeTitles": [
+    "Katsute Kami Datta Kemono-tachi e"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:20.688Z",
+  "episodes": [
+    {"number":1,"title":"To the Abandoned Sacred Beasts","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Dragon's Daughter","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Minotaur's Fortress","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"March of the Behemoth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Gargoyle's Judgment","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The King of the Beasts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Trigger of Memories","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Songstress of Sleep","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Hound of Hell's Gate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Two Oaths","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Start of Troubles Ahead","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Those Who Seek","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "tsugumomo",
+  "anilistId": 97625,
+  "title": "Tsugumomo",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:27.975Z",
+  "episodes": [
+    {"number":1,"title":"The Scent of Cherry Blossoms","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Library and the Childhood Friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Kukuri-hime","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Trials of the Local God","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Training","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Memories and Childhood Friends","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Kanayama-san","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Certain Day in the Kagami Household / The Super Popular Fragrance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Letter","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Naked in the Futon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Duel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Partner","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -7,7 +7,7 @@ Anime Filler Finder is a static single-page app. Everything happens in the brows
 | | AniList (remote) | Filler datasets (local) |
 | --- | --- | --- |
 | Provides | Titles, description, genres, studios, score, popularity, status, episode count, season, dates, cover and banner images | Per-episode classification (CANON, MIXED, ANIME_CANON, FILLER), episode titles, arcs |
-| Coverage | Every anime on AniList | Only anime that have been imported (45 finished series / 108 seasons as of this writing; still-airing shows are left out because classifications are imported by hand) |
+| Coverage | Every anime on AniList | Only anime that have been imported (201 finished series / 332 seasons as of this writing; still-airing shows are left out because classifications are imported by hand) |
 | Where | `https://graphql.anilist.co` (`VITE_ANILIST_API`) | `src/data/anime/<slug>.json` |
 | Loaded | On demand, cached | Lazily, one chunk per anime |
 
@@ -26,6 +26,15 @@ The two are joined by the **AniList Media ID**. Each dataset stores `anilistId`,
                             └─ no ──► show AniList details + "filler data not available"
 ```
 
+### "No filler" on Discover
+
+Discover's **No filler** section has two lists, switched with `?nofiller=likely`:
+
+- **Verified**: franchise groups from the catalog whose guides have no `FILLER` episodes. Mixed episodes are counted and shown under the card.
+- **Likely**: an estimate for anime **without** a guide. It is fetched live from AniList (`getLikelyNoFiller`): finished, non-adult TV series of 26 episodes or fewer with more than 30,000 members, most popular first, 50 per page, with "Show more" for further pages. Anime that have a guide are left out. Nothing is stored; each page is cached for 24 hours like other AniList responses.
+
+The same rule (`isLikelyNoFiller`: finished TV/TV short/ONA, 1–26 episodes) decides whether an anime page without a guide says "likely has no filler" instead of "filler data is not currently available". It is always labelled as an estimate, never as a classification.
+
 ## Routing
 
 | Route | Page |
@@ -33,7 +42,7 @@ The two are joined by the **AniList Media ID**. Each dataset stores `anilistId`,
 | `/` | Home: search, quick actions, continue watching, featured guides |
 | `/search?q=` | Full search results |
 | `/anime/:id` | Detail page. `:id` is a dataset slug (`naruto`) or `<anilistId>-<title>` (`16498-attack-on-titan`). A numeric ID that has a dataset redirects to the slug, keeping the query string |
-| `/discover` | Most/least filler and highest rated |
+| `/discover` | No filler (verified and likely), most/least filler and highest rated |
 | `/progress` | Everything you are watching |
 
 Pages are lazy-loaded except the home page.
@@ -148,4 +157,6 @@ Semantic landmarks and headings, a skip link, an ARIA combobox for search autoco
 | Watch progress | `src/store/progressStore.test.ts` |
 | Watch order generator | `src/features/watch-order/generateWatchOrder.test.ts` |
 | CSV import utility and shipped datasets | `scripts/lib/importer.test.ts` |
+| AnimeFillerList parsing, season splitting, title matching | `scripts/lib/afl.test.ts` |
+| AniList chunking and the "likely no filler" rule | `src/services/anilist.test.ts` |
 | Pages against a mocked AniList | `src/test/pages.test.tsx` |

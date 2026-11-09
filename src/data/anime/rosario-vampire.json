@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "rosario-vampire",
+  "anilistId": 2993,
+  "title": "Rosario + Vampire",
+  "alternativeTitles": [
+    "Rosario to Vampire",
+    "Rosario and Vampire"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Rosario + Vampire",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:23:09.177Z",
+  "episodes": [
+    {"number":1,"title":"New Life and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"Succubus and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Witchling and Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Farewell and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"School Swimsuits and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Newspaper Club and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Snow Girl and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Math and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Summer Break and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Sunflowers and a Vampire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"New Term and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"Security Committee and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"Tsukune and a Vampire","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

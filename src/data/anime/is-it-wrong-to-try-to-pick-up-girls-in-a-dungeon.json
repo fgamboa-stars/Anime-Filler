@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+  "anilistId": 20920,
+  "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+  "alternativeTitles": [
+    "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "Danmachi",
+    "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth",
+    "DanMachi: É Errado Tentar Pegar Garotas numa Masmorra?"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:21:19.926Z",
+  "episodes": [
+    {"number":1,"title":"Adventurer (Bell Cranel)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Monster Festival (Monsterphilia)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Blade of a God (Hestia Knife)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Weak (Supporter)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Magic Book (Grimoire)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Reason (Liliruca Arde)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Sword Princess (Ais Wallenstein)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Wanting To Be A Hero (Argonaut)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Blacksmith (Welf Crozzo)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Procession of Monsters (Pass Parade)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Labyrinth Utopia (Under Resort)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Evil Intentions (Show)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Story of a Familia (Familia Myth)","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

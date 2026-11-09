@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "ajin-demi-human",
+  "anilistId": 21341,
+  "title": "AJIN: Demi-Human",
+  "alternativeTitles": [
+    "Ajin",
+    "AJIN: Semihumano"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "AJIN: Demi-Human",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:18:48.163Z",
+  "episodes": [
+    {"number":1,"title":"What's that stuff have to do with us?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Why is this happening? Why me....","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Maybe this is the end?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Have you ever seen a black ghost?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"But when it comes down to it, you still want them to help you... You're the worst kind of trash...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"I'm gonna kill you too","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"I swear I'll cover the whole thing up","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Brace yourselves","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Wait, let's talk it over","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"They start to decay as soon as they're created","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"It's show time","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"Whew, I'm beat","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"Sato, it's all your fault!","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

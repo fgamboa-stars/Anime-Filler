@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-ii",
+  "anilistId": 101167,
+  "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
+  "alternativeTitles": [
+    "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+    "Danmachi II",
+    "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka 2",
+    "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth II"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–25, renumbered to match AniList)",
+  "franchise": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+  "seasonLabel": "II",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:21:20.507Z",
+  "episodes": [
+    {"number":1,"title":"Banquet of the Gods (Party)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Sun God (Apollo)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Gathering (Conversion)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"War Game (War Game)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Hearthfire Mansion (Home)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"City of Lust (Ishtar Familia)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Fox Person (Renard)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Killing Stone (Ephemeral Dreams)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"War Prostitutes (Berbera)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Longing to Be a Hero (Argonaut)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Army's Advance (Rakia)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Goddess and Child (Song of Love)","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

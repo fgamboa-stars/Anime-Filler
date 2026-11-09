@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "blue-lock",
+  "anilistId": 137822,
+  "title": "Blue Lock",
+  "alternativeTitles": [
+    "BLUE LOCK"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:14.734Z",
+  "episodes": [
+    {"number":1,"title":"Dream","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Monster","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Soccer's \"Zero\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Premonition and Intuition","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"To Be Reborn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"I'm Sorry","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Rush","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Formula for Goals","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Awakening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Just the Way It Is","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Final Piece","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Second Selection","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"TOP3","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Geniuses and the Average Joes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Tri-Fusion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Devour","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Donkey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Stage for the Lead","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Dancing Boy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Super Link-Up Play","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"I'm Not There","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Voice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Luck","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Time Has Come","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "masamune-kuns-revenge",
+  "anilistId": 21857,
+  "title": "Masamune-kun's Revenge",
+  "alternativeTitles": [
+    "Masamune-kun no Revenge"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:03.563Z",
+  "episodes": [
+    {"number":1,"title":"The Boy Who Was Called Pig's Foot","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Cinderella Doesn't Smile","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Yoshino's Magic Show","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Clear and Present Danger","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Mysterious Cat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Attack! Battle of the Home Visits","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Tsunade Island Incident","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"It's Not You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"It's Been Called Love and Affection","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The New School Term Filled With Doubts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Snow White of the Yasaka Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Don't Let Go of the Mic, Even if You Die","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

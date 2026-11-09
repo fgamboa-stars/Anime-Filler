@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "terror-in-resonance",
+  "anilistId": 20661,
+  "title": "Terror in Resonance",
+  "alternativeTitles": [
+    "Zankyou no Terror",
+    "Terror in Tokyo",
+    "Zagadkowi terroryści"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:50.673Z",
+  "episodes": [
+    {"number":1,"title":"Falling","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Call & Response","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Search & Destroy","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Break Through","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hide & Seek","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Ready or Not","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Deuce","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"My Fair Lady","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Highs & Lows","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Helter Skelter","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"VON","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "goblin-slayer",
+  "anilistId": 101165,
+  "title": "Goblin Slayer",
+  "alternativeTitles": [
+    "GOBLIN SLAYER"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:48.251Z",
+  "episodes": [
+    {"number":1,"title":"The Fate of Particular Adventurers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Goblin Slayer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Unexpected Visitors","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Strong","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Adventures and Daily Life","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"Goblin Slayer in the Water Town","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Onward Unto Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Whispers and Prayers and Chants","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"There and Back Again","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Dozing","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"A Gathering of Adventurers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Fate of an Adventurer","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

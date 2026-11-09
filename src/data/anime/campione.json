@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "campione",
+  "anilistId": 12293,
+  "title": "Campione!",
+  "alternativeTitles": [
+    "Campione!: Matsurowanu Kamigami to Kamigoroshi no Maou"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:26.874Z",
+  "episodes": [
+    {"number":1,"title":"Tale of the Beginning","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Landscape with a King","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"From Afar, An Enemy Comes","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":4,"title":"Rogue Athena","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Unpleasant Days","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Kings Converse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Wind, Rain, Wolf","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Hero Arrives","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Missing King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Turbulent Demon King, The Sun Hero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Princess Shrine Maiden of the Long Sword","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Sword of Ama no Murakumo","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"Tale of the God-Slayer","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

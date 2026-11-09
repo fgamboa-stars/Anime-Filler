@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "magi-adventure-of-sinbad",
+  "anilistId": 21394,
+  "title": "Magi: Adventure of Sinbad",
+  "alternativeTitles": [
+    "Magi: Sinbad no Bouken"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:56.336Z",
+  "episodes": [
+    {"number":1,"title":"Child of Destiny","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Sinbad the Sailor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Dungeon Baal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The First Sea","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Qualities of a King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Where You Belong","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Sinbad the Merchant","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Household Vessel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Sasan, Land of Purity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Power to Change the World","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Artemyra, City in the Sky","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Djinn Equip Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Magi","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

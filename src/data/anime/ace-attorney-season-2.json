@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "ace-attorney-season-2",
+  "anilistId": 101313,
+  "title": "Ace Attorney Season 2",
+  "alternativeTitles": [
+    "Gyakuten Saiban",
+    "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2",
+    "Phoenix Wright: Ace Attorney Season 2"
+  ],
+  "totalEpisodes": 23,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–47, renumbered to match AniList)",
+  "franchise": "Ace Attorney",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:18:44.298Z",
+  "episodes": [
+    {"number":1,"title":"The Lost Turnabout","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Stolen Turnabout – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Stolen Turnabout – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Stolen Turnabout – 3rd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Stolen Turnabout – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Sound the Turnabout Melody","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Recipe for Turnabout – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Recipe for Turnabout – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Recipe for Turnabout – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Northward, Turnabout Express – 1st Trial","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Northward, Turnabout Express – 2nd Trial","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"Northward, Turnabout Express – Last Trial","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"Turnabout Memories","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Hear the Waves of Turnabout","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"Turnabout Beginnings – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Turnabout Beginnings – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Bridge to the Turnabout – 1st Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Bridge to the Turnabout – 2nd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Bridge to the Turnabout – 3rd Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Bridge to the Turnabout – 4th Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Bridge to the Turnabout – 5th Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Bridge to the Turnabout – 6th Trial","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Bridge to the Turnabout – Last Trial","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

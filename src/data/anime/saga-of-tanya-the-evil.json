@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "saga-of-tanya-the-evil",
+  "anilistId": 21613,
+  "title": "Saga of Tanya the Evil",
+  "alternativeTitles": [
+    "Youjo Senki"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:14.009Z",
+  "episodes": [
+    {"number":1,"title":"The Devil of the Rhine","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Prologue","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Deus Vult","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Campus Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Beginning of Madness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"My First Battalion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Battle of the Fjord","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Trial by Fire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Preparations for Advance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Path to Victory","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Resistance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"How to Use a Victory","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

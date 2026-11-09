@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars-the-fifth-plate",
+  "anilistId": 114043,
+  "title": "Food Wars! The Fifth Plate",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Shokugeki no Souma: Gou no Sara"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 74–86, renumbered to match AniList)",
+  "franchise": "Food Wars!",
+  "seasonLabel": "The Fifth Plate",
+  "franchiseOrder": 6,
+  "updatedAt": "2026-11-09T14:20:30.378Z",
+  "episodes": [
+    {"number":1,"title":"Final Exams","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Blue Preliminaries","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Noir","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Last Supper","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Convenience Store Brawl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A Midsummer Christmas","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Crossed Knives","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Missing Half of the Moon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The God Tongue's Despair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Surpassing Dad","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Taste of Failure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Perfect Rocks","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Food Wars","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

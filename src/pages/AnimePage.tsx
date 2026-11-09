@@ -19,7 +19,7 @@ import { ProgressSummary } from '@/features/progress/ProgressSummary';
 import { WatchOrderPanel } from '@/features/watch-order/WatchOrderPanel';
 import { useAnimeDetail, useDataset } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
-import { AniListError, airedEpisodes, displayTitle } from '@/services/anilist';
+import { AniListError, airedEpisodes, displayTitle, isLikelyNoFiller, type MediaDetail } from '@/services/anilist';
 import { findCatalogByAniListId, findCatalogBySlug, getCatalog } from '@/services/datasets';
 import { franchiseSiblings, seasonLabel } from '@/utils/franchise';
 import { usePreferencesStore } from '@/store/preferencesStore';
@@ -74,7 +74,7 @@ export default function AnimePage() {
             <GuideSkeleton />
           )
         ) : (
-          detail.status !== 'error' && <NoFillerData />
+          detail.status !== 'error' && <NoFillerData media={media} />
         )}
       </div>
     </div>
@@ -115,7 +115,32 @@ function SeasonNav({ entry }: { entry: CatalogEntry }) {
   );
 }
 
-function NoFillerData() {
+function NoFillerData({ media }: { media: MediaDetail | null }) {
+  if (isLikelyNoFiller(media))
+    return (
+      <section aria-labelledby="no-filler-heading">
+        <Notice
+          tone="info"
+          titleAs="h2"
+          titleId="no-filler-heading"
+          title="No filler guide yet, but this anime likely has no filler."
+          className="p-5 sm:p-6 [&_h2]:text-subheading"
+          actions={
+            <>
+              <Button asChild size="sm">
+                <Link to="/discover?nofiller=likely#no-filler-heading">More likely no-filler anime</Link>
+              </Button>
+              <ShareButton variant="outline" />
+            </>
+          }
+        >
+          <p>
+            It is a finished TV series of {media!.episodes} episodes. Series this short rarely have filler, but these episodes haven’t
+            been checked one by one.
+          </p>
+        </Notice>
+      </section>
+    );
   return (
     <section aria-labelledby="no-filler-heading">
       <Notice

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "deadman-wonderland",
+  "anilistId": 6880,
+  "title": "Deadman Wonderland",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:48.583Z",
+  "episodes": [
+    {"number":1,"title":"Death Row Inmate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Antidote - Candy -","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"G Block","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Crow Claw","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Carnival Corpse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Hummingbird","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Wretched Egg","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Scar Chain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Worm Eater","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Undertaker","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Gig of Despair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Grateful Dead","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "slug": "pluto",
+  "anilistId": 99088,
+  "title": "PLUTO",
+  "alternativeTitles": [],
+  "totalEpisodes": 8,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:47.461Z",
+  "episodes": [
+    {"number":1,"title":"Episode 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Episode 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Episode 3","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Episode 4","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Episode 5","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Episode 6","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Episode 7","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Episode 8","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

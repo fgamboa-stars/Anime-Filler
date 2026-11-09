@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "charlotte",
+  "anilistId": 20997,
+  "title": "Charlotte",
+  "alternativeTitles": [],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:29.219Z",
+  "episodes": [
+    {"number":1,"title":"I Think About Others","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Melody of Despair","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Love and Flame","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Moment of Honesty","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Sound Once Heard","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Overlooked Happiness","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"At the End of the Escape","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Chance Encounter","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A World Not Here","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Plunder","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Charlotte","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Promise","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Strong Ones","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

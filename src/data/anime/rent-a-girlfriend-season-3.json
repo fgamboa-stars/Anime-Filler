@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "rent-a-girlfriend-season-3",
+  "anilistId": 154745,
+  "title": "Rent-a-Girlfriend Season 3",
+  "alternativeTitles": [
+    "Kanojo, Okarishimasu",
+    "Kanojo, Okarishimasu 3rd Season",
+    "KanoKari 3"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–36, renumbered to match AniList)",
+  "franchise": "Rent-A-Girlfriend",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:23:05.732Z",
+  "episodes": [
+    {"number":1,"title":"Home Cooking and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Girlfriend Next Door","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Expert and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"D-Day and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Filming and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Final Scene and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Kazuya and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Family and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Parting and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Spontaneous Trip and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Girlfriend and Boyfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Ideal Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-dress-up-darling",
+  "anilistId": 132405,
+  "title": "My Dress-Up Darling",
+  "alternativeTitles": [
+    "Sono Bisque Doll wa Koi wo Suru",
+    "Sono Kisekae Ningyou wa Koi wo suru",
+    "kisekoi",
+    "Si Boneka Rias Sedang Jatuh Cinta"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "My Dress-Up Darling",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:13.148Z",
+  "episodes": [
+    {"number":1,"title":"Someone Who Lives in the Exact Opposite World as Me","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Wanna Hurry Up, and Do It?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Then Why Don't We?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Are These Your Girlfriend's?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"It's Probably Because This Is the Best Boob Bag Here.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"For Real?!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Holy Crap, I'm on a Date at Home With the Guy I Wuv","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"I Really Recommend Backlighting","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Because There Was a Lot That I Saw in That Photo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Everyone Has A Lot Going On","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"I Am Currently at a Love Hotel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"My Dress-Up Darling","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

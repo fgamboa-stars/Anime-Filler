@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "a-certain-scientific-accelerator",
+  "anilistId": 104463,
+  "title": "A Certain Scientific Accelerator",
+  "alternativeTitles": [
+    "Toaru Kagaku no Accelerator",
+    "Máy gia tốc khoa học nhất định",
+    "Akselerator Ilmu Pengetahuan Tertentu"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:18:38.468Z",
+  "episodes": [
+    {"number":1,"title":"Accelerator (Academy City's Mightiest Esper)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"Necromancer (Raiser of the Dead)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Numbers (Charms of the Four Perils)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Third Number (The Pseudo-Soul, Huotou)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"DA (Security Officer Darkness)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Scavenger (Corpse-Eating Squad)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Download (Time Limit)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Friend (Hirumi)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Memory of Death (10031 Deaths)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Catastrophe (Awakening)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Perfect Golem (Perfect Body)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Something to Protect","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

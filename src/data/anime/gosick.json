@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "gosick",
+  "anilistId": 8425,
+  "title": "Gosick",
+  "alternativeTitles": [
+    "GOSICK"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:53.162Z",
+  "episodes": [
+    {"number":1,"title":"The Black Reaper Finds the Golden Fairy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Souls of the Dead Raise a Shipwreck","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Hares Break a Promise Under the Morning Sun","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Golden Thread Cuts Through a Passing Moment","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"There's a Mysterious Ghost in the Abandoned Storehouse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Gray Wolves Summon Their Brethren","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Divine Revelation is Given at the Summer Solstice Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Howling Echoes from the Kingdom of the Past","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Blue Roses Bloom in the Cannibal Department Store","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Girl with a Cold Dreams of Her Stubborn Friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"That Drill Eloquently Speaks of Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Cicadas are Heard on Summer Afternoons","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"A Fool Designates His Own Mouthpiece","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"A Malicious Frill Denounces a Farting Newt","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Two Monsters See Eye to Eye","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Felling Maria has a Fly’s Head","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Box Lies in the Spiral Labyrinth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Jet-Black Train Carries Several Lies","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Rose Colored Life is Buried Under Fresh Snow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Guided by the Phantom's Ghost","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The Bells of Christmas Eve Toll at the Heels of Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"A Christmas Carol Decorates the Windowsill's Happiness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Call Checkmate on an Ash-Colored Chessboard","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Looking at Infinity over the Grim Reaper's Shoulder","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

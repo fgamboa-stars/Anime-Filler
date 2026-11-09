@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "gantz-second-stage",
+  "anilistId": 395,
+  "title": "Gantz: Second Stage",
+  "alternativeTitles": [
+    "GANTZ 2",
+    "Gantz - Second Stage",
+    "Gantz 2nd stage"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–26, renumbered to match AniList)",
+  "franchise": "Gantz",
+  "seasonLabel": "Second Stage",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:41.864Z",
+  "episodes": [
+    {"number":1,"title":"Goodbye...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Go Fast!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"It's Me!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Is It OK to Shoot Them?","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Welcome Back","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"What the Hell is This?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Shoot Me!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Brother?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Don't Ever Say That Again!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Kurono Alien","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"There's No Labyrinth I Can't Get Out Of!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"Let's Go Back Alive","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"Please Live!","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

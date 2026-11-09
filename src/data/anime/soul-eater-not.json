@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "soul-eater-not",
+  "anilistId": 20547,
+  "title": "Soul Eater Not!",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:38.677Z",
+  "episodes": [
+    {"number":1,"title":"Enrolling at DWMA!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Girls' Dorms à la Carte!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Witch of the Girls' Dorm!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":4,"title":"Waver, Run!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Invitation Fighting!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"This Is a Real Fight!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":7,"title":"Nice Day for a Death Bazaar!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Tsugumi Spiral!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"Pumpkin Growing!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Beginning of the Nightmare!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"Their Various Resolves!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"Soul Resonance!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

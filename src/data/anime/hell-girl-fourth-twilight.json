@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "hell-girl-fourth-twilight",
+  "anilistId": 98379,
+  "title": "Hell Girl: Fourth Twilight",
+  "alternativeTitles": [
+    "Jigoku Shōjo Girl",
+    "Jigoku Shoujo: Yoi no Togi",
+    "Hell Girl Yoi no Togi"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 79–90, renumbered to match AniList)",
+  "franchise": "Hell Girl",
+  "seasonLabel": "Fourth Twilight",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-09T14:21:09.366Z",
+  "episodes": [
+    {"number":1,"title":"Can't Be Seen, Can't Be Heard","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"There's Only You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Someday, Somebody Will...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Bury Me Deep","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"I Can Hear the Song of the Wind","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Twill","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Reminiscence: The Tarnished Mound","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Reminiscence: Early Afternoon Window","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"Reminiscence: Spilled Bits","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Reminiscence: Black Rut","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"Reminiscence: A Bird in a Cage","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"Reminiscence: Stray Inari Spirit","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

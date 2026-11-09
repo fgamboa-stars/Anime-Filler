@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-god-of-high-school",
+  "anilistId": 116006,
+  "title": "The God of High School",
+  "alternativeTitles": [
+    "Gat Obeu Hai Seukul",
+    "THE GOD OF HIGH SCHOOL",
+    "GoH"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:05.791Z",
+  "episodes": [
+    {"number":1,"title":"set up/stand up","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"renewal/soul","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"wisdom/kingdom","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"marriage/bonds","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"ronde/hound","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"fear/SIX","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"anima/force","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"close/friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"curse/cornered","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"oath/meaning","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"lay/key","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"FOX/GOD","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"GOD/GOD","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

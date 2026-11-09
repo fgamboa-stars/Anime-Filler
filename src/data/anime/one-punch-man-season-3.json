@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "one-punch-man-season-3",
+  "anilistId": 153800,
+  "title": "One-Punch Man Season 3",
+  "alternativeTitles": [
+    "One Punch Man 3",
+    "OPM3"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–36, renumbered to match AniList)",
+  "franchise": "One-Punch Man",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:22:36.192Z",
+  "episodes": [
+    {"number":1,"title":"Strategy Meeting","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Monster Traits","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Organism Limits","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Counterattack Signal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Monster King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Motley Heroes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Counterstrike","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Ninja Tale","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Brave Child","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Immortal Bloodbath","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Top Dragons","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Ultimate Lifeform","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

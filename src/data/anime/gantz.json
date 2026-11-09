@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "gantz",
+  "anilistId": 384,
+  "title": "Gantz",
+  "alternativeTitles": [
+    "GANTZ"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Gantz",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:20:41.032Z",
+  "episodes": [
+    {"number":1,"title":"It's the Beginning of a Brand New Day","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"They Aren't Human","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Kei, You're Awesome!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"OK, Here Are Your Scores","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Then That Means, at That Time...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"All Right!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"We're After You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Uh-oh!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Kill It There!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Yuuzou-kun?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"I Can't Shoot Him","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Please stay here, Katou-kun","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Please Die...","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-promised-neverland",
+  "anilistId": 101759,
+  "title": "The Promised Neverland",
+  "alternativeTitles": [
+    "Yakusoku no Neverland",
+    "YakuNeba",
+    "TPN"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "The Promised Neverland",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:24:13.189Z",
+  "episodes": [
+    {"number":1,"title":"121045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"131045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"181045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"291045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"301045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"311045","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"011145","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"021145","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"031145","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"130146","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"140146","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"150146","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

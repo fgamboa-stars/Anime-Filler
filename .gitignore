@@ -14,3 +14,6 @@ npm-debug.log*
 
 # Local Claude scratch output
 Claude outputs/
+
+# AnimeFillerList page cache (scripts/lib/sources.ts)
+.cache

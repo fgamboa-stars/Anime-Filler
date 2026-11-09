@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "silver-spoon-season-2",
+  "anilistId": 19363,
+  "title": "Silver Spoon Season 2",
+  "alternativeTitles": [
+    "Gin no Saji 2",
+    "Ginsaji 2"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 12–22, renumbered to match AniList)",
+  "franchise": "Silver Spoon",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:32.176Z",
+  "episodes": [
+    {"number":1,"title":"Hachiken Becomes the Club Vice President","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Hachiken Adopts Vice Prez Hachiken","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Hachiken Jumps High","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Minamikujou Appears","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hachiken Has His Hands Full","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Mikage Gives It Her All","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Komaba Stands on the Pitcher's Mound","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Hachiken Howls","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Last Milk","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Dream","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Over and Over Again","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

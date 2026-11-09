@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "d-frag",
+  "anilistId": 20031,
+  "title": "D-Frag!",
+  "alternativeTitles": [
+    "D Frag",
+    "D-Fragments!"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:41.423Z",
+  "episodes": [
+    {"number":1,"title":"Kazama's Party","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Curse You, Fake Game Creation Club","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Fujou Academy Freedom Festival, AKA FuF Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"They're the Band of 14 Devils!!","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"What?! Your Little Sister Makes Your Lunches?!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"So That Means We're in a Love Triangle!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"That's Dirty---!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"I Liked the Pixels...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"That's Right. I'm His Little Sister","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Tama-senpai, Long Time No See","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"What's My Secret Move?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"At this Rate, You'll have Zero Friends for All Eternity!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

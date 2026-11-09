@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "orange",
+  "anilistId": 21647,
+  "title": "Orange",
+  "alternativeTitles": [
+    "orange"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:37.306Z",
+  "episodes": [
+    {"number":1,"title":"LETTER 01","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"LETTER 02","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"LETTER 03","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"LETTER 04","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"LETTER 05","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"LETTER 06","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"LETTER 07","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"LETTER 08","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"LETTER 09","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"LETTER 10","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"LETTER 11","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"LETTER 12","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"LETTER 13","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

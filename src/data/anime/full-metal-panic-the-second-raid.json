@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "full-metal-panic-the-second-raid",
+  "anilistId": 73,
+  "title": "Full Metal Panic! The Second Raid",
+  "alternativeTitles": [
+    "Full Metal Panic! TSR"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–37, renumbered to match AniList)",
+  "franchise": "Full Metal Panic!",
+  "seasonLabel": "The Second Raid",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:37.016Z",
+  "episodes": [
+    {"number":1,"title":"The Man From the South / A Hostage With No Compromises","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"Hostility Passing-By / A Fruitless Lunchtime","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"Summer Illusion of Steel","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Hamburger Hill of Art / Single-Minded Stakeout","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Pure Yet Impure Grappler / Trespassing on Good Faith","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Hard Sell Fetish / The Patient of Darkness","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Warcry of Excessiveness","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Goddess Comes to Japan (Part 1: The Suffering)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Goddess Comes to Japan (Part 2: The Hot Spring)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Fancy Without Honor or Humanity","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Uncontrollable Bluebird","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"5th Period Hot Spot","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"The End of Day by Day","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

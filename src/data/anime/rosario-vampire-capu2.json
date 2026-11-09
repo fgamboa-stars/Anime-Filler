@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "rosario-vampire-capu2",
+  "anilistId": 4214,
+  "title": "Rosario + Vampire Capu2",
+  "alternativeTitles": [
+    "Rosario to Vampire Capu2",
+    "Rosario + Vampire Season 2",
+    "Rosario and Vampire Capu2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–26, renumbered to match AniList)",
+  "franchise": "Rosario + Vampire",
+  "seasonLabel": "Capu2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:09.850Z",
+  "episodes": [
+    {"number":1,"title":"Reunion and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"Little Sister and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"Mother and a Child and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Body Measurements and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"Curry and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"School Trip and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Bathroom and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Youth and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Skiing and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Pretty Boy and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Lilith's Mirror and a Vampire","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"Holy Seal and a Vampire","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"Cross and Family and a Vampire","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

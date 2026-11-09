@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "kaguya-sama-love-is-war-ultra-romantic",
+  "anilistId": 125367,
+  "title": "Kaguya-sama: Love is War -Ultra Romantic-",
+  "alternativeTitles": [
+    "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+    "Kaguya-sama: Love is War Season 3",
+    "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3",
+    "Kaguya-sama wa Kokurasetai 3rd Season"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–37, renumbered to match AniList)",
+  "franchise": "Kaguya-sama: Love is War",
+  "seasonLabel": "Ultra Romantic-",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:21:32.961Z",
+  "episodes": [
+    {"number":1,"title":"Miko Iino Wants to Be Soothed / Kaguya Doesn't Realize / Chika Fujiwara Wants to Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Miyuki Shirogane Wants to Mediate / Kaguya Wants to Distract Him / Kaguya Preemptively Strikes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Nagisa Kashiwagi Wants to Kill / Maki Shijo Wants to Take Action / Miyuki Shirogane Wants to Be Believed","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Kaguya Shinomiya's Impossible Demand: \"A Cowrie a Swallow Gave Birth To\" Part 1 / Yu Ishigami Wants to Prove Himself Worth / Chika Fujiwara Wants to Stay Over","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Chika Fujiwara Wants to Beat a Rhythm / Ai Hayasaka Wants to Talk / Maki Shijo Wants Some Help","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Student Council Wants to Move Forward / Miyuki Shirogane Wants to Make Her Confess, Part 2 / Miyuki Shirogane Wants to Make Her Confess, Part 3","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Miko Iino Can't Love, Part 1 / Students Wish to Discuss the Culture Festival / Miyuki Shirogane Wants to Blow It Up","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Kei Shirogane Wants to Show Off / About Kaguya Shinomiya, Part 2 / Kaguya Wants to Confess","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Spring of First Year / Kaguya's Culture Festival / Yu Ishigami's Culture Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Kozue Makihara Wants to Have Fun / Chika Fujiwara Wants to Unmask / Miyuki Shirogane's Culture Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Miyuki Shirogane Wants to Make Her Confess, Part 4 / Tsubame Koyasu Wants to Say No / Miyuki Shirogane Wants to Make Her Confess, Part 5","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Kaguya Wants to Confess, Part 2 / Kaguya Wants to Confess, Part 3 / Dual Confessions, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Dual Confessions, Part 2 / The Shuchiin Afterparty","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

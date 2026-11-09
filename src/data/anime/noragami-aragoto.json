@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "noragami-aragoto",
+  "anilistId": 21128,
+  "title": "Noragami Aragoto",
+  "alternativeTitles": [
+    "Noragami ARAGOTO"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–25, renumbered to match AniList)",
+  "franchise": "Noragami",
+  "seasonLabel": "Aragoto",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:33.112Z",
+  "episodes": [
+    {"number":1,"title":"Bearing a Posthumous Name","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"One of Her Memories","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"False Bond","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Wish","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Divine Acclamation, Imprecation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"What Must be Done","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"How to Worship a God","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"God of Calamity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Sound of a Thread Snapping","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Certain Desire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Revival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Your Voice Calls Out","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The God of Fortune's Message","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

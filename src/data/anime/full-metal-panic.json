@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "full-metal-panic",
+  "anilistId": 71,
+  "title": "Full Metal Panic!",
+  "alternativeTitles": [
+    "FMP",
+    "Furumeta"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Full Metal Panic!",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:20:36.152Z",
+  "episodes": [
+    {"number":1,"title":"The Guy I Kinda Like is a Sergeant","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"I Want to Protect You","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Lingerie Panic","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":4,"title":"Kidnap","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Whispered","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"Still Alive","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":7,"title":"Boy Meets Girl","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Part Time Steady","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"Dangerous Safe House","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Run, Running, Ran","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"Behemoth Awakening","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":12,"title":"One Night Stand","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"A Cat and a Kitten's Rock & Roll","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":14,"title":"Is Narashino Burning?","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Wind Blows at Home, Part 1","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Wind Blows at Home, Part 2","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Wind Blows at Home, Part 3","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":18,"title":"Deep Sea Party","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":19,"title":"Engaging Six and Seven","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":20,"title":"Venom's Flame","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":21,"title":"Deep Trap","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Jack in the Box","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":23,"title":"Field of Giants","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":24,"title":"Into the Blue","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

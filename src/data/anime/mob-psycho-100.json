@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "mob-psycho-100",
+  "anilistId": 21507,
+  "title": "Mob Psycho 100",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Mob Psycho 100",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:08.314Z",
+  "episodes": [
+    {"number":1,"title":"Self-Proclaimed Psychic: Reigen Arataka ~And Mob~","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"Doubts About Youth ~The Telepathy Club Appears~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"An Invite to a Meeting ~Simply Put, I Just Want to Be Popular~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Idiots Only Event ~Kin~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"OCHIMUSHA ~Psychic Powers and Me~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Discord ~To Become One~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Exaltation ~I've Obtained Loss~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Older Brother Bows ~Destructive Intent~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"\"Claw\" ~7th Division~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Heinous Aura ~Mastermind~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Master ~Leader~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Mob and Reigen ~A Giant Tsuchinoko Appears~","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

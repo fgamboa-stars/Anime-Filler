@@ -4,6 +4,7 @@ import { ShareBar } from '@/components/ui/share-bar';
 import { Window } from '@/components/retro/Window';
 import { StateMessage, describeError } from '@/components/StateMessage';
 import { SectionHeader } from '@/components/ui/section-header';
+import { NoFillerSection } from '@/features/discover/NoFillerSection';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
@@ -42,6 +43,8 @@ export default function DiscoverPage() {
           media={catalogMedia.data ?? []}
         />
       </div>
+
+      <NoFillerSection groups={groups} media={catalogMedia.data ?? []} />
 
       <section aria-labelledby="top-rated-heading" className="mt-20">
         <SectionHeader id="top-rated-heading" title="Highest rated" description="Top TV anime by AniList average score." />

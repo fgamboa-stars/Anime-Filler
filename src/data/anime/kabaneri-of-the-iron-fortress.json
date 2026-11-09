@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "kabaneri-of-the-iron-fortress",
+  "anilistId": 21196,
+  "title": "Kabaneri of the Iron Fortress",
+  "alternativeTitles": [
+    "Koutetsujou no Kabaneri",
+    "Kabaneri de la Fortaleza de Hierro"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:29.316Z",
+  "episodes": [
+    {"number":1,"title":"Frightened Corpse","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Never-Ending Night","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Prayer Offer","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Flowing Blood","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Inescapable Darkness","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Gathering Light","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Begging The Heavens","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Silent Hunter","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Fang of Ruin","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Attacking Weak","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Burning Life","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Iron Fortress","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

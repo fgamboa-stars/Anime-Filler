@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "girls-last-tour",
+  "anilistId": 99420,
+  "title": "Girls' Last Tour",
+  "alternativeTitles": [
+    "Shoujo Shuumatsu Ryokou",
+    "GLT",
+    "Wisata Gadis di Akhir Hayat"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:45.818Z",
+  "episodes": [
+    {"number":1,"title":"Starry Sky/War","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Bath/Journal/Laundry","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Encounter/City/Streetlights","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Photograph/Temple","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"House/Nap/The Sound of Rain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Accident/Technology/Takeoff","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Labyrinth/Cooking","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Memory/Spiral/Moonlight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Technology/Aquarium/Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Train/Wavelength/Capture","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Culture/Destruction/The Past","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Connection/Friends","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

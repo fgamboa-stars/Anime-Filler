@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "konosuba-gods-blessing-on-this-wonderful-world-2",
+  "anilistId": 21699,
+  "title": "KONOSUBA -God's blessing on this wonderful world! 2",
+  "alternativeTitles": [
+    "Kono Subarashii Sekai ni Shukufuku wo! 2",
+    "Konosuba 2",
+    "Konosuba! - As Bençãos de Deus Neste Mundo Maravilhoso 2!",
+    "Konosuba : Une explosion dans ce monde merveilleux !"
+  ],
+  "totalEpisodes": 10,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 11–20, renumbered to match AniList)",
+  "franchise": "KONOSUBA -God's blessing on this wonderful world!",
+  "seasonLabel": "2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:21:44.844Z",
+  "episodes": [
+    {"number":1,"title":"Give Me Deliverance from this Judicial Injustice!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"A Friend For This Crimson Demon Girl!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Peace for the Master of This Labyrinth!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Betrothed for This Noble Daughter!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Servitude for This Masked Knight!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Goodbye to This Irritating Living World!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"An Invitation for This Knucklehead!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Sightseeing in This Pitiful City!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Goddess for This Corrupt Hot Springs Town!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"God's Blessing on This Wonderful Party!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

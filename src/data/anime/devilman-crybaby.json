@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "devilman-crybaby",
+  "anilistId": 98460,
+  "title": "Devilman Crybaby",
+  "alternativeTitles": [
+    "DEVILMAN crybaby"
+  ],
+  "totalEpisodes": 10,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:50.967Z",
+  "episodes": [
+    {"number":1,"title":"I Need You","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"One Hand Is Enough","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Believe Me!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Come, Akira","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"Beautiful Silene","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"Neither Demon Nor Human","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Weak Humans, Wise Demons","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"I Must Know Myself","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"Go to Hell, You Mortals","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Crybaby","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

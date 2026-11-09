@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "slug": "your-lie-in-april",
+  "anilistId": 20665,
+  "title": "Your lie in April",
+  "alternativeTitles": [
+    "Shigatsu wa Kimi no Uso",
+    "KimiUso",
+    "Bugie d'aprile",
+    "YLIA"
+  ],
+  "totalEpisodes": 22,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:42.216Z",
+  "episodes": [
+    {"number":1,"title":"Monotone/Colorful","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":2,"title":"Friend A","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Inside Spring","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Journey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Gray Skies","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"On the Way Home","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Shadows Whisper","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Let it Ring","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Resonance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Scenery I Shared With You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Light of Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Twinkle Little Star","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"Love's Sorrow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Footsteps","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Liar","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Two of a Kind","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Twilight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Hearts Come Together","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Goodbye, Hero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Hand in Hand","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Snow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Spring Wind","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

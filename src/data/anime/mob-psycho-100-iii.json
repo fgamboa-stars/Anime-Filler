@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "mob-psycho-100-iii",
+  "anilistId": 140439,
+  "title": "Mob Psycho 100 III",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–37, renumbered to match AniList)",
+  "franchise": "Mob Psycho 100",
+  "seasonLabel": "III",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:22:09.599Z",
+  "episodes": [
+    {"number":1,"title":"Future ~Career Paths~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Yokai Hunter Amakusa Haruaki Appears! ~The Threat of a Hundred Demons!!~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Getting Carried Away ~100%~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Divine Tree 1 ~The Founder Appears~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Divine Tree 2 ~Peace~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Divine Tree 3 ~Dimple Is~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Transmission 1 ~Winter Break~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Transmission 2 ~Encountering the Unknown~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Mob 1 ~Moving~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Mob 2 ~Rival~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Mob 3 ~Trauma~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Confession ~The Future~","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

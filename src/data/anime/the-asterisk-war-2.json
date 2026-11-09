@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-asterisk-war-2",
+  "anilistId": 21390,
+  "title": "The Asterisk War 2",
+  "alternativeTitles": [
+    "Gakusen no Asterisk",
+    "Gakusen Toshi Asterisk 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "The Asterisk War",
+  "seasonLabel": "2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:58.588Z",
+  "episodes": [
+    {"number":1,"title":"Divine Revelations","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Corrupt Ruler","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Breaking the Memory Barrier","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Never Back Down","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Tyrant's Puppet Strings","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Scrambling","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Battle Song","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Phoenix Showdown","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Clinching Victory","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Lieseltania","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Lonely Strega","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Reunion","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

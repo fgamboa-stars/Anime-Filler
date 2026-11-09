@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "rent-a-girlfriend-season-2",
+  "anilistId": 124410,
+  "title": "Rent-a-Girlfriend Season 2",
+  "alternativeTitles": [
+    "Kanojo, Okarishimasu",
+    "Kanojo, Okarishimasu 2nd Season",
+    "KanoKari 2",
+    "Pacar Sewaan 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Rent-A-Girlfriend",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:05.059Z",
+  "episodes": [
+    {"number":1,"title":"Dream and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Usual Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Return of the Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Night and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Birthday and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Booze and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Ex-Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Youth and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Kiss and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Ring and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Guide and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Girlfriend and Me","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

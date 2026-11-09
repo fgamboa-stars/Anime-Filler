@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "yu-no-a-girl-who-chants-love-at-the-bound-of-this-world",
+  "anilistId": 97995,
+  "title": "YU-NO: A Girl Who Chants Love at the Bound of This World",
+  "alternativeTitles": [
+    "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+    "YU-NO: A girl who chants love at the bound of this world."
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:49.536Z",
+  "episodes": [
+    {"number":1,"title":"You Know?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Parallel World Constitutive Theorem","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Tears That Can't Be Stopped","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Dirtied White Skin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Spiral of Tragedy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Beyond a Pale Light","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Cause of the Curse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Swallows and Sparrows Know Not","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Distance Between Him and Her","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Feelings Overlapping","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"That Kiss, Once More","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Secret Under the White Coat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"An Ordained Fate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Transfer Student's Friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"A Summer That Won't Come Back","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Within Unmoving Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"A Pale, Ephemeral Vow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Twilight in Dela Granto","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Bond Between Parent and Child","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Into the Rafaelo Desert","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The Quarry Where Demons Rule","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Escape from the Quarry","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"The Imperial City, Where The Wind Blows","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Truth of Dela Granto","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"The Promised Ritual","type":"CANON","arc":"Standalone Episodes"},
+    {"number":26,"title":"A Girl Who Chants Love at the Bound of This World","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

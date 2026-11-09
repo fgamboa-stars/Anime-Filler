@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "slug": "steins-gate-0",
+  "anilistId": 21127,
+  "title": "Steins;Gate 0",
+  "alternativeTitles": [
+    "s;g0"
+  ],
+  "totalEpisodes": 23,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:45.900Z",
+  "episodes": [
+    {"number":1,"title":"Missing Link of the Annihilator -Absolute Zero-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Epigraph of the Closed Curve -Closed Epigraph-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Protocol of the Two Sided Gospel -X-day Protocol-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Solitude of the Mournful Flow -A Stray Sheep-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Solitude of the Astigmatism -Entangled Sheep-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Eclipse of Orbital Ordering -The Orbital Eclipse-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Eclipse of Vibronic Transition -Vibronic Transition-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Dual of Antinomy -Antinomic Dual-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Pandora of Eternal Return -Pandora's Box-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Pandora of Provable Existence -Forbidden Cubicle-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Pandora of Forgotten Existence -Sealed Reliquary-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Mother Goose of Mutual Recursion -Recursive Mother Goose-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Mother Goose of Diffractive Recitativo -Diffraction Mother Goose-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Recognition of the Elastic Limit -Presage or Recognize-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Recognition of the Asymptotic Line -Recognize Asymptote-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Altair of the Point at Infinity -Vega and Altair-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Altair of the Hyperbolic Plane -Beltrami Pseudosphere-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Altair of Translational Symmetry -Translational Symmetry-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Altair of the Cyclic Coordinate -Time Leap Machine-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Rinascimento of the Unwavering Promise -Promised Rinascimento-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Rinascimento of Image Formation -Return of Phoenix-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Rinascimento of Projection -Project Amadeus-","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Arc Light of the Point at Infinity -Arc-light of the Sky-","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "blade-of-the-immortal",
+  "anilistId": 109616,
+  "title": "Blade of the Immortal",
+  "alternativeTitles": [
+    "2019",
+    "Mugen no Juunin: IMMORTAL",
+    "Blade of the Immortal (ONA)",
+    "Blade - A Lâmina do Imortal"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:09.924Z",
+  "episodes": [
+    {"number":1,"title":"Act One - Meeting","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Act Two - Founding","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Act Three - Dream Pangs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Act Four - Rin at Odds","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Act Five - Song of the Bugs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Act Six – Wing Roots","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Act Seven – Evil's Shadow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Act Eight – Mugai-ryu","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Act Nine – Gathering","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Act Ten – Animal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Act Eleven – Fall Frost","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Act Twelve – Blood of Finality","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Act Thirteen - Twilight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Act Fourteen – Ammendments","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Act Fifteen – Acquisition of Guts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Act Sixteen – Altered Limb","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Act Seventeen – Ceremonial Bond","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Act Eighteen – Banshee's Cries","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Act Nineteen – Massacre","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Act Twenty – Unending","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Act Twenty One – Trap","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Act Twenty Two – Ten Final Pushes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Act Twenty Three – 100 Spectacular Dances","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Final Act – Blade of the Immortal","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

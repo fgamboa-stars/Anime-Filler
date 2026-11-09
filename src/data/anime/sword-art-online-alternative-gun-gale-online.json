@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "sword-art-online-alternative-gun-gale-online",
+  "anilistId": 100183,
+  "title": "Sword Art Online Alternative: Gun Gale Online",
+  "alternativeTitles": [
+    "SAO Alternative: Gun Gale Online",
+    "SAO GGO"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:48.345Z",
+  "episodes": [
+    {"number":1,"title":"Squad Jam","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"GGO","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Fan Letter","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Death Game","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Leave the Last Battle to Me","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"SAO Loser","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Second Squad Jam","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Booby Trap","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Ten Minute Massacre","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Devil's Comeback","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Psycho Llenn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Applause","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

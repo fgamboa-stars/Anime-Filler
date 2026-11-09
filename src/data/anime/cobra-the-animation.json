@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "cobra-the-animation",
+  "anilistId": 5032,
+  "title": "Cobra: The Animation",
+  "alternativeTitles": [
+    "COBRA THE ANIMATION",
+    "Cobra The Animation: Rokunin no Yuushi"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:36.560Z",
+  "episodes": [
+    {"number":1,"title":"The Key of Shiva","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Golden Gate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Starless City","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Ghost of the Golden Paradise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Legend of the Wandering Beauties","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Climbing Mt. Kagero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"To the Summit","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Mandrad","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Black Bullet","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Galaxy Knights","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Thirteenth Man","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Devil of the Temple","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Distant Memories","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

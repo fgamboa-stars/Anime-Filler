@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "kiznaiver",
+  "anilistId": 21421,
+  "title": "Kiznaiver",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:39.422Z",
+  "episodes": [
+    {"number":1,"title":"Sometimes, a Bond Can Bloom from the First Day Eye Contact Is Made","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"If You Can Swallow a Bizarre Situation Like This So Easily, Two Buckets of Barium Shouldn't Be a Problem","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Depending on How You Look At It, I Think We Could Get Through Anything... Right?","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Now That We're All Connected, Let's All Get to Know Each Other Better, 'Kay?","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Wahoo, It's a Training Camp! Let's Step in Deer Poop and Have Pillow Fights! Go, Go!","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Nothing Good Comes From Being Around All Of You","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Battle Touching Upon the Identity of the Pain that's Seven Times the Pain of One-Seventh of a Pain","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Happy Times Don't Tend to Last Very Long","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Everything's All Over......I Think","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"You Knew Very Well That Your Romantic Feelings Might Be Unrequited, Right?","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"We Have To Contact Each Other And Confirm Our Feelings. Because We're Friends!","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"If The Kizna System Spread Throughout The World","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

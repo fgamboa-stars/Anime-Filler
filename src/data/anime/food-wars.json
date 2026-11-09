@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars",
+  "anilistId": 20923,
+  "title": "Food Wars!",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Food Wars! The First Plate"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Food Wars!",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:20:27.143Z",
+  "episodes": [
+    {"number":1,"title":"An Endless Wilderness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"God’s Tongue","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"That Chef That Doesn’t Smile","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Maria of the Polar Star","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Ice Queen and the Spring Storm","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Meat Invader","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Quiet Don, An Eloquent Don","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Concerto of Ideas and Creation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Coating that Colors the Mountain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Supreme Recette","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Magician that Came from the East","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Memories of a Dish","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Eggs Before Dawn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Metamorphose","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Man Who was Called an \"Asura\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Cook Who Has Traveled Thousands of Miles","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Sensual Karaage","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Karaage of Youth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Chosen Ones","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Dragon Lies Down and Ascends the Skies","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The Unknown Known","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Those Beyond Ordinary","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"A Recital of Blossoming Individuals","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Warriors' Banquet","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

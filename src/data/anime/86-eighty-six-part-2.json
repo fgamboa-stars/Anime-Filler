@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "86-eighty-six-part-2",
+  "anilistId": 131586,
+  "title": "86 EIGHTY-SIX Part 2",
+  "alternativeTitles": [
+    "86: Eighty Six Part 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 12–23, renumbered to match AniList)",
+  "franchise": "86: Eighty Six",
+  "seasonLabel": "Part 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:18:34.479Z",
+  "episodes": [
+    {"number":1,"title":"Welcome","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"It's Too Late","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Glad to Be Here","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Welcome Back","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Even So","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"I Won't Forget","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Truth Is","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Stay This Way Forever","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Together Unto Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"All That's Left","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Shin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Handler One","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

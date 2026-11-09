@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars-the-fourth-plate",
+  "anilistId": 109963,
+  "title": "Food Wars! The Fourth Plate",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Shokugeki no Souma: Shin no Sara"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 62–73, renumbered to match AniList)",
+  "franchise": "Food Wars!",
+  "seasonLabel": "The Fourth Plate",
+  "franchiseOrder": 5,
+  "updatedAt": "2026-11-09T14:20:29.708Z",
+  "episodes": [
+    {"number":1,"title":"What We Want to Protect","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Camera Flash","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Hope in Solidarity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Aim for Victory!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"You're Through","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A Single Blade","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Two Queens","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Watching from Beside You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The First and Second Seats","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"How to Build A Speciality","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Song of Hope","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The New \"Totsuki Elite Ten\"","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

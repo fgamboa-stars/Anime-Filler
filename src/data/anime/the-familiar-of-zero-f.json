@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-familiar-of-zero-f",
+  "anilistId": 11319,
+  "title": "The Familiar of Zero F",
+  "alternativeTitles": [
+    "Zero No Tsukaima",
+    "Zero no Tsukaima F",
+    "Zero no Tsukaima Final Series",
+    "Zero's Familiar Final Series",
+    "Zero no Tsukaima S4"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 38–49, renumbered to match AniList)",
+  "franchise": "The Familiar Of Zero",
+  "seasonLabel": "F",
+  "franchiseOrder": 4,
+  "updatedAt": "2026-11-09T14:24:04.855Z",
+  "episodes": [
+    {"number":1,"title":"Louise of the Holy Ground","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Aquileia's Shrine Maiden","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Incompetent King Gone Mad","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Queen's Reward","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Maidens of De Ornielle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Trouble at the Outdoor Bath","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Elves from the Desert","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Escape Through the Sewer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Tabitha's Coronation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Awakening of Calamity","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Louise's Choice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Familiar of Zero","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

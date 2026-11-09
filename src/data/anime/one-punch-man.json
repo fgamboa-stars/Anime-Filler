@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "one-punch-man",
+  "anilistId": 21087,
+  "title": "One-Punch Man",
+  "alternativeTitles": [
+    "One Punch Man",
+    "OPM",
+    "Wanpanman",
+    "Jagoan Sekali Pukul S1"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "One-Punch Man",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:34.847Z",
+  "episodes": [
+    {"number":1,"title":"The Strongest Man","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Lone Cyborg","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Obsessive Scientist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Modern Ninja","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Ultimate Mentor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Terrifying City","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Ultimate Disciple","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Deep Sea King","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Unyielding Justice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Unparalleled Peril","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Dominator of the Universe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Strongest Hero","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

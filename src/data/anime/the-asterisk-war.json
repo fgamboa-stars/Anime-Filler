@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-asterisk-war",
+  "anilistId": 21131,
+  "title": "The Asterisk War",
+  "alternativeTitles": [
+    "Gakusen no Asterisk",
+    "Gakusen Toshi Asterisk",
+    "Academy Battle City Asterisk"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "The Asterisk War",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:23:57.890Z",
+  "episodes": [
+    {"number":1,"title":"Glühen Rose","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Ser-Veresta","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Holiday for Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Unshackled One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Shippuu Jinrai","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The True Face of the Girl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Decisions and Duels","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Holiday for Two, Part 2","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Phoenix Festa","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Tyrant Vampire Princess","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Power and Its Price","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Gravi-Sheath","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

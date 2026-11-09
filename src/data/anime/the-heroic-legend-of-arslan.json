@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-heroic-legend-of-arslan",
+  "anilistId": 20935,
+  "title": "The Heroic Legend of Arslan",
+  "alternativeTitles": [
+    "Arslan Senki",
+    "Arslan Senki (TV)",
+    "La Heroica Leyenda de Arslan"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:08.355Z",
+  "episodes": [
+    {"number":1,"title":"The Glory of Ecbatana","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Age Fourteen, Maiden Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Knight in Black","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The World-Weary Strategist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Royal Capital Burns ~Part One~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Royal Capital Burns ~Part Two~","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Beauties and the Beasts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Treasonous Hero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Beneath the Mask","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Lord and Master of Kashan Fortress","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Road to Peshawar","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A Knight's Loyalty","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Two Princes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Foreign Prince","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Black Leopard of Sindhura","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Elegy for the Setting Sun","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Duel Before the Gods","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Once Again Across the River","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The End of Winter","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The True Face of a Knight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"A Song of Farewell","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"The Night Before the Attack","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"The Battle for the Keep of Saint Emmanuel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Decisive Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"The Highway of Blood and Sweat","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

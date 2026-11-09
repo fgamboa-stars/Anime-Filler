@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "re-zero-starting-life-in-another-world-season-2-part-2",
+  "anilistId": 119661,
+  "title": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+  "alternativeTitles": [
+    "Re: Zero- Kara Hajimeru Isekai Seikatsu",
+    "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+    "Re:Zero kara Hajimeru Isekai Seikatsu (2021)"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 39–50, renumbered to match AniList)",
+  "franchise": "Re:ZERO -Starting Life in Another World-",
+  "seasonLabel": "Season 2 Part 2",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:22:58.394Z",
+  "episodes": [
+    {"number":1,"title":"STRAIGHT BET","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Otto Suwen / A Reason to Believe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Nobody Can Lift a Quain Stone Alone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Journey Through Memories","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Day Betelgeuse Laughed","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Permafrost of Elior Forest","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Beginning of the Sanctuary and the Beginning of the End","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Reunion of Roars","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Happiness Reflected on the Water's Surface","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Love Me Down to My Blood and Guts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Choose Me","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Offbeat Steps Under the Moonlight","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

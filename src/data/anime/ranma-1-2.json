@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "slug": "ranma-1-2",
+  "anilistId": 210,
+  "title": "Ranma ½",
+  "alternativeTitles": [
+    "Ranma 1/2"
+  ],
+  "totalEpisodes": 18,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Ranma ½",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:52.283Z",
+  "episodes": [
+    {"number":1,"title":"The Strange Stranger from China","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"School is No Place for Horsing Around","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Sudden Storm of Love... Hey, Wait a Minute!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Ranma and... Ranma? If It's Not One Thing, It's Another","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Love Me to the Bone! The Compound Fracture of Akane's Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Akane's Lost Love... These Things Happen, You Know","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":7,"title":"Enter Ryoga! The Eternal \"Lost Boy\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"School is a Battlefield! Ranma vs. Ryoga","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"True Confessions! A Girl's Hair is Her Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"P-P-P-Chan! He's Good for Nothin'","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Ranma Meets Love Head-On! The Delinquent Juvenile Gymnast","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A Woman's Love is War! The Martial Arts Rhythmic Gymnastic Challenge!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"A Tear in the Girl-Delinquent's Eye? The End of the Martial Arts Rhythmic Gymnastics Challenge!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Pelvic Fortune-Telling? Ranma is the No. One Bride in Japan","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Abduction of P-Chan","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Close Call! The Dance of Death... on Ice!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"P-Chan Explodes! The Icy Fountain of Love","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":18,"title":"Enter Shampoo, the Gung-Ho Girl! I Put Your Life in My Hands","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

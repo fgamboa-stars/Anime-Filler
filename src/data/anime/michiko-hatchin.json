@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "slug": "michiko-hatchin",
+  "anilistId": 4087,
+  "title": "Michiko & Hatchin",
+  "alternativeTitles": [
+    "Michiko to Hatchin",
+    "Michiko e Hatchin"
+  ],
+  "totalEpisodes": 22,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:05.988Z",
+  "episodes": [
+    {"number":1,"title":"Farewell, Cruel Paradise!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Brown Sugar Outlaw","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Like a Frantic Pinball","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Stray Cat Milky Way","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Saudade of Fools, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Saudade of Fools, Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Rain that Falls in Monotone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Black Noise and a Dope Game","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Chocolate Girl in Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Carnival of Hyenas","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Starting Line Downpour","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Purgatory: 108°C Telepathy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Goldfish of the Marsh","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Daredevil Explosive Runner","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Graffiti in Vain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Etude of Crimson Inconstancy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Buckets of Blood! Opera that Stirs the Heart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Fool's Ballistic Samba","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Nettlesome Light-blocking Butterfly","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Rendezvous of Extermination","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Last Waltz Blooming Out of Season","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Run as You Are","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

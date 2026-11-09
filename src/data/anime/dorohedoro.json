@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "dorohedoro",
+  "anilistId": 105228,
+  "title": "Dorohedoro",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:00.577Z",
+  "episodes": [
+    {"number":1,"title":"Caiman","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"In the Bag/ Eat Quietly During Meals/ My Neighbor the Sorcerer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Night of the Dead - Duel! - In Front of the Main Department Store","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Roast Duck à La Sorcerer/ Formal Attire Requested/ Another Year in the Hole","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Caiman in Wonderland","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Mushrooms Are Ready/ The First Smoke/ Manhole Elegy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The All-Star ☆ Dream Game","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Good Day To Leave/Lalala Monsterman/Splendid & Exuberant/Welcome To Blue Night Land","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Oh, Flower Smoke/Awesome Meat Pie/A Macabre Mushroom Appears!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Lonely Caiman/Before Nightmare/Manju Terror","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Let's Meet At The Snack Stall","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Memories Of School Days/Boy Meets Girl = Battle!/Pinky Swear","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

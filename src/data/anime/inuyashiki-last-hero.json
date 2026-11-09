@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "inuyashiki-last-hero",
+  "anilistId": 97922,
+  "title": "Inuyashiki Last Hero",
+  "alternativeTitles": [
+    "Inuyashiki",
+    "INUYASHIKI LAST HERO"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:17.496Z",
+  "episodes": [
+    {"number":1,"title":"Ichirō Inuyashiki","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Hiro Shishigami","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Naoyuki Ando","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Samejima","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Yuko Shishigami","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"People of 2 Chan","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Shion Watanabe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Mari Inuyashiki","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"People of Shinjuku","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"People of Tokyo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"People of Earth","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "emma-a-victorian-romance-second-act",
+  "anilistId": 2035,
+  "title": "Emma: A Victorian Romance Second Act",
+  "alternativeTitles": [
+    "Eikoku Koi Monogatari Emma",
+    "Eikoku Koi Monogatari Emma: Molders-hen"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Emma: A Victorian Romance",
+  "seasonLabel": "Second Act",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:14.143Z",
+  "episodes": [
+    {"number":1,"title":"A New House","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Moonlight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Cool Rain","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Courtship","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Embrace","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Success and Loss","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Evening Waves","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Whereabouts","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Resolution","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"By the Window","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Flower","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

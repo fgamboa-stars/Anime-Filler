@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "overlord-ii",
+  "anilistId": 98437,
+  "title": "Overlord II",
+  "alternativeTitles": [
+    "Over Lord 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–26, renumbered to match AniList)",
+  "franchise": "Overlord",
+  "seasonLabel": "II",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:40.318Z",
+  "episodes": [
+    {"number":1,"title":"The Dawn of Despair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Departure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Lizard Men, Gathering","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Army of Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Freezing God","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Those Who Pick Up, Those Who Are Picked Up","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Blue Roses","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Boy's Feeling","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Soaring Sparks of Fire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Disturbance Begins in the Royal Capital","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Jaldabaoth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Final Battle of the Disturbance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Ultimate Trump Card","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars-the-second-plate",
+  "anilistId": 21518,
+  "title": "Food Wars! The Second Plate",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Shokugeki no Souma: Ni no Sara"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 25–37, renumbered to match AniList)",
+  "franchise": "Food Wars!",
+  "seasonLabel": "The Second Plate",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:20:27.791Z",
+  "episodes": [
+    {"number":1,"title":"What Fills That Box","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Blending Light and Shadow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The \"Jewels\" Generation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Pursuer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The First Bite's Secret","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Morning Will Come Again","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Beasts Eating Each Other","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Battle Surrounding The \"Season\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The \"Sword\" That Announces Autumn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"New \"Jewel\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Stagiaire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Magician, Once Again!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Imposingly","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

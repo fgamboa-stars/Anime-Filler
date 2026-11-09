@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "slug": "aoashi",
+  "anilistId": 134732,
+  "title": "Aoashi",
+  "alternativeTitles": [
+    "Ao Ashi - Playmaker"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:18:57.846Z",
+  "episodes": [
+    {"number":1,"title":"First touch","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Tokyo City Esperion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Final Test Begins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Crow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Orange Scenery","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"First Fan","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The First Youth Match","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Night Training","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Broader Soccer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"No Compromises","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Tokyo Metropolis League Match 1 - Seikyo High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Eagle Eye","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Turn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"It's Just Soccer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Where I Ought To Be","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Just Like You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Tokyo Metropolis League Match 7 - Tama Sports University High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Wind of Change","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"What We Lack","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Truly Weak One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Tokyo Metropolis League Match 8 - Tokyo Musashino Football Club Youths","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Like A Demon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Do Your Best. Don't Lose. Fight to Your Limits.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"From Now","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

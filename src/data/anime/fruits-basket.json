@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "fruits-basket",
+  "anilistId": 120,
+  "title": "Fruits Basket",
+  "alternativeTitles": [
+    "Furuba",
+    "Fruba"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:33.695Z",
+  "episodes": [
+    {"number":1,"title":"The Strangest Day","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Sohma Curse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"All Shapes and Sizes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Here Comes Kagura!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Rice Ball in a Fruits Basket","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Invincible Friendship","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Plum on the Back","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Don't Cry, For the Snow will Surely Melt","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Solitary New Year","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Make It Clear If It's Black or White","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Everybody Loves Chocolate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"White Day","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"A New School Term Starts!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Adult's Episode - Ayame's a Messed Up Snake!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"There Are No Memories It's OK to Forget","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"If We've Three Then We Don't Need To Fear Jason","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"It's Because I've Been Loved That I've Become Stronger","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Strongest Tag - The Cursed Electric Wave Brother and Sister","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Source of Cheer Can Be Affected By Colds Too","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Ayame's Secret Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Sophist Boy Has Captured The Prince","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Prince Yuki Fan Club","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Is The Rumored Ri That Mother's Daughter?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"The Curse of the Cat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"True Form","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":26,"title":"Let's Go Home","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

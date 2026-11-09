@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "slug": "hanamonogatari",
+  "anilistId": 20593,
+  "title": "Hanamonogatari",
+  "alternativeTitles": [],
+  "totalEpisodes": 5,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:02.649Z",
+  "episodes": [
+    {"number":1,"title":"Suruga Devil, Part One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Suruga Devil, Part Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Suruga Devil, Part Three","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Suruga Devil, Part Four","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Suruga Devil, Part Five","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "hells-paradise",
+  "anilistId": 128893,
+  "title": "Hell’s Paradise",
+  "alternativeTitles": [
+    "Jigokuraku",
+    "Hell’s Paradise: Jigokuraku"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:10.283Z",
+  "episodes": [
+    {"number":1,"title":"The Death Row Convict and the Executioner","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Screening and Choosing","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Weakness and Strength","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Hell and Paradise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Samurai and the Woman","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Heart and Reason","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Flowers and Offerings","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Student and Master","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Gods and People","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Yin and Yang","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Weak and Strong","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Umbrella and Ink","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Dreams and Reality","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

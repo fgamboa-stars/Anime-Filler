@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-rising-of-the-shield-hero",
+  "anilistId": 99263,
+  "title": "The Rising of the Shield Hero",
+  "alternativeTitles": [
+    "Tate no Yuusha no Nariagari"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:15.592Z",
+  "episodes": [
+    {"number":1,"title":"The Shield Hero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Slave Girl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Wave of Catastrophe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Lullaby at Dawn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Filo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A New Comrade","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Savior of the Heavenly Fowl","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Curse Shield","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Melty","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"In the Midst of Turmoil","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Catastrophe Returns","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Raven Invader","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Devil of the Shield","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Everlasting Memory","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Raphtalia","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Filolial Queen","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"A Promise Made","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"A Conspiracy Linked","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Four Cardinal Heroes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Battle of Good and Evil","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Naofumi's Triumphant Return","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Four Heroes Council","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Cal Mira Archipelago","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Guardians of Another World","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"The Rising of the Shield Hero","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "killing-bites",
+  "anilistId": 98389,
+  "title": "Killing Bites",
+  "alternativeTitles": [
+    "Mordidas Mortais"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:34.671Z",
+  "episodes": [
+    {"number":1,"title":"The One With The Sharper Fangs Will Win","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"I Might Fall For You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"I Really Have No Redeeming Quality","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"That's Why I Told You To Stop, You Scum!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"I'm Free to Do It Any Way I Want","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Who Cares?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Because... That's What I Feel Like!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Damn... Damn Damn Damn Damn!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"I Will Never Change My Mind!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Let's Go Together","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Don't Bully Mom","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Thanks for Everything","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

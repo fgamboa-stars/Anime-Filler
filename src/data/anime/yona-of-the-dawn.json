@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "yona-of-the-dawn",
+  "anilistId": 20770,
+  "title": "Yona of the Dawn",
+  "alternativeTitles": [
+    "Akatsuki no Yona",
+    "AkaYona",
+    "Yona, princesse de l'aube"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:39.619Z",
+  "episodes": [
+    {"number":1,"title":"Princess Yona","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Broken Bond","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Faraway Sky","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Wind Clan","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Roar","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Crimson Hair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Fate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Chosen Door","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Wavering Determination","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Yearn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Dragon's Claws","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Blindfolded Dragon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Rippling Fear","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Light","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"To a New Land","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Pretend-War","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Pirate of Awa","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Bond","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Trial of the Cheonsu Plant","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Chain of Courage","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Spark","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"History Is Made at Night","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Morning of Promise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"From Here On","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

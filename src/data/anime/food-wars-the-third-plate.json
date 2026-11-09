@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "food-wars-the-third-plate",
+  "anilistId": 99255,
+  "title": "Food Wars! The Third Plate",
+  "alternativeTitles": [
+    "Shokugeki no Souma",
+    "Shokugeki no Souma: San no Sara"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 38–49, renumbered to match AniList)",
+  "franchise": "Food Wars!",
+  "seasonLabel": "The Third Plate",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:20:28.423Z",
+  "episodes": [
+    {"number":1,"title":"Challenging the Elite Ten","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Má and Là","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Moon Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Pride of Young Lions","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Darkening Dinner Table","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Imprisoned Queen","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"It Begins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Alchemist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Hunting the Survivors","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Salmon Will Dance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Der Weiße Ritter der Tafel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The One Who Aims for the Summit","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

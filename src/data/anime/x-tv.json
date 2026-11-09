@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "x-tv",
+  "anilistId": 156,
+  "title": "X (TV)",
+  "alternativeTitles": [
+    "X/TV",
+    "X TV",
+    "X the Series"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:37.201Z",
+  "episodes": [
+    {"number":1,"title":"A Reunion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"A Nightmare","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Pledge","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"A Sacrifice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Destiny","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Kouya","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Cyber","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Gemini","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Onmyou","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Inuki","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Border","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Alternative","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Return","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Gathering","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Guardian","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Slaughter","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Wish","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Newborn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Inferno","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Ripple","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Current","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Betrayal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Earth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Legend","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

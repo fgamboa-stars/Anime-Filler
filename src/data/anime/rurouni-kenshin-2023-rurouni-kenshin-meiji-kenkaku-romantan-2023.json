@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "rurouni-kenshin-2023-rurouni-kenshin-meiji-kenkaku-romantan-2023",
+  "anilistId": 142877,
+  "title": "Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))",
+  "alternativeTitles": [
+    "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+    "Rurouni Kenshin (2023)",
+    "Samurai X (2023)",
+    "Kenshin le vagabond (2023)"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:11.590Z",
+  "episodes": [
+    {"number":1,"title":"Kenshin - Himura Battousai","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Tokyo Samurai - Myojin Yahiko","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Kasshin Ryu - Reborn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Fighter for Hire - Sagara Sanosuke","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"And Then, Another","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Kurogasa","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Two Hitokiris","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Beauty on the Run","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Oniwabanshu Strike","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Reason to Act","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Savage Han'nya - Honorable Shikijo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Okashira - Aoshi Shinomori","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Battle's End","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Yahiko's Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"That Man - Raijuta","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Ideal Man","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Settling the Score","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Sanosuke & Nishiki Paintings","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Tsunan & Nishiki Paintings","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Meiji Swordsman Romantic Story - Act 0, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Meiji Swordsman Romantic Story - Act 0, Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Resurrection of the Wolf","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"The Wolf's Fangs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Meiji 11, May 14th","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "ajin-demi-human-2",
+  "anilistId": 21799,
+  "title": "AJIN: Demi-Human 2",
+  "alternativeTitles": [
+    "Ajin 2",
+    "AJIN: Semihumano 2"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–26, renumbered to match AniList)",
+  "franchise": "AJIN: Demi-Human",
+  "seasonLabel": "2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:18:48.768Z",
+  "episodes": [
+    {"number":1,"title":"I'm getting sick of this","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"I'm surrounded by idiots","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"But I'm always scared","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"They make me sick","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Kuro, please…","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Must be tough being a lapdog","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Kuro, just once more, please!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"This Country Is Going to Get a Little Unsettled","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"You're the one messing up my life!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"I won't do it","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"At This Rate... It Really Will Be War!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"But that makes it interesting, so whatever","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"I'll make you a promise too, Mr. Sato","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "made-in-abyss",
+  "anilistId": 97986,
+  "title": "Made in Abyss",
+  "alternativeTitles": [],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:53.945Z",
+  "episodes": [
+    {"number":1,"title":"The City of the Great Pit","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Resurrection Festival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Departure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Edge of the Abyss","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Incinerator","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Seeker Camp","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Unmovable Sovereign","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Survival Training","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Great Fault","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":10,"title":"Poison and the Curse","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Nanachi","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The True Nature of the Curse","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Challengers","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

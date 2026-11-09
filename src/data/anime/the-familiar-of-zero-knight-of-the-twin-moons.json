@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-familiar-of-zero-knight-of-the-twin-moons",
+  "anilistId": 1840,
+  "title": "The Familiar of Zero: Knight of the Twin Moons",
+  "alternativeTitles": [
+    "Zero No Tsukaima",
+    "Zero no Tsukaima: Futatsuki no Kishi",
+    "Zero's Familiar 2nd Series",
+    "Zero no Tsukaima S2",
+    "The Familiar of Zero: The Rider of the Twin Moons"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–25, renumbered to match AniList)",
+  "franchise": "The Familiar Of Zero",
+  "seasonLabel": "Knight of the Twin Moons",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:24:03.404Z",
+  "episodes": [
+    {"number":1,"title":"Her Majesty, the Queen's Zero","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Oath of Wind and Water","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Paladin's Sword","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Three Vallière Sisters","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Spy's Seal","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Queen's Vacation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Underground Secret Document","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Magic Institute's Crisis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Atonement of Flames","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Enemy on Snowy Alps","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Silver Pentecost","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Farewell Wedding Ceremony","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

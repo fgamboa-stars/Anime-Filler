@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "negima",
+  "anilistId": 157,
+  "title": "Negima!",
+  "alternativeTitles": [
+    "Mahou Sensei Negima!",
+    "Magister Negi Magi",
+    "Negima! Magister Negi Magi"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:20.369Z",
+  "episodes": [
+    {"number":1,"title":"Asinus in cathedra (The Blockhead in the Professor`s Chair)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Omne initium est difficile (Every Beginning Is Difficult)","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Amantes, amentes (Lovers, Lunatics)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Nullus locus est instar domus (No Place Is Like Home)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Fama volat (Rumor Flies)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A fronte praecipitium a tergo lupi (Between a Rock and a Hard Place)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Fallaces sunt rerum species (The Appearances of Things Are Deceptive)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Omnes una manet nox (One Night Befalls All of Us)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Te capiam, cunicule sceleste! (I`ll Get You, Wascally Wabbit!)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Ubi concordia, ibi victoria (Where There Is Harmony, There Is Victory)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Cum tacent clamant (When They Are Silent, They Are Shouting)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Aut disce aut discede (Either Learn or Leave)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Tamdiu discendum est, quamdiu vivas (We Live and Learn)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Amicitiae nostrae memoriam spero sempiternam fore (I Hope the Memory of Our Friendship Will Be Eternal)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Amicus certus in re incerta cernitur (A Reliable Friend Is Perceived in an Uncertain Situation)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Amor tussisque non celantur (Love and a Cough Are Not Kept Secret)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Nihil difficile amanti (Nothing Is Difficult for a Lover)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Amor ordinem nescit (Love Does Not Recognize Rank)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Verba volant, scriptamanent (Words Fly Away, Those Written Remain)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Nisi credideritis, non intelligetis (Unless You Have Believed, You Will Not Understand)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Nil desperandum (It Must Not At All Be Despaired)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Difficile est tristi fingere mente jocum (It Is Difficult to Make a Joke with a Sad Mind)","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":23,"title":"Memento mori (Remember to Die)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":24,"title":"Et arma et verba vulnerant (Both Weapons and Words Wound)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":25,"title":"Mors certa, mora incerta (Death Is Certain, the Time Is Uncertain)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":26,"title":"Non mihi, non tibi, sed nobis (Not for Me, Not for You, But for Us)","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

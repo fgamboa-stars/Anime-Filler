@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "pretty-guardian-sailor-moon-crystal-season-3",
+  "anilistId": 21462,
+  "title": "Pretty Guardian Sailor Moon Crystal: Season 3",
+  "alternativeTitles": [
+    "Bishoujo Senshi Sailor Moon: Crystal - Death Busters-hen",
+    "Sailor Moon Crystal Season 3",
+    "Bishoujo Senshi Sailor Moon: Crystal Season 3",
+    "Bishoujo Senshi Sailor Moon: Crystal Season 3 - Death Busters-hen"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 27–39, renumbered to match AniList)",
+  "franchise": "Sailor Moon Crystal",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:23:16.998Z",
+  "episodes": [
+    {"number":1,"title":"Infinity 1 Premonition - Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Infinity 1 Premonition - Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Infinity 2 Ripples","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Infinity 3 Two New Soldiers","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Infinity 4 Sailor Uranus, Haruka Tenoh; Sailor Neptune, Michiru Kaioh","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Infinity 5 Sailor Pluto, Setsuna Meioh","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Infinity 6 Three Guardians","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Infinity 7 Transformation, Super Sailor Moon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Infinity 8 Infinite Labyrinth 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Infinity 9 Infinite Labyrinth 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Infinity 10 Infinite–Upper Atmosphere","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Infinity 11 Infinite–Judge","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Infinity 12, Infinite–Journey","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

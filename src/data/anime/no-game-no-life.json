@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "no-game-no-life",
+  "anilistId": 19815,
+  "title": "No Game, No Life",
+  "alternativeTitles": [
+    "No Game No Life",
+    "NGNL",
+    "nogenora "
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:30.049Z",
+  "episodes": [
+    {"number":1,"title":"Beginner","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Challenger","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Expert","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Grandmaster","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Weak Square","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Interesting","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Sacrifice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Fake End","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Sky Walk","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Blue Rose","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Killing Giant","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Rule Number 10","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

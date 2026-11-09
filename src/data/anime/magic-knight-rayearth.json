@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "slug": "magic-knight-rayearth",
+  "anilistId": 435,
+  "title": "Magic Knight Rayearth",
+  "alternativeTitles": [
+    "Mahou Kishi Rayearth",
+    "Guerreiras Mágicas de Rayearth",
+    "Las Guerreras Mágicas"
+  ],
+  "totalEpisodes": 20,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Magic Knight Rayearth",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:21:58.664Z",
+  "episodes": [
+    {"number":1,"title":"The Birth of the Legendary Magic Knights!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Presea, the Master Smith in the Forest of Silence","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"Ferio, the Handsome, Mysterious Swordsman","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":4,"title":"Alcyone, the Vengeful Sorceress","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Escudo, the Legendary Ore","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Lives at Stake, Presea's Weapons","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":7,"title":"Ferio in Desperation - A Romance in the Desert","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Horrible Trap of Summoner Ascot","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Magic Knights' Greatest Crisis","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Revival of Selece, the Legendary Rune-God","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Legend of the Rune-Gods - In Cephiro, Another World","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Fearsome Illusionist Caldina","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Most Valuable Thing in this World","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Hikaru, Umi, and Fuu's Unyielding Wish","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Second Rune-God: Windam, the Lord of the Skies","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":16,"title":"A Powerful Foe! Lafarga the Swordmaster","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Truth About Inouva, and the Return of Memories","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Last Rune-God: Rayearth, the Lord of Fire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Showdown! The Magic Knights Versus Zagato","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Unbelievable Truth About the Legendary Magic Knights","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

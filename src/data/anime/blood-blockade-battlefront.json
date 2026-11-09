@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "blood-blockade-battlefront",
+  "anilistId": 20727,
+  "title": "Blood Blockade Battlefront",
+  "alternativeTitles": [
+    "Kekkai Sensen"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Blood Blockade Battlefront",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:19:12.307Z",
+  "episodes": [
+    {"number":1,"title":"Secret Society of the Magic-Sealed City","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"After the Phantom Ghost Wagon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Game Between Two Worlds","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Blood Line Fever","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Tremorous Blood Hammer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Don't Forget to Don't Forget Me","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A No-Holds-Barred Eden","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Z's Longest Day (Part 1)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Z's Longest Day (Part 2)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Run! Lunch!! Run!!!/ to the end","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Paint it Black","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Hello, World","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

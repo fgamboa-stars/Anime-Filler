@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "dagashi-kashi",
+  "anilistId": 21365,
+  "title": "Dagashi Kashi",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Dagashi Kashi",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:19:44.228Z",
+  "episodes": [
+    {"number":1,"title":"Umai-bou, Fries, and... / Milk Coffee Candies, Young Donuts, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Kinako-bou, Namaiki Beer, and... / Fue Ramune, Menko, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Buta-men, Kuru Kuru Bou Jelly, and... / Bontan-ame, Seven Neon, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Fugashi, Fugashi, and... / Glico, Glico, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Bottle Ramune, Baby-Star Ramen, and... / Yatta Men, Watch Out for the Sour Grape, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Super Himo Q, Ohajiki, and sometimes Maken Gumi... / Yoguret, Coconuts, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Summer Festival, Hotaru, and... / Summer Festival, Saya, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Super Scary Story Gum, Typhoon, and... / Kendama, Popping Fortune-Telling Chocolate, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Wata-pachi, Lucky Choco-droppings, and... / Sakura Daikon, Egg Ice Cream, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"That's Dagashi!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Cola Gum, Yo, and... / Miyako Kombu, Ramune, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"I’m Gonna Eat It-Hi, Poem of Cherries, and... / Morinaga Milk Caramel, Sakuma Drops, and...","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "dagashi-kashi-2",
+  "anilistId": 99734,
+  "title": "Dagashi Kashi 2",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Dagashi Kashi",
+  "seasonLabel": "2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:19:44.858Z",
+  "episodes": [
+    {"number":1,"title":"Big Katsu, Peperoncino, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Baseball Board Game Gum, Pop Pop Boat, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Beigoma, Reminiscence, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Homerun Bar, Fireworks Festival, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Ambulance, Get a Move On, You Cod!, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Convenience Store, Job Magazine, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Hajime Owari, Chocoball, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Roll Candy, High Eight Chocolate, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Internets, Super Ball, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Monjiro Squid, Manga Manuscript, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Homerun Bar Winning Stick, Snow, and...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"I'm Back, Welcome Back, and...","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "gangsta",
+  "anilistId": 20773,
+  "title": "GANGSTA.",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:38.707Z",
+  "episodes": [
+    {"number":1,"title":"Naughty Boys","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Hundemarken","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Ergastulum","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Nonconformist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Sanctions","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Thorn","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Birth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Evening Dress","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Siblings","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Land of Confusion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Absence","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Odds and Ends","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

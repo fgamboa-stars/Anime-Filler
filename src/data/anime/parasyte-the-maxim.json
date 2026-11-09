@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "parasyte-the-maxim",
+  "anilistId": 20623,
+  "title": "Parasyte: The Maxim",
+  "alternativeTitles": [
+    "Kiseijuu",
+    "Kiseijuu: Sei no Kakuritsu",
+    "Parasyte -the maxim-",
+    "Kiseiju - L'ospite indesiderato",
+    "Parasite : La Maxime",
+    "Pasożyt"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:22:42.624Z",
+  "episodes": [
+    {"number":1,"title":"The Metamorphosis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Demon in the Flesh","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Symposium","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Disheveled Hair","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Stranger","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Sun Also Rises","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Dark Night's Passing","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Freezing Point","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Beyond Good and Evil","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"What Mad Universe","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Blue Bird","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Kokoro","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Hello Sadness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Selfish Gene","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Something Wicked This Way Comes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Happy Family","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Adventure of the Dying Detective","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"More Than Human","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"In Cold Blood","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Crime and Punishment","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Sex and Spirit","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Repose and Awakening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Life and Vows","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Parasitic Beasts","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

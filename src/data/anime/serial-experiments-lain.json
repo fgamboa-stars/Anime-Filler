@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "slug": "serial-experiments-lain",
+  "anilistId": 339,
+  "title": "Serial Experiments Lain",
+  "alternativeTitles": [
+    "serial experiments lain",
+    "Wirtualna Lain"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:24.281Z",
+  "episodes": [
+    {"number":1,"title":"Weird","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Girls","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Psyche","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Religion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Distortion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Kids","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Society","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Rumors","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Protocol","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Infornography","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Landscape","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Ego","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

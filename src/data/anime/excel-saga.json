@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "excel-saga",
+  "anilistId": 379,
+  "title": "Excel Saga",
+  "alternativeTitles": [
+    "Heppoko Jikken Animation Excel Saga"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:17.543Z",
+  "episodes": [
+    {"number":1,"title":"The Koshi Rikdo Assassination Plot","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Woman from Mars","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Sacrificial Lamb of the Venomous Great Escape of Hell","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Love Puny","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Interesting Giant Tower","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Cold is Winter! Snowed under Episode","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Melody of the Underground Passage","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"Increase Ratings Week","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Bowling Girls","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Elegy to the Dogs (Menchi's Great Adventure)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Butt Out, Youth!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"Big City Part II","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"The New Year's-End Party Hidden Talent Contest","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":14,"title":"Prop","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"More! Prop Memorial","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":16,"title":"Take Back Love!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":17,"title":"Animation USA","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":18,"title":"Municipal Force Daitenzin","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":19,"title":"Menchi's Great Adventure 2: Around the World in 80 Hours","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Best of Mr. Pedro","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":21,"title":"Visually Appealing Type","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":22,"title":"Invasion, Mother","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":23,"title":"Legend of the End of the Century Conqueror","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":24,"title":"For You, I Could Die","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":25,"title":"We Will Not Be Held Responsible","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":26,"title":"Going Too Far","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

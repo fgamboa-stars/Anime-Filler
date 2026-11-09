@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-next-life-as-a-villainess-all-routes-lead-to-doom-x",
+  "anilistId": 120209,
+  "title": "My Next Life as a Villainess: All Routes Lead to Doom! X",
+  "alternativeTitles": [
+    "Bakarina",
+    "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta… X",
+    "Hamefura 2",
+    "Hamehura 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "My Next Life as a Villainess: All Routes Lead to Doom!",
+  "seasonLabel": "X",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:22:16.363Z",
+  "episodes": [
+    {"number":1,"title":"I Avoided My Doom Flags, so I Got Carried Away at the Cultural Festival...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"I Turned Into a Villain...","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":3,"title":"I Was Captured...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"I Had a Friendly Tea Time With an Attractive Butler...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Love for the Younger Brothers Poured Forth...","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"I Had a Summer Adventure...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"My Wish Was Granted...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"I Had an Arranged Marriage Meeting...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Keith Disappeared... Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Keith Disappeared... Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Keith Disappeared... Part 3","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"My Graduation Ceremony Happened...","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

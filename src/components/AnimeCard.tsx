@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { Star } from 'lucide-react';
 import type { RangeTuple } from 'fuse.js';
@@ -17,9 +18,11 @@ interface AnimeCardProps {
   highlights?: readonly RangeTuple[];
   className?: string;
   priority?: boolean;
+  /** Replaces the "Filler data available / coming soon" badge. */
+  label?: ReactNode;
 }
 
-export function AnimeCard({ id, title, media, catalog, highlights = [], className, priority }: AnimeCardProps) {
+export function AnimeCard({ id, title, media, catalog, highlights = [], className, priority, label }: AnimeCardProps) {
   const facts = [
     media?.seasonYear ? String(media.seasonYear) : null,
     formatFormat(media?.format ?? null),
@@ -43,7 +46,7 @@ export function AnimeCard({ id, title, media, catalog, highlights = [], classNam
         </h3>
         {facts.length > 0 && <p className="text-xs text-muted-foreground">{facts.join(', ')}</p>}
         <div className="flex flex-wrap items-center gap-2">
-          <FillerAvailabilityBadge available={!!catalog} />
+          {label ?? <FillerAvailabilityBadge available={!!catalog} />}
           {media?.averageScore ? (
             <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
               <Star className="size-3 fill-current" aria-hidden />

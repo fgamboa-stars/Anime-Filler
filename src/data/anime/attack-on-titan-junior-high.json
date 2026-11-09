@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "attack-on-titan-junior-high",
+  "anilistId": 21281,
+  "title": "Attack on Titan: Junior High",
+  "alternativeTitles": [
+    "Shingeki! Kyojin Chuugakkou",
+    "Ataque a los Titanes: Junior High"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:00.309Z",
+  "episodes": [
+    {"number":1,"title":"Starting School! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Chasing! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Dodgeball! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Cleanup! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Studying Hard! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Love Letter! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Showdown! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Spine-chiller! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Sweet Summer! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Recommendation! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Clear and Sunny! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Attack! Titan Junior High School","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-promised-neverland-season-2",
+  "anilistId": 108725,
+  "title": "The Promised Neverland Season 2",
+  "alternativeTitles": [
+    "Yakusoku no Neverland",
+    "Yakusoku no Neverland 2",
+    "YakuNeba",
+    "TPN2"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–23, renumbered to match AniList)",
+  "franchise": "The Promised Neverland",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:24:14.165Z",
+  "episodes": [
+    {"number":1,"title":"Episode 13","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Episode 14","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Episode 15","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":4,"title":"Episode 16","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Episode 17","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"Episode 18","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Episode 19","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":8,"title":"Episode 20","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Episode 21","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Episode 22","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Episode 23","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

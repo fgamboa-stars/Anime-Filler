@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "konosuba-gods-blessing-on-this-wonderful-world",
+  "anilistId": 21202,
+  "title": "KONOSUBA -God's blessing on this wonderful world!",
+  "alternativeTitles": [
+    "Kono Subarashii Sekai ni Shukufuku wo!",
+    "Konosuba",
+    "Kono Subarashii Sekai ni Syukufuku wo!",
+    "Konosuba - As Bençãos de Deus Neste Mundo Maravilhoso"
+  ],
+  "totalEpisodes": 10,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "KONOSUBA -God's blessing on this wonderful world!",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:21:44.238Z",
+  "episodes": [
+    {"number":1,"title":"This Self Proclaimed Goddess and Reincarnation in Another World!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"An Explosion for This Chuunibyo!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Panty Treasure in This Right Hand!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Explosion Magic for This Formidable Enemy!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Price for This Cursed Sword!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A Conclusion to This Worthless Fight!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"A Second Death in This Freezing Season!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Loving Hand for Our Party When We Can't Make It Through Winter!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"God's Blessing On This Wonderful Shop!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"A Final Flame for this Over-the-top Fortress!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

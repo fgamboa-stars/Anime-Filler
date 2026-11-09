@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "buso-renkin",
+  "anilistId": 1536,
+  "title": "Buso Renkin",
+  "alternativeTitles": [
+    "Busou Renkin",
+    "Arms Alchemy",
+    "BoRe",
+    "BuRe"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:24.394Z",
+  "episodes": [
+    {"number":1,"title":"A New Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The True Form Homunculus","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"You've Become A Little Stronger","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Another New Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"To Protect Someone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Butterfly of Black Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Whether or not You're a Hypocrite","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Night in the Dorm","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Hayasaka Twins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"It Seems We're Well Matched","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Til Death Do Us Part","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Carnival","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Signs Of Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Who Are You?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"An Intermediate Existence","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"New Strength","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"When Dawn Comes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Escape","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"As Long As I Can Protect You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"With Strength and Power","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Gone Into Flame","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"A Decision Is Required","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Boy meets Battle Girl","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"When You Die, I'll Die With You","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"No One Could Ever Take His Place","type":"CANON","arc":"Standalone Episodes"},
+    {"number":26,"title":"Period","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

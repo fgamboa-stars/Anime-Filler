@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "slug": "classroom-of-the-elite",
+  "anilistId": 98659,
+  "title": "Classroom of the Elite",
+  "alternativeTitles": [
+    "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+    "Youjitsu",
+    "You-Zitsu",
+    "Cote"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Classroom of the Elite",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:19:31.703Z",
+  "episodes": [
+    {"number":1,"title":"What is evil? Whatever springs from weakness.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"It takes a great talent and skill to conceal one's talent and skill.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Man is an animal that makes bargains: no other animal does this - no dog exchanges bones with another.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"We should not be upset that others hide the truth from us, when we hide it so often from ourselves.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hell is other people","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"There are two kinds of lies; one concerns an accomplished fact, the other concerns a future duty.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Nothing is as dangerous as an ignorant friend; a wise enemy is to be preferred","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Abandon all hope, ye who enter here.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Man is condemned to be free.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Every man has in himself the most dangerous traitor of all","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"What people commonly call fate is mostly their own stupidity.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Genius lives only one story above madness.","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

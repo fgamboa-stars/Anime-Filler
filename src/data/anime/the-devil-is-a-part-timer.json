@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-devil-is-a-part-timer",
+  "anilistId": 15809,
+  "title": "The Devil Is a Part-Timer!",
+  "alternativeTitles": [
+    "Hataraku Maou-Sama!",
+    "Hataraku Maou-sama!",
+    "The Devil is a Part-Timer!",
+    "Raja Iblis Nyambi!"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:24:00.272Z",
+  "episodes": [
+    {"number":1,"title":"The Devil Arrives in Sasazuka","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Hero Stays at the Devil's Castle for Work Reasons","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Devil Goes on a Date with His Junior in Shinjuku","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Hero Experiences Human Warmth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Devil and the Hero Save Sasazuka","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Devil Climbs the Stairway to School","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Devil's Budget Is Saved by Neighborliness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Hero Enters the Fray","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Hero Experiences a Fray","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Devil and the Hero Take a Break from the Daily Routine","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Hero Stays True to Her Convictions","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Devil Carries Out His Duties","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Devil and the Hero Do Some Honest Hard Work","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

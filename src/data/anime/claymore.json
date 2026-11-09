@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "claymore",
+  "anilistId": 1818,
+  "title": "Claymore",
+  "alternativeTitles": [
+    "CLAYMORE"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:19:34.109Z",
+  "episodes": [
+    {"number":1,"title":"Great Sword","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Black Card","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Darkness in Paradise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Clare's Awakening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Teresa of the Faint Smile","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Teresa and Clare","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Marked for Death","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Awakening","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Those Who Rend Asunder (Part 1)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Those Who Rend Asunder (Part 2)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Those Who Rend Asunder (Part 3)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Endless Gravestones (Part 1)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Endless Gravestones (Part 2)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Qualified to Fight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Witch's Maw (Part 1)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"The Witch's Maw (Part 2)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Witch's Maw (Part 3)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Carnage in the North (Part 1)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Carnage in the North (Part 2)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Carnage in the North (Part 3)","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Invasion of Pieta (Part 1)","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":22,"title":"Invasion of Pieta (Part 2)","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":23,"title":"Critical Point (Part 1)","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":24,"title":"Critical Point (Part 2)","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":25,"title":"For Whose Sake","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":26,"title":"To the Successors","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

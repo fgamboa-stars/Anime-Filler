@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "that-time-i-got-reincarnated-as-a-slime",
+  "anilistId": 101280,
+  "title": "That Time I Got Reincarnated as a Slime",
+  "alternativeTitles": [
+    "Tensei shitara Slime Datta Ken",
+    "Tensei Shitara Slime Datta Ken",
+    "TenSura",
+    "Vita da Slime",
+    "Moi, quand je me réincarne en Slime"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:53.026Z",
+  "episodes": [
+    {"number":1,"title":"The Storm Dragon, Veldora","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Meeting the Goblins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Battle at the Goblin Village","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"In the Kingdom of the Dwarves","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":5,"title":"Hero King, Gazel Dwargo","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Shizu","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Conqueror of Flames","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Inherited Will","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Attack of the Ogres","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Orc Lord","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Gabiru Is Here!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Gears Spin Out of Control","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"The Great Clash","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The One Who Devours All","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Jura Forest Alliance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Demon Lord Milim Attacks","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"The Gathering","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Evil Creeps Closer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Charybdis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Yuuki Kagurazaka","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Shizu-san's Students","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Conquering the Labyrinth","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Saved Souls","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Black and a Mask","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

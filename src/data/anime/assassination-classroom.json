@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "slug": "assassination-classroom",
+  "anilistId": 20755,
+  "title": "Assassination Classroom",
+  "alternativeTitles": [
+    "Ansatsu Kyoushitsu",
+    "Klasa skrytobójców",
+    "Lớp học ám sát"
+  ],
+  "totalEpisodes": 22,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Assassination Classroom",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T01:29:43.304Z",
+  "episodes": [
+    {"number":1,"title":"Assassination Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Baseball Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Karma Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Grown-Up Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Assembly Time","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"Test Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"School Trip Time/1st Period","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"School Trip Time/2nd Period","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Transfer Student Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"L and R Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Transfer Student Time/2nd Period","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Ball Game Tournament Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Talent Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Vision Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"End-of-Term Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"School's Out/1st Term","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Island Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Action Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Pandemonium Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Karma Time/2nd Period","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"XX Time","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"Nagisa Time","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

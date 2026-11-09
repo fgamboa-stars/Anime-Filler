@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "vampire-knight",
+  "anilistId": 3457,
+  "title": "Vampire Knight",
+  "alternativeTitles": [
+    "Vampire Kishi",
+    "El Caballero Vampiro"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Vampire Knight",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:24:34.835Z",
+  "episodes": [
+    {"number":1,"title":"Night of Vampires","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Memories of Blood","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Fang of Repentance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Trigger of Condemnation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Moonlight Festivities","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Their Choices","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Scarlet Maze","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Gunshot of Sorrow","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Crimson Gaze","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Princess of Darkness","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Consequence of Desire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Vow of the Pureblood","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Crimson Chains","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

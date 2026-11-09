@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "land-of-the-lustrous",
+  "anilistId": 98707,
+  "title": "Land of the Lustrous",
+  "alternativeTitles": [
+    "Houseki no Kuni",
+    "L'Ère des Cristaux",
+    "Das Land der Juwelen",
+    "Vương Quốc Bảo Thạch"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:49.030Z",
+  "episodes": [
+    {"number":1,"title":"Phosphophyllite","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Diamond","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Metamorphose","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Soul - Flesh - Bone","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Return","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"First Battle","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Hibernation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Antarcticite","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Spring","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Shiro","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Secrets","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A New Job","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

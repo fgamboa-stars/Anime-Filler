@@ -1,7 +1,489 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T16:04:58.663Z",
+  "generatedAt": "2026-11-09T14:24:51.947Z",
   "anime": [
+    {
+      "slug": "86-eighty-six-part-2",
+      "anilistId": 131586,
+      "title": "86 EIGHTY-SIX Part 2",
+      "alternativeTitles": [
+        "86: Eighty Six Part 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "86: Eighty Six",
+      "seasonLabel": "Part 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:34.479Z"
+    },
+    {
+      "slug": "86-eighty-six",
+      "anilistId": 116589,
+      "title": "86: Eighty Six",
+      "alternativeTitles": [
+        "86 EIGHTY-SIX",
+        "86--EIGHTY-SIX"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C9A1C1",
+      "franchise": "86: Eighty Six",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:33.883Z"
+    },
+    {
+      "slug": "a-certain-magical-index",
+      "anilistId": 4654,
+      "title": "A Certain Magical Index",
+      "alternativeTitles": [
+        "Toaru Majutsu No Index",
+        "Toaru Majutsu no Index",
+        "Toaru Majutsu no Kinsho Mokuroku",
+        "Cấm thư ma thuật Index"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "franchise": "A Certain Magical Index",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:36.017Z"
+    },
+    {
+      "slug": "a-certain-magical-index-ii",
+      "anilistId": 8937,
+      "title": "A Certain Magical Index II",
+      "alternativeTitles": [
+        "Toaru Majutsu No Index",
+        "Toaru Majutsu no Index II",
+        "Toaru Majutsu no Index 2",
+        "Toaru Majutsu no Kinsho Mokuroku 2",
+        "Cấm thư ma thuật Index II"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "franchise": "A Certain Magical Index",
+      "seasonLabel": "II",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:36.625Z"
+    },
+    {
+      "slug": "a-certain-magical-index-iii",
+      "anilistId": 100185,
+      "title": "A Certain Magical Index III",
+      "alternativeTitles": [
+        "Toaru Majutsu No Index",
+        "Toaru Majutsu no Index III",
+        "Toaru Majutsu no Index 3",
+        "Cấm thư ma thuật Index III"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "A Certain Magical Index",
+      "seasonLabel": "III",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:18:37.465Z"
+    },
+    {
+      "slug": "a-certain-scientific-accelerator",
+      "anilistId": 104463,
+      "title": "A Certain Scientific Accelerator",
+      "alternativeTitles": [
+        "Toaru Kagaku no Accelerator",
+        "Máy gia tốc khoa học nhất định",
+        "Akselerator Ilmu Pengetahuan Tertentu"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 8.3,
+      "arcCount": 1,
+      "strip": "F1C11",
+      "updatedAt": "2026-11-09T14:18:38.468Z"
+    },
+    {
+      "slug": "a-certain-scientific-railgun",
+      "anilistId": 6213,
+      "title": "A Certain Scientific Railgun",
+      "alternativeTitles": [
+        "Toaru Kagaku No Railgun",
+        "Toaru Kagaku no Railgun",
+        "Toaru Kagaku no Choudenjihou",
+        "Cấm thư ma thuật Index ngoại truyện: Siêu Railgun khoa học "
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 6,
+        "MIXED": 1,
+        "ANIME_CANON": 7
+      },
+      "fillerPercentage": 25,
+      "arcCount": 1,
+      "strip": "C1M1F1C9F2A2F3A5",
+      "franchise": "A Certain Scientific Railgun",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:40.955Z"
+    },
+    {
+      "slug": "a-certain-scientific-railgun-s",
+      "anilistId": 16049,
+      "title": "A Certain Scientific Railgun S",
+      "alternativeTitles": [
+        "Toaru Kagaku No Railgun",
+        "Toaru Kagaku no Railgun S",
+        "Toaru Kagaku no Railgun 2nd Season",
+        "A Certain Scientific Railgun 2nd Season",
+        "Cấm thư ma thuật Index ngoại truyện: Siêu Railgun khoa học Phần 2 "
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 14,
+        "FILLER": 9,
+        "MIXED": 0,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 37.5,
+      "arcCount": 1,
+      "strip": "A1C5F1C9F8",
+      "franchise": "A Certain Scientific Railgun",
+      "seasonLabel": "S",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:41.599Z"
+    },
+    {
+      "slug": "a-certain-scientific-railgun-t",
+      "anilistId": 104462,
+      "title": "A Certain Scientific Railgun T",
+      "alternativeTitles": [
+        "Toaru Kagaku No Railgun",
+        "Toaru Kagaku no Railgun T",
+        "Toaru Kagaku no Railgun 3",
+        "A Certain Scientific Railgun 3",
+        "Siêu Railgun của khoa học nào đó"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "A Certain Scientific Railgun",
+      "seasonLabel": "T",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:18:42.255Z"
+    },
+    {
+      "slug": "ace-attorney",
+      "anilistId": 21360,
+      "title": "Ace Attorney",
+      "alternativeTitles": [
+        "Gyakuten Saiban",
+        "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari!"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 23
+      },
+      "fillerPercentage": 4.2,
+      "arcCount": 1,
+      "strip": "A12F1A11",
+      "franchise": "Ace Attorney",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:43.459Z"
+    },
+    {
+      "slug": "ace-attorney-season-2",
+      "anilistId": 101313,
+      "title": "Ace Attorney Season 2",
+      "alternativeTitles": [
+        "Gyakuten Saiban",
+        "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2",
+        "Phoenix Wright: Ace Attorney Season 2"
+      ],
+      "totalEpisodes": 23,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 5,
+        "MIXED": 0,
+        "ANIME_CANON": 18
+      },
+      "fillerPercentage": 21.7,
+      "arcCount": 1,
+      "strip": "A5F1A3F3A1F1A9",
+      "franchise": "Ace Attorney",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:44.298Z"
+    },
+    {
+      "slug": "ace-of-the-diamond",
+      "anilistId": 18689,
+      "title": "Ace of the Diamond",
+      "alternativeTitles": [
+        "Diamond no Ace",
+        "Daiya no Ace",
+        "Ace of Diamond",
+        "Daiya no A"
+      ],
+      "totalEpisodes": 75,
+      "counts": {
+        "CANON": 74,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 1.3,
+      "arcCount": 1,
+      "strip": "C27F1C47",
+      "franchise": "Ace of the Diamond",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:45.778Z"
+    },
+    {
+      "slug": "ace-of-the-diamond-second-season",
+      "anilistId": 21085,
+      "title": "Ace of the Diamond Second Season",
+      "alternativeTitles": [
+        "Diamond no Ace: Second Season",
+        "Daiya no Ace 2"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 48,
+        "FILLER": 3,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 5.9,
+      "arcCount": 1,
+      "strip": "F3C48",
+      "franchise": "Ace of the Diamond",
+      "seasonLabel": "Second Season",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:46.392Z"
+    },
+    {
+      "slug": "ajin-demi-human",
+      "anilistId": 21341,
+      "title": "AJIN: Demi-Human",
+      "alternativeTitles": [
+        "Ajin",
+        "AJIN: Semihumano"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 9,
+        "FILLER": 0,
+        "MIXED": 4,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C9M4",
+      "franchise": "AJIN: Demi-Human",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:18:48.163Z"
+    },
+    {
+      "slug": "ajin-demi-human-2",
+      "anilistId": 21799,
+      "title": "AJIN: Demi-Human 2",
+      "alternativeTitles": [
+        "Ajin 2",
+        "AJIN: Semihumano 2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "AJIN: Demi-Human",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:18:48.768Z"
+    },
+    {
+      "slug": "akame-ga-kill",
+      "anilistId": 20613,
+      "title": "Akame ga Kill!",
+      "alternativeTitles": [
+        "Akame ga Kiru!",
+        "Red Eyes Sword"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 18,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 5
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C18M1A5",
+      "updatedAt": "2026-11-09T14:18:50.507Z"
+    },
+    {
+      "slug": "angel-heart",
+      "anilistId": 282,
+      "title": "Angel Heart",
+      "alternativeTitles": [],
+      "totalEpisodes": 50,
+      "counts": {
+        "CANON": 49,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 2,
+      "arcCount": 1,
+      "strip": "C23F1C26",
+      "updatedAt": "2026-11-09T14:18:52.983Z"
+    },
+    {
+      "slug": "another",
+      "anilistId": 11111,
+      "title": "Another",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 8.3,
+      "arcCount": 1,
+      "strip": "C7F1C4",
+      "updatedAt": "2026-11-09T14:18:55.421Z"
+    },
+    {
+      "slug": "aoashi",
+      "anilistId": 134732,
+      "title": "Aoashi",
+      "alternativeTitles": [
+        "Ao Ashi - Playmaker"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:18:57.846Z"
+    },
+    {
+      "slug": "assassination-classroom",
+      "anilistId": 20755,
+      "title": "Assassination Classroom",
+      "alternativeTitles": [
+        "Ansatsu Kyoushitsu",
+        "Klasa skrytobójców",
+        "Lớp học ám sát"
+      ],
+      "totalEpisodes": 22,
+      "counts": {
+        "CANON": 21,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C4M1C17",
+      "franchise": "Assassination Classroom",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T01:29:43.304Z"
+    },
+    {
+      "slug": "assassination-classroom-second-season",
+      "anilistId": 21170,
+      "title": "Assassination Classroom Second Season",
+      "alternativeTitles": [
+        "Ansatsu Kyoushitsu",
+        "Ansatsu Kyoushitsu 2nd Season",
+        "Klasa skrytobójców 2",
+        "Assassination Classroom Season 2"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Assassination Classroom",
+      "seasonLabel": "Second Season",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T01:29:43.731Z"
+    },
     {
       "slug": "attack-on-titan",
       "anilistId": 16498,
@@ -91,6 +573,26 @@
       "updatedAt": "2026-11-02T20:49:04.712Z"
     },
     {
+      "slug": "attack-on-titan-junior-high",
+      "anilistId": 21281,
+      "title": "Attack on Titan: Junior High",
+      "alternativeTitles": [
+        "Shingeki! Kyojin Chuugakkou",
+        "Ataque a los Titanes: Junior High"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:19:00.309Z"
+    },
+    {
       "slug": "attack-on-titan-the-final-chapters",
       "anilistId": 146984,
       "title": "Attack on Titan: The Final Chapters",
@@ -157,6 +659,50 @@
       "updatedAt": "2026-11-02T20:49:06.202Z"
     },
     {
+      "slug": "beastars",
+      "anilistId": 107660,
+      "title": "BEASTARS",
+      "alternativeTitles": [
+        "BEASTARS - O Lobo Bom"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Beastars",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:19:02.726Z"
+    },
+    {
+      "slug": "beastars-season-2",
+      "anilistId": 114194,
+      "title": "BEASTARS Season 2",
+      "alternativeTitles": [
+        "BEASTARS 2nd Season"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Beastars",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:19:03.442Z"
+    },
+    {
       "slug": "beelzebub",
       "anilistId": 9513,
       "title": "Beelzebub",
@@ -172,6 +718,49 @@
       "arcCount": 3,
       "strip": "C10F4M1C1M1C9F2C23F6C2F1",
       "updatedAt": "2026-11-03T05:47:10.368Z"
+    },
+    {
+      "slug": "berserk",
+      "anilistId": 33,
+      "title": "Berserk",
+      "alternativeTitles": [
+        "Berserk Kenpuden",
+        "Kenpuu Denki Berserk",
+        "Kenfu Denki Berserk",
+        "Sword-Wind Chronicle Berserk",
+        "Berserk (1997)"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M1C24",
+      "updatedAt": "2026-11-09T14:19:05.249Z"
+    },
+    {
+      "slug": "beyblade-metal-fusion",
+      "anilistId": 5962,
+      "title": "Beyblade Metal Fusion",
+      "alternativeTitles": [
+        "Metal Fight Beyblade",
+        "Beyblade: Metal Fusion"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 6,
+        "FILLER": 2,
+        "MIXED": 11,
+        "ANIME_CANON": 32
+      },
+      "fillerPercentage": 3.9,
+      "arcCount": 1,
+      "strip": "C2M1A8M3A2M1A1F1A8M1A1C1A1C1A4F1A5M1A2M3C1M1C1",
+      "updatedAt": "2026-11-09T14:19:07.573Z"
     },
     {
       "slug": "black-clover",
@@ -193,6 +782,28 @@
       "updatedAt": "2026-11-02T03:59:41.109Z"
     },
     {
+      "slug": "blade-of-the-immortal",
+      "anilistId": 109616,
+      "title": "Blade of the Immortal",
+      "alternativeTitles": [
+        "2019",
+        "Mugen no Juunin: IMMORTAL",
+        "Blade of the Immortal (ONA)",
+        "Blade - A Lâmina do Imortal"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:19:09.924Z"
+    },
+    {
       "slug": "bleach",
       "anilistId": 269,
       "title": "Bleach",
@@ -210,6 +821,52 @@
       "arcCount": 16,
       "strip": "C7M1C18M1C4M1F1C12M1C3F1C13F45M1C1M1C4M1C2M2C3M1C3F10C3M1C1M1C2M1F3C6M1C3M2C6F22M1C2M1C10F2M2C1M1C3F2C7M2C4F39M2C5M1C1M1C7M2C1F1M1C1M2C3M2C1F2C3F3C4M1F31M2C1M1C1M1C3M1C3F1C1M1C9",
       "updatedAt": "2026-11-02T03:59:38.991Z"
+    },
+    {
+      "slug": "blood-blockade-battlefront",
+      "anilistId": 20727,
+      "title": "Blood Blockade Battlefront",
+      "alternativeTitles": [
+        "Kekkai Sensen"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C10A2",
+      "franchise": "Blood Blockade Battlefront",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:19:12.307Z"
+    },
+    {
+      "slug": "blood-blockade-battlefront-beyond",
+      "anilistId": 97886,
+      "title": "Blood Blockade Battlefront & Beyond",
+      "alternativeTitles": [
+        "Kekkai Sensen",
+        "Kekkai Sensen & BEYOND",
+        "Bloodline Battlefront & Beyond"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Blood Blockade Battlefront",
+      "seasonLabel": "& Beyond",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:19:12.899Z"
     },
     {
       "slug": "blue-exorcist",
@@ -256,6 +913,69 @@
       "updatedAt": "2026-11-03T05:46:57.045Z"
     },
     {
+      "slug": "blue-lock",
+      "anilistId": 137822,
+      "title": "Blue Lock",
+      "alternativeTitles": [
+        "BLUE LOCK"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:19:14.734Z"
+    },
+    {
+      "slug": "bobobo-bo-bo-bobo",
+      "anilistId": 1050,
+      "title": "Bobobo-bo Bo-bobo",
+      "alternativeTitles": [
+        "Boboboobo Boobobo",
+        "Bo-Bobo",
+        "Boboboubo Boubobo"
+      ],
+      "totalEpisodes": 76,
+      "counts": {
+        "CANON": 76,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C76",
+      "updatedAt": "2026-11-09T14:19:17.190Z"
+    },
+    {
+      "slug": "boku-dake-ga-inai-machi",
+      "anilistId": 21234,
+      "title": "Boku dake ga Inai Machi",
+      "alternativeTitles": [
+        "Boku Dake ga Inai Machi",
+        "ERASED",
+        "Bokumachi",
+        "Desaparecido",
+        "Miasto beze mnie"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:15.539Z"
+    },
+    {
       "slug": "boruto",
       "anilistId": 97938,
       "title": "Boruto: Naruto Next Generations",
@@ -276,6 +996,81 @@
       "updatedAt": "2026-11-02T03:59:40.578Z"
     },
     {
+      "slug": "btooom",
+      "anilistId": 14345,
+      "title": "BTOOOM!",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:19:19.565Z"
+    },
+    {
+      "slug": "burn-the-witch",
+      "anilistId": 116673,
+      "title": "BURN THE WITCH",
+      "alternativeTitles": [],
+      "totalEpisodes": 3,
+      "counts": {
+        "CANON": 3,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C3",
+      "updatedAt": "2026-11-09T14:19:21.981Z"
+    },
+    {
+      "slug": "buso-renkin",
+      "anilistId": 1536,
+      "title": "Buso Renkin",
+      "alternativeTitles": [
+        "Busou Renkin",
+        "Arms Alchemy",
+        "BoRe",
+        "BuRe"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "updatedAt": "2026-11-09T14:19:24.394Z"
+    },
+    {
+      "slug": "campione",
+      "anilistId": 12293,
+      "title": "Campione!",
+      "alternativeTitles": [
+        "Campione!: Matsurowanu Kamigami to Kamigoroshi no Maou"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 5,
+        "FILLER": 3,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 23.1,
+      "arcCount": 1,
+      "strip": "M1F1M1C1F1C2M1C2M2F1",
+      "updatedAt": "2026-11-09T14:19:26.874Z"
+    },
+    {
       "slug": "chainsaw-man",
       "anilistId": 127230,
       "title": "Chainsaw Man",
@@ -293,6 +1088,204 @@
       "arcCount": 1,
       "strip": "C12",
       "updatedAt": "2026-11-03T05:46:57.595Z"
+    },
+    {
+      "slug": "charlotte",
+      "anilistId": 20997,
+      "title": "Charlotte",
+      "alternativeTitles": [],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 13
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A13",
+      "updatedAt": "2026-11-09T14:19:29.219Z"
+    },
+    {
+      "slug": "classroom-of-the-elite",
+      "anilistId": 98659,
+      "title": "Classroom of the Elite",
+      "alternativeTitles": [
+        "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+        "Youjitsu",
+        "You-Zitsu",
+        "Cote"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Classroom of the Elite",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:19:31.703Z"
+    },
+    {
+      "slug": "classroom-of-the-elite-season-2",
+      "anilistId": 145545,
+      "title": "Classroom of the Elite Season 2",
+      "alternativeTitles": [
+        "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+        "You-Zitsu 2",
+        "Youjitsu 2",
+        "Cote 2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Classroom of the Elite",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:19:32.551Z"
+    },
+    {
+      "slug": "classroom-of-the-elite-season-3",
+      "anilistId": 146066,
+      "title": "Classroom of the Elite Season 3",
+      "alternativeTitles": [
+        "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+        "You-Zitsu 3",
+        "Youjitsu 3",
+        "Classroom of the Elite III"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Classroom of the Elite",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:19:33.230Z"
+    },
+    {
+      "slug": "claymore",
+      "anilistId": 1818,
+      "title": "Claymore",
+      "alternativeTitles": [
+        "CLAYMORE"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 20,
+        "FILLER": 3,
+        "MIXED": 3,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 11.5,
+      "arcCount": 1,
+      "strip": "C20M3F3",
+      "updatedAt": "2026-11-09T14:19:34.109Z"
+    },
+    {
+      "slug": "cobra-the-animation",
+      "anilistId": 5032,
+      "title": "Cobra: The Animation",
+      "alternativeTitles": [
+        "COBRA THE ANIMATION",
+        "Cobra The Animation: Rokunin no Yuushi"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:19:36.560Z"
+    },
+    {
+      "slug": "code-geass-lelouch-of-the-rebellion",
+      "anilistId": 1575,
+      "title": "Code Geass: Lelouch of the Rebellion",
+      "alternativeTitles": [
+        "Code Geass: Hangyaku no Lelouch",
+        "Code Geass: Lelouch de la Rebelión"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 25
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A25",
+      "franchise": "Code Geass: Lelouch of the Rebellion",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:19:38.903Z"
+    },
+    {
+      "slug": "code-geass-lelouch-of-the-rebellion-r2",
+      "anilistId": 2904,
+      "title": "Code Geass: Lelouch of the Rebellion R2",
+      "alternativeTitles": [
+        "Code Geass: Hangyaku no Lelouch R2",
+        "Code Geass: Hangyaku no Lelouch 2nd Season",
+        "Code Geass: Hangyaku no Lelouch Second Season"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 25
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A25",
+      "franchise": "Code Geass: Lelouch of the Rebellion",
+      "seasonLabel": "R2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:19:39.540Z"
+    },
+    {
+      "slug": "d-frag",
+      "anilistId": 20031,
+      "title": "D-Frag!",
+      "alternativeTitles": [
+        "D Frag",
+        "D-Fragments!"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C3M1C4M1C3",
+      "updatedAt": "2026-11-09T14:19:41.423Z"
     },
     {
       "slug": "d-gray-man",
@@ -339,6 +1332,85 @@
       "updatedAt": "2026-11-03T05:46:36.514Z"
     },
     {
+      "slug": "dagashi-kashi",
+      "anilistId": 21365,
+      "title": "Dagashi Kashi",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Dagashi Kashi",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:19:44.228Z"
+    },
+    {
+      "slug": "dagashi-kashi-2",
+      "anilistId": 99734,
+      "title": "Dagashi Kashi 2",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Dagashi Kashi",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:19:44.858Z"
+    },
+    {
+      "slug": "darling-in-the-franxx",
+      "anilistId": 99423,
+      "title": "Darling in the FranXX",
+      "alternativeTitles": [
+        "Darling in the Franxx",
+        "DARLING in the FRANXX",
+        "DitF",
+        "DarliFra"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 24
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A24",
+      "updatedAt": "2026-11-09T14:19:46.159Z"
+    },
+    {
+      "slug": "deadman-wonderland",
+      "anilistId": 6880,
+      "title": "Deadman Wonderland",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:19:48.583Z"
+    },
+    {
       "slug": "death-note",
       "anilistId": 1535,
       "title": "Death Note",
@@ -356,6 +1428,23 @@
       "arcCount": 2,
       "strip": "M1C23M2C10M1",
       "updatedAt": "2026-11-03T05:46:44.860Z"
+    },
+    {
+      "slug": "death-parade",
+      "anilistId": 20931,
+      "title": "Death Parade",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 12
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A12",
+      "updatedAt": "2026-11-09T01:29:45.544Z"
     },
     {
       "slug": "demon-slayer-entertainment-district-arc",
@@ -466,6 +1555,62 @@
       "seasonLabel": "Swordsmith Village Arc",
       "franchiseOrder": 4,
       "updatedAt": "2026-11-02T20:49:00.976Z"
+    },
+    {
+      "slug": "devilman-crybaby",
+      "anilistId": 98460,
+      "title": "Devilman Crybaby",
+      "alternativeTitles": [
+        "DEVILMAN crybaby"
+      ],
+      "totalEpisodes": 10,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 4,
+        "MIXED": 6,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 40,
+      "arcCount": 1,
+      "strip": "M2F4M4",
+      "updatedAt": "2026-11-09T14:19:50.967Z"
+    },
+    {
+      "slug": "digimon-adventure",
+      "anilistId": 552,
+      "title": "Digimon Adventure",
+      "alternativeTitles": [
+        "Digimon: Digital Monsters",
+        "Digimon Adventure 01"
+      ],
+      "totalEpisodes": 54,
+      "counts": {
+        "CANON": 54,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C54",
+      "updatedAt": "2026-11-09T14:19:53.960Z"
+    },
+    {
+      "slug": "dorohedoro",
+      "anilistId": 105228,
+      "title": "Dorohedoro",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:00.577Z"
     },
     {
       "slug": "dr-stone",
@@ -682,6 +1827,176 @@
       "updatedAt": "2026-11-02T20:48:50.079Z"
     },
     {
+      "slug": "drifters",
+      "anilistId": 21123,
+      "title": "Drifters",
+      "alternativeTitles": [
+        "DRIFTERS"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:05.012Z"
+    },
+    {
+      "slug": "edens-zero",
+      "anilistId": 119683,
+      "title": "EDENS ZERO",
+      "alternativeTitles": [],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "EDENS ZERO",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:07.337Z"
+    },
+    {
+      "slug": "edens-zero-season-2",
+      "anilistId": 144932,
+      "title": "EDENS ZERO Season 2",
+      "alternativeTitles": [
+        "EDENS ZERO 2nd Season",
+        "Edens Zero: Seria 2"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "EDENS ZERO",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:08.015Z"
+    },
+    {
+      "slug": "elfen-lied",
+      "anilistId": 226,
+      "title": "Elfen Lied",
+      "alternativeTitles": [
+        "Elfen Song",
+        "Elfic Song"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12M1",
+      "updatedAt": "2026-11-09T14:20:09.124Z"
+    },
+    {
+      "slug": "emma-a-victorian-romance",
+      "anilistId": 345,
+      "title": "Emma: A Victorian Romance",
+      "alternativeTitles": [
+        "Eikoku Koi Monogatari Emma",
+        "Ema - Um Romance Vitoriano"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Emma: A Victorian Romance",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:11.708Z"
+    },
+    {
+      "slug": "emma-a-victorian-romance-second-act",
+      "anilistId": 2035,
+      "title": "Emma: A Victorian Romance Second Act",
+      "alternativeTitles": [
+        "Eikoku Koi Monogatari Emma",
+        "Eikoku Koi Monogatari Emma: Molders-hen"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Emma: A Victorian Romance",
+      "seasonLabel": "Second Act",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:14.143Z"
+    },
+    {
+      "slug": "excel-saga",
+      "anilistId": 379,
+      "title": "Excel Saga",
+      "alternativeTitles": [
+        "Heppoko Jikken Animation Excel Saga"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 26,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 100,
+      "arcCount": 1,
+      "strip": "F26",
+      "updatedAt": "2026-11-09T14:20:17.543Z"
+    },
+    {
+      "slug": "f-zero-legend-of-falcon",
+      "anilistId": 3101,
+      "title": "F-Zero Legend of Falcon",
+      "alternativeTitles": [
+        "F-Zero Farukon Densetsu",
+        "F-ZERO: Falcon Densetsu",
+        "F-Zero: GP Legend",
+        "Efu Zero Farukon Densetsu",
+        "F-Zero: The Legend of Falcon"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 51
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A51",
+      "updatedAt": "2026-11-09T14:20:20.025Z"
+    },
+    {
       "slug": "fairy-tail",
       "anilistId": 6702,
       "title": "Fairy Tail",
@@ -752,6 +2067,23 @@
       "updatedAt": "2026-11-02T20:49:18.005Z"
     },
     {
+      "slug": "fate-apocrypha",
+      "anilistId": 98035,
+      "title": "Fate/Apocrypha",
+      "alternativeTitles": [],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "updatedAt": "2026-11-09T14:20:22.388Z"
+    },
+    {
       "slug": "fire-force",
       "anilistId": 105310,
       "title": "Fire Force",
@@ -796,6 +2128,267 @@
       "updatedAt": "2026-11-03T05:47:03.478Z"
     },
     {
+      "slug": "fist-of-the-blue-sky-regenesis",
+      "anilistId": 100408,
+      "title": "Fist of the Blue Sky: Regenesis",
+      "alternativeTitles": [
+        "Souten no Ken: REGENESIS"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:24.986Z"
+    },
+    {
+      "slug": "food-wars",
+      "anilistId": 20923,
+      "title": "Food Wars!",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Food Wars! The First Plate"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "franchise": "Food Wars!",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:27.143Z"
+    },
+    {
+      "slug": "food-wars-the-fifth-plate",
+      "anilistId": 114043,
+      "title": "Food Wars! The Fifth Plate",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Shokugeki no Souma: Gou no Sara"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Food Wars!",
+      "seasonLabel": "The Fifth Plate",
+      "franchiseOrder": 6,
+      "updatedAt": "2026-11-09T14:20:30.378Z"
+    },
+    {
+      "slug": "food-wars-the-fourth-plate",
+      "anilistId": 109963,
+      "title": "Food Wars! The Fourth Plate",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Shokugeki no Souma: Shin no Sara"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Food Wars!",
+      "seasonLabel": "The Fourth Plate",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-09T14:20:29.708Z"
+    },
+    {
+      "slug": "food-wars-the-second-plate",
+      "anilistId": 21518,
+      "title": "Food Wars! The Second Plate",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Shokugeki no Souma: Ni no Sara"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Food Wars!",
+      "seasonLabel": "The Second Plate",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:27.791Z"
+    },
+    {
+      "slug": "food-wars-the-third-plate",
+      "anilistId": 99255,
+      "title": "Food Wars! The Third Plate",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Shokugeki no Souma: San no Sara"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Food Wars!",
+      "seasonLabel": "The Third Plate",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:20:28.423Z"
+    },
+    {
+      "slug": "food-wars-the-third-plate-totsuki-train-arc",
+      "anilistId": 100773,
+      "title": "Food Wars! The Third Plate: Totsuki Train Arc",
+      "alternativeTitles": [
+        "Shokugeki no Souma",
+        "Shokugeki no Souma: San no Sara - Tootsuki Ressha-hen"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Food Wars!",
+      "seasonLabel": "The Third Plate: Totsuki Train Arc",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:20:29.078Z"
+    },
+    {
+      "slug": "fractale",
+      "anilistId": 9314,
+      "title": "Fractale",
+      "alternativeTitles": [],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "updatedAt": "2026-11-09T14:20:31.285Z"
+    },
+    {
+      "slug": "fruits-basket",
+      "anilistId": 120,
+      "title": "Fruits Basket",
+      "alternativeTitles": [
+        "Furuba",
+        "Fruba"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24M2",
+      "updatedAt": "2026-11-09T14:20:33.695Z"
+    },
+    {
+      "slug": "full-metal-panic",
+      "anilistId": 71,
+      "title": "Full Metal Panic!",
+      "alternativeTitles": [
+        "FMP",
+        "Furumeta"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 1,
+        "FILLER": 4,
+        "MIXED": 19,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 16.7,
+      "arcCount": 1,
+      "strip": "M12F3M3F1M1C1M3",
+      "franchise": "Full Metal Panic!",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:36.152Z"
+    },
+    {
+      "slug": "full-metal-panic-invisible-victory",
+      "anilistId": 21451,
+      "title": "Full Metal Panic! Invisible Victory",
+      "alternativeTitles": [
+        "FULL METAL PANIC! IV"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Full Metal Panic!",
+      "seasonLabel": "Invisible Victory",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:20:37.675Z"
+    },
+    {
+      "slug": "full-metal-panic-the-second-raid",
+      "anilistId": 73,
+      "title": "Full Metal Panic! The Second Raid",
+      "alternativeTitles": [
+        "Full Metal Panic! TSR"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 1,
+        "FILLER": 12,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 92.3,
+      "arcCount": 1,
+      "strip": "F12C1",
+      "franchise": "Full Metal Panic!",
+      "seasonLabel": "The Second Raid",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:37.016Z"
+    },
+    {
       "slug": "fullmetal-alchemist-2003",
       "anilistId": 121,
       "title": "Fullmetal Alchemist (2003)",
@@ -835,6 +2428,69 @@
       "arcCount": 4,
       "strip": "A1C2M1C4M1C3M2C12F1C37",
       "updatedAt": "2026-11-03T05:46:44.160Z"
+    },
+    {
+      "slug": "gangsta",
+      "anilistId": 20773,
+      "title": "GANGSTA.",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:38.707Z"
+    },
+    {
+      "slug": "gantz",
+      "anilistId": 384,
+      "title": "Gantz",
+      "alternativeTitles": [
+        "GANTZ"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M1C12",
+      "franchise": "Gantz",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:41.032Z"
+    },
+    {
+      "slug": "gantz-second-stage",
+      "anilistId": 395,
+      "title": "Gantz: Second Stage",
+      "alternativeTitles": [
+        "GANTZ 2",
+        "Gantz - Second Stage",
+        "Gantz 2nd stage"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 7,
+        "FILLER": 5,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 38.5,
+      "arcCount": 1,
+      "strip": "C3M1C4F5",
+      "franchise": "Gantz",
+      "seasonLabel": "Second Stage",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:41.864Z"
     },
     {
       "slug": "gintama",
@@ -1013,6 +2669,175 @@
       "updatedAt": "2026-11-02T20:49:12.928Z"
     },
     {
+      "slug": "girlfriend-girlfriend",
+      "anilistId": 126192,
+      "title": "Girlfriend, Girlfriend",
+      "alternativeTitles": [
+        "Kanojo mo Kanojo",
+        "KanoKano",
+        "She is also my Girlfriend",
+        "Kupunya Dia dan Dirinya"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:20:43.399Z"
+    },
+    {
+      "slug": "girls-last-tour",
+      "anilistId": 99420,
+      "title": "Girls' Last Tour",
+      "alternativeTitles": [
+        "Shoujo Shuumatsu Ryokou",
+        "GLT",
+        "Wisata Gadis di Akhir Hayat"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 1
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C3A1C8",
+      "updatedAt": "2026-11-09T14:20:45.818Z"
+    },
+    {
+      "slug": "goblin-slayer",
+      "anilistId": 101165,
+      "title": "Goblin Slayer",
+      "alternativeTitles": [
+        "GOBLIN SLAYER"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 2,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 16.7,
+      "arcCount": 1,
+      "strip": "C4F1C4F1C2",
+      "updatedAt": "2026-11-09T14:20:48.251Z"
+    },
+    {
+      "slug": "golden-kamuy",
+      "anilistId": 99699,
+      "title": "Golden Kamuy",
+      "alternativeTitles": [
+        "Golden Kamui"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Golden Kamuy",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:20:50.555Z"
+    },
+    {
+      "slug": "golden-kamuy-season-2",
+      "anilistId": 102977,
+      "title": "Golden Kamuy Season 2",
+      "alternativeTitles": [
+        "Golden Kamuy 2nd Season",
+        "Golden Kamui 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Golden Kamuy",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:20:51.156Z"
+    },
+    {
+      "slug": "gosick",
+      "anilistId": 8425,
+      "title": "Gosick",
+      "alternativeTitles": [
+        "GOSICK"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 23,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11M1C12",
+      "updatedAt": "2026-11-09T14:20:53.162Z"
+    },
+    {
+      "slug": "great-teacher-onizuka",
+      "anilistId": 245,
+      "title": "Great Teacher Onizuka",
+      "alternativeTitles": [
+        "GTO",
+        "GTO: Great Teacher Onizuka",
+        "GTO - The Animation"
+      ],
+      "totalEpisodes": 43,
+      "counts": {
+        "CANON": 35,
+        "FILLER": 8,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 18.6,
+      "arcCount": 1,
+      "strip": "C22F1C1F4C5F1C7F2",
+      "updatedAt": "2026-11-09T14:20:55.588Z"
+    },
+    {
+      "slug": "gurren-lagann",
+      "anilistId": 2001,
+      "title": "Gurren Lagann",
+      "alternativeTitles": [
+        "Tengen Toppa Gurren Lagann",
+        "Heavenly Breakthrough Gurren Lagann",
+        "TTGL",
+        "Sfondamento dei cieli Gurren Lagann"
+      ],
+      "totalEpisodes": 27,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 3.7,
+      "arcCount": 1,
+      "strip": "C15F1C11",
+      "updatedAt": "2026-11-09T14:20:57.850Z"
+    },
+    {
       "slug": "haikyuu",
       "anilistId": 20464,
       "title": "Haikyu!!",
@@ -1122,6 +2947,223 @@
       "seasonLabel": "To the Top Part 2",
       "franchiseOrder": 5,
       "updatedAt": "2026-11-03T05:46:55.851Z"
+    },
+    {
+      "slug": "hakyu-hoshin-engi",
+      "anilistId": 99727,
+      "title": "Hakyu Hoshin Engi",
+      "alternativeTitles": [
+        "Hakyuu Houshin Engi",
+        "HAKYU HOSHIN ENGI",
+        "Hakyuu: Houshin Engi",
+        "Soul Hunter",
+        "Senkai-den Houshin Engi"
+      ],
+      "totalEpisodes": 23,
+      "counts": {
+        "CANON": 23,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C23",
+      "updatedAt": "2026-11-09T14:21:00.211Z"
+    },
+    {
+      "slug": "hanamonogatari",
+      "anilistId": 20593,
+      "title": "Hanamonogatari",
+      "alternativeTitles": [],
+      "totalEpisodes": 5,
+      "counts": {
+        "CANON": 5,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C5",
+      "updatedAt": "2026-11-09T14:21:02.649Z"
+    },
+    {
+      "slug": "handa-kun",
+      "anilistId": 21626,
+      "title": "Handa-kun",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 1,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 8.3,
+      "arcCount": 1,
+      "strip": "C7M1F1C3",
+      "updatedAt": "2026-11-09T14:21:05.072Z"
+    },
+    {
+      "slug": "hell-girl",
+      "anilistId": 228,
+      "title": "Hell Girl",
+      "alternativeTitles": [
+        "Jigoku Shōjo Girl",
+        "Jigoku Shoujo",
+        "Jigoku Shojo",
+        "Sứ giả địa phủ"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "Hell Girl",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:07.481Z"
+    },
+    {
+      "slug": "hell-girl-fourth-twilight",
+      "anilistId": 98379,
+      "title": "Hell Girl: Fourth Twilight",
+      "alternativeTitles": [
+        "Jigoku Shōjo Girl",
+        "Jigoku Shoujo: Yoi no Togi",
+        "Hell Girl Yoi no Togi"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 6,
+        "FILLER": 0,
+        "MIXED": 6,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C6M6",
+      "franchise": "Hell Girl",
+      "seasonLabel": "Fourth Twilight",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:21:09.366Z"
+    },
+    {
+      "slug": "hell-girl-three-vessels",
+      "anilistId": 3713,
+      "title": "Hell Girl: Three Vessels",
+      "alternativeTitles": [
+        "Jigoku Shōjo Girl",
+        "Jigoku Shoujo: Mitsuganae",
+        "Hell Girl 3",
+        "Jigoku Shoujo 3",
+        "Hell Girl: Cauldron of Three"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "Hell Girl",
+      "seasonLabel": "Three Vessels",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:21:08.720Z"
+    },
+    {
+      "slug": "hell-girl-two-mirrors",
+      "anilistId": 1594,
+      "title": "Hell Girl: Two Mirrors",
+      "alternativeTitles": [
+        "Jigoku Shōjo Girl",
+        "Jigoku Shoujo: Futakomori",
+        "Jigoku Shoujo 2",
+        "Hell Girl 2",
+        "Hell Girl Futakomori"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "Hell Girl",
+      "seasonLabel": "Two Mirrors",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:08.096Z"
+    },
+    {
+      "slug": "hells-paradise",
+      "anilistId": 128893,
+      "title": "Hell’s Paradise",
+      "alternativeTitles": [
+        "Jigokuraku",
+        "Hell’s Paradise: Jigokuraku"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:21:10.283Z"
+    },
+    {
+      "slug": "hellsing",
+      "anilistId": 270,
+      "title": "Hellsing",
+      "alternativeTitles": [
+        "HELLSING"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 7,
+        "FILLER": 6,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 46.2,
+      "arcCount": 1,
+      "strip": "C3F1C3F2C1F3",
+      "updatedAt": "2026-11-09T14:21:12.647Z"
+    },
+    {
+      "slug": "hikaru-no-go",
+      "anilistId": 135,
+      "title": "Hikaru no Go",
+      "alternativeTitles": [
+        "Hikaru's Go",
+        "Hikaru və go"
+      ],
+      "totalEpisodes": 75,
+      "counts": {
+        "CANON": 71,
+        "FILLER": 2,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 2.7,
+      "arcCount": 1,
+      "strip": "C63F1M1F1M1C8",
+      "updatedAt": "2026-11-09T14:21:15.038Z"
     },
     {
       "slug": "hunter-x-hunter-1999",
@@ -1234,6 +3276,28 @@
       "updatedAt": "2026-11-03T05:46:38.438Z"
     },
     {
+      "slug": "ijiranaide-nagatoro-san",
+      "anilistId": 120697,
+      "title": "Ijiranaide, Nagatoro-san",
+      "alternativeTitles": [
+        "DON'T TOY WITH ME, MISS NAGATORO",
+        "Arrête de me chauffer, Nagatoro!",
+        "Jangan main-main denganku, Nona Nagatoro Serangan Ke-2 ",
+        "No me rayes, Nagatoro"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:19:55.962Z"
+    },
+    {
       "slug": "inuyasha",
       "anilistId": 249,
       "title": "Inuyasha",
@@ -1278,6 +3342,275 @@
       "seasonLabel": "The Final Act",
       "franchiseOrder": 2,
       "updatedAt": "2026-11-02T20:49:08.417Z"
+    },
+    {
+      "slug": "inuyashiki-last-hero",
+      "anilistId": 97922,
+      "title": "Inuyashiki Last Hero",
+      "alternativeTitles": [
+        "Inuyashiki",
+        "INUYASHIKI LAST HERO"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "updatedAt": "2026-11-09T14:21:17.496Z"
+    },
+    {
+      "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+      "anilistId": 20920,
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "alternativeTitles": [
+        "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+        "Danmachi",
+        "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth",
+        "DanMachi: É Errado Tentar Pegar Garotas numa Masmorra?"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:19.926Z"
+    },
+    {
+      "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-ii",
+      "anilistId": 101167,
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
+      "alternativeTitles": [
+        "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+        "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+        "Danmachi II",
+        "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka 2",
+        "Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth II"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "seasonLabel": "II",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:20.507Z"
+    },
+    {
+      "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-on-the-side-sword-oratoria",
+      "anilistId": 21676,
+      "title": "Is It Wrong to Try to Pick Up Girls In a Dungeon? On the Side: Sword Oratoria",
+      "alternativeTitles": [
+        "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
+        "Sword Oratoria: Is it Wrong to Try to Pick Up Girls in a Dungeon? On the Side",
+        "Is It Wrong to Hope to Meet a Girl in a Dungeon? On the Side: Sword Oratoria",
+        "Danmachi Sword Oratoria",
+        "¿Qué tiene de malo ligar en una mazmorra? Sword Oratoria"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:21:22.321Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-tv",
+      "anilistId": 14719,
+      "title": "JoJo's Bizarre Adventure (TV)",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken (TV)",
+        "JoJo no Kimyou na Bouken (2012)",
+        "JoJo no Kimyou na Bouken: Sentou Chouryuu",
+        "JoJo's Bizarre Adventure: Phantom Blood"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:24.725Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-diamond-is-unbreakable",
+      "anilistId": 21450,
+      "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+        "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+        "JoJo's Bizarre Adventure Part 4: Diamond is Unbreakable",
+        "Le bizzarre avventure di JoJo: Diamond is Unbreakable"
+      ],
+      "totalEpisodes": 39,
+      "counts": {
+        "CANON": 39,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C39",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "Diamond is Unbreakable",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:21:26.592Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-golden-wind",
+      "anilistId": 102883,
+      "title": "JoJo's Bizarre Adventure: Golden Wind",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Ougon no Kaze",
+        "JoJo's Bizarre Adventure Part 5",
+        "JoJo's Bizarre Adventure: Vento Aureo",
+        "Le Bizzarre Avventure Di GioGio: Vento Aureo"
+      ],
+      "totalEpisodes": 39,
+      "counts": {
+        "CANON": 39,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C39",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "Golden Wind",
+      "franchiseOrder": 5,
+      "updatedAt": "2026-11-09T14:21:27.203Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-stardust-crusaders",
+      "anilistId": 20474,
+      "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Stardust Crusaders",
+        "Dai San Bu Kujo Jotaro: Mirai e no Isan",
+        "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
+        "JoJo's Bizarre Adventure Part 3: Stardust Crusaders"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "Stardust Crusaders",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:25.308Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-stardust-crusaders-battle-in-egypt",
+      "anilistId": 20799,
+      "title": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Stardust Crusaders - Egypt-hen",
+        "Dai San Bu Kujo Jotaro: Mirai e no Isan",
+        "JoJo's Bizarre Adventure: Stardust Crusaders 2nd Season",
+        "JoJo no Kimyou na Bouken: Stardust Crusaders 2nd Season"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "Stardust Crusaders - Battle in Egypt",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:21:25.956Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-stone-ocean",
+      "anilistId": 131942,
+      "title": "JoJo's Bizarre Adventure: STONE OCEAN",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Stone Ocean",
+        "JoJo's Bizarre Adventure: Stone Ocean",
+        "JoJo's Bizarre Adventure Part 6",
+        "JoJo no Kimyou na Bouken Part 6"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "STONE OCEAN",
+      "franchiseOrder": 6,
+      "updatedAt": "2026-11-09T14:21:27.778Z"
+    },
+    {
+      "slug": "jojos-bizarre-adventure-stone-ocean-part-2",
+      "anilistId": 146722,
+      "title": "JoJo's Bizarre Adventure: STONE OCEAN Part 2",
+      "alternativeTitles": [
+        "JoJo no Kimyou na Bouken: Stone Ocean Part 2",
+        "JoJo's Bizarre Adventure Part 6 (Part 2)",
+        "JoJo no Kimyou na Bouken Part 6 (Part 2)",
+        "JoJo's Bizarre Adventure: STONE OCEAN The Final Episodes"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "JoJo's Bizarre Adventure",
+      "seasonLabel": "STONE OCEAN Part 2",
+      "franchiseOrder": 7,
+      "updatedAt": "2026-11-09T14:21:28.379Z"
     },
     {
       "slug": "jujutsu-kaisen",
@@ -1347,6 +3680,104 @@
       "updatedAt": "2026-11-02T20:48:58.159Z"
     },
     {
+      "slug": "kabaneri-of-the-iron-fortress",
+      "anilistId": 21196,
+      "title": "Kabaneri of the Iron Fortress",
+      "alternativeTitles": [
+        "Koutetsujou no Kabaneri",
+        "Kabaneri de la Fortaleza de Hierro"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 12
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A12",
+      "updatedAt": "2026-11-09T14:21:29.316Z"
+    },
+    {
+      "slug": "kaguya-sama-love-is-war-the-first-kiss-that-never-ends",
+      "anilistId": 151384,
+      "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+      "alternativeTitles": [
+        "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
+        "Kaguya-sama: Love is War Movie",
+        "Kaguya-sama: Cuộc chiến tỏ tình - Nụ hôn đầu không hồi kết"
+      ],
+      "totalEpisodes": 4,
+      "counts": {
+        "CANON": 4,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C4",
+      "franchise": "Kaguya-sama: Love is War",
+      "seasonLabel": "The First Kiss That Never Ends-",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:21:33.641Z"
+    },
+    {
+      "slug": "kaguya-sama-love-is-war-ultra-romantic",
+      "anilistId": 125367,
+      "title": "Kaguya-sama: Love is War -Ultra Romantic-",
+      "alternativeTitles": [
+        "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+        "Kaguya-sama: Love is War Season 3",
+        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3",
+        "Kaguya-sama wa Kokurasetai 3rd Season"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Kaguya-sama: Love is War",
+      "seasonLabel": "Ultra Romantic-",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:21:32.961Z"
+    },
+    {
+      "slug": "kaguya-sama-love-is-war",
+      "anilistId": 112641,
+      "title": "Kaguya-sama: Love is War?",
+      "alternativeTitles": [
+        "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+        "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains",
+        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+        "Kaguya-sama : L'Amour est une guerre",
+        "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
+        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 2",
+        "Kaguya-sama: Love is War Season 2",
+        "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Kaguya-sama: Love is War",
+      "seasonLabel": "?",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:32.321Z"
+    },
+    {
       "slug": "kaiju-no-8",
       "anilistId": 153288,
       "title": "Kaiju No. 8",
@@ -1386,6 +3817,555 @@
       "arcCount": 5,
       "strip": "C9M1C18M1C26F1C16M1C10F2C11F1C21M1F2C19M1F13C3F1M1C18M1F10M1C14",
       "updatedAt": "2026-11-03T05:46:35.268Z"
+    },
+    {
+      "slug": "killing-bites",
+      "anilistId": 98389,
+      "title": "Killing Bites",
+      "alternativeTitles": [
+        "Mordidas Mortais"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:21:34.671Z"
+    },
+    {
+      "slug": "kirby-right-back-at-ya",
+      "anilistId": 2390,
+      "title": "Kirby: Right Back at Ya!",
+      "alternativeTitles": [
+        "Hoshi no Kābī",
+        "Hoshi no Kirby",
+        "Kirby of the Stars",
+        "Kirby das Estrelas"
+      ],
+      "totalEpisodes": 100,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 100,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 100,
+      "arcCount": 1,
+      "strip": "F100",
+      "updatedAt": "2026-11-09T14:21:37.029Z"
+    },
+    {
+      "slug": "kiznaiver",
+      "anilistId": 21421,
+      "title": "Kiznaiver",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 12
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A12",
+      "updatedAt": "2026-11-09T14:21:39.422Z"
+    },
+    {
+      "slug": "komi-cant-communicate",
+      "anilistId": 133965,
+      "title": "Komi Can’t Communicate",
+      "alternativeTitles": [
+        "Komi-san wa Komyushou Desu",
+        "Komi-san wa, Komyushou desu.",
+        "Comi san ha Comyusho desu",
+        "Komi-san wa, Comyushou desu.",
+        "Komi cherche ses mots"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Komi Can't Communicate",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:41.852Z"
+    },
+    {
+      "slug": "komi-cant-communicate-part-2",
+      "anilistId": 142984,
+      "title": "Komi Can't Communicate Part 2",
+      "alternativeTitles": [
+        "Komi-san wa Komyushou Desu",
+        "Komi-san wa, Komyushou desu. 2",
+        "Komi Can't Communicate Season 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Komi Can't Communicate",
+      "seasonLabel": "Part 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:42.511Z"
+    },
+    {
+      "slug": "konosuba-gods-blessing-on-this-wonderful-world",
+      "anilistId": 21202,
+      "title": "KONOSUBA -God's blessing on this wonderful world!",
+      "alternativeTitles": [
+        "Kono Subarashii Sekai ni Shukufuku wo!",
+        "Konosuba",
+        "Kono Subarashii Sekai ni Syukufuku wo!",
+        "Konosuba - As Bençãos de Deus Neste Mundo Maravilhoso"
+      ],
+      "totalEpisodes": 10,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C10",
+      "franchise": "KONOSUBA -God's blessing on this wonderful world!",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:44.238Z"
+    },
+    {
+      "slug": "konosuba-gods-blessing-on-this-wonderful-world-2",
+      "anilistId": 21699,
+      "title": "KONOSUBA -God's blessing on this wonderful world! 2",
+      "alternativeTitles": [
+        "Kono Subarashii Sekai ni Shukufuku wo! 2",
+        "Konosuba 2",
+        "Konosuba! - As Bençãos de Deus Neste Mundo Maravilhoso 2!",
+        "Konosuba : Une explosion dans ce monde merveilleux !"
+      ],
+      "totalEpisodes": 10,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C10",
+      "franchise": "KONOSUBA -God's blessing on this wonderful world!",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:44.844Z"
+    },
+    {
+      "slug": "kurokos-basketball",
+      "anilistId": 11771,
+      "title": "Kuroko's Basketball",
+      "alternativeTitles": [
+        "Kuroko no Basket",
+        "Kuroko no Basuke",
+        "The Basketball Which Kuroko Plays"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Kuroko’s Basketball",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:46.655Z"
+    },
+    {
+      "slug": "kurokos-basketball-2",
+      "anilistId": 16894,
+      "title": "Kuroko's Basketball 2",
+      "alternativeTitles": [
+        "Kuroko no Basket",
+        "Kuroko no Basket 2nd SEASON",
+        "Kuroko no Basuke 2"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Kuroko’s Basketball",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:47.240Z"
+    },
+    {
+      "slug": "kurokos-basketball-3",
+      "anilistId": 20725,
+      "title": "Kuroko's Basketball 3",
+      "alternativeTitles": [
+        "Kuroko no Basket",
+        "Kuroko no Basket 3rd SEASON",
+        "Kuroko no Basuke 3"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Kuroko’s Basketball",
+      "seasonLabel": "3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:21:47.882Z"
+    },
+    {
+      "slug": "land-of-the-lustrous",
+      "anilistId": 98707,
+      "title": "Land of the Lustrous",
+      "alternativeTitles": [
+        "Houseki no Kuni",
+        "L'Ère des Cristaux",
+        "Das Land der Juwelen",
+        "Vương Quốc Bảo Thạch"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:21:49.030Z"
+    },
+    {
+      "slug": "lord-marksman-and-vanadis",
+      "anilistId": 20809,
+      "title": "Lord Marksman and Vanadis",
+      "alternativeTitles": [
+        "Madan No Ou to Vanadis",
+        "Madan no Ou to Vanadis",
+        "The King of the Magic Bullet and Vanadis"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:21:51.442Z"
+    },
+    {
+      "slug": "made-in-abyss",
+      "anilistId": 97986,
+      "title": "Made in Abyss",
+      "alternativeTitles": [],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C8M1C2M1C1",
+      "updatedAt": "2026-11-09T14:21:53.945Z"
+    },
+    {
+      "slug": "magi-adventure-of-sinbad",
+      "anilistId": 21394,
+      "title": "Magi: Adventure of Sinbad",
+      "alternativeTitles": [
+        "Magi: Sinbad no Bouken"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:21:56.336Z"
+    },
+    {
+      "slug": "magic-knight-rayearth",
+      "anilistId": 435,
+      "title": "Magic Knight Rayearth",
+      "alternativeTitles": [
+        "Mahou Kishi Rayearth",
+        "Guerreiras Mágicas de Rayearth",
+        "Las Guerreras Mágicas"
+      ],
+      "totalEpisodes": 20,
+      "counts": {
+        "CANON": 9,
+        "FILLER": 6,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 30,
+      "arcCount": 1,
+      "strip": "C1M2C2M1F3C1F1M1C1F1M1C1F1C3",
+      "franchise": "Magic Knight Rayearth",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:21:58.664Z"
+    },
+    {
+      "slug": "magic-knight-rayearth-ii",
+      "anilistId": 1563,
+      "title": "Magic Knight Rayearth II",
+      "alternativeTitles": [
+        "Una porta socchiusa ai confini del sole"
+      ],
+      "totalEpisodes": 29,
+      "counts": {
+        "CANON": 9,
+        "FILLER": 14,
+        "MIXED": 6,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 48.3,
+      "arcCount": 1,
+      "strip": "C3F2C1M1F4M1F5C1M1C1F1C1M1C1M1F1C1F1M1",
+      "franchise": "Magic Knight Rayearth",
+      "seasonLabel": "II",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:21:59.308Z"
+    },
+    {
+      "slug": "maid-sama",
+      "anilistId": 7054,
+      "title": "Maid-Sama!",
+      "alternativeTitles": [
+        "Kaichou wa maid sama",
+        "Kaichou wa Maid-sama!",
+        "Kaicho wa Maidsama",
+        "Kaichou wa Meido Sama",
+        "Class President is a Maid!"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "updatedAt": "2026-11-09T14:22:01.201Z"
+    },
+    {
+      "slug": "masamune-kuns-revenge",
+      "anilistId": 21857,
+      "title": "Masamune-kun's Revenge",
+      "alternativeTitles": [
+        "Masamune-kun no Revenge"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:22:03.563Z"
+    },
+    {
+      "slug": "michiko-hatchin",
+      "anilistId": 4087,
+      "title": "Michiko & Hatchin",
+      "alternativeTitles": [
+        "Michiko to Hatchin",
+        "Michiko e Hatchin"
+      ],
+      "totalEpisodes": 22,
+      "counts": {
+        "CANON": 22,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C22",
+      "updatedAt": "2026-11-09T14:22:05.988Z"
+    },
+    {
+      "slug": "mob-psycho-100",
+      "anilistId": 21507,
+      "title": "Mob Psycho 100",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M1C11",
+      "franchise": "Mob Psycho 100",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:08.314Z"
+    },
+    {
+      "slug": "mob-psycho-100-ii",
+      "anilistId": 101338,
+      "title": "Mob Psycho 100 II",
+      "alternativeTitles": [
+        "Mob Psycho Hyaku"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Mob Psycho 100",
+      "seasonLabel": "II",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:08.956Z"
+    },
+    {
+      "slug": "mob-psycho-100-iii",
+      "anilistId": 140439,
+      "title": "Mob Psycho 100 III",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Mob Psycho 100",
+      "seasonLabel": "III",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:22:09.599Z"
+    },
+    {
+      "slug": "monster",
+      "anilistId": 19,
+      "title": "Monster",
+      "alternativeTitles": [
+        "MONSTER"
+      ],
+      "totalEpisodes": 74,
+      "counts": {
+        "CANON": 74,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C74",
+      "updatedAt": "2026-11-09T14:22:10.745Z"
+    },
+    {
+      "slug": "my-dress-up-darling",
+      "anilistId": 132405,
+      "title": "My Dress-Up Darling",
+      "alternativeTitles": [
+        "Sono Bisque Doll wa Koi wo Suru",
+        "Sono Kisekae Ningyou wa Koi wo suru",
+        "kisekoi",
+        "Si Boneka Rias Sedang Jatuh Cinta"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "My Dress-Up Darling",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:13.148Z"
+    },
+    {
+      "slug": "my-dress-up-darling-season-2",
+      "anilistId": 154768,
+      "title": "My Dress-Up Darling Season 2",
+      "alternativeTitles": [
+        "Sono Bisque Doll wa Koi wo Suru",
+        "Sono Bisque Doll wa Koi wo Suru Season 2",
+        "Sono Kisekae Ningyou wa Koi wo suru",
+        "Kisekoi 2",
+        "Si Boneka Rias Sedang Jatuh Cinta"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A1C10A1",
+      "franchise": "My Dress-Up Darling",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:13.799Z"
     },
     {
       "slug": "my-hero-academia",
@@ -1565,6 +4545,79 @@
       "updatedAt": "2026-11-02T20:48:55.964Z"
     },
     {
+      "slug": "my-next-life-as-a-villainess-all-routes-lead-to-doom",
+      "anilistId": 104647,
+      "title": "My Next Life as a Villainess: All Routes Lead to Doom!",
+      "alternativeTitles": [
+        "Bakarina",
+        "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta…",
+        "I Reincarnated into an Otome Game as a Villainess With Only Destruction Flags..",
+        "Hamefura",
+        "Hamehura"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 9,
+        "FILLER": 3,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 25,
+      "arcCount": 1,
+      "strip": "C6F3C3",
+      "franchise": "My Next Life as a Villainess: All Routes Lead to Doom!",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:15.569Z"
+    },
+    {
+      "slug": "my-next-life-as-a-villainess-all-routes-lead-to-doom-x",
+      "anilistId": 120209,
+      "title": "My Next Life as a Villainess: All Routes Lead to Doom! X",
+      "alternativeTitles": [
+        "Bakarina",
+        "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta… X",
+        "Hamefura 2",
+        "Hamehura 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 7,
+        "FILLER": 3,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 25,
+      "arcCount": 1,
+      "strip": "C1M1C2M1F3C4",
+      "franchise": "My Next Life as a Villainess: All Routes Lead to Doom!",
+      "seasonLabel": "X",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:16.363Z"
+    },
+    {
+      "slug": "nadia-the-secret-of-blue-water",
+      "anilistId": 1251,
+      "title": "Nadia: The Secret of Blue Water",
+      "alternativeTitles": [
+        "Fushigi no Umi no Nadia",
+        "Nadia - Il mistero della pietra azzurra",
+        "Nadia, le secret de l'eau bleue",
+        "Nadia: Tajemnica Błękitnego Kamienia"
+      ],
+      "totalEpisodes": 39,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 6,
+        "MIXED": 3,
+        "ANIME_CANON": 30
+      },
+      "fillerPercentage": 15.4,
+      "arcCount": 1,
+      "strip": "A23F1A1F1M2F1M1A1F3A5",
+      "updatedAt": "2026-11-09T14:22:17.976Z"
+    },
+    {
       "slug": "naruto",
       "anilistId": 20,
       "title": "Naruto",
@@ -1607,6 +4660,395 @@
       "updatedAt": "2026-11-02T01:23:55.821Z"
     },
     {
+      "slug": "negima",
+      "anilistId": 157,
+      "title": "Negima!",
+      "alternativeTitles": [
+        "Mahou Sensei Negima!",
+        "Magister Negi Magi",
+        "Negima! Magister Negi Magi"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 20,
+        "FILLER": 4,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 15.4,
+      "arcCount": 1,
+      "strip": "C1M1C19M1F4",
+      "updatedAt": "2026-11-09T14:22:20.369Z"
+    },
+    {
+      "slug": "negima-1546",
+      "anilistId": 1546,
+      "title": "Negima!?",
+      "alternativeTitles": [
+        "Mahou Sensei Negima?!",
+        "Negima!? Magister Negi Magi",
+        "Negima Remake"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "updatedAt": "2026-11-09T14:22:22.875Z"
+    },
+    {
+      "slug": "neon-genesis-evangelion",
+      "anilistId": 30,
+      "title": "Neon Genesis Evangelion",
+      "alternativeTitles": [
+        "Shin Seiki Evangelion",
+        "NGE",
+        "Eva"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 26
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A26",
+      "updatedAt": "2026-11-09T14:22:25.237Z"
+    },
+    {
+      "slug": "nisekoi",
+      "anilistId": 20876,
+      "title": "Nisekoi:",
+      "alternativeTitles": [
+        "Nisekoi: False Love",
+        "Nisekoi2 -False Love-"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Nisekoi: False Love",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:28.259Z"
+    },
+    {
+      "slug": "no-game-no-life",
+      "anilistId": 19815,
+      "title": "No Game, No Life",
+      "alternativeTitles": [
+        "No Game No Life",
+        "NGNL",
+        "nogenora "
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:22:30.049Z"
+    },
+    {
+      "slug": "noragami",
+      "anilistId": 20447,
+      "title": "Noragami",
+      "alternativeTitles": [
+        "Stray God"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 9,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C9M1A2",
+      "franchise": "Noragami",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:32.437Z"
+    },
+    {
+      "slug": "noragami-aragoto",
+      "anilistId": 21128,
+      "title": "Noragami Aragoto",
+      "alternativeTitles": [
+        "Noragami ARAGOTO"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Noragami",
+      "seasonLabel": "Aragoto",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:33.112Z"
+    },
+    {
+      "slug": "one-punch-man",
+      "anilistId": 21087,
+      "title": "One-Punch Man",
+      "alternativeTitles": [
+        "One Punch Man",
+        "OPM",
+        "Wanpanman",
+        "Jagoan Sekali Pukul S1"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "One-Punch Man",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:34.847Z"
+    },
+    {
+      "slug": "one-punch-man-season-2",
+      "anilistId": 97668,
+      "title": "One-Punch Man Season 2",
+      "alternativeTitles": [
+        "One Punch Man 2",
+        "OPM2",
+        "Wanpanman 2",
+        "One-Punch Man Phần 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "One-Punch Man",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:35.562Z"
+    },
+    {
+      "slug": "one-punch-man-season-3",
+      "anilistId": 153800,
+      "title": "One-Punch Man Season 3",
+      "alternativeTitles": [
+        "One Punch Man 3",
+        "OPM3"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "One-Punch Man",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:22:36.192Z"
+    },
+    {
+      "slug": "orange",
+      "anilistId": 21647,
+      "title": "Orange",
+      "alternativeTitles": [
+        "orange"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:22:37.306Z"
+    },
+    {
+      "slug": "overlord",
+      "anilistId": 20832,
+      "title": "Overlord",
+      "alternativeTitles": [
+        "Over Lord"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Overlord",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:39.681Z"
+    },
+    {
+      "slug": "overlord-ii",
+      "anilistId": 98437,
+      "title": "Overlord II",
+      "alternativeTitles": [
+        "Over Lord 2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Overlord",
+      "seasonLabel": "II",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:40.318Z"
+    },
+    {
+      "slug": "overlord-iii",
+      "anilistId": 101474,
+      "title": "Overlord III",
+      "alternativeTitles": [
+        "Over Lord 3"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Overlord",
+      "seasonLabel": "III",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:22:40.946Z"
+    },
+    {
+      "slug": "overlord-iv",
+      "anilistId": 133844,
+      "title": "Overlord IV",
+      "alternativeTitles": [
+        "Overlord 4"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Overlord",
+      "seasonLabel": "IV",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:22:41.608Z"
+    },
+    {
+      "slug": "parasyte-the-maxim",
+      "anilistId": 20623,
+      "title": "Parasyte: The Maxim",
+      "alternativeTitles": [
+        "Kiseijuu",
+        "Kiseijuu: Sei no Kakuritsu",
+        "Parasyte -the maxim-",
+        "Kiseiju - L'ospite indesiderato",
+        "Parasite : La Maxime",
+        "Pasożyt"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:22:42.624Z"
+    },
+    {
+      "slug": "platinum-end",
+      "anilistId": 127401,
+      "title": "Platinum End",
+      "alternativeTitles": [],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:22:45.058Z"
+    },
+    {
+      "slug": "pluto",
+      "anilistId": 99088,
+      "title": "PLUTO",
+      "alternativeTitles": [],
+      "totalEpisodes": 8,
+      "counts": {
+        "CANON": 8,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C8",
+      "updatedAt": "2026-11-09T14:22:47.461Z"
+    },
+    {
       "slug": "pokemon",
       "anilistId": 527,
       "title": "Pokémon (1997–2023)",
@@ -1628,6 +5070,401 @@
       "updatedAt": "2026-11-03T05:47:08.395Z"
     },
     {
+      "slug": "pretty-guardian-sailor-moon-crystal-season-3",
+      "anilistId": 21462,
+      "title": "Pretty Guardian Sailor Moon Crystal: Season 3",
+      "alternativeTitles": [
+        "Bishoujo Senshi Sailor Moon: Crystal - Death Busters-hen",
+        "Sailor Moon Crystal Season 3",
+        "Bishoujo Senshi Sailor Moon: Crystal Season 3",
+        "Bishoujo Senshi Sailor Moon: Crystal Season 3 - Death Busters-hen"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Sailor Moon Crystal",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:16.998Z"
+    },
+    {
+      "slug": "pretty-guardian-sailor-moon-crystal-seasons-1-2",
+      "anilistId": 14751,
+      "title": "Pretty Guardian Sailor Moon Crystal: Seasons 1-2",
+      "alternativeTitles": [
+        "Bishoujo Senshi Sailor Moon: Crystal",
+        "Sailor Moon Crystal",
+        "Bishoujo Senshi Sailor Moon: Crystal - Black Moon-hen"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "franchise": "Sailor Moon Crystal",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:16.387Z"
+    },
+    {
+      "slug": "puella-magi-madoka-magica",
+      "anilistId": 9756,
+      "title": "Puella Magi Madoka Magica",
+      "alternativeTitles": [
+        "Mahou Shoujo Madoka☆Magica",
+        "Mahou Shoujo Madoka Magika",
+        "Magical Girl Madoka Magica",
+        "PMMM"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 12
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A12",
+      "updatedAt": "2026-11-09T14:22:49.848Z"
+    },
+    {
+      "slug": "ranma-1-2",
+      "anilistId": 210,
+      "title": "Ranma ½",
+      "alternativeTitles": [
+        "Ranma 1/2"
+      ],
+      "totalEpisodes": 18,
+      "counts": {
+        "CANON": 15,
+        "FILLER": 1,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 5.6,
+      "arcCount": 1,
+      "strip": "C5M1C7F1C2M1C1",
+      "franchise": "Ranma ½",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:52.283Z"
+    },
+    {
+      "slug": "ranma-1-2-1989",
+      "anilistId": 149939,
+      "title": "Ranma ½ (1989)",
+      "alternativeTitles": [
+        "Ranma 1/2: Nettou-hen"
+      ],
+      "totalEpisodes": 143,
+      "counts": {
+        "CANON": 62,
+        "FILLER": 70,
+        "MIXED": 11,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 49,
+      "arcCount": 1,
+      "strip": "C2F1M1C4M1C6M3C9F1C1F5C1F1M1F5C1F3C1F1C3F2C1F2C1M1F2C2F1C1F2C1F2C2F3M1F1C2F8C3F2C1F3M1F6C2F2C2F1C2M1F1C2F2C1F4C4F1C1F2C1F1C1F2C2F2M1F1C2",
+      "franchise": "Ranma ½",
+      "seasonLabel": "(1989)",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:52.942Z"
+    },
+    {
+      "slug": "rave-master",
+      "anilistId": 246,
+      "title": "Rave Master",
+      "alternativeTitles": [
+        "Groove Adventure Rave",
+        "GROOVE ADVENTURE RAVE",
+        "RAVE"
+      ],
+      "totalEpisodes": 51,
+      "counts": {
+        "CANON": 49,
+        "FILLER": 1,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 2,
+      "arcCount": 1,
+      "strip": "C7M1C32F1C10",
+      "updatedAt": "2026-11-09T14:22:54.705Z"
+    },
+    {
+      "slug": "re-zero-starting-life-in-another-world",
+      "anilistId": 21355,
+      "title": "Re:ZERO -Starting Life in Another World-",
+      "alternativeTitles": [
+        "Re: Zero- Kara Hajimeru Isekai Seikatsu",
+        "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "Re: Life in a different world from zero",
+        "ReZero",
+        "Re Zero"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Re:ZERO -Starting Life in Another World-",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:22:57.062Z"
+    },
+    {
+      "slug": "re-zero-starting-life-in-another-world-season-2",
+      "anilistId": 108632,
+      "title": "Re:ZERO -Starting Life in Another World- Season 2",
+      "alternativeTitles": [
+        "Re: Zero- Kara Hajimeru Isekai Seikatsu",
+        "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+        "Re:Zero kara Hajimeru Isekai Seikatsu (2020)"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Re:ZERO -Starting Life in Another World-",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:22:57.682Z"
+    },
+    {
+      "slug": "re-zero-starting-life-in-another-world-season-2-part-2",
+      "anilistId": 119661,
+      "title": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+      "alternativeTitles": [
+        "Re: Zero- Kara Hajimeru Isekai Seikatsu",
+        "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+        "Re:Zero kara Hajimeru Isekai Seikatsu (2021)"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Re:ZERO -Starting Life in Another World-",
+      "seasonLabel": "Season 2 Part 2",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:22:58.394Z"
+    },
+    {
+      "slug": "record-of-ragnarok",
+      "anilistId": 127399,
+      "title": "Record of Ragnarok",
+      "alternativeTitles": [
+        "Shuumatsu no Walküre",
+        "Shuumatsu no Valkyrie",
+        "Shuumatsu no Walkure",
+        "Valkyrie Apocalypse"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:22:59.477Z"
+    },
+    {
+      "slug": "redo-of-healer",
+      "anilistId": 113425,
+      "title": "Redo of Healer",
+      "alternativeTitles": [
+        "Kaifuku Jutsushi no Yarinaoshi",
+        "La Venganza del Sanador"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:23:01.941Z"
+    },
+    {
+      "slug": "rent-a-girlfriend",
+      "anilistId": 113813,
+      "title": "Rent-a-Girlfriend",
+      "alternativeTitles": [
+        "Kanojo, Okarishimasu",
+        "I'd like to Borrow a Girlfriend",
+        "Kanokari",
+        "Pacar Sewaan"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Rent-A-Girlfriend",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:04.313Z"
+    },
+    {
+      "slug": "rent-a-girlfriend-season-2",
+      "anilistId": 124410,
+      "title": "Rent-a-Girlfriend Season 2",
+      "alternativeTitles": [
+        "Kanojo, Okarishimasu",
+        "Kanojo, Okarishimasu 2nd Season",
+        "KanoKari 2",
+        "Pacar Sewaan 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Rent-A-Girlfriend",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:05.059Z"
+    },
+    {
+      "slug": "rent-a-girlfriend-season-3",
+      "anilistId": 154745,
+      "title": "Rent-a-Girlfriend Season 3",
+      "alternativeTitles": [
+        "Kanojo, Okarishimasu",
+        "Kanojo, Okarishimasu 3rd Season",
+        "KanoKari 3"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Rent-A-Girlfriend",
+      "seasonLabel": "Season 3",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:23:05.732Z"
+    },
+    {
+      "slug": "revolutionary-girl-utena",
+      "anilistId": 440,
+      "title": "Revolutionary Girl Utena",
+      "alternativeTitles": [
+        "Shoujo Kakumei Utena",
+        "Utena la fillette révolutionnaire",
+        "La rivoluzione di Utena",
+        "Utena la ragazza della rivoluzione"
+      ],
+      "totalEpisodes": 39,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 5,
+        "ANIME_CANON": 34
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A7M1A4M1A2M1A7M1A2M1A12",
+      "updatedAt": "2026-11-09T14:23:06.723Z"
+    },
+    {
+      "slug": "rosario-vampire",
+      "anilistId": 2993,
+      "title": "Rosario + Vampire",
+      "alternativeTitles": [
+        "Rosario to Vampire",
+        "Rosario and Vampire"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 7,
+        "FILLER": 1,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 7.7,
+      "arcCount": 1,
+      "strip": "M1C2F1C2M1C3M3",
+      "franchise": "Rosario + Vampire",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:09.177Z"
+    },
+    {
+      "slug": "rosario-vampire-capu2",
+      "anilistId": 4214,
+      "title": "Rosario + Vampire Capu2",
+      "alternativeTitles": [
+        "Rosario to Vampire Capu2",
+        "Rosario + Vampire Season 2",
+        "Rosario and Vampire Capu2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 10,
+        "MIXED": 3,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 76.9,
+      "arcCount": 1,
+      "strip": "M1F5M1F3M1F2",
+      "franchise": "Rosario + Vampire",
+      "seasonLabel": "Capu2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:09.850Z"
+    },
+    {
       "slug": "rurouni-kenshin",
       "anilistId": 45,
       "title": "Rurouni Kenshin",
@@ -1646,6 +5483,47 @@
       "arcCount": 6,
       "strip": "M1C11F6C3F1C2F3C35F16M4F12",
       "updatedAt": "2026-11-02T20:49:09.939Z"
+    },
+    {
+      "slug": "rurouni-kenshin-2023-rurouni-kenshin-meiji-kenkaku-romantan-2023",
+      "anilistId": 142877,
+      "title": "Rurouni Kenshin (2023) (Rurouni Kenshin: Meiji Kenkaku Romantan (2023))",
+      "alternativeTitles": [
+        "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+        "Rurouni Kenshin (2023)",
+        "Samurai X (2023)",
+        "Kenshin le vagabond (2023)"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:23:11.590Z"
+    },
+    {
+      "slug": "saga-of-tanya-the-evil",
+      "anilistId": 21613,
+      "title": "Saga of Tanya the Evil",
+      "alternativeTitles": [
+        "Youjo Senki"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:23:14.009Z"
     },
     {
       "slug": "sailor-moon",
@@ -1759,6 +5637,132 @@
       "updatedAt": "2026-11-03T05:46:42.681Z"
     },
     {
+      "slug": "saint-seiya",
+      "anilistId": 1254,
+      "title": "Saint Seiya",
+      "alternativeTitles": [
+        "Saint Seiya: Knights of the Zodiac",
+        "Knights of the Zodiac",
+        "Zodiac Knights",
+        "Saint Seiya: Los Caballeros del Zodiaco"
+      ],
+      "totalEpisodes": 114,
+      "counts": {
+        "CANON": 67,
+        "FILLER": 40,
+        "MIXED": 7,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 35.1,
+      "arcCount": 1,
+      "strip": "C14M1F7C2M1F1C1M1C3M1F3C15M1C2F2C8F1C9F26M2C13",
+      "updatedAt": "2026-11-09T14:23:20.652Z"
+    },
+    {
+      "slug": "samurai-champloo",
+      "anilistId": 205,
+      "title": "Samurai Champloo",
+      "alternativeTitles": [],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 26
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A26",
+      "updatedAt": "2026-11-09T14:23:22.036Z"
+    },
+    {
+      "slug": "serial-experiments-lain",
+      "anilistId": 339,
+      "title": "Serial Experiments Lain",
+      "alternativeTitles": [
+        "serial experiments lain",
+        "Wirtualna Lain"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:23:24.281Z"
+    },
+    {
+      "slug": "sgt-frog",
+      "anilistId": 516,
+      "title": "Sgt. Frog",
+      "alternativeTitles": [
+        "Keroro Gunsou",
+        "Sergeant Frog",
+        "Sargento Keroro"
+      ],
+      "totalEpisodes": 358,
+      "counts": {
+        "CANON": 27,
+        "FILLER": 255,
+        "MIXED": 74,
+        "ANIME_CANON": 2
+      },
+      "fillerPercentage": 71.2,
+      "arcCount": 1,
+      "strip": "M4C1M7C2M8F1M1C1M7F1C2M1F2M5F1M1C1F1C1M3F3M2F1M1F12C1F8C1M2F2M1F8M1F2M2F2C3F5M2F1M2F2M1F5M1F4M1F4M1C1F2M1F4M2F6C1F1M1F4M1F3C1F12M1F1C1F2C1F1A1F2C1F7M1F3M1F32M1F7M1F3M1F2C1F12M2F16C1F7M1F40C1F10C4M5F2M1F11A1C1",
+      "updatedAt": "2026-11-09T14:23:27.204Z"
+    },
+    {
+      "slug": "shadows-house",
+      "anilistId": 125038,
+      "title": "Shadows House",
+      "alternativeTitles": [
+        "SHADOWS HOUSE",
+        "Shadow House",
+        "Dinh Thự Bóng"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 2,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 15.4,
+      "arcCount": 1,
+      "strip": "C10M1F2",
+      "franchise": "Shadows House",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:29.149Z"
+    },
+    {
+      "slug": "shadows-house-2nd-season",
+      "anilistId": 139093,
+      "title": "SHADOWS HOUSE 2nd Season",
+      "alternativeTitles": [
+        "Shadows House 2nd Season"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "Shadows House",
+      "seasonLabel": "2nd Season",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:30.382Z"
+    },
+    {
       "slug": "shaman-king-2021",
       "anilistId": 119675,
       "title": "Shaman King (2021)",
@@ -1779,6 +5783,88 @@
       "updatedAt": "2026-11-03T05:46:40.176Z"
     },
     {
+      "slug": "silver-spoon",
+      "anilistId": 16918,
+      "title": "Silver Spoon",
+      "alternativeTitles": [
+        "Gin no Saji",
+        "Ginsaji"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C4M1C6",
+      "franchise": "Silver Spoon",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:31.437Z"
+    },
+    {
+      "slug": "silver-spoon-season-2",
+      "anilistId": 19363,
+      "title": "Silver Spoon Season 2",
+      "alternativeTitles": [
+        "Gin no Saji 2",
+        "Ginsaji 2"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "franchise": "Silver Spoon",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:32.176Z"
+    },
+    {
+      "slug": "skip-beat",
+      "anilistId": 4722,
+      "title": "Skip Beat!",
+      "alternativeTitles": [],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "updatedAt": "2026-11-09T14:23:34.302Z"
+    },
+    {
+      "slug": "slam-dunk",
+      "anilistId": 170,
+      "title": "Slam Dunk",
+      "alternativeTitles": [
+        "SLAM DUNK"
+      ],
+      "totalEpisodes": 101,
+      "counts": {
+        "CANON": 83,
+        "FILLER": 13,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 12.9,
+      "arcCount": 1,
+      "strip": "C30M2C1F2M1C10M1F2C35F2C3M1C1F1C2F1C1F5",
+      "updatedAt": "2026-11-09T14:23:36.366Z"
+    },
+    {
       "slug": "soul-eater",
       "anilistId": 3588,
       "title": "Soul Eater",
@@ -1796,6 +5882,63 @@
       "arcCount": 4,
       "strip": "C6M1C9F1C21A13",
       "updatedAt": "2026-11-03T05:46:37.102Z"
+    },
+    {
+      "slug": "soul-eater-not",
+      "anilistId": 20547,
+      "title": "Soul Eater Not!",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 4,
+        "FILLER": 0,
+        "MIXED": 8,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C1M2C2M6C1",
+      "updatedAt": "2026-11-09T14:23:38.677Z"
+    },
+    {
+      "slug": "space-cobra",
+      "anilistId": 2451,
+      "title": "Space Cobra",
+      "alternativeTitles": [
+        "Space Adventure Cobra",
+        "Super Agente Cobra",
+        "Cobra"
+      ],
+      "totalEpisodes": 31,
+      "counts": {
+        "CANON": 31,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C31",
+      "updatedAt": "2026-11-09T14:23:41.000Z"
+    },
+    {
+      "slug": "space-patrol-luluco",
+      "anilistId": 21637,
+      "title": "Space Patrol Luluco",
+      "alternativeTitles": [
+        "Uchuu Patrol Luluco"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 13
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A13",
+      "updatedAt": "2026-11-09T14:23:43.594Z"
     },
     {
       "slug": "spy-x-family",
@@ -1865,6 +6008,25 @@
       "updatedAt": "2026-11-03T05:46:59.314Z"
     },
     {
+      "slug": "steins-gate-0",
+      "anilistId": 21127,
+      "title": "Steins;Gate 0",
+      "alternativeTitles": [
+        "s;g0"
+      ],
+      "totalEpisodes": 23,
+      "counts": {
+        "CANON": 23,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C23",
+      "updatedAt": "2026-11-09T14:23:45.900Z"
+    },
+    {
       "slug": "sword-art-online",
       "anilistId": 11757,
       "title": "Sword Art Online",
@@ -1885,6 +6047,26 @@
       "seasonLabel": "Season 1",
       "franchiseOrder": 1,
       "updatedAt": "2026-11-03T05:46:47.830Z"
+    },
+    {
+      "slug": "sword-art-online-alternative-gun-gale-online",
+      "anilistId": 100183,
+      "title": "Sword Art Online Alternative: Gun Gale Online",
+      "alternativeTitles": [
+        "SAO Alternative: Gun Gale Online",
+        "SAO GGO"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-09T14:23:48.345Z"
     },
     {
       "slug": "sword-art-online-ii",
@@ -1976,6 +6158,373 @@
       "updatedAt": "2026-11-03T05:46:50.067Z"
     },
     {
+      "slug": "terror-in-resonance",
+      "anilistId": 20661,
+      "title": "Terror in Resonance",
+      "alternativeTitles": [
+        "Zankyou no Terror",
+        "Terror in Tokyo",
+        "Zagadkowi terroryści"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 11
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "A11",
+      "updatedAt": "2026-11-09T14:23:50.673Z"
+    },
+    {
+      "slug": "that-time-i-got-reincarnated-as-a-slime",
+      "anilistId": 101280,
+      "title": "That Time I Got Reincarnated as a Slime",
+      "alternativeTitles": [
+        "Tensei shitara Slime Datta Ken",
+        "Tensei Shitara Slime Datta Ken",
+        "TenSura",
+        "Vita da Slime",
+        "Moi, quand je me réincarne en Slime"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 22,
+        "FILLER": 1,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 4.2,
+      "arcCount": 1,
+      "strip": "C3M1C19F1",
+      "updatedAt": "2026-11-09T14:23:53.026Z"
+    },
+    {
+      "slug": "the-ancient-magus-bride",
+      "anilistId": 98436,
+      "title": "The Ancient Magus' Bride",
+      "alternativeTitles": [
+        "Mahoutsukai no Yome",
+        "Mahou Tsukai no Yome",
+        "Mahoyome"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:23:55.438Z"
+    },
+    {
+      "slug": "the-asterisk-war",
+      "anilistId": 21131,
+      "title": "The Asterisk War",
+      "alternativeTitles": [
+        "Gakusen no Asterisk",
+        "Gakusen Toshi Asterisk",
+        "Academy Battle City Asterisk"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 8.3,
+      "arcCount": 1,
+      "strip": "C7F1C4",
+      "franchise": "The Asterisk War",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:23:57.890Z"
+    },
+    {
+      "slug": "the-asterisk-war-2",
+      "anilistId": 21390,
+      "title": "The Asterisk War 2",
+      "alternativeTitles": [
+        "Gakusen no Asterisk",
+        "Gakusen Toshi Asterisk 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "The Asterisk War",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:23:58.588Z"
+    },
+    {
+      "slug": "the-devil-is-a-part-timer",
+      "anilistId": 15809,
+      "title": "The Devil Is a Part-Timer!",
+      "alternativeTitles": [
+        "Hataraku Maou-Sama!",
+        "Hataraku Maou-sama!",
+        "The Devil is a Part-Timer!",
+        "Raja Iblis Nyambi!"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:24:00.272Z"
+    },
+    {
+      "slug": "the-familiar-of-zero",
+      "anilistId": 1195,
+      "title": "The Familiar of Zero",
+      "alternativeTitles": [
+        "Zero No Tsukaima",
+        "Zero no Tsukaima",
+        "Zero's Familiar",
+        "La Magia de Zero"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "The Familiar Of Zero",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:24:02.716Z"
+    },
+    {
+      "slug": "the-familiar-of-zero-f",
+      "anilistId": 11319,
+      "title": "The Familiar of Zero F",
+      "alternativeTitles": [
+        "Zero No Tsukaima",
+        "Zero no Tsukaima F",
+        "Zero no Tsukaima Final Series",
+        "Zero's Familiar Final Series",
+        "Zero no Tsukaima S4"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "The Familiar Of Zero",
+      "seasonLabel": "F",
+      "franchiseOrder": 4,
+      "updatedAt": "2026-11-09T14:24:04.855Z"
+    },
+    {
+      "slug": "the-familiar-of-zero-rondo-of-princesses",
+      "anilistId": 3712,
+      "title": "The Familiar of Zero: \"Rondo\" of Princesses",
+      "alternativeTitles": [
+        "Zero No Tsukaima",
+        "Zero no Tsukaima: Princesses no Rondo"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "The Familiar Of Zero",
+      "seasonLabel": "\"Rondo\" of Princesses",
+      "franchiseOrder": 3,
+      "updatedAt": "2026-11-09T14:24:04.165Z"
+    },
+    {
+      "slug": "the-familiar-of-zero-knight-of-the-twin-moons",
+      "anilistId": 1840,
+      "title": "The Familiar of Zero: Knight of the Twin Moons",
+      "alternativeTitles": [
+        "Zero No Tsukaima",
+        "Zero no Tsukaima: Futatsuki no Kishi",
+        "Zero's Familiar 2nd Series",
+        "Zero no Tsukaima S2",
+        "The Familiar of Zero: The Rider of the Twin Moons"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "The Familiar Of Zero",
+      "seasonLabel": "Knight of the Twin Moons",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:24:03.404Z"
+    },
+    {
+      "slug": "the-god-of-high-school",
+      "anilistId": 116006,
+      "title": "The God of High School",
+      "alternativeTitles": [
+        "Gat Obeu Hai Seukul",
+        "THE GOD OF HIGH SCHOOL",
+        "GoH"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "updatedAt": "2026-11-09T14:24:05.791Z"
+    },
+    {
+      "slug": "the-heroic-legend-of-arslan",
+      "anilistId": 20935,
+      "title": "The Heroic Legend of Arslan",
+      "alternativeTitles": [
+        "Arslan Senki",
+        "Arslan Senki (TV)",
+        "La Heroica Leyenda de Arslan"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "updatedAt": "2026-11-09T14:24:08.355Z"
+    },
+    {
+      "slug": "the-melancholy-of-haruhi-suzumiya",
+      "anilistId": 4382,
+      "title": "The Melancholy of Haruhi Suzumiya",
+      "alternativeTitles": [
+        "Suzumiya Haruhi no Yuuutsu",
+        "Suzumiya Haruhi no Yuuutsu (2009)",
+        "The Melancholy of Haruhi Suzumiya (2009)",
+        "La Mélancolie de Haruhi Suzumiya",
+        "La Malinconia di Haruhi Suzumiya"
+      ],
+      "totalEpisodes": 28,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 9,
+        "MIXED": 7,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 32.1,
+      "arcCount": 1,
+      "strip": "C9M2F8M5C3F1",
+      "updatedAt": "2026-11-09T14:24:10.927Z"
+    },
+    {
+      "slug": "the-promised-neverland",
+      "anilistId": 101759,
+      "title": "The Promised Neverland",
+      "alternativeTitles": [
+        "Yakusoku no Neverland",
+        "YakuNeba",
+        "TPN"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "franchise": "The Promised Neverland",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:24:13.189Z"
+    },
+    {
+      "slug": "the-promised-neverland-season-2",
+      "anilistId": 108725,
+      "title": "The Promised Neverland Season 2",
+      "alternativeTitles": [
+        "Yakusoku no Neverland",
+        "Yakusoku no Neverland 2",
+        "YakuNeba",
+        "TPN2"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 3,
+        "FILLER": 0,
+        "MIXED": 4,
+        "ANIME_CANON": 4
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C2M3C1M1A4",
+      "franchise": "The Promised Neverland",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:24:14.165Z"
+    },
+    {
+      "slug": "the-rising-of-the-shield-hero",
+      "anilistId": 99263,
+      "title": "The Rising of the Shield Hero",
+      "alternativeTitles": [
+        "Tate no Yuusha no Nariagari"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C6M1C18",
+      "updatedAt": "2026-11-09T14:24:15.592Z"
+    },
+    {
       "slug": "the-seven-deadly-sins",
       "anilistId": 20789,
       "title": "The Seven Deadly Sins",
@@ -2018,6 +6567,28 @@
       "seasonLabel": "Dragon's Judgement",
       "franchiseOrder": 5,
       "updatedAt": "2026-11-03T05:46:52.944Z"
+    },
+    {
+      "slug": "the-seven-deadly-sins-four-knights-of-the-apocalypse",
+      "anilistId": 148862,
+      "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
+      "alternativeTitles": [
+        "Mokushiroku no Yonkishi",
+        "Nanatsu no Taizai: Mokushiroku no Yonkishi",
+        "The Seven Deadly Sins: Os Quatro Cavaleiros do Apocalipse",
+        "The Seven Deadly Sins: Los cuatro jinetes del apocalipsis"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:24:17.997Z"
     },
     {
       "slug": "the-seven-deadly-sins-imperial-wrath-of-the-gods",
@@ -2084,6 +6655,25 @@
       "seasonLabel": "Signs of Holy War",
       "franchiseOrder": 2,
       "updatedAt": "2026-11-03T05:46:51.260Z"
+    },
+    {
+      "slug": "to-the-abandoned-sacred-beasts",
+      "anilistId": 107672,
+      "title": "To the Abandoned Sacred Beasts",
+      "alternativeTitles": [
+        "Katsute Kami Datta Kemono-tachi e"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M2C10",
+      "updatedAt": "2026-11-09T14:24:20.688Z"
     },
     {
       "slug": "tokyo-ghoul",
@@ -2174,6 +6764,26 @@
       "updatedAt": "2026-11-03T05:46:47.238Z"
     },
     {
+      "slug": "tokyo-mew-mew",
+      "anilistId": 687,
+      "title": "Tokyo Mew Mew",
+      "alternativeTitles": [
+        "Mew Mew Power",
+        "As Super Gatinhas"
+      ],
+      "totalEpisodes": 52,
+      "counts": {
+        "CANON": 27,
+        "FILLER": 21,
+        "MIXED": 4,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 40.4,
+      "arcCount": 1,
+      "strip": "C3M1F2C1F2C4F3C2M1F1M1F3C4F7C1M1C1F1C2F2C9",
+      "updatedAt": "2026-11-09T14:24:22.800Z"
+    },
+    {
       "slug": "tokyo-revengers",
       "anilistId": 120120,
       "title": "Tokyo Revengers",
@@ -2238,6 +6848,25 @@
       "updatedAt": "2026-11-03T05:47:05.296Z"
     },
     {
+      "slug": "toradora",
+      "anilistId": 4224,
+      "title": "Toradora!",
+      "alternativeTitles": [
+        "Tiger X Dragon"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "updatedAt": "2026-11-09T01:29:47.929Z"
+    },
+    {
       "slug": "toriko",
       "anilistId": 10033,
       "title": "Toriko",
@@ -2253,6 +6882,125 @@
       "arcCount": 3,
       "strip": "F1C40F2C7F1C17F2C9F3C3F1C12F1C12F2C10F2C4F2C14M1F1",
       "updatedAt": "2026-11-03T05:47:09.718Z"
+    },
+    {
+      "slug": "trigun",
+      "anilistId": 6,
+      "title": "Trigun",
+      "alternativeTitles": [
+        "TRIGUN"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 4,
+        "FILLER": 17,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 65.4,
+      "arcCount": 1,
+      "strip": "F3M1C1F1C2M1F2M1F1C1M1F2M1F8",
+      "updatedAt": "2026-11-09T14:24:25.292Z"
+    },
+    {
+      "slug": "tsugumomo",
+      "anilistId": 97625,
+      "title": "Tsugumomo",
+      "alternativeTitles": [],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C3M1C8",
+      "updatedAt": "2026-11-09T14:24:27.975Z"
+    },
+    {
+      "slug": "tsukimonogatari",
+      "anilistId": 20918,
+      "title": "Tsukimonogatari",
+      "alternativeTitles": [
+        "Possession Tale"
+      ],
+      "totalEpisodes": 4,
+      "counts": {
+        "CANON": 4,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C4",
+      "updatedAt": "2026-11-09T14:24:30.307Z"
+    },
+    {
+      "slug": "undead-unluck",
+      "anilistId": 154116,
+      "title": "Undead Unluck",
+      "alternativeTitles": [],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:24:32.442Z"
+    },
+    {
+      "slug": "vampire-knight",
+      "anilistId": 3457,
+      "title": "Vampire Knight",
+      "alternativeTitles": [
+        "Vampire Kishi",
+        "El Caballero Vampiro"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Vampire Knight",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-09T14:24:34.835Z"
+    },
+    {
+      "slug": "vampire-knight-guilty",
+      "anilistId": 4752,
+      "title": "Vampire Knight: Guilty",
+      "alternativeTitles": [
+        "Vampire Knight Guilty",
+        "Vampire Kishi 2",
+        "Vampire Knight 2"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 13,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C13",
+      "franchise": "Vampire Knight",
+      "seasonLabel": "Guilty",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-09T14:24:35.640Z"
     },
     {
       "slug": "vinland-saga",
@@ -2299,6 +7047,70 @@
       "updatedAt": "2026-11-03T05:47:06.510Z"
     },
     {
+      "slug": "x-tv",
+      "anilistId": 156,
+      "title": "X (TV)",
+      "alternativeTitles": [
+        "X/TV",
+        "X TV",
+        "X the Series"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 24,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C24",
+      "updatedAt": "2026-11-09T14:24:37.201Z"
+    },
+    {
+      "slug": "yona-of-the-dawn",
+      "anilistId": 20770,
+      "title": "Yona of the Dawn",
+      "alternativeTitles": [
+        "Akatsuki no Yona",
+        "AkaYona",
+        "Yona, princesse de l'aube"
+      ],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 23,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C1M1C22",
+      "updatedAt": "2026-11-09T14:24:39.619Z"
+    },
+    {
+      "slug": "your-lie-in-april",
+      "anilistId": 20665,
+      "title": "Your lie in April",
+      "alternativeTitles": [
+        "Shigatsu wa Kimi no Uso",
+        "KimiUso",
+        "Bugie d'aprile",
+        "YLIA"
+      ],
+      "totalEpisodes": 22,
+      "counts": {
+        "CANON": 18,
+        "FILLER": 0,
+        "MIXED": 4,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "M2C9M1C9M1",
+      "updatedAt": "2026-11-09T14:24:42.216Z"
+    },
+    {
       "slug": "yu-yu-hakusho",
       "anilistId": 392,
       "title": "Yu Yu Hakusho",
@@ -2320,6 +7132,47 @@
       "updatedAt": "2026-11-02T20:49:09.201Z"
     },
     {
+      "slug": "yu-gi-oh",
+      "anilistId": 550,
+      "title": "Yu-Gi-Oh!",
+      "alternativeTitles": [
+        "Yu☆Gi☆Oh!",
+        "King of Games",
+        "Yu-Gi-Oh! First Series",
+        "Yu-Gi-Oh! Serie Zero"
+      ],
+      "totalEpisodes": 27,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 8,
+        "MIXED": 19,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 29.6,
+      "arcCount": 1,
+      "strip": "M3F1M3F1M3F1M2F3M1F2M7",
+      "updatedAt": "2026-11-09T14:24:44.819Z"
+    },
+    {
+      "slug": "yu-gi-oh-capsule-monsters",
+      "anilistId": 123074,
+      "title": "Yu-Gi-Oh! Capsule Monsters",
+      "alternativeTitles": [
+        "Yu☆Gi☆Oh! Duel Monsters ALEX"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 12,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 100,
+      "arcCount": 1,
+      "strip": "F12",
+      "updatedAt": "2026-11-09T14:24:47.960Z"
+    },
+    {
       "slug": "yu-gi-oh-duel-monsters",
       "anilistId": 481,
       "title": "Yu-Gi-Oh! Duel Monsters",
@@ -2339,6 +7192,46 @@
       "arcCount": 5,
       "strip": "M1C11F1C11F1C7F1M1C6F5C7M1C16M1C3F1C4M1F1C17F24C13M1F1M1C6F55C26",
       "updatedAt": "2026-11-03T05:47:09.053Z"
+    },
+    {
+      "slug": "yu-no-a-girl-who-chants-love-at-the-bound-of-this-world",
+      "anilistId": 97995,
+      "title": "YU-NO: A Girl Who Chants Love at the Bound of This World",
+      "alternativeTitles": [
+        "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+        "YU-NO: A girl who chants love at the bound of this world."
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 26,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C26",
+      "updatedAt": "2026-11-09T14:24:49.536Z"
+    },
+    {
+      "slug": "zatch-bell",
+      "anilistId": 250,
+      "title": "Zatch Bell!",
+      "alternativeTitles": [
+        "Konjiki no Gash Bell!!",
+        "GASH BELL!!"
+      ],
+      "totalEpisodes": 150,
+      "counts": {
+        "CANON": 121,
+        "FILLER": 29,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 19.3,
+      "arcCount": 1,
+      "strip": "C30F5C53F12C38F12",
+      "updatedAt": "2026-11-09T14:24:51.756Z"
     }
   ]
 }

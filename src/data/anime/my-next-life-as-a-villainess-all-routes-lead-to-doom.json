@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-next-life-as-a-villainess-all-routes-lead-to-doom",
+  "anilistId": 104647,
+  "title": "My Next Life as a Villainess: All Routes Lead to Doom!",
+  "alternativeTitles": [
+    "Bakarina",
+    "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta…",
+    "I Reincarnated into an Otome Game as a Villainess With Only Destruction Flags..",
+    "Hamefura",
+    "Hamehura"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "My Next Life as a Villainess: All Routes Lead to Doom!",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-09T14:22:15.569Z",
+  "episodes": [
+    {"number":1,"title":"I Recalled the Memories of My Past Life…","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"A Prince Challenged Me to a Fight...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"I Met a Beautiful Brother and Sister...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"I Enrolled in the Magic Academy...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"I Visited the Heroine's Parents' House...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"I Had Fun Over Summer Vacation...","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"I Entered a Dangerous Dungeon...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"I Became Engulfed by Desire...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Things Got Crazy at a Slumber Party...","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Moment of My Doom Arrived... Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Moment of My Doom Arrived... Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Final Event Has Begun...","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

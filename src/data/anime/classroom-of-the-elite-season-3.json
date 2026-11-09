@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "classroom-of-the-elite-season-3",
+  "anilistId": 146066,
+  "title": "Classroom of the Elite Season 3",
+  "alternativeTitles": [
+    "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+    "You-Zitsu 3",
+    "Youjitsu 3",
+    "Classroom of the Elite III"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–38, renumbered to match AniList)",
+  "franchise": "Classroom of the Elite",
+  "seasonLabel": "Season 3",
+  "franchiseOrder": 3,
+  "updatedAt": "2026-11-09T14:19:33.230Z",
+  "episodes": [
+    {"number":1,"title":"The Strongest Principle of Growth Lies in the Human Choice","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Man is Wolf to Man.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"We Never Forget What We Endeavor to Forget.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"To Work You Have the Right, But Not to the Fruits Thereof.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Fortune Favors the Bold.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"It Is Better to Receive an Injury than to Inflict One.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"People Will Do Anything, No Matter How Absurd, In Order to Avoid Facing Their Own Souls.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Those Who Cannot Remember the Past are Condemned to Repeat It.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Extreme Justice Is Extreme Injustice.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The First Cause of Absurd Conclusions I Ascribe to the Want of Method.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"There Is Only One Rule in Love: Bring Happiness to Those You Love.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Change Your Desires Rather than the Order of the World.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Love Is the Best Teacher.","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

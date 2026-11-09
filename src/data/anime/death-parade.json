@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "death-parade",
+  "anilistId": 20931,
+  "title": "Death Parade",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T01:29:45.544Z",
+  "episodes": [
+    {"number":1,"title":"Death Seven Darts","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Death Reverse","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Rolling Ballade","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Death Arcade","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Death March","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Cross Heart Attack","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Alcohol Poison","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Death Rally","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Death Counter","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Story Teller","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Memento Mori","type":"ANIME_CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Suicide Tour","type":"ANIME_CANON","arc":"Standalone Episodes"}
+  ]
+}

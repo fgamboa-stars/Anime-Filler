@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "slug": "fractale",
+  "anilistId": 9314,
+  "title": "Fractale",
+  "alternativeTitles": [],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:31.285Z",
+  "episodes": [
+    {"number":1,"title":"Encounter","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Nessa","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Granitz Village","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Departure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Journey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Farthest Town","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"City of Pride/Veneer Town","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Secret of the Underground","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"No Way Out","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"To the Temple","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Paradise","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "slug": "handa-kun",
+  "anilistId": 21626,
+  "title": "Handa-kun",
+  "alternativeTitles": [],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:21:05.072Z",
+  "episodes": [
+    {"number":1,"title":"Handa-kun and a Girl's Friendship","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Handa-kun and the Continuation of Episode 1 / Handa-kun and the Chairperson / Handa-kun and the Model","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Handa-kun and the Truant / Handa-kun and Cooking Class / Handa-kun and his friend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Handa-kun and Handa-kun? / Handa-kun and a Girl's Jealousy / Handa-kun and Sociability","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Handa-kun and Student Council / Handa-kun and Memory Loss","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Handa-kun and Friend of a Friend / Handa-kun and Dash Higashino / Handa-kun and Palm Reading","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Handa-kun and the Supplementary Exam / Handa-kun and the Library","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Handa-kun and the School Trip","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":9,"title":"Handa-kun and the Frog / Handa-kun and the Stalker","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Handa-kun and the Average Guy / Handa-kun and the Bishoujo\"","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Handa-kun and the Cultural Festival Preparations","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Handa-kun and the Cultural Festival","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

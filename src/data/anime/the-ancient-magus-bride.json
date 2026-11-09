@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-ancient-magus-bride",
+  "anilistId": 98436,
+  "title": "The Ancient Magus' Bride",
+  "alternativeTitles": [
+    "Mahoutsukai no Yome",
+    "Mahou Tsukai no Yome",
+    "Mahoyome"
+  ],
+  "totalEpisodes": 24,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:23:55.438Z",
+  "episodes": [
+    {"number":1,"title":"April showers bring May flowers.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"One today is worth two tomorrows.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The balance distinguishes not between gold and lead.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Everything must have a beginning.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Love conquers all.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Faerie Queene.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Talk of the devil, And he is sure to appear.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Let sleeping dogs lie.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"None so deaf as those who will not hear.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"We live and learn.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Lovers ever run before the clock.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Better to ask the way than go astray.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"East, west, home's best.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Looks breed love.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"There is no place like home.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"God's mill grinds slow but sure.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Look before you leap.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Forgive and forget.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"Any port in a storm.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"You can't make an omelet without breaking a few eggs.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Necessity has no law.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"As you sow, so shall you reap.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"Nothing to seek, nothing to find.","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Live and let live.","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

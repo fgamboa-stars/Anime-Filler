@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "girlfriend-girlfriend",
+  "anilistId": 126192,
+  "title": "Girlfriend, Girlfriend",
+  "alternativeTitles": [
+    "Kanojo mo Kanojo",
+    "KanoKano",
+    "She is also my Girlfriend",
+    "Kupunya Dia dan Dirinya"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:43.399Z",
+  "episodes": [
+    {"number":1,"title":"Even If That Isn't the Right Way","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"How Nagisa Feels","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"A Place for Three","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Girlfriend and Girlfriend","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"A Third One!?","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Tsun Is Dere","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Girlfriends' Challenge","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Obviously in Love","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Tsun's Dere Gets Outed","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Can't Wait for the Hot Springs","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Hot Spring Tropes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Girlfriend, Girlfriend","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

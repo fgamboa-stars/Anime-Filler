@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "blood-blockade-battlefront-beyond",
+  "anilistId": 97886,
+  "title": "Blood Blockade Battlefront & Beyond",
+  "alternativeTitles": [
+    "Kekkai Sensen",
+    "Kekkai Sensen & BEYOND",
+    "Bloodline Battlefront & Beyond"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 13–24, renumbered to match AniList)",
+  "franchise": "Blood Blockade Battlefront",
+  "seasonLabel": "& Beyond",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-09T14:19:12.899Z",
+  "episodes": [
+    {"number":1,"title":"Lights! Camera! Action!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"A Phantom Hospital Ward Rises","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Day In Day Out","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Werewolf Mission: Chainpossible","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"One Butler's Blitzkrieg","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Get the Lock Out!!","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Branchial Blues","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Desperate Fight in the Macro Zone, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Desperate Fight in the Macro Zone, Part 2","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Bratatat Mom","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Spectral Eyes, Phantom Vision, Part 1","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Spectral Eyes, Phantom Vision, Part 2","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

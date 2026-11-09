@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "boku-dake-ga-inai-machi",
+  "anilistId": 21234,
+  "title": "Boku dake ga Inai Machi",
+  "alternativeTitles": [
+    "Boku Dake ga Inai Machi",
+    "ERASED",
+    "Bokumachi",
+    "Desaparecido",
+    "Miasto beze mnie"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-09T14:20:15.539Z",
+  "episodes": [
+    {"number":1,"title":"Flashing Before My Eyes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Palm of the Hand","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Birthmark","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Accomplishment","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Getaway","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Grim Reaper","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Out of Control","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Spiral","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Closure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Joy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Future","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Treasure","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}
