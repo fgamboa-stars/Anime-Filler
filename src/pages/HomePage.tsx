@@ -22,19 +22,19 @@ export default function HomePage() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="container-page pt-16 pb-16 sm:pt-28 sm:pb-24">
+        <div className="container-page pt-10 pb-16 sm:pt-14 sm:pb-24">
           <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_13rem]">
             <div>
-              <h1 className="text-display max-w-4xl">
+              {/* Smaller than the usual display size so the search box sits near the top of the page. */}
+              <h1 className="text-display max-w-4xl !text-[clamp(2.25rem,6vw,4.5rem)]">
                 Watch the story.
                 <br />
                 Skip the filler.
               </h1>
-              <p className="text-label mt-6 text-muted-foreground">Search / Filter / Watch order / Track progress</p>
-              <p className="text-lead mt-6 max-w-xl">
-                First time watching and you want to keep track? Second walkthrough and you need to get to the good stuff? Pick and choose
-                what you watch and where you left off. Easy to use and built by the community.
-              </p>
+              <div className="mt-8 max-w-3xl sm:mt-10">
+                <p className="text-label mb-3 text-muted-foreground">Search every anime on AniList</p>
+                <SearchBox size="lg" />
+              </div>
             </div>
             <div className="relative hidden lg:block">
               <p className="text-label mb-6 text-muted-foreground">
@@ -57,11 +57,7 @@ export default function HomePage() {
               </Starburst>
             </div>
           </div>
-          <div className="mx-auto mt-14 max-w-3xl sm:mt-20">
-            <p className="text-label mb-3 text-center text-muted-foreground">Search every anime on AniList</p>
-            <SearchBox size="lg" />
-          </div>
-          <div className="mt-6 flex flex-wrap justify-center gap-2.5">
+          <div className="mt-6 flex flex-wrap gap-2.5">
             <Button asChild variant="outline" size="sm">
               <Link to={`/anime/${featuredSlug}?type=filler`}>
                 <ListX aria-hidden />
