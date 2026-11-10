@@ -6,7 +6,6 @@ import { cn } from '@/utils/cn';
 import { Logo } from './Logo';
 import { PageFallback } from './PageFallback';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
-import { Barcode } from '@/components/retro/Barcode';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
@@ -115,39 +114,6 @@ export function AppLayout() {
           <Outlet />
         </Suspense>
       </main>
-
-      <footer className="mt-20 border-t-2 border-edge bg-surface">
-        <div className="container-page grid gap-8 py-10 text-sm text-muted-foreground sm:grid-cols-[auto_1fr] sm:items-end">
-          <div className="flex flex-col gap-3">
-            <Logo />
-            <div className="text-foreground">
-              <Barcode text="watch the story" className="h-10 w-44" />
-              <p className="text-label mt-1.5">Watch the story</p>
-            </div>
-          </div>
-          <div className="max-w-xl space-y-2 sm:justify-self-end sm:text-right">
-            <p>
-              Anime information, ratings and artwork are provided by{' '}
-              <a
-                href="https://anilist.co"
-                target="_blank"
-                rel="noreferrer"
-                className="text-foreground underline decoration-2 underline-offset-4 hover:bg-lime hover:text-lime-foreground"
-              >
-                AniList
-              </a>
-              . Episode classifications come from community filler lists.
-            </p>
-            <p>Free to use. No account, no tracking — progress stays in your browser.</p>
-          </div>
-        </div>
-        <div className="border-t-2 border-edge">
-          <p className="container-page text-label flex justify-between gap-4 py-3 text-muted-foreground">
-            <span>Filler finder</span>
-            <span>Canon / Mixed / Filler</span>
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
