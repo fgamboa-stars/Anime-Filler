@@ -5,7 +5,9 @@ import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
 import { Starburst } from '@/components/retro/Starburst';
 import { SearchBox } from '@/features/search/SearchBox';
+import { FillerRankings } from '@/features/discover/FillerRankings';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
+import { useAnimeByIds } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { getCatalog } from '@/services/datasets';
 import { selectInProgress, useProgressStore } from '@/store/progressStore';
@@ -18,6 +20,8 @@ export default function HomePage() {
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
   const lastSlug = useProgressStore((s) => selectInProgress(s.progress)[0]?.slug);
   const featuredSlug = groups[0]?.first.slug ?? 'naruto';
+  // Ratings for the rankings; the same cached request Discover makes.
+  const media = useAnimeByIds(groups.map((g) => g.first.anilistId));
 
   return (
     <>
@@ -32,7 +36,6 @@ export default function HomePage() {
                 Skip the filler.
               </h1>
               <div className="mt-8 max-w-3xl sm:mt-10">
-                <p className="text-label mb-3 text-muted-foreground">Search every anime on AniList</p>
                 <SearchBox size="lg" />
               </div>
             </div>
@@ -86,6 +89,8 @@ export default function HomePage() {
           <ContinueWatching />
         </section>
       )}
+
+      <FillerRankings groups={groups} media={media.data ?? []} className="container-page pb-20" />
     </>
   );
 }

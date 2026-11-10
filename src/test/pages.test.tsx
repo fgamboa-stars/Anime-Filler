@@ -20,6 +20,7 @@ function renderAt(path: string) {
 }
 
 beforeEach(() => {
+  localStorage.clear();
   cacheClear();
   resetAniListState();
   useProgressStore.setState({ progress: {} });
@@ -58,7 +59,7 @@ describe('anime without filler data', () => {
     expect(screen.getByText(/finished TV series of 12 episodes/)).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'More likely no-filler anime' })).toHaveAttribute(
       'href',
-      '/discover?nofiller=likely#no-filler-heading',
+      '/discover?cat=no-filler&nofiller=likely',
     );
   });
 
@@ -222,7 +223,7 @@ describe('discover: no filler', () => {
         };
       return { body: page([]) };
     });
-    const router = renderAt('/discover');
+    const router = renderAt('/discover?cat=no-filler');
 
     const section = await screen.findByRole('region', { name: 'No filler' });
     // The preview shows the most popular few; open the full list.
@@ -233,7 +234,7 @@ describe('discover: no filler', () => {
     expect(within(section).getAllByText('No filler').length).toBeGreaterThan(0);
 
     await userEvent.click(within(section).getByRole('button', { name: 'Likely' }));
-    expect(router.state.location.search).toBe('?nofiller=likely');
+    expect(router.state.location.search).toBe('?cat=no-filler&nofiller=likely');
     expect(await within(section).findByRole('heading', { level: 3, name: 'Cowboy Bebop' })).toBeInTheDocument();
     expect(within(section).getByText('Likely no filler')).toBeInTheDocument();
     expect(within(section).queryByRole('heading', { level: 3, name: 'Toradora!' })).not.toBeInTheDocument();
@@ -242,16 +243,78 @@ describe('discover: no filler', () => {
   });
 });
 
-describe('guides page', () => {
-  it('lists every filler guide under its own nav tab', async () => {
-    mockAniList(() => ({ body: page([]) }));
-    const router = renderAt('/');
-    await userEvent.click(screen.getAllByRole('link', { name: 'Guides' })[0]);
-    // Hundreds of guides: allow the page a moment to render in jsdom.
-    expect(await screen.findByRole('heading', { level: 1, name: 'Filler guides' }, { timeout: 8000 })).toBeInTheDocument();
-    expect(router.state.location.pathname).toBe('/guides');
+describe('discover: guides and categories', () => {
+  // AniList genres for a few guides (Naruto, Death Note, Toradora!).
+  const withGenres = () =>
+    mockAniList((_variables, query) =>
+      query.includes('id_in')
+        ? {
+            body: page([
+              media(20, 'Naruto', { genres: ['Action', 'Adventure'] }),
+              media(1535, 'Death Note', { genres: ['Mystery', 'Thriller'] }),
+              media(4224, 'Toradora!', { genres: ['Romance', 'Comedy'] }),
+            ]),
+          }
+        : { body: page([]) },
+    );
+
+  it('lists the filler guides under Discover, and old /guides links land there', async () => {
+    withGenres();
+    const router = renderAt('/guides');
+    expect(await screen.findByRole('heading', { level: 1, name: 'Discover' }, { timeout: 8000 })).toBeInTheDocument();
+    expect(router.state.location.pathname).toBe('/discover');
+    expect(screen.queryByRole('link', { name: 'Guides' })).not.toBeInTheDocument();
     expect(screen.getByRole('heading', { level: 3, name: 'Naruto' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { level: 3, name: 'Bleach' })).toBeInTheDocument();
+  });
+
+  it('filters guides by genre and by length', async () => {
+    withGenres();
+    const router = renderAt('/discover');
+    const genres = await screen.findByRole('group', { name: 'Filter by genre' }, { timeout: 8000 });
+    await userEvent.click(within(genres).getByRole('button', { name: /^Thriller/ }));
+    expect(router.state.location.search).toBe('?genre=Thriller');
+    expect(screen.getByRole('heading', { level: 3, name: 'Death Note' })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { level: 3, name: 'Naruto' })).not.toBeInTheDocument();
+
+    await userEvent.click(within(genres).getByRole('button', { name: 'All genres' }));
+    const categories = screen.getByRole('navigation', { name: 'Categories' });
+    await userEvent.click(within(categories).getByRole('button', { name: 'Long-running' }));
+    expect(router.state.location.search).toBe('?cat=long');
+    expect(await screen.findByRole('heading', { level: 3, name: 'Naruto' })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { level: 3, name: 'Death Note' })).not.toBeInTheDocument();
+
+    await userEvent.click(within(categories).getByRole('button', { name: 'Short series' }));
+    // Many short series: narrow to one genre so Toradora! is on the first page of cards.
+    await userEvent.click(within(screen.getByRole('group', { name: 'Filter by genre' })).getByRole('button', { name: /^Romance/ }));
+    expect(router.state.location.search).toBe('?cat=short&genre=Romance');
+    expect(await screen.findByRole('heading', { level: 3, name: 'Toradora!' })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { level: 3, name: 'Naruto' })).not.toBeInTheDocument();
+  });
+});
+
+describe('home: filler rankings', () => {
+  it('minimizes, maximizes and "closes" (minimizes) a ranking window, and remembers it', async () => {
+    mockAniList(() => ({ body: page([]) }));
+    renderAt('/');
+    const minimize = await screen.findByRole('button', { name: 'Minimize Most filler' });
+    const ranking = minimize.closest('section')!;
+    expect(within(ranking).getAllByRole('listitem')).toHaveLength(8);
+
+    await userEvent.click(within(ranking).getByRole('button', { name: 'Maximize Most filler' }));
+    expect(within(ranking).getAllByRole('listitem')).toHaveLength(20);
+
+    // × does not remove the window: it minimizes it, and any button brings it back.
+    await userEvent.click(within(ranking).getByRole('button', { name: 'Close Most filler (minimizes it)' }));
+    expect(within(ranking).queryAllByRole('listitem')).toHaveLength(0);
+    expect(ranking).toHaveTextContent('most-filler.txt');
+    expect(localStorage.getItem('aff:window:most-filler')).toBe('minimized');
+
+    await userEvent.click(within(ranking).getAllByRole('button', { name: 'Restore Most filler' })[0]);
+    expect(within(ranking).getAllByRole('listitem')).toHaveLength(8);
+    // The other window is untouched.
+    const least = screen.getByRole('button', { name: 'Minimize Least filler' }).closest('section')!;
+    expect(within(least).getAllByRole('listitem')).toHaveLength(8);
   });
 });
 

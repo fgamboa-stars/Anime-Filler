@@ -1,65 +1,27 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { SectionHeader } from '@/components/ui/section-header';
 import { EpisodeStrip } from '@/components/EpisodeStrip';
 import { Poster } from '@/components/Poster';
-import { useAnimeByIds } from '@/hooks/useAnimeData';
-import { useDocumentTitle } from '@/hooks/useDocumentTitle';
-import { getCatalog } from '@/services/datasets';
-import type { MediaSummary } from '@/services/anilist';
-import { featuredGroups, groupStrip, seasonLabel, type FranchiseGroup } from '@/utils/franchise';
+import { getKnownMedia, type MediaSummary } from '@/services/anilist';
+import { groupStrip, seasonLabel, type FranchiseGroup } from '@/utils/franchise';
 
 /** Season links shown on a guide card before collapsing into "+N more". */
 const SEASON_LINKS = 2;
 
-/** Every series with a full episode-by-episode filler guide. */
-export default function GuidesPage() {
-  useDocumentTitle('Filler guides');
-  const catalog = getCatalog();
-  const groups = useMemo(() => featuredGroups(catalog), [catalog]);
-  const covers = useAnimeByIds(groups.map((g) => g.first.anilistId));
-
-  return (
-    <div className="container-page py-12 sm:py-16">
-      <SectionHeader
-        as="h1"
-        title="Filler guides"
-        className="mb-10"
-        description={
-          <>
-            <span className="tabular">{groups.length}</span> series, <span className="tabular">{catalog.length}</span> seasons,{' '}
-            <span className="tabular">{catalog.reduce((n, c) => n + c.totalEpisodes, 0).toLocaleString('en-US')}</span> episodes classified.
-          </>
-        }
-        action={
-          <Button asChild variant="ghost" size="sm" className="-mx-3">
-            <Link to="/discover">
-              Compare filler rankings
-              <ArrowRight aria-hidden />
-            </Link>
-          </Button>
-        }
-      />
-      <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {groups.map((group) => (
-          <li key={group.key}>
-            <GuideCard group={group} media={covers.data?.find((m) => m.id === group.first.anilistId) ?? null} />
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummary | null }) {
+/** One series with a filler guide: cover, filler share, episode strip and season links. */
+export function GuideCard({ group, media }: { group: FranchiseGroup; media: MediaSummary | null }) {
   const { first } = group;
   const episodes = useMemo(() => groupStrip(group), [group]);
   const multi = group.entries.length > 1;
+  const seen = media ? undefined : getKnownMedia(first.anilistId);
   return (
     <article className="tile relative flex h-full gap-4 p-4 sm:p-5">
-      <Poster src={media?.coverImage.large} color={media?.coverImage.color} title={group.title} className="w-20 shrink-0 self-start " />
+      <Poster
+        src={media?.coverImage.large ?? seen?.coverLarge}
+        color={media?.coverImage.color ?? seen?.color}
+        title={group.title}
+        className="w-20 shrink-0 self-start"
+      />
       <div className="flex min-w-0 flex-1 flex-col">
         <h3 className="text-base leading-snug font-semibold tracking-[-0.01em]">
           <Link to={`/anime/${first.slug}`} className="outline-none after:absolute after:inset-0 focus-visible:underline">

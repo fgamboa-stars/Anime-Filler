@@ -129,7 +129,7 @@ function NoFillerData({ media }: { media: MediaDetail | null }) {
           actions={
             <>
               <Button asChild size="sm">
-                <Link to="/discover?nofiller=likely#no-filler-heading">More likely no-filler anime</Link>
+                <Link to="/discover?cat=no-filler&nofiller=likely">More likely no-filler anime</Link>
               </Button>
               <ShareButton variant="outline" />
             </>

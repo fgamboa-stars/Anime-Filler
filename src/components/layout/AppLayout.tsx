@@ -9,7 +9,6 @@ import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
-  { to: '/guides', label: 'Guides', end: false },
   { to: '/discover', label: 'Discover', end: false },
   { to: '/progress', label: 'My progress', end: false },
 ];

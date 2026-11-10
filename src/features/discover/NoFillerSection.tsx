@@ -41,7 +41,7 @@ export function LikelyNoFillerBadge() {
  * site's episode guides, "Likely" is an AniList-based estimate for anime that
  * have no guide yet.
  */
-export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; media: MediaSummary[] }) {
+export function NoFillerSection({ groups, media, className }: { groups: FranchiseGroup[]; media: MediaSummary[]; className?: string }) {
   const [params, setParams] = useSearchParams();
   const view: View = params.get('nofiller') === 'likely' ? 'likely' : 'verified';
   const setView = (next: View) =>
@@ -61,7 +61,7 @@ export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; m
     .sort((a, b) => (b.media?.popularity ?? 0) - (a.media?.popularity ?? 0) || a.group.title.localeCompare(b.group.title));
 
   return (
-    <section aria-labelledby="no-filler-heading" className="mt-20">
+    <section aria-labelledby="no-filler-heading" className={className}>
       <SectionHeader
         id="no-filler-heading"
         title="No filler"

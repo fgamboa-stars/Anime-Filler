@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { createBrowserRouter, RouterProvider, type RouteObject } from 'react-router-dom';
+import { Navigate, createBrowserRouter, RouterProvider, type RouteObject } from 'react-router-dom';
 import { AppLayout } from '@/components/layout/AppLayout';
 import { ToastProvider } from '@/components/ui/toast';
 import { useApplyTheme } from '@/hooks/useTheme';
@@ -9,7 +9,6 @@ import HomePage from '@/pages/HomePage';
 import RouteErrorPage from '@/pages/RouteErrorPage';
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
 const AnimePage = lazy(() => import('@/pages/AnimePage'));
-const GuidesPage = lazy(() => import('@/pages/GuidesPage'));
 const DiscoverPage = lazy(() => import('@/pages/DiscoverPage'));
 const ProgressPage = lazy(() => import('@/pages/ProgressPage'));
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
@@ -23,7 +22,8 @@ export const routes: RouteObject[] = [
       { index: true, element: <HomePage /> },
       { path: 'search', element: <SearchPage /> },
       { path: 'anime/:id', element: <AnimePage /> },
-      { path: 'guides', element: <GuidesPage /> },
+      // Guides and Discover were merged; keep old links working.
+      { path: 'guides', element: <Navigate to="/discover" replace /> },
       { path: 'discover', element: <DiscoverPage /> },
       { path: 'progress', element: <ProgressPage /> },
       { path: '*', element: <NotFoundPage /> },

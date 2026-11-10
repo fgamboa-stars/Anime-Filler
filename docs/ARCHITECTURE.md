@@ -28,9 +28,9 @@ The two are joined by the **AniList Media ID**. Each dataset stores `anilistId`,
 
 ### "No filler" on Discover
 
-The **Most/Least filler** rankings (`src/features/discover/rankings.ts`) skip anime-original series (every episode filler, such as Kirby), and Least filler skips filler-free series, which the No filler section covers.
+The **Most/Least filler** rankings on the home page (`src/features/discover/rankings.ts`, shown by `FillerRankings.tsx`) skip anime-original series (every episode filler, such as Kirby), and Least filler skips filler-free series, which the No filler section covers.
 
-Discover's **No filler** section has two lists, switched with `?nofiller=likely`:
+Discover's **No filler** category (`?cat=no-filler`) has two lists, switched with `?nofiller=likely`:
 
 - **Verified**: franchise groups from the catalog whose guides have no `FILLER` episodes. Mixed episodes are counted and shown under the card.
 - **Likely**: an estimate for anime **without** a guide. It is fetched live from AniList (`getLikelyNoFiller`): finished, non-adult TV series of 26 episodes or fewer with more than 30,000 members, most popular first, 50 per page, with "Show more" for further pages. Anime that have a guide are left out. Nothing is stored; each page is cached for 24 hours like other AniList responses.
@@ -41,10 +41,10 @@ The same rule (`isLikelyNoFiller`: finished TV/TV short/ONA, 1–26 episodes) de
 
 | Route | Page |
 | --- | --- |
-| `/` | Home: search, quick actions, continue watching, featured guides |
+| `/` | Home: search, quick actions, continue watching, most/least filler rankings |
 | `/search?q=` | Full search results |
 | `/anime/:id` | Detail page. `:id` is a dataset slug (`naruto`) or `<anilistId>-<title>` (`16498-attack-on-titan`). A numeric ID that has a dataset redirects to the slug, keeping the query string |
-| `/discover` | No filler (verified and likely), most/least filler and highest rated |
+| `/discover` | Every filler guide, with categories (`?cat=no-filler`, `top-rated`, `long`, `short`) and a genre filter (`?genre=`). `/guides` redirects here |
 | `/progress` | Everything you are watching |
 
 Pages are lazy-loaded except the home page.
