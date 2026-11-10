@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { routes } from '@/App';
 import { ToastProvider } from '@/components/ui/toast';
 import { cacheClear } from '@/services/cache';
-import { resetAniListState } from '@/services/anilist';
+import { resetAniListState, searchAnime } from '@/services/anilist';
 import { useProgressStore } from '@/store/progressStore';
 import { media, mockAniList, page } from './anilistMock';
 
@@ -124,6 +124,26 @@ describe('search', () => {
     expect(await screen.findByText('AniList search is unavailable')).toBeInTheDocument();
     expect(screen.getByText(/limiting requests/)).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Naruto' })).toHaveAttribute('href', '/anime/naruto');
+  });
+
+  it('keeps cover art in suggestions while AniList rate-limits', async () => {
+    const cover = { extraLarge: null, large: 'https://img.test/naruto-l.jpg', medium: 'https://img.test/naruto.jpg', color: null };
+    // An earlier visit got Naruto from AniList, so its cover is remembered.
+    mockAniList(() => ({ body: page([media(20, 'Naruto', { coverImage: cover, seasonYear: 2002 })]) }));
+    await searchAnime('naruto');
+    mockAniList(() => ({ status: 429, body: { errors: [{ message: 'Too Many Requests.' }] }, headers: { 'Retry-After': '60' } }));
+
+    renderAt('/discover');
+    const [box] = await screen.findAllByRole('combobox');
+    await userEvent.type(box, 'naru');
+    const listbox = await screen.findByRole('listbox');
+    await within(listbox).findByText(/AniList is busy right now/, {}, { timeout: 4000 });
+    const naruto = within(listbox).getByRole('option', { name: /^Naruto(?! Shippuden)/ });
+    expect(naruto.querySelector('img')).toHaveAttribute('src', 'https://img.test/naruto.jpg');
+    expect(naruto).toHaveTextContent('2002');
+    // Guides never seen on AniList get the title's first letter instead of an empty box.
+    const shippuden = within(listbox).getByRole('option', { name: /Naruto Shippuden/ });
+    expect(shippuden.querySelector('img')).toBeNull();
   });
 
   it('offers autocomplete suggestions with keyboard navigation', async () => {
@@ -271,5 +291,26 @@ describe('discover: likely list', () => {
     const section = await screen.findByRole('region', { name: 'No filler' });
     expect(await within(section).findByRole('heading', { level: 3, name: 'Cowboy Bebop' }, { timeout: 4000 })).toBeInTheDocument();
     expect(fetchMock.mock.calls.some(([, init]) => String((init as RequestInit).body).includes('"page":2'))).toBe(true);
+  });
+});
+
+describe('discover: likely list request budget', () => {
+  it('fetches at most three AniList pages per load or "Show more"', async () => {
+    const likelyPages = () => fetchMock.mock.calls.filter(([, init]) => String((init as RequestInit).body).includes('episodes_lesser')).length;
+    // Every page holds only a show that already has a guide, so the list never fills up.
+    const fetchMock = mockAniList((_variables, query) => {
+      if (!query.includes('episodes_lesser')) return { body: page([]) };
+      return { body: { data: { Page: { pageInfo: { hasNextPage: true }, media: [media(4224, 'Toradora!', { episodes: 25 })] } } } };
+    });
+    renderAt('/discover?nofiller=likely');
+    const section = await screen.findByRole('region', { name: 'No filler' });
+    const more = await within(section).findByRole('button', { name: 'Show more' }, { timeout: 4000 });
+    await waitFor(() => expect(more).toBeEnabled());
+    expect(likelyPages()).toBe(3);
+
+    await userEvent.click(more);
+    await waitFor(() => expect(likelyPages()).toBe(6));
+    await waitFor(() => expect(within(section).getByRole('button', { name: 'Show more' })).toBeEnabled());
+    expect(likelyPages()).toBe(6);
   });
 });

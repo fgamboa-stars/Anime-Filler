@@ -1,4 +1,5 @@
 import { cacheGet, cacheSet } from './cache';
+import { hasFillerData } from './datasets';
 
 const ENDPOINT: string = import.meta.env.VITE_ANILIST_API || 'https://graphql.anilist.co';
 
@@ -230,6 +231,55 @@ function withAbort<T>(promise: Promise<T>, signal?: AbortSignal): Promise<T> {
 export function resetAniListState(): void {
   blockedUntil = 0;
   inflight.clear();
+  known = null;
+}
+
+// ── Remembered covers ──────────────────────────────────────────────────────
+// When AniList is rate limiting or unreachable, search falls back to our own
+// guides, which store no artwork. So for anime with a guide, the cover, year
+// and format from any AniList response are remembered for a month (a few
+// hundred small entries at most) and used in that fallback.
+
+export interface KnownMedia {
+  cover: string | null;
+  coverLarge: string | null;
+  color: string | null;
+  seasonYear: number | null;
+  format: string | null;
+}
+
+const KNOWN_KEY = 'known-media';
+const KNOWN_TTL = 30 * 24 * HOUR;
+let known: Record<number, KnownMedia> | null = null;
+
+function knownMap(): Record<number, KnownMedia> {
+  known ??= cacheGet<Record<number, KnownMedia>>(KNOWN_KEY) ?? {};
+  return known;
+}
+
+function remember(list: MediaSummary[]): void {
+  const map = knownMap();
+  let changed = false;
+  for (const m of list) {
+    if (!hasFillerData(m.id)) continue;
+    const next: KnownMedia = {
+      cover: m.coverImage.medium,
+      coverLarge: m.coverImage.large,
+      color: m.coverImage.color,
+      seasonYear: m.seasonYear,
+      format: m.format,
+    };
+    const prev = map[m.id];
+    if (prev && (Object.keys(next) as (keyof KnownMedia)[]).every((k) => prev[k] === next[k])) continue;
+    map[m.id] = next;
+    changed = true;
+  }
+  if (changed) cacheSet(KNOWN_KEY, map, KNOWN_TTL);
+}
+
+/** Cover, year and format from an earlier AniList response, for anime with a guide. */
+export function getKnownMedia(id: number): KnownMedia | undefined {
+  return knownMap()[id];
 }
 
 // ── Queries ────────────────────────────────────────────────────────────────
@@ -246,6 +296,7 @@ export async function searchAnime(search: string, { signal, perPage = 12 }: { si
     { search: term, perPage },
     { signal, cacheKey: `search:${perPage}:${term.toLowerCase()}`, ttl: 6 * HOUR },
   );
+  remember(data.Page.media);
   return data.Page.media;
 }
 
@@ -256,6 +307,7 @@ export async function getAnimeDetail(id: number, { signal }: { signal?: AbortSig
     { signal, cacheKey: `media:${id}`, ttl: 12 * HOUR },
   );
   if (!data.Media) throw new AniListError('not-found', 'AniList has no anime with that ID', 404);
+  remember([data.Media]);
   return data.Media;
 }
 
@@ -275,6 +327,7 @@ export async function getAnimeByIds(ids: number[], { signal }: { signal?: AbortS
     );
     out.push(...data.Page.media);
   }
+  remember(out);
   return out;
 }
 
@@ -311,6 +364,7 @@ export async function getLikelyNoFiller({ signal, page = 1, perPage = 50 }: { si
     { page, perPage, maxEpisodes: LIKELY_NO_FILLER_MAX_EPISODES + 1 },
     { signal, cacheKey: `likely-no-filler:${perPage}:${page}`, ttl: 24 * HOUR },
   );
+  remember(data.Page.media);
   return { media: data.Page.media.filter(isLikelyNoFiller), hasNextPage: data.Page.pageInfo.hasNextPage };
 }
 
@@ -324,6 +378,7 @@ export async function getTopRated({ signal, perPage = 12 }: { signal?: AbortSign
     { perPage },
     { signal, cacheKey: `top-rated:${perPage}`, ttl: 24 * HOUR },
   );
+  remember(data.Page.media);
   return data.Page.media;
 }
 

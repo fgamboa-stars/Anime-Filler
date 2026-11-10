@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Loader2, Search, X } from 'lucide-react';
 import { Highlight } from '@/components/Highlight';
 import { animePath } from '@/services/datasets';
-import { formatFormat } from '@/services/anilist';
+import { formatFormat, getKnownMedia } from '@/services/anilist';
 import { cn } from '@/utils/cn';
 import { useAnimeSearch } from './useAnimeSearch';
 
@@ -170,9 +170,17 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
               {search.error ? 'AniList is unavailable — showing local matches only.' : `No anime match “${query.trim()}”.`}
             </li>
           )}
+          {search.error && suggestions.length > 0 && (
+            <li role="presentation" className="px-3 pt-2 pb-1 text-xs text-muted-foreground">
+              {search.isRateLimited ? 'AniList is busy right now' : 'AniList is unavailable'}, so only anime with a guide are shown.
+            </li>
+          )}
           {suggestions.map((hit, i) => {
             const m = hit.item.media;
-            const facts = [m?.seasonYear, formatFormat(m?.format ?? null)].filter(Boolean).join(', ');
+            // Guide-only results (AniList unavailable) use artwork remembered from earlier visits.
+            const seen = m ? undefined : getKnownMedia(hit.item.id);
+            const cover = m?.coverImage.medium ?? seen?.cover;
+            const facts = [m?.seasonYear ?? seen?.seasonYear, formatFormat(m?.format ?? seen?.format ?? null)].filter(Boolean).join(', ');
             return (
               <li
                 key={hit.item.id}
@@ -184,11 +192,7 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
                 onMouseEnter={() => setActive(i)}
                 className={cn('flex cursor-pointer items-center gap-3 px-2 py-2', active === i && 'bg-surface-2 dark:bg-surface-3')}
               >
-                <div className="h-12 w-8 shrink-0 overflow-hidden bg-surface-3">
-                  {m?.coverImage.medium && (
-                    <img src={m.coverImage.medium} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} />
-                  )}
-                </div>
+                <Thumb src={cover} title={hit.item.title} />
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-semibold">
                     <Highlight text={hit.item.title} ranges={hit.highlights} />
@@ -219,6 +223,23 @@ export function SearchBox({ size = 'default', autoFocus, initialQuery = '', clas
             See all results for “{query.trim()}”
           </li>
         </ul>
+      )}
+    </div>
+  );
+}
+
+/** Small cover; the title's first letter when there is no picture (or it fails to load). */
+function Thumb({ src, title }: { src?: string | null; title: string }) {
+  const [failed, setFailed] = useState(false);
+  const initial = title.match(/[\p{L}\p{N}]/u)?.[0]?.toUpperCase() ?? '?';
+  return (
+    <div className="flex h-12 w-8 shrink-0 items-center justify-center overflow-hidden bg-surface-3">
+      {src && !failed ? (
+        <img src={src} alt="" loading="lazy" className="size-full object-cover" width={32} height={48} onError={() => setFailed(true)} />
+      ) : (
+        <span aria-hidden className="text-sm font-bold text-muted-foreground">
+          {initial}
+        </span>
       )}
     </div>
   );

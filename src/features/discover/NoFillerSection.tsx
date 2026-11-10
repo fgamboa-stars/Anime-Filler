@@ -119,23 +119,27 @@ export function NoFillerSection({ groups, media }: { groups: FranchiseGroup[]; m
   );
 }
 
-/** Cards to aim for per "Show more", and a cap on AniList pages fetched in one go. */
+/** Cards to aim for per "Show more"; AniList pages fetched per load or click, and overall. */
 const LIKELY_STEP = 18;
+const LIKELY_PAGES_PER_STEP = 3;
 const LIKELY_MAX_PAGES = 10;
 
 function LikelyList() {
   const [pages, setPages] = useState(1);
   const [wanted, setWanted] = useState(LIKELY_STEP);
+  // Pages may be fetched automatically up to here; each "Show more" raises it a little.
+  const [limit, setLimit] = useState(LIKELY_PAGES_PER_STEP);
   const likely = useLikelyNoFiller(pages);
   // Shows with a guide are covered by "Verified" (or have filler), so they are left out here.
   const items = (likely.data?.media ?? []).filter((m) => !hasFillerData(m.id));
   const canLoadMore = Boolean(likely.data?.hasNextPage) && pages < LIKELY_MAX_PAGES;
 
   // Popular short series mostly have guides now, so one AniList page can leave only a few
-  // cards. Keep fetching pages (each cached for a day) until there are enough to show.
+  // cards. Fetch a few more pages (each cached for a day) to fill the grid, but never more than
+  // LIKELY_PAGES_PER_STEP at once: AniList allows about 30 requests a minute for the whole site.
   useEffect(() => {
-    if (likely.status === 'success' && items.length < wanted && canLoadMore) setPages((n) => n + 1);
-  }, [likely.status, items.length, wanted, canLoadMore]);
+    if (likely.status === 'success' && items.length < wanted && canLoadMore && pages < limit) setPages((n) => n + 1);
+  }, [likely.status, items.length, wanted, canLoadMore, pages, limit]);
 
   if (likely.status === 'error' && !likely.data)
     return (
@@ -169,6 +173,7 @@ function LikelyList() {
           disabled={likely.status === 'loading'}
           onClick={() => {
             setWanted(items.length + LIKELY_STEP);
+            setLimit(pages + LIKELY_PAGES_PER_STEP);
             setPages((n) => n + 1);
           }}
         >

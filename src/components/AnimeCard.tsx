@@ -5,7 +5,7 @@ import type { RangeTuple } from 'fuse.js';
 import { Poster } from '@/components/Poster';
 import { FillerAvailabilityBadge } from '@/components/FillerAvailabilityBadge';
 import { Highlight } from '@/components/Highlight';
-import { formatFormat, type MediaSummary } from '@/services/anilist';
+import { formatFormat, getKnownMedia, type MediaSummary } from '@/services/anilist';
 import { animePath } from '@/services/datasets';
 import type { CatalogEntry } from '@/types';
 import { cn } from '@/utils/cn';
@@ -23,17 +23,20 @@ interface AnimeCardProps {
 }
 
 export function AnimeCard({ id, title, media, catalog, highlights = [], className, priority, label }: AnimeCardProps) {
+  // Without AniList data (rate limited, offline), use artwork remembered from an earlier visit.
+  const seen = media ? undefined : getKnownMedia(id);
+  const year = media?.seasonYear ?? seen?.seasonYear;
   const facts = [
-    media?.seasonYear ? String(media.seasonYear) : null,
-    formatFormat(media?.format ?? null),
+    year ? String(year) : null,
+    formatFormat(media?.format ?? seen?.format ?? null),
     media?.episodes ? `${media.episodes} eps` : catalog ? `${catalog.totalEpisodes} eps` : null,
   ].filter(Boolean);
 
   return (
     <article className={cn('group relative flex flex-col gap-3', className)}>
       <Poster
-        src={media?.coverImage.large}
-        color={media?.coverImage.color}
+        src={media?.coverImage.large ?? seen?.coverLarge}
+        color={media?.coverImage.color ?? seen?.color}
         title={title}
         priority={priority}
         className="shadow-hard transition-[transform,box-shadow] duration-150 group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 group-hover:shadow-hard-lg group-focus-within:-translate-x-0.5 group-focus-within:-translate-y-0.5 group-focus-within:shadow-hard-lg motion-reduce:transform-none"
