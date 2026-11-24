@@ -1,6 +1,7 @@
 import catalogJson from '@/data/index.json';
 import type { Catalog, CatalogEntry, FillerDataset, PreparedDataset } from '@/types';
 import { prepareDataset } from '@/utils/dataset';
+import { fetchDatasetFromSupabase, supabaseEnabled } from './supabase';
 
 /**
  * Filler datasets are discovered at build time: every JSON file in
@@ -33,8 +34,8 @@ export function loadDataset(slug: string): Promise<PreparedDataset> {
   const existing = prepared.get(slug);
   if (existing) return existing;
   const loader = loaders[`../data/anime/${slug}.json`];
-  if (!loader) return Promise.reject(new Error(`No filler dataset named "${slug}"`));
-  const promise = loader()
+  if (!loader && !supabaseEnabled()) return Promise.reject(new Error(`No filler dataset named "${slug}"`));
+  const promise = fetchRaw(slug, loader)
     .then(prepareDataset)
     .catch((err) => {
       prepared.delete(slug);
@@ -42,6 +43,23 @@ export function loadDataset(slug: string): Promise<PreparedDataset> {
     });
   prepared.set(slug, promise);
   return promise;
+}
+
+/**
+ * Supabase first when it's configured; the JSON bundled with the site is the
+ * fallback, so a database outage or a missing row never breaks a guide page.
+ */
+async function fetchRaw(slug: string, loader: (() => Promise<FillerDataset>) | undefined): Promise<FillerDataset> {
+  if (supabaseEnabled()) {
+    try {
+      const fromDb = await fetchDatasetFromSupabase(slug);
+      if (fromDb && fromDb.episodes.length) return fromDb;
+    } catch (err) {
+      if (import.meta.env.DEV) console.warn(`Supabase unavailable for "${slug}", using bundled data`, err);
+    }
+  }
+  if (!loader) throw new Error(`No filler dataset named "${slug}"`);
+  return loader();
 }
 
 /** Route helper: datasets get readable slugs, other anime use `<id>-<title>`. */
