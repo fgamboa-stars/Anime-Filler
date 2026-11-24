@@ -22,7 +22,7 @@ export function FillerRankings({ groups, media, className }: { groups: Franchise
         title="Filler rankings"
         description="Calculated from the episode guides on this site. Ratings come from AniList members."
       />
-      <div className="mt-8 grid items-start gap-4 lg:grid-cols-2 lg:gap-6">
+      <div className="mt-8 grid grid-cols-1 items-start gap-4 lg:grid-cols-2 lg:gap-6">
         <FillerRanking
           id="most-filler"
           title="Most filler"
@@ -96,7 +96,7 @@ function FillerRanking({
         {description}
         {state === 'maximized' && ` Top ${shown.length}.`}
       </p>
-      <ol className={cn('mt-6 grid divide-y divide-border', state === 'maximized' && 'lg:grid-flow-col lg:grid-rows-10 lg:gap-x-10')}>
+      <ol className={cn('mt-6 grid grid-cols-1 divide-y divide-border', state === 'maximized' && 'lg:grid-flow-col lg:grid-rows-10 lg:gap-x-10')}>
         {shown.map((group, i) => {
           const m = media.find((x) => x.id === group.first.anilistId);
           return (
