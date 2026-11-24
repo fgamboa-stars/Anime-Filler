@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "uq-holder",
+  "anilistId": 21855,
+  "title": "UQ Holder!",
+  "alternativeTitles": [
+    "UQ Holder!: Mahou Sensei Negima! 2"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-24T18:25:36.317Z",
+  "episodes": [
+    {"number":1,"title":"Beauty and the Boy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"You Can't Hate Someone You Meet Naked","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Palace of the Immortals","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Invasion of the Assassins","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Magia Erebea","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Kurōmaru's Dark Days","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Reset and Restart","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Operation: Capture Fate","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Love, Baths, and Vigorous Exercise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Welcome to Mahora Academy","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Her Love Story","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Adeat! Everlasting Love!","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

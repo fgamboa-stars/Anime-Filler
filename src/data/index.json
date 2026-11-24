@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T02:48:22.398Z",
+  "generatedAt": "2026-11-24T18:25:57.156Z",
   "anime": [
     {
       "slug": "86-eighty-six-part-2",
@@ -315,6 +315,26 @@
       "seasonLabel": "Second Season",
       "franchiseOrder": 2,
       "updatedAt": "2026-11-09T14:18:46.392Z"
+    },
+    {
+      "slug": "ace-of-the-diamond-act-ii",
+      "anilistId": 105749,
+      "title": "Ace of the Diamond: Act II",
+      "alternativeTitles": [
+        "Diamond no Ace act II",
+        "Ace of the Diamond act II"
+      ],
+      "totalEpisodes": 52,
+      "counts": {
+        "CANON": 49,
+        "FILLER": 1,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 1.9,
+      "arcCount": 1,
+      "strip": "M1C2M1C24F1C23",
+      "updatedAt": "2026-11-24T18:25:14.805Z"
     },
     {
       "slug": "ajin-demi-human",
@@ -741,6 +761,25 @@
       "arcCount": 1,
       "strip": "M1C24",
       "updatedAt": "2026-11-09T14:19:05.249Z"
+    },
+    {
+      "slug": "beyblade-burst-quadstrike",
+      "anilistId": 166062,
+      "title": "Beyblade Burst QuadStrike",
+      "alternativeTitles": [
+        "Beyblade Burst BU"
+      ],
+      "totalEpisodes": 26,
+      "counts": {
+        "CANON": 0,
+        "FILLER": 26,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 100,
+      "arcCount": 1,
+      "strip": "F26",
+      "updatedAt": "2026-11-24T18:25:17.118Z"
     },
     {
       "slug": "beyblade-metal-fusion",
@@ -2104,6 +2143,68 @@
       "updatedAt": "2026-11-09T14:20:22.388Z"
     },
     {
+      "slug": "fate-stay-night",
+      "anilistId": 356,
+      "title": "Fate/stay night",
+      "alternativeTitles": [],
+      "totalEpisodes": 24,
+      "counts": {
+        "CANON": 21,
+        "FILLER": 3,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 12.5,
+      "arcCount": 1,
+      "strip": "C5F1C10F2C6",
+      "updatedAt": "2026-11-24T18:25:19.516Z"
+    },
+    {
+      "slug": "fate-zero",
+      "anilistId": 10087,
+      "title": "Fate/Zero",
+      "alternativeTitles": [
+        "F/Z"
+      ],
+      "totalEpisodes": 13,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 1,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C9M1C3",
+      "franchise": "Fate/Zero",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-24T18:25:21.910Z"
+    },
+    {
+      "slug": "fate-zero-season-2",
+      "anilistId": 11741,
+      "title": "Fate/Zero Season 2",
+      "alternativeTitles": [
+        "Fate/Zero 2nd Season",
+        "F/Z"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 10,
+        "FILLER": 0,
+        "MIXED": 2,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C4M2C6",
+      "franchise": "Fate/Zero",
+      "seasonLabel": "Season 2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-24T18:25:22.122Z"
+    },
+    {
       "slug": "fire-force",
       "anilistId": 105310,
       "title": "Fire Force",
@@ -2165,6 +2266,53 @@
       "arcCount": 1,
       "strip": "C12",
       "updatedAt": "2026-11-09T14:20:24.986Z"
+    },
+    {
+      "slug": "fist-of-the-north-star",
+      "anilistId": 967,
+      "title": "Fist of the North Star",
+      "alternativeTitles": [
+        "Hokuto no Ken",
+        "Ken il Guerriero",
+        "Seikimatsu Kyuseishu Densetsu: Hokuto no Ken",
+        "Ken - Rättvisans Kämpe"
+      ],
+      "totalEpisodes": 109,
+      "counts": {
+        "CANON": 76,
+        "FILLER": 19,
+        "MIXED": 14,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 17.4,
+      "arcCount": 1,
+      "strip": "C1M1C1M5F2C1M1C1F8M6C1M1C8F1C2F1C37F4C15F1C6F1C3F1",
+      "franchise": "Fist of the North Star",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-24T18:25:24.324Z"
+    },
+    {
+      "slug": "fist-of-the-north-star-2",
+      "anilistId": 1356,
+      "title": "Fist of the North Star 2",
+      "alternativeTitles": [
+        "Hokuto no Ken 2"
+      ],
+      "totalEpisodes": 43,
+      "counts": {
+        "CANON": 42,
+        "FILLER": 1,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 2.3,
+      "arcCount": 1,
+      "strip": "C1F1C41",
+      "franchise": "Fist of the North Star",
+      "seasonLabel": "2",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-24T18:25:24.535Z"
     },
     {
       "slug": "food-wars",
@@ -4169,6 +4317,51 @@
       "updatedAt": "2026-11-09T14:21:56.336Z"
     },
     {
+      "slug": "magi-the-kingdom-of-magic",
+      "anilistId": 18115,
+      "title": "Magi: The Kingdom of Magic",
+      "alternativeTitles": [
+        "Magi: The kingdom of magic",
+        "Magi: The Labyrinth of Magic 2"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 25,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C25",
+      "franchise": "Magi",
+      "seasonLabel": "The Kingdom of Magic",
+      "franchiseOrder": 2,
+      "updatedAt": "2026-11-24T18:25:26.922Z"
+    },
+    {
+      "slug": "magi-the-labyrinth-of-magic",
+      "anilistId": 14513,
+      "title": "Magi: The Labyrinth of Magic",
+      "alternativeTitles": [
+        "Magi: The labyrinth of magic"
+      ],
+      "totalEpisodes": 25,
+      "counts": {
+        "CANON": 20,
+        "FILLER": 0,
+        "MIXED": 5,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C20M5",
+      "franchise": "Magi",
+      "seasonLabel": "Season 1",
+      "franchiseOrder": 1,
+      "updatedAt": "2026-11-24T18:25:26.709Z"
+    },
+    {
       "slug": "magic-knight-rayearth",
       "anilistId": 435,
       "title": "Magic Knight Rayearth",
@@ -4255,6 +4448,25 @@
       "arcCount": 1,
       "strip": "C12",
       "updatedAt": "2026-11-09T14:22:03.563Z"
+    },
+    {
+      "slug": "mf-ghost",
+      "anilistId": 143327,
+      "title": "MF Ghost",
+      "alternativeTitles": [
+        "MF GHOST"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-24T18:25:29.109Z"
     },
     {
       "slug": "michiko-hatchin",
@@ -4806,6 +5018,25 @@
       "seasonLabel": "Season 2",
       "franchiseOrder": 2,
       "updatedAt": "2026-11-09T17:10:05.448Z"
+    },
+    {
+      "slug": "nisemonogatari",
+      "anilistId": 11597,
+      "title": "Nisemonogatari",
+      "alternativeTitles": [
+        "Fake Tale"
+      ],
+      "totalEpisodes": 11,
+      "counts": {
+        "CANON": 11,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C11",
+      "updatedAt": "2026-11-24T18:25:33.920Z"
     },
     {
       "slug": "no-game-no-life",
@@ -7034,6 +7265,25 @@
       "arcCount": 1,
       "strip": "C24",
       "updatedAt": "2026-11-09T14:24:32.442Z"
+    },
+    {
+      "slug": "uq-holder",
+      "anilistId": 21855,
+      "title": "UQ Holder!",
+      "alternativeTitles": [
+        "UQ Holder!: Mahou Sensei Negima! 2"
+      ],
+      "totalEpisodes": 12,
+      "counts": {
+        "CANON": 12,
+        "FILLER": 0,
+        "MIXED": 0,
+        "ANIME_CANON": 0
+      },
+      "fillerPercentage": 0,
+      "arcCount": 1,
+      "strip": "C12",
+      "updatedAt": "2026-11-24T18:25:36.317Z"
     },
     {
       "slug": "vampire-knight",

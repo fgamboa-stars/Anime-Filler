@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "fate-zero-season-2",
+  "anilistId": 11741,
+  "title": "Fate/Zero Season 2",
+  "alternativeTitles": [
+    "Fate/Zero 2nd Season",
+    "F/Z"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 14–25, renumbered to match AniList)",
+  "franchise": "Fate/Zero",
+  "seasonLabel": "Season 2",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-24T18:25:22.122Z",
+  "episodes": [
+    {"number":1,"title":"The Bloody Battle of Mion River","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Golden Radiance","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Terminus of Honor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The Eighth Contract","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Distant Memories","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":6,"title":"Where Justice is Found","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":7,"title":"Return of the Assassin","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Knight on Two Wheels","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"All the World's Evils","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The Sea at the End of the World","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Last Command Spell","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Fate/Zero","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

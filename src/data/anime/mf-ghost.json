@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "mf-ghost",
+  "anilistId": 143327,
+  "title": "MF Ghost",
+  "alternativeTitles": [
+    "MF GHOST"
+  ],
+  "totalEpisodes": 12,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-24T18:25:29.109Z",
+  "episodes": [
+    {"number":1,"title":"The Challenger from England","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"The Shocking New MFG Generation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"The Kamaboko Straight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Tire Management","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Teamwork","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"The Tragic Rallyist","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Man in the No. 4 Car","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Voice Callout","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The 300kph Dogfight","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Update","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Genius Awakens","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Inherited Perception","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}
