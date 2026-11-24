@@ -44,6 +44,9 @@ jobs:
       - name: Import matched shows
         run: npm run afl:import
 
+      - name: Add new episodes of still-airing shows (One Piece, Detective Conan)
+        run: npm run afl:airing
+
       - name: Check episode numbering against AniList
         run: npm run afl:verify
 

@@ -180,3 +180,15 @@ npm run import:csv -- data/seed/naruto-shippuden.csv --slug naruto-shippuden \
 ```
 
 `data/examples/example-import.csv` is a small sample for trying the importer with `--dry-run`.
+
+## Still-airing shows
+
+The helper above only imports finished shows. Long-running shows that are still airing are listed one by one in `data/afl/airing.json` (currently One Piece and Detective Conan). `npm run afl:airing` re-reads their AnimeFillerList pages and:
+
+- adds newly listed episodes, putting them in the last story arc (`"newEpisodes": "continue"`) or in blocks of 100 (`"blocks-100"`);
+- updates titles and classifications that changed, keeping the existing arcs;
+- refuses to update if the page lists far fewer episodes than the guide (a broken page never shrinks a guide).
+
+The weekly job runs it before syncing to Supabase. When a new One Piece arc starts, rename the arc of its episodes in `src/data/anime/one-piece.json` by hand.
+
+To add another airing show, put the guide in `src/data/anime/` (for example by importing a CSV), then add an entry to `data/afl/airing.json` with its AnimeFillerList page name.

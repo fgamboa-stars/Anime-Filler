@@ -87,7 +87,7 @@ from the repo's **Actions** tab → *Weekly guide sync* → **Run workflow**. It
 
 1. checks AnimeFillerList for new shows, and re-checks shows skipped earlier because they were still airing
    or their episode counts didn't add up yet (`npm run afl:match -- --retry-skipped`);
-2. imports the ones that now match AniList's finished seasons (`npm run afl:import`);
+2. imports the ones that now match AniList's finished seasons (`npm run afl:import`), and adds new episodes of the still-airing shows in `data/afl/airing.json` (`npm run afl:airing`);
 3. checks the episode numbering against AniList (`afl:verify`), validates the data and runs the tests —
    if anything fails, nothing is written;
 4. writes every guide to Supabase through the `sync_guides()` function (`npm run supabase:seed`), so the
