@@ -50,7 +50,8 @@ async function main(): Promise<number> {
   const index = parseAflIndex((await fetchAflPage('shows', { refresh: values.refresh })) ?? '');
   if (!index.length) throw new Error('Could not read the AnimeFillerList show index.');
   const manifest = readManifest();
-  const permanent = /film\/OVA|page has no episode list|already in the catalog/;
+  // "season split looks shifted" is set by afl:verify --quarantine; retrying would only re-import the same split.
+  const permanent = /film\/OVA|page has no episode list|already in the catalog|season split looks shifted/;
   const retryable = (s: ManifestEntry) => values['retry-skipped'] && s.status === 'skipped' && !permanent.test(s.reason ?? '');
   const done = new Set(manifest.shows.filter((s) => s.status === 'manual' || (!values.retry && !retryable(s))).map((s) => s.afl));
 
