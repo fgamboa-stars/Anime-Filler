@@ -80,8 +80,37 @@ Then redeploy the `supabase-backend` preview (Deployments → latest preview →
 Production keeps using the bundled JSON until you also tick **Production** and
 merge this branch.
 
+## Weekly automatic updates (GitHub Actions)
+
+`.github/workflows/weekly-sync.yml` runs every Monday at 3:23 AM Chicago time, and can be started by hand
+from the repo's **Actions** tab → *Weekly guide sync* → **Run workflow**. It:
+
+1. checks AnimeFillerList for new shows, and re-checks shows skipped earlier because they were still airing
+   or their episode counts didn't add up yet (`npm run afl:match -- --retry-skipped`);
+2. imports the ones that now match AniList's finished seasons (`npm run afl:import`);
+3. checks the episode numbering against AniList (`afl:verify`), validates the data and runs the tests —
+   if anything fails, nothing is written;
+4. writes every guide to Supabase through the `sync_guides()` function (`npm run supabase:seed`), so the
+   live site updates within minutes;
+5. pushes the updated guide files to the `data-sync` branch (never to `main`). Merge it whenever you want the
+   built-in fallback copy to catch up.
+
+**Cost: free.** GitHub Actions minutes are unlimited for public repositories, and a run uses well under an hour.
+
+**One-time setup:** in GitHub → repo **Settings → Secrets and variables → Actions → New repository secret**,
+add `SUPABASE_SYNC_TOKEN` with the sync token. The token can only call `sync_guides()` (upsert whole guides);
+only its SHA-256 hash is stored in the database (`private.sync_settings`). To rotate it, run in the SQL editor:
+
+```sql
+update private.sync_settings set token_hash = encode(extensions.digest('NEW-TOKEN', 'sha256'), 'hex');
+```
+
+and update the GitHub secret. Supabase's security advisor will list `sync_guides` as callable with the public
+key; that is expected, because it refuses every call without the token.
+
+Scheduled workflows only run from the default branch, so the schedule starts once this branch is merged into `main`.
+
 ## What's next on this foundation
 
-- A scheduled job that runs the AnimeFillerList import and `supabase:seed` weekly.
 - Accounts (Supabase Auth) with a `progress` table, so watched episodes sync across devices.
 - A `reports` table and "Report a wrong episode" button for community corrections.

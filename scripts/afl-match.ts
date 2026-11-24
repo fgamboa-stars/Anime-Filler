@@ -24,6 +24,8 @@ Usage: npm run afl:match -- [afl-slug ...] [options]
 
   afl-slug        Show path on animefillerlist.com (the part after /shows/). Default: every show.
   --retry         Re-check shows already in the manifest (manual entries are always kept)
+  --retry-skipped Re-check skipped shows that may have changed (still airing, episode counts
+                  that didn't add up yet); film/OVA listings and pages without episodes stay skipped
   --refresh       Download pages again instead of using .cache/afl/
   --limit <n>     Stop after checking n shows
   -h, --help      Show this help
@@ -34,6 +36,7 @@ async function main(): Promise<number> {
     allowPositionals: true,
     options: {
       retry: { type: 'boolean', default: false },
+      'retry-skipped': { type: 'boolean', default: false },
       refresh: { type: 'boolean', default: false },
       limit: { type: 'string' },
       help: { type: 'boolean', short: 'h', default: false },
@@ -47,7 +50,9 @@ async function main(): Promise<number> {
   const index = parseAflIndex((await fetchAflPage('shows', { refresh: values.refresh })) ?? '');
   if (!index.length) throw new Error('Could not read the AnimeFillerList show index.');
   const manifest = readManifest();
-  const done = new Set(manifest.shows.filter((s) => s.status === 'manual' || !values.retry).map((s) => s.afl));
+  const permanent = /film\/OVA|page has no episode list|already in the catalog/;
+  const retryable = (s: ManifestEntry) => values['retry-skipped'] && s.status === 'skipped' && !permanent.test(s.reason ?? '');
+  const done = new Set(manifest.shows.filter((s) => s.status === 'manual' || (!values.retry && !retryable(s))).map((s) => s.afl));
 
   // Shows named on the command line are always (re)checked, unless set by hand.
   let queue = positionals.length
