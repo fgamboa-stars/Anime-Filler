@@ -28,9 +28,9 @@ jobs:
     env:
       SUPABASE_SYNC_TOKEN: ${{ secrets.SUPABASE_SYNC_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -48,7 +48,9 @@ jobs:
         run: npm run afl:airing
 
       - name: Check episode numbering against AniList
-        run: npm run afl:verify
+        # Newly imported shows that look shifted are set aside (listed in the run
+        # summary); the run only fails if an already-committed guide looks shifted.
+        run: npm run afl:verify -- --quarantine
 
       - name: Validate data and run tests
         run: |
@@ -82,3 +84,13 @@ jobs:
             echo
             echo "Supabase is already updated. To also update the built-in copy, open a pull request from **data-sync** into **main**."
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the reports
+        # Also on failure, so a failed run can be diagnosed without reading the logs.
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sync-reports
+          path: reports/
+          if-no-files-found: ignore
+          retention-days: 30
