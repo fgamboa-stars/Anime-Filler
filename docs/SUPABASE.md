@@ -4,6 +4,11 @@
 > *Flogic* organization has the tables from `0001_filler_guides.sql` and all 334 guides / 12,223 episodes.
 > The site uses it by default (URL and publishable key are in `src/services/supabase.ts`), so no Vercel
 > environment variables are needed. The steps below are for re-creating it or seeding again.
+>
+> **The guide list is live too** (migration `0002_catalog_view.sql`): Home, Discover, search and rankings
+> read the `catalog` view, so a guide added to the database appears on the site without a redeploy.
+> The site shows the built-in list first, swaps in the database list when it arrives (cached in the
+> browser for 6 hours), and keeps the built-in list if the database is unreachable.
 
 The site still runs on Vercel exactly as before. Supabase is an extra service
 the site *reads from*: when it's configured, guide pages load their episodes
@@ -77,8 +82,6 @@ merge this branch.
 
 ## What's next on this foundation
 
-- Load the catalog (guide list, rankings) from Supabase too, so a new guide
-  appears without a redeploy.
 - A scheduled job that runs the AnimeFillerList import and `supabase:seed` weekly.
 - Accounts (Supabase Auth) with a `progress` table, so watched episodes sync across devices.
 - A `reports` table and "Report a wrong episode" button for community corrections.

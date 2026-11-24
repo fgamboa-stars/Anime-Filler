@@ -1,4 +1,5 @@
-import type { DatasetEpisode, EpisodeType, FillerDataset } from '@/types';
+import type { CatalogEntry, DatasetEpisode, EpisodeType, FillerDataset } from '@/types';
+import { fillerPercentage } from '@/utils/dataset';
 
 /**
  * Read-only access to the filler guides stored in Supabase, through its REST
@@ -72,4 +73,55 @@ export async function fetchDatasetFromSupabase(slug: string, signal?: AbortSigna
   if (!res.ok) throw new Error(`Supabase responded ${res.status}`);
   const rows = (await res.json()) as DatasetRow[];
   return rows[0] ? rowToDataset(rows[0]) : null;
+}
+
+interface CatalogRow {
+  slug: string;
+  anilist_id: number;
+  title: string;
+  alternative_titles: string[] | null;
+  total_episodes: number;
+  franchise: string | null;
+  season_label: string | null;
+  franchise_order: number | null;
+  updated_at: string;
+  canon: number;
+  filler: number;
+  mixed: number;
+  anime_canon: number;
+  arc_count: number;
+  strip: string;
+}
+
+/** Map a row of the `catalog` view to the CatalogEntry shape built into the site. */
+export function rowToCatalogEntry(row: CatalogRow): CatalogEntry {
+  const counts = { CANON: row.canon, FILLER: row.filler, MIXED: row.mixed, ANIME_CANON: row.anime_canon };
+  return {
+    slug: row.slug,
+    anilistId: row.anilist_id,
+    title: row.title,
+    alternativeTitles: row.alternative_titles ?? [],
+    totalEpisodes: row.total_episodes,
+    counts,
+    fillerPercentage: fillerPercentage(counts),
+    arcCount: row.arc_count,
+    strip: row.strip,
+    ...(row.franchise ? { franchise: row.franchise } : {}),
+    ...(row.season_label ? { seasonLabel: row.season_label } : {}),
+    ...(row.franchise_order ? { franchiseOrder: row.franchise_order } : {}),
+    updatedAt: row.updated_at,
+  };
+}
+
+/** Fetch the whole guide list (one summary row per season), sorted by title. */
+export async function fetchCatalogFromSupabase(signal?: AbortSignal): Promise<CatalogEntry[]> {
+  if (!URL_ || !KEY) throw new Error('Supabase is not configured');
+  const params = new URLSearchParams({ select: '*', order: 'title.asc', limit: '5000' });
+  const res = await fetch(`${URL_}/rest/v1/catalog?${params}`, {
+    headers: { apikey: KEY, Authorization: `Bearer ${KEY}`, Accept: 'application/json' },
+    signal,
+  });
+  if (!res.ok) throw new Error(`Supabase responded ${res.status}`);
+  const rows = (await res.json()) as CatalogRow[];
+  return rows.map(rowToCatalogEntry).filter((e) => e.strip !== '');
 }

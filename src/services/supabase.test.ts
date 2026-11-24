@@ -68,3 +68,56 @@ describe('supabase guide loading', () => {
     expect(supabaseEnabled()).toBe(false);
   });
 });
+
+describe('live guide list', () => {
+  beforeEach(() => {
+    vi.resetModules();
+    localStorage.clear();
+    vi.stubEnv('VITE_SUPABASE_URL', 'https://demo.supabase.co');
+    vi.stubEnv('VITE_SUPABASE_ANON_KEY', 'anon-key');
+  });
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    vi.unstubAllGlobals();
+  });
+
+  const catalogRow = {
+    slug: 'brand-new-show',
+    anilist_id: 999,
+    title: 'Brand New Show',
+    alternative_titles: [],
+    total_episodes: 3,
+    franchise: null,
+    season_label: null,
+    franchise_order: null,
+    updated_at: '2026-11-23T00:00:00Z',
+    canon: 2,
+    filler: 1,
+    mixed: 0,
+    anime_canon: 0,
+    arc_count: 1,
+    strip: 'C2F1',
+  };
+
+  it('maps catalog rows, computing the filler percentage like the build does', async () => {
+    const { rowToCatalogEntry } = await import('./supabase');
+    expect(rowToCatalogEntry(catalogRow)).toMatchObject({ slug: 'brand-new-show', fillerPercentage: 33.3, strip: 'C2F1' });
+  });
+
+  it('starts with the built-in list and switches to the database list', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify([catalogRow]), { status: 200 })));
+    const ds = await import('./datasets');
+    expect(ds.getCatalog().length).toBeGreaterThan(300);
+    expect(ds.findCatalogBySlug('brand-new-show')).toBeUndefined();
+    await ds.refreshCatalog();
+    expect(ds.findCatalogBySlug('brand-new-show')?.title).toBe('Brand New Show');
+    expect(ds.hasFillerData(999)).toBe(true);
+  });
+
+  it('keeps the built-in list when the database is unreachable', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline')));
+    const ds = await import('./datasets');
+    await ds.refreshCatalog();
+    expect(ds.findCatalogBySlug('naruto')).toBeDefined();
+  });
+});
