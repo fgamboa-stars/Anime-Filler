@@ -4,11 +4,11 @@ import { Button } from '@/components/ui/button';
 import { StateMessage } from '@/components/StateMessage';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
-import { getCatalog } from '@/services/datasets';
+import { useCatalog } from '@/services/datasets';
 
 export default function ProgressPage() {
   useDocumentTitle('My progress');
-  const first = getCatalog()[0];
+  const first = useCatalog().entries[0];
 
   return (
     <div className="container-page max-w-4xl py-12 sm:py-16">

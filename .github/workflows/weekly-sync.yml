@@ -1,0 +1,84 @@
+# Weekly guide sync: finds new or newly finished shows on AnimeFillerList,
+# imports them, checks them, and writes every guide to Supabase so the live
+# site updates without a redeploy. Free: GitHub Actions minutes are unlimited
+# for public repositories, and the Supabase free plan covers the database.
+#
+# Needs one repository secret: SUPABASE_SYNC_TOKEN (see docs/SUPABASE.md).
+# Updated guide files are pushed to the `data-sync` branch (never to main),
+# so you can review them and merge when you like; the live site already
+# shows them through Supabase.
+name: Weekly guide sync
+
+on:
+  schedule:
+    - cron: '23 9 * * 1' # Mondays 09:23 UTC (3:23 AM Chicago)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      SUPABASE_SYNC_TOKEN: ${{ secrets.SUPABASE_SYNC_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Find new and newly finished shows on AnimeFillerList
+        # One request every 10 s, as AnimeFillerList's robots.txt asks.
+        run: npm run afl:match -- --retry-skipped
+
+      - name: Import matched shows
+        run: npm run afl:import
+
+      - name: Add new episodes of still-airing shows (One Piece, Detective Conan)
+        run: npm run afl:airing
+
+      - name: Check episode numbering against AniList
+        run: npm run afl:verify
+
+      - name: Validate data and run tests
+        run: |
+          npm run data:validate
+          npm test
+
+      - name: Write guides to Supabase
+        if: env.SUPABASE_SYNC_TOKEN != ''
+        run: npm run supabase:seed
+
+      - name: Warn when the Supabase secret is missing
+        if: env.SUPABASE_SYNC_TOKEN == ''
+        run: echo "::warning::SUPABASE_SYNC_TOKEN is not set, so Supabase was not updated. See docs/SUPABASE.md."
+
+      - name: Save updated guide files to the data-sync branch
+        run: |
+          if [ -z "$(git status --porcelain -- src/data data)" ]; then
+            echo "No guide changes this week." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git switch -c data-sync
+          git add src/data data
+          git commit -m "data: weekly AnimeFillerList sync ($(date -u +%Y-%m-%d))"
+          git push --force origin data-sync
+          {
+            echo "### Guide files updated"
+            echo
+            git show --stat --format= HEAD | tail -n 20
+            echo
+            echo "Supabase is already updated. To also update the built-in copy, open a pull request from **data-sync** into **main**."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -21,7 +21,9 @@ import { WatchOrderPanel } from '@/features/watch-order/WatchOrderPanel';
 import { useAnimeDetail, useDataset } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { AniListError, airedEpisodes, displayTitle, isLikelyNoFiller, type MediaDetail } from '@/services/anilist';
-import { findCatalogByAniListId, findCatalogBySlug, getCatalog } from '@/services/datasets';
+import { findCatalogByAniListId, findCatalogBySlug, getCatalog, useCatalog } from '@/services/datasets';
+import { supabaseEnabled } from '@/services/supabase';
+import { PageFallback } from '@/components/layout/PageFallback';
 import { franchiseSiblings, seasonLabel } from '@/utils/franchise';
 import { usePreferencesStore } from '@/store/preferencesStore';
 import { useProgressStore } from '@/store/progressStore';
@@ -32,7 +34,10 @@ import NotFoundPage from './NotFoundPage';
 export default function AnimePage() {
   const { id = '' } = useParams();
   const location = useLocation();
+  // Re-render when the database guide list arrives, so guides added after this build still resolve.
+  const { status: catalogStatus } = useCatalog();
   const entry = findCatalogBySlug(id) ?? null;
+  const waitingForCatalog = !entry && (catalogStatus === 'loading' || (catalogStatus === 'bundled' && supabaseEnabled())) && !/^\d+(-|$)/.test(id);
   const numericId = !entry && /^\d+(-|$)/.test(id) ? Number.parseInt(id, 10) : null;
   const redirectTo = numericId ? findCatalogByAniListId(numericId) : undefined;
   const anilistId = entry?.anilistId ?? numericId;
@@ -42,6 +47,7 @@ export default function AnimePage() {
   const media = detail.data ?? null;
   useDocumentTitle(media ? displayTitle(media.title) : (entry?.title ?? null));
 
+  if (waitingForCatalog) return <PageFallback />;
   if (redirectTo) return <Navigate replace to={`/anime/${redirectTo.slug}${location.search}${location.hash}`} />;
   if (!anilistId) return <NotFoundPage />;
 

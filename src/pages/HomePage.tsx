@@ -9,13 +9,13 @@ import { FillerRankings } from '@/features/discover/FillerRankings';
 import { ContinueWatching } from '@/features/progress/ContinueWatching';
 import { useAnimeByIds } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
-import { getCatalog } from '@/services/datasets';
+import { useCatalog } from '@/services/datasets';
 import { selectInProgress, useProgressStore } from '@/store/progressStore';
 import { featuredGroups } from '@/utils/franchise';
 
 export default function HomePage() {
   useDocumentTitle(null);
-  const catalog = getCatalog();
+  const catalog = useCatalog().entries;
   const groups = useMemo(() => featuredGroups(catalog), [catalog]);
   const hasProgress = useProgressStore((s) => selectInProgress(s.progress).length > 0);
   const lastSlug = useProgressStore((s) => selectInProgress(s.progress)[0]?.slug);

@@ -19,7 +19,9 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "afl:match": "tsx scripts/afl-match.ts",
     "afl:import": "tsx scripts/afl-import.ts",
-    "afl:verify": "tsx scripts/afl-verify.ts"
+    "afl:verify": "tsx scripts/afl-verify.ts",
+    "supabase:seed": "tsx --env-file-if-exists=.env scripts/supabase-seed.ts",
+    "afl:airing": "tsx scripts/afl-airing.ts"
   },
   "dependencies": {
     "@fontsource/archivo-black": "^5.3.0",

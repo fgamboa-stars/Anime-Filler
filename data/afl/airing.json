@@ -1,0 +1,7 @@
+{
+  "note": "Shows that are still airing. `npm run afl:airing` refreshes them from AnimeFillerList (the weekly job runs it). Existing episodes keep their arcs; new episodes join the last arc (\"continue\") or a block of 100 (\"blocks-100\").",
+  "shows": [
+    { "afl": "one-piece", "slug": "one-piece", "anilistId": 21, "newEpisodes": "continue" },
+    { "afl": "detective-conan", "slug": "detective-conan", "anilistId": 235, "newEpisodes": "blocks-100" }
+  ]
+}

@@ -10,7 +10,7 @@ import { NoFillerSection } from '@/features/discover/NoFillerSection';
 import { useAnimeByIds, useTopRated } from '@/hooks/useAnimeData';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { displayTitle, type MediaSummary } from '@/services/anilist';
-import { findCatalogByAniListId, getCatalog } from '@/services/datasets';
+import { findCatalogByAniListId, useCatalog } from '@/services/datasets';
 import { cn } from '@/utils/cn';
 import { featuredGroups, type FranchiseGroup } from '@/utils/franchise';
 
@@ -45,7 +45,7 @@ function readCategory(params: URLSearchParams): Category {
 /** Discover: every filler guide, plus categories (no filler, highest rated, long-running, short). */
 export default function DiscoverPage() {
   useDocumentTitle('Discover');
-  const catalog = getCatalog();
+  const catalog = useCatalog().entries;
   const groups = useMemo(() => featuredGroups(catalog), [catalog]);
   const covers = useAnimeByIds(groups.map((g) => g.first.anilistId));
   const media = covers.data ?? [];

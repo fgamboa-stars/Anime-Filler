@@ -28,6 +28,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
+    // Tests never call the real database; supabase.test.ts opts in with mocks.
+    env: { VITE_SUPABASE_URL: '' },
     include: ['src/**/*.test.{ts,tsx}', 'scripts/**/*.test.ts'],
     css: false,
     // Datasets are discovered with import.meta.glob; a persisted transform cache
