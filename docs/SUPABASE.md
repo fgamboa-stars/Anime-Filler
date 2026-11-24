@@ -1,5 +1,10 @@
 # Supabase setup (filler guides in a database)
 
+> **Status (Nov 23, 2026): set up.** Project `anime-filler` (ref `qzsoelgnckqictieqowh`, region us-east-2) in the
+> *Flogic* organization has the tables from `0001_filler_guides.sql` and all 334 guides / 12,223 episodes.
+> The site uses it by default (URL and publishable key are in `src/services/supabase.ts`), so no Vercel
+> environment variables are needed. The steps below are for re-creating it or seeding again.
+
 The site still runs on Vercel exactly as before. Supabase is an extra service
 the site *reads from*: when it's configured, guide pages load their episodes
 from the database; when it isn't (or it's down), the site uses the JSON bundled

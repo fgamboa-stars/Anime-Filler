@@ -4,12 +4,19 @@ import type { DatasetEpisode, EpisodeType, FillerDataset } from '@/types';
  * Read-only access to the filler guides stored in Supabase, through its REST
  * API (PostgREST). Uses plain fetch, so no client library is bundled.
  *
- * Enabled only when both VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY are set.
- * The anon key is safe to ship to browsers: row-level security in
+ * Uses the project below unless VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY
+ * override it. The key is safe to ship to browsers: row-level security in
  * supabase/migrations only allows reading.
  */
-const URL_ = (import.meta.env.VITE_SUPABASE_URL as string | undefined)?.replace(/\/+$/, '');
-const KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+/** The project's public settings. The publishable key is meant to ship in browser code. */
+const DEFAULT_URL = 'https://qzsoelgnckqictieqowh.supabase.co';
+const DEFAULT_KEY = 'sb_publishable_3NC0ErUOA7QQkHhFf_5jMw_CZo3noX7';
+
+// Env vars override the defaults; set VITE_SUPABASE_URL to an empty string to switch Supabase off.
+const envUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
+const envKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+const URL_ = (envUrl ?? DEFAULT_URL).replace(/\/+$/, '');
+const KEY = envKey ?? DEFAULT_KEY;
 
 export function supabaseEnabled(): boolean {
   return Boolean(URL_ && KEY);
