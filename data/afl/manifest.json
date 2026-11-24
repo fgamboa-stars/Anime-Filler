@@ -148,10 +148,19 @@
     {
       "afl": "ace-diamond-act-ii",
       "name": "Ace of the Diamond: Act II",
-      "checkedAt": "2026-11-09T01:30:58.948Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:06:08.239Z",
+      "status": "matched",
       "episodes": 52,
-      "reason": "already matched to AnimeFillerList \"Ace of the Diamond\""
+      "seasons": [
+        {
+          "anilistId": 105749,
+          "title": "Ace of the Diamond act II",
+          "episodes": 52
+        }
+      ],
+      "imported": [
+        "ace-of-the-diamond-act-ii"
+      ]
     },
     {
       "afl": "ajin-demi-human",
@@ -196,7 +205,7 @@
     {
       "afl": "angel-beats",
       "name": "Angel Beats!",
-      "checkedAt": "2026-11-09T01:31:28.959Z",
+      "checkedAt": "2026-11-24T18:06:13.514Z",
       "status": "skipped",
       "episodes": 16,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 16"
@@ -348,7 +357,7 @@
     {
       "afl": "berserk-2016",
       "name": "Berserk (2016)",
-      "checkedAt": "2026-11-09T01:32:59.053Z",
+      "checkedAt": "2026-11-24T18:06:23.516Z",
       "status": "skipped",
       "episodes": 24,
       "reason": "already matched to AnimeFillerList \"Berserk (Berserk Kenpuden)\""
@@ -373,7 +382,7 @@
     {
       "afl": "berserk-golden-age-arc",
       "name": "Berserk: The Golden Age Arc",
-      "checkedAt": "2026-11-09T01:33:09.126Z",
+      "checkedAt": "2026-11-24T18:06:33.594Z",
       "status": "skipped",
       "episodes": 3,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 3"
@@ -381,7 +390,7 @@
     {
       "afl": "berserk-golden-age-arc-memorial-edition",
       "name": "Berserk: The Golden Age Arc - Memorial Edition",
-      "checkedAt": "2026-11-09T01:33:19.196Z",
+      "checkedAt": "2026-11-24T18:06:43.506Z",
       "status": "skipped",
       "episodes": 6,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 6"
@@ -389,7 +398,7 @@
     {
       "afl": "beyblade-burst-god",
       "name": "Beyblade Burst Evolution",
-      "checkedAt": "2026-11-09T01:33:31.396Z",
+      "checkedAt": "2026-11-24T18:07:00.009Z",
       "status": "skipped",
       "episodes": 1,
       "reason": "AniList seasons add up to 51 episodes, AnimeFillerList lists 1"
@@ -397,10 +406,19 @@
     {
       "afl": "beyblade-burst-quadstrike",
       "name": "Beyblade Burst QuadStrike",
-      "checkedAt": "2026-11-09T01:33:48.634Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:07:10.797Z",
+      "status": "matched",
       "episodes": 26,
-      "reason": "AniList seasons add up to 51 episodes, AnimeFillerList lists 26"
+      "seasons": [
+        {
+          "anilistId": 166062,
+          "title": "Beyblade Burst QuadStrike",
+          "episodes": 26
+        }
+      ],
+      "imported": [
+        "beyblade-burst-quadstrike"
+      ]
     },
     {
       "afl": "beyblade-metal-fight",
@@ -422,7 +440,7 @@
     {
       "afl": "beyblade-x",
       "name": "Beyblade X",
-      "checkedAt": "2026-11-09T01:33:59.066Z",
+      "checkedAt": "2026-11-24T18:07:14.051Z",
       "status": "skipped",
       "episodes": 40,
       "reason": "AniList has no episode count for 165159"
@@ -430,7 +448,7 @@
     {
       "afl": "black-butler",
       "name": "Black Butler (Kuroshitsuji)",
-      "checkedAt": "2026-11-09T01:34:11.468Z",
+      "checkedAt": "2026-11-24T18:07:25.918Z",
       "status": "skipped",
       "episodes": 46,
       "reason": "AniList seasons add up to 36 episodes, AnimeFillerList lists 46"
@@ -445,7 +463,7 @@
     {
       "afl": "black-cat",
       "name": "Black Cat",
-      "checkedAt": "2026-11-09T01:34:19.192Z",
+      "checkedAt": "2026-11-24T18:07:33.570Z",
       "status": "skipped",
       "episodes": 24,
       "reason": "AniList seasons add up to 23 episodes, AnimeFillerList lists 24"
@@ -475,7 +493,7 @@
     {
       "afl": "black-lagoon",
       "name": "Black Lagoon",
-      "checkedAt": "2026-11-09T01:34:39.097Z",
+      "checkedAt": "2026-11-24T18:07:43.540Z",
       "status": "skipped",
       "episodes": 29,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 29"
@@ -603,7 +621,7 @@
     {
       "afl": "boruto-naruto-next-generations-definitive-filler-list",
       "name": "Boruto: Naruto Next Generations (Definitive)",
-      "checkedAt": "2026-11-09T01:36:09.328Z",
+      "checkedAt": "2026-11-24T18:07:53.385Z",
       "status": "skipped",
       "episodes": 293,
       "reason": "episode numbers are not a clean 1…n list"
@@ -628,7 +646,7 @@
     {
       "afl": "bungo-stray-dogs",
       "name": "Bungo Stray Dogs",
-      "checkedAt": "2026-11-09T01:36:29.296Z",
+      "checkedAt": "2026-11-24T18:08:03.559Z",
       "status": "skipped",
       "episodes": 61,
       "reason": "AniList seasons add up to 60 episodes, AnimeFillerList lists 61"
@@ -687,7 +705,7 @@
     {
       "afl": "cardcaptor-sakura",
       "name": "Cardcaptor Sakura",
-      "checkedAt": "2026-11-09T01:37:09.444Z",
+      "checkedAt": "2026-11-24T18:08:13.553Z",
       "status": "skipped",
       "episodes": 93,
       "reason": "AniList seasons add up to 70 episodes, AnimeFillerList lists 93"
@@ -695,7 +713,7 @@
     {
       "afl": "carnival-phantasm",
       "name": "Carnival Phantasm",
-      "checkedAt": "2026-11-09T01:37:19.267Z",
+      "checkedAt": "2026-11-24T18:08:23.585Z",
       "status": "skipped",
       "episodes": 12,
       "reason": "no AniList TV series found"
@@ -728,7 +746,7 @@
     {
       "afl": "clannad",
       "name": "Clannad",
-      "checkedAt": "2026-11-09T01:37:49.375Z",
+      "checkedAt": "2026-11-24T18:08:33.584Z",
       "status": "skipped",
       "episodes": 24,
       "reason": "AniList seasons add up to 47 episodes, AnimeFillerList lists 24"
@@ -736,10 +754,10 @@
     {
       "afl": "clannad-after-story",
       "name": "Clannad: After Story",
-      "checkedAt": "2026-11-09T01:37:59.325Z",
+      "checkedAt": "2026-11-24T18:08:43.592Z",
       "status": "skipped",
       "episodes": 25,
-      "reason": "AniList seasons add up to 47 episodes, AnimeFillerList lists 25"
+      "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 25"
     },
     {
       "afl": "classroom-elite",
@@ -807,7 +825,7 @@
     {
       "afl": "digimon-adventure-02",
       "name": "Code Geass: Akito the Exiled",
-      "checkedAt": "2026-11-09T01:38:39.423Z",
+      "checkedAt": "2026-11-24T18:08:53.725Z",
       "status": "skipped",
       "episodes": 5,
       "reason": "no AniList TV series found"
@@ -852,7 +870,7 @@
     {
       "afl": "cowboy-bebop",
       "name": "Cowboy Bebop",
-      "checkedAt": "2026-11-09T01:38:59.317Z",
+      "checkedAt": "2026-11-24T18:09:03.697Z",
       "status": "skipped",
       "episodes": 27,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 27"
@@ -908,7 +926,7 @@
     {
       "afl": "dandadan",
       "name": "DAN DA DAN",
-      "checkedAt": "2026-11-09T01:39:39.381Z",
+      "checkedAt": "2026-11-24T18:09:13.575Z",
       "status": "skipped",
       "episodes": 3,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 3"
@@ -933,7 +951,7 @@
     {
       "afl": "darwins-game",
       "name": "Darwin's Game",
-      "checkedAt": "2026-11-09T01:39:59.417Z",
+      "checkedAt": "2026-11-24T18:09:23.570Z",
       "status": "skipped",
       "episodes": 10,
       "reason": "AniList seasons add up to 11 episodes, AnimeFillerList lists 10"
@@ -966,7 +984,7 @@
     {
       "afl": "food-wars-second-plate-1",
       "name": "Death Note: Relight",
-      "checkedAt": "2026-11-09T01:40:29.526Z",
+      "checkedAt": "2026-11-24T18:09:33.613Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "no AniList TV series found"
@@ -1006,7 +1024,7 @@
     {
       "afl": "dennou-coil",
       "name": "Den-noh Coil",
-      "checkedAt": "2026-11-09T01:40:49.993Z",
+      "checkedAt": "2026-11-24T18:09:43.668Z",
       "status": "skipped",
       "episodes": 13,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 13"
@@ -1014,15 +1032,15 @@
     {
       "afl": "detective-conan",
       "name": "Detective Conan",
-      "checkedAt": "2026-11-09T01:40:59.516Z",
+      "checkedAt": "2026-11-24T18:09:53.661Z",
       "status": "skipped",
-      "episodes": 1221,
-      "reason": "AniList has no episode count for 235"
+      "episodes": 1222,
+      "reason": "already in the catalog as \"Detective Conan\""
     },
     {
       "afl": "detective-school-q",
       "name": "Detective School Q (Tantei Gakuen Q)",
-      "checkedAt": "2026-11-09T01:41:09.502Z",
+      "checkedAt": "2026-11-24T18:10:03.527Z",
       "status": "skipped",
       "episodes": 25,
       "reason": "episode numbers are not a clean 1…n list"
@@ -1071,7 +1089,7 @@
     {
       "afl": "digimon-adventure-2020",
       "name": "Digimon Adventure:",
-      "checkedAt": "2026-11-09T01:41:39.568Z",
+      "checkedAt": "2026-11-24T18:10:13.662Z",
       "status": "skipped",
       "episodes": 23,
       "reason": "AniList seasons add up to 67 episodes, AnimeFillerList lists 23"
@@ -1113,7 +1131,7 @@
     {
       "afl": "dororo",
       "name": "Dororo (2019)",
-      "checkedAt": "2026-11-09T01:51:09.131Z",
+      "checkedAt": "2026-11-24T18:10:38.075Z",
       "status": "skipped",
       "episodes": 15,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 15"
@@ -1189,7 +1207,7 @@
     {
       "afl": "dragon-ball-z-kai",
       "name": "Dragon Ball Z Kai",
-      "checkedAt": "2026-11-09T01:51:48.518Z",
+      "checkedAt": "2026-11-24T18:10:38.078Z",
       "status": "skipped",
       "episodes": 167,
       "reason": "episode numbers are not a clean 1…n list"
@@ -1197,7 +1215,7 @@
     {
       "afl": "dragon-quest-adventure-dai",
       "name": "DRAGON QUEST The Adventure of Dai (2020)",
-      "checkedAt": "2026-11-09T01:52:03.452Z",
+      "checkedAt": "2026-11-24T18:10:48.446Z",
       "status": "skipped",
       "episodes": 17,
       "reason": "AniList seasons add up to 100 episodes, AnimeFillerList lists 17"
@@ -1222,7 +1240,7 @@
     {
       "afl": "durarara",
       "name": "DURARARA!!",
-      "checkedAt": "2026-11-09T01:52:18.848Z",
+      "checkedAt": "2026-11-24T18:10:53.773Z",
       "status": "skipped",
       "episodes": 61,
       "reason": "AniList seasons add up to 60 episodes, AnimeFillerList lists 61"
@@ -1398,23 +1416,32 @@
     {
       "afl": "fatekaleid-liner-prisma-illya",
       "name": "Fate/Kaleid Liner Prisma Illya",
-      "checkedAt": "2026-11-09T01:54:03.673Z",
+      "checkedAt": "2026-11-24T18:11:06.051Z",
       "status": "skipped",
       "episodes": 43,
-      "reason": "AniList seasons add up to 32 episodes, AnimeFillerList lists 43"
+      "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 43"
     },
     {
       "afl": "fatestay-night",
       "name": "Fate/stay night",
-      "checkedAt": "2026-11-09T01:54:13.643Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:11:18.464Z",
+      "status": "matched",
       "episodes": 24,
-      "reason": "AniList seasons add up to 25 episodes, AnimeFillerList lists 24"
+      "seasons": [
+        {
+          "anilistId": 356,
+          "title": "Fate/stay night",
+          "episodes": 24
+        }
+      ],
+      "imported": [
+        "fate-stay-night"
+      ]
     },
     {
       "afl": "fatestay-night-unlimited-blade-works",
       "name": "Fate/stay night [Unlimited Blade Works]",
-      "checkedAt": "2026-11-09T04:55:55.058Z",
+      "checkedAt": "2026-11-24T18:11:23.747Z",
       "status": "skipped",
       "episodes": 25,
       "seasons": [
@@ -1434,10 +1461,25 @@
     {
       "afl": "fate-zero",
       "name": "Fate/Zero",
-      "checkedAt": "2026-11-09T01:54:28.785Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:11:33.753Z",
+      "status": "matched",
       "episodes": 25,
-      "reason": "already matched to AnimeFillerList \"Fate/stay night [Unlimited Blade Works]\""
+      "seasons": [
+        {
+          "anilistId": 10087,
+          "title": "Fate/Zero",
+          "episodes": 13
+        },
+        {
+          "anilistId": 11741,
+          "title": "Fate/Zero Season 2",
+          "episodes": 12
+        }
+      ],
+      "imported": [
+        "fate-zero",
+        "fate-zero-season-2"
+      ]
     },
     {
       "afl": "fire-force",
@@ -1450,7 +1492,7 @@
     {
       "afl": "fist-of-the-blue-sky",
       "name": "Fist of the Blue Sky",
-      "checkedAt": "2026-11-09T01:54:53.598Z",
+      "checkedAt": "2026-11-24T18:11:48.442Z",
       "status": "skipped",
       "episodes": 26,
       "reason": "AniList seasons add up to 131 episodes, AnimeFillerList lists 26"
@@ -1475,10 +1517,25 @@
     {
       "afl": "hokuto-no-ken",
       "name": "Fist of the North Star",
-      "checkedAt": "2026-11-09T01:55:11.396Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:11:53.804Z",
+      "status": "matched",
       "episodes": 152,
-      "reason": "AniList seasons add up to 174 episodes, AnimeFillerList lists 152"
+      "seasons": [
+        {
+          "anilistId": 967,
+          "title": "Fist of the North Star",
+          "episodes": 109
+        },
+        {
+          "anilistId": 1356,
+          "title": "Fist of the North Star 2",
+          "episodes": 43
+        }
+      ],
+      "imported": [
+        "fist-of-the-north-star",
+        "fist-of-the-north-star-2"
+      ]
     },
     {
       "afl": "shokugeki-no-soma",
@@ -1554,7 +1611,7 @@
     {
       "afl": "fruits-basket-2019",
       "name": "Fruits Basket (2019)",
-      "checkedAt": "2026-11-09T01:55:48.973Z",
+      "checkedAt": "2026-11-24T18:12:03.819Z",
       "status": "skipped",
       "episodes": 63,
       "reason": "already matched to AnimeFillerList \"Fruits Basket (Furuba)\""
@@ -1646,7 +1703,7 @@
     {
       "afl": "gachiakuta",
       "name": "Gachiakuta",
-      "checkedAt": "2026-11-09T02:19:32.865Z",
+      "checkedAt": "2026-11-24T18:12:13.623Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 2"
@@ -1701,7 +1758,7 @@
     {
       "afl": "ghost-shell-arise",
       "name": "Ghost in the Shell: Arise",
-      "checkedAt": "2026-11-09T02:20:02.076Z",
+      "checkedAt": "2026-11-24T18:12:23.739Z",
       "status": "skipped",
       "episodes": 10,
       "reason": "AniList seasons add up to 1 episodes, AnimeFillerList lists 10"
@@ -1716,7 +1773,7 @@
     {
       "afl": "ghost-shell-stand-alone-complex",
       "name": "Ghost In the Shell: Stand Alone Complex",
-      "checkedAt": "2026-11-09T02:20:21.968Z",
+      "checkedAt": "2026-11-24T18:12:33.732Z",
       "status": "skipped",
       "episodes": 53,
       "reason": "AniList seasons add up to 52 episodes, AnimeFillerList lists 53"
@@ -1879,7 +1936,7 @@
     {
       "afl": "hajime-no-ippo-champion-road",
       "name": "Hajime no Ippo: Champion Road",
-      "checkedAt": "2026-11-09T02:22:02.035Z",
+      "checkedAt": "2026-11-24T18:12:43.714Z",
       "status": "skipped",
       "episodes": 1,
       "reason": "no AniList TV series found"
@@ -1887,7 +1944,7 @@
     {
       "afl": "hajime-no-ippo-mashiba-vs-kimura-execution",
       "name": "Hajime no Ippo: Mashiba vs. Kimura - Execution",
-      "checkedAt": "2026-11-09T02:22:11.988Z",
+      "checkedAt": "2026-11-24T18:12:53.705Z",
       "status": "skipped",
       "episodes": 1,
       "reason": "no AniList TV series found"
@@ -1895,7 +1952,7 @@
     {
       "afl": "fighting-spirit",
       "name": "Hajime no Ippo: The Fighting! (Hajime no Ippo)",
-      "checkedAt": "2026-11-09T02:22:24.333Z",
+      "checkedAt": "2026-11-24T18:13:06.356Z",
       "status": "skipped",
       "episodes": 127,
       "reason": "AniList seasons add up to 75 episodes, AnimeFillerList lists 127"
@@ -1954,7 +2011,7 @@
     {
       "afl": "hayate-combat-butler",
       "name": "Hayate the Combat Butler (Hayate no Gotoku!)",
-      "checkedAt": "2026-11-09T02:23:01.895Z",
+      "checkedAt": "2026-11-24T18:13:13.610Z",
       "status": "skipped",
       "episodes": 35,
       "reason": "episode numbers are not a clean 1…n list"
@@ -1962,7 +2019,7 @@
     {
       "afl": "heavens-lost-property",
       "name": "Heaven's Lost Property",
-      "checkedAt": "2026-11-09T02:23:12.037Z",
+      "checkedAt": "2026-11-24T18:13:23.735Z",
       "status": "skipped",
       "episodes": 28,
       "reason": "AniList seasons add up to 25 episodes, AnimeFillerList lists 28"
@@ -2039,7 +2096,7 @@
     {
       "afl": "hellsing-ultimate",
       "name": "Hellsing Ultimate",
-      "checkedAt": "2026-11-09T02:23:42.055Z",
+      "checkedAt": "2026-11-24T18:13:33.735Z",
       "status": "skipped",
       "episodes": 10,
       "reason": "no AniList TV series found"
@@ -2047,7 +2104,7 @@
     {
       "afl": "high-school-dxd",
       "name": "Highschool DxD",
-      "checkedAt": "2026-11-09T02:24:02.035Z",
+      "checkedAt": "2026-11-24T18:13:43.762Z",
       "status": "skipped",
       "episodes": 48,
       "reason": "AniList seasons add up to 49 episodes, AnimeFillerList lists 48"
@@ -2055,7 +2112,7 @@
     {
       "afl": "highschoool-dead",
       "name": "Highschool of the Dead",
-      "checkedAt": "2026-11-09T02:24:12.110Z",
+      "checkedAt": "2026-11-24T18:13:53.787Z",
       "status": "skipped",
       "episodes": 13,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 13"
@@ -2063,7 +2120,7 @@
     {
       "afl": "when-they-cry",
       "name": "Higurashi: When They Cry (Higurashi no naku koro ni)",
-      "checkedAt": "2026-11-09T02:24:27.057Z",
+      "checkedAt": "2026-11-24T18:14:08.558Z",
       "status": "skipped",
       "episodes": 62,
       "reason": "AniList seasons add up to 50 episodes, AnimeFillerList lists 62"
@@ -2111,7 +2168,7 @@
     {
       "afl": "initial-d",
       "name": "Initial D",
-      "checkedAt": "2026-11-09T02:25:15.121Z",
+      "checkedAt": "2026-11-24T18:14:25.781Z",
       "status": "skipped",
       "episodes": 82,
       "reason": "AniList seasons add up to 39 episodes, AnimeFillerList lists 82"
@@ -2119,7 +2176,7 @@
     {
       "afl": "initial-d-extra-stage",
       "name": "Initial D Extra Stage",
-      "checkedAt": "2026-11-09T02:25:17.547Z",
+      "checkedAt": "2026-11-24T18:14:28.206Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "no AniList TV series found"
@@ -2127,7 +2184,7 @@
     {
       "afl": "initial-d-extra-stage-2",
       "name": "Initial D Extra Stage 2",
-      "checkedAt": "2026-11-09T02:25:23.073Z",
+      "checkedAt": "2026-11-24T18:14:33.793Z",
       "status": "skipped",
       "episodes": 1,
       "reason": "no AniList TV series found"
@@ -2260,7 +2317,7 @@
     {
       "afl": "jojos-biarre-adenture-ova",
       "name": "JoJo's Bizarre Adventure (1993)",
-      "checkedAt": "2026-11-09T02:26:37.552Z",
+      "checkedAt": "2026-11-24T18:14:46.124Z",
       "status": "skipped",
       "episodes": 13,
       "reason": "already matched to AnimeFillerList \"JoJo's Bizarre Adventure\""
@@ -2276,7 +2333,7 @@
     {
       "afl": "jujutsu-kaisen-0-movie",
       "name": "Jujutsu Kaisen 0",
-      "checkedAt": "2026-11-09T02:26:53.230Z",
+      "checkedAt": "2026-11-24T18:14:53.759Z",
       "status": "skipped",
       "episodes": 1,
       "reason": "no AniList TV series found"
@@ -2284,7 +2341,7 @@
     {
       "afl": "k",
       "name": "K (K Project)",
-      "checkedAt": "2026-11-09T02:27:05.479Z",
+      "checkedAt": "2026-11-24T18:15:06.071Z",
       "status": "skipped",
       "episodes": 26,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 26"
@@ -2292,7 +2349,7 @@
     {
       "afl": "k-seven-stories",
       "name": "K: Seven Stories",
-      "checkedAt": "2026-11-09T02:27:13.304Z",
+      "checkedAt": "2026-11-24T18:15:13.803Z",
       "status": "skipped",
       "episodes": 6,
       "reason": "no AniList TV series found"
@@ -2367,7 +2424,7 @@
     {
       "afl": "kamisama-kiss",
       "name": "Kamisama Kiss (Kamisama Hajimemashita)",
-      "checkedAt": "2026-11-09T02:27:55.557Z",
+      "checkedAt": "2026-11-24T18:15:26.189Z",
       "status": "skipped",
       "episodes": 30,
       "reason": "AniList seasons add up to 25 episodes, AnimeFillerList lists 30"
@@ -2375,7 +2432,7 @@
     {
       "afl": "kenIchi-mightiest-disciple",
       "name": "KenIchi: The Mightiest Disciple",
-      "checkedAt": "2026-11-09T02:28:03.067Z",
+      "checkedAt": "2026-11-24T18:15:33.654Z",
       "status": "skipped",
       "episodes": 11,
       "reason": "episode numbers are not a clean 1…n list"
@@ -2383,7 +2440,7 @@
     {
       "afl": "kill-la-kill",
       "name": "KILL la KILL",
-      "checkedAt": "2026-11-09T02:28:13.311Z",
+      "checkedAt": "2026-11-24T18:15:43.834Z",
       "status": "skipped",
       "episodes": 25,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 25"
@@ -2408,7 +2465,7 @@
     {
       "afl": "kingdom",
       "name": "Kingdom",
-      "checkedAt": "2026-11-09T02:28:42.895Z",
+      "checkedAt": "2026-11-24T18:16:05.908Z",
       "status": "skipped",
       "episodes": 104,
       "reason": "AniList seasons add up to 129 episodes, AnimeFillerList lists 104"
@@ -2450,7 +2507,7 @@
     {
       "afl": "kizumonogatari",
       "name": "Kizumonogatari",
-      "checkedAt": "2026-11-09T02:29:03.378Z",
+      "checkedAt": "2026-11-24T18:16:08.305Z",
       "status": "skipped",
       "episodes": 3,
       "reason": "no AniList TV series found"
@@ -2584,10 +2641,25 @@
     {
       "afl": "magi-labyrinth-magic",
       "name": "Magi",
-      "checkedAt": "2026-11-09T02:30:15.713Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:16:13.845Z",
+      "status": "matched",
       "episodes": 50,
-      "reason": "AniList seasons add up to 63 episodes, AnimeFillerList lists 50"
+      "seasons": [
+        {
+          "anilistId": 14513,
+          "title": "Magi: The Labyrinth of Magic",
+          "episodes": 25
+        },
+        {
+          "anilistId": 18115,
+          "title": "Magi: The Kingdom of Magic",
+          "episodes": 25
+        }
+      ],
+      "imported": [
+        "magi-the-labyrinth-of-magic",
+        "magi-the-kingdom-of-magic"
+      ]
     },
     {
       "afl": "magi-adventure-sinbad-tv",
@@ -2656,7 +2728,7 @@
     {
       "afl": "maken-ki-battling-venus",
       "name": "Maken-ki! Battling Venus (Maken-ki!)",
-      "checkedAt": "2026-11-09T02:31:05.790Z",
+      "checkedAt": "2026-11-24T18:16:26.190Z",
       "status": "skipped",
       "episodes": 22,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 22"
@@ -2681,7 +2753,7 @@
     {
       "afl": "mashle-magic-and-muscles",
       "name": "MASHLE: MAGIC AND MUSCLES",
-      "checkedAt": "2026-11-09T02:31:23.534Z",
+      "checkedAt": "2026-11-24T18:16:33.890Z",
       "status": "skipped",
       "episodes": 25,
       "reason": "AniList has no episode count for 177704"
@@ -2689,10 +2761,19 @@
     {
       "afl": "mf-ghost",
       "name": "MF Ghost",
-      "checkedAt": "2026-11-09T02:31:33.432Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:16:43.840Z",
+      "status": "matched",
       "episodes": 12,
-      "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 12"
+      "seasons": [
+        {
+          "anilistId": 143327,
+          "title": "MF GHOST",
+          "episodes": 12
+        }
+      ],
+      "imported": [
+        "mf-ghost"
+      ]
     },
     {
       "afl": "michiko-hatchin",
@@ -2714,7 +2795,7 @@
     {
       "afl": "miss-kobayashis-dragon-maid",
       "name": "Miss Kobayashi's Dragon Maid",
-      "checkedAt": "2026-11-09T02:31:53.487Z",
+      "checkedAt": "2026-11-24T18:16:53.785Z",
       "status": "skipped",
       "episodes": 20,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 20"
@@ -2751,26 +2832,33 @@
     {
       "afl": "mobile-suit-gundam",
       "name": "Mobile Suit Gundam (Kidou Senshi Gundam)",
-      "checkedAt": "2026-11-09T02:58:25.549Z",
+      "checkedAt": "2026-11-24T18:17:08.679Z",
       "status": "skipped",
       "episodes": 43,
-      "reason": "AniList seasons add up to 56 episodes, AnimeFillerList lists 43"
+      "seasons": [
+        {
+          "anilistId": 80,
+          "title": "Mobile Suit Gundam",
+          "episodes": 43
+        }
+      ],
+      "reason": "season split looks shifted (mobile-suit-gundam: 29/42 titles match, but they line up when moved by -1); set status to \"manual\" with corrected seasons to import it"
     },
     {
       "afl": "monogatari-series",
       "name": "Monogatari",
-      "checkedAt": "2026-11-09T02:58:42.312Z",
+      "checkedAt": "2026-11-24T18:17:28.285Z",
       "status": "skipped",
       "episodes": 100,
-      "reason": "AniList seasons add up to 79 episodes, AnimeFillerList lists 100"
+      "reason": "already matched to AnimeFillerList \"Tsukimonogatari\""
     },
     {
       "afl": "monogatari-series-second-season",
       "name": "Monogatari Series Second Season",
-      "checkedAt": "2026-11-09T02:58:44.733Z",
+      "checkedAt": "2026-11-24T18:17:30.684Z",
       "status": "skipped",
       "episodes": 23,
-      "reason": "AniList seasons add up to 30 episodes, AnimeFillerList lists 23"
+      "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 23"
     },
     {
       "afl": "monster",
@@ -2837,7 +2925,7 @@
     {
       "afl": "my-hero-academia-vigilantes",
       "name": "My Hero Academia: Vigilantes (Vigilante: Boku no Hero Academia Illegals)",
-      "checkedAt": "2026-11-09T02:59:22.718Z",
+      "checkedAt": "2026-11-24T18:17:36.104Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 2"
@@ -3003,10 +3091,19 @@
     {
       "afl": "nisemonogatari",
       "name": "Nisemonogatari",
-      "checkedAt": "2026-11-09T03:00:46.111Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:17:43.790Z",
+      "status": "matched",
       "episodes": 11,
-      "reason": "AniList seasons add up to 19 episodes, AnimeFillerList lists 11"
+      "seasons": [
+        {
+          "anilistId": 11597,
+          "title": "Nisemonogatari",
+          "episodes": 11
+        }
+      ],
+      "imported": [
+        "nisemonogatari"
+      ]
     },
     {
       "afl": "no-game-no-life",
@@ -3058,18 +3155,18 @@
     {
       "afl": "one-pace",
       "name": "One Pace (One Piece)",
-      "checkedAt": "2026-11-09T03:01:20.843Z",
+      "checkedAt": "2026-11-24T18:17:58.555Z",
       "status": "skipped",
       "episodes": 138,
-      "reason": "AniList has no episode count for 21"
+      "reason": "already in the catalog as \"One Piece\""
     },
     {
       "afl": "one-piece",
       "name": "One Piece",
-      "checkedAt": "2026-11-09T03:01:26.172Z",
+      "checkedAt": "2026-11-24T18:18:03.831Z",
       "status": "skipped",
       "episodes": 1168,
-      "reason": "AniList has no episode count for 21"
+      "reason": "already in the catalog as \"One Piece\""
     },
     {
       "afl": "one-piece-movies",
@@ -3081,7 +3178,7 @@
     {
       "afl": "one-piece-log-fish-man-island-saga",
       "name": "One Piece Log: Fish-Man Island Saga",
-      "checkedAt": "2026-11-09T03:01:36.096Z",
+      "checkedAt": "2026-11-24T18:18:13.865Z",
       "status": "skipped",
       "episodes": 6,
       "reason": "AniList seasons add up to 21 episodes, AnimeFillerList lists 6"
@@ -3149,7 +3246,7 @@
     {
       "afl": "ouran-high-school-host-club",
       "name": "Ouran High School Host Club",
-      "checkedAt": "2026-11-09T03:02:06.138Z",
+      "checkedAt": "2026-11-24T18:18:23.865Z",
       "status": "skipped",
       "episodes": 24,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 24"
@@ -3157,7 +3254,7 @@
     {
       "afl": "outlaw-star",
       "name": "Outlaw Star",
-      "checkedAt": "2026-11-09T03:02:16.085Z",
+      "checkedAt": "2026-11-24T18:18:33.869Z",
       "status": "skipped",
       "episodes": 26,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 26"
@@ -3200,10 +3297,10 @@
     {
       "afl": "owarimonogatari",
       "name": "Owarimonogatari",
-      "checkedAt": "2026-11-09T03:02:36.151Z",
+      "checkedAt": "2026-11-24T18:18:43.867Z",
       "status": "skipped",
       "episodes": 9,
-      "reason": "AniList seasons add up to 19 episodes, AnimeFillerList lists 9"
+      "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 9"
     },
     {
       "afl": "parasyte-maxim",
@@ -3259,15 +3356,15 @@
     {
       "afl": "pokemon",
       "name": "Pokémon",
-      "checkedAt": "2026-11-09T03:03:16.239Z",
+      "checkedAt": "2026-11-24T18:18:53.831Z",
       "status": "skipped",
-      "episodes": 1140,
-      "reason": "AniList seasons add up to 8 episodes, AnimeFillerList lists 1140"
+      "episodes": 1144,
+      "reason": "AniList seasons add up to 8 episodes, AnimeFillerList lists 1144"
     },
     {
       "afl": "pok%C3%A9mon-advanced-generation",
       "name": "Pokémon Advanced Generation",
-      "checkedAt": "2026-11-09T03:03:26.030Z",
+      "checkedAt": "2026-11-24T18:19:03.898Z",
       "status": "skipped",
       "episodes": 191,
       "reason": "episode numbers are not a clean 1…n list"
@@ -3275,7 +3372,7 @@
     {
       "afl": "pok%C3%A9mon-diamond-and-pearl",
       "name": "Pokémon Diamond and Pearl",
-      "checkedAt": "2026-11-09T03:03:36.184Z",
+      "checkedAt": "2026-11-24T18:19:13.888Z",
       "status": "skipped",
       "episodes": 91,
       "reason": "no AniList TV series found"
@@ -3283,7 +3380,7 @@
     {
       "afl": "pok%C3%A9mon-origins-0",
       "name": "Pokémon Origins  (Pocket Monsters: The Origin)",
-      "checkedAt": "2026-11-09T03:03:48.526Z",
+      "checkedAt": "2026-11-24T18:19:26.247Z",
       "status": "skipped",
       "episodes": 4,
       "reason": "no AniList TV series found"
@@ -3291,7 +3388,7 @@
     {
       "afl": "pok%C3%A9mon-original-series",
       "name": "Pokémon: Original series",
-      "checkedAt": "2026-11-09T03:03:56.037Z",
+      "checkedAt": "2026-11-24T18:19:33.962Z",
       "status": "skipped",
       "episodes": 274,
       "reason": "episode numbers are not a clean 1…n list"
@@ -3299,7 +3396,7 @@
     {
       "afl": "prison-school",
       "name": "Prison School",
-      "checkedAt": "2026-11-09T03:04:06.348Z",
+      "checkedAt": "2026-11-24T18:19:43.877Z",
       "status": "skipped",
       "episodes": 13,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 13"
@@ -3307,7 +3404,7 @@
     {
       "afl": "project-arms",
       "name": "Project ARMS (ARMS)",
-      "checkedAt": "2026-11-09T03:04:18.612Z",
+      "checkedAt": "2026-11-24T18:19:56.264Z",
       "status": "skipped",
       "episodes": 53,
       "reason": "AniList seasons add up to 52 episodes, AnimeFillerList lists 53"
@@ -3315,7 +3412,7 @@
     {
       "afl": "psycho-pass",
       "name": "PSYCHO-PASS",
-      "checkedAt": "2026-11-09T03:04:26.207Z",
+      "checkedAt": "2026-11-24T18:20:03.915Z",
       "status": "skipped",
       "episodes": 44,
       "reason": "AniList seasons add up to 33 episodes, AnimeFillerList lists 44"
@@ -3330,7 +3427,7 @@
     {
       "afl": "food-wars-third-plate-1",
       "name": "Psycho-Pass: Extended Edition",
-      "checkedAt": "2026-11-09T03:04:36.204Z",
+      "checkedAt": "2026-11-24T18:20:13.874Z",
       "status": "skipped",
       "episodes": 11,
       "reason": "no AniList TV series found"
@@ -3338,7 +3435,7 @@
     {
       "afl": "super-dragon-ball-heroes",
       "name": "PSYCHO-PASS: Sinners of the System",
-      "checkedAt": "2026-11-09T03:04:46.229Z",
+      "checkedAt": "2026-11-24T18:20:23.824Z",
       "status": "skipped",
       "episodes": 3,
       "reason": "no AniList TV series found"
@@ -3447,7 +3544,7 @@
     {
       "afl": "miraculous-ladybug",
       "name": "Rebuild of Evangelion",
-      "checkedAt": "2026-11-09T03:05:46.332Z",
+      "checkedAt": "2026-11-24T18:20:33.924Z",
       "status": "skipped",
       "episodes": 4,
       "reason": "no AniList TV series found"
@@ -3489,7 +3586,7 @@
     {
       "afl": "relife",
       "name": "ReLIFE",
-      "checkedAt": "2026-11-09T03:06:16.294Z",
+      "checkedAt": "2026-11-24T18:20:43.906Z",
       "status": "skipped",
       "episodes": 17,
       "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 17"
@@ -3543,7 +3640,7 @@
     {
       "afl": "ron-kamonohashis-forbidden-deductions",
       "name": "Ron Kamonohashi's Forbidden Deductions (Kamonohashi Ron no Kindan Suiri)",
-      "checkedAt": "2026-11-09T03:06:48.702Z",
+      "checkedAt": "2026-11-24T18:20:56.328Z",
       "status": "skipped",
       "episodes": 18,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 18"
@@ -3599,7 +3696,7 @@
     {
       "afl": "rwby",
       "name": "RWBY",
-      "checkedAt": "2026-11-09T03:07:26.362Z",
+      "checkedAt": "2026-11-24T18:21:03.984Z",
       "status": "skipped",
       "episodes": 40,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 40"
@@ -3717,7 +3814,7 @@
     {
       "afl": "school-days",
       "name": "School Rumble",
-      "checkedAt": "2026-11-09T03:08:36.360Z",
+      "checkedAt": "2026-11-24T18:21:13.771Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "episode numbers are not a clean 1…n list"
@@ -3725,7 +3822,7 @@
     {
       "afl": "orient",
       "name": "School Rumble: Extra Class",
-      "checkedAt": "2026-11-09T03:08:46.473Z",
+      "checkedAt": "2026-11-24T18:21:23.974Z",
       "status": "skipped",
       "episodes": 2,
       "reason": "no AniList TV series found"
@@ -3733,7 +3830,7 @@
     {
       "afl": "seraph-end",
       "name": "Seraph of the End: Vampire Reign (Owari no Seraph)",
-      "checkedAt": "2026-11-09T03:09:01.224Z",
+      "checkedAt": "2026-11-24T18:21:38.685Z",
       "status": "skipped",
       "episodes": 25,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 25"
@@ -3821,7 +3918,7 @@
     {
       "afl": "shugo-chara",
       "name": "Shugo Chara",
-      "checkedAt": "2026-11-09T03:10:15.196Z",
+      "checkedAt": "2026-11-24T18:21:43.711Z",
       "status": "skipped",
       "episodes": 127,
       "reason": "episode numbers are not a clean 1…n list"
@@ -3859,7 +3956,7 @@
     {
       "afl": "sket-dance",
       "name": "SKET Dance",
-      "checkedAt": "2026-11-09T03:10:45.327Z",
+      "checkedAt": "2026-11-24T18:21:53.936Z",
       "status": "skipped",
       "episodes": 54,
       "reason": "AniList seasons add up to 77 episodes, AnimeFillerList lists 54"
@@ -3926,7 +4023,7 @@
     {
       "afl": "soul-hunter",
       "name": "Soul Hunter (Hoshin Engi)",
-      "checkedAt": "2026-11-09T03:11:35.414Z",
+      "checkedAt": "2026-11-24T18:22:04.322Z",
       "status": "skipped",
       "episodes": 26,
       "reason": "already matched to AnimeFillerList \"Hakyu Hoshin Engi\""
@@ -3976,7 +4073,7 @@
     {
       "afl": "steinsgate",
       "name": "Steins;Gate",
-      "checkedAt": "2026-11-09T03:12:15.416Z",
+      "checkedAt": "2026-11-24T18:22:13.964Z",
       "status": "skipped",
       "episodes": 25,
       "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 25"
@@ -4001,7 +4098,7 @@
     {
       "afl": "summertime-render",
       "name": "Summer Time Rendering",
-      "checkedAt": "2026-11-09T03:12:35.434Z",
+      "checkedAt": "2026-11-24T18:22:23.943Z",
       "status": "skipped",
       "episodes": 12,
       "reason": "AniList seasons add up to 25 episodes, AnimeFillerList lists 12"
@@ -4009,7 +4106,7 @@
     {
       "afl": "dragon-ball-heroes",
       "name": "Super Dragon Ball Heroes",
-      "checkedAt": "2026-11-09T03:12:45.461Z",
+      "checkedAt": "2026-11-24T18:22:33.990Z",
       "status": "skipped",
       "episodes": 40,
       "reason": "AniList seasons add up to 56 episodes, AnimeFillerList lists 40"
@@ -4176,7 +4273,7 @@
     {
       "afl": "future-diary",
       "name": "The Future Diary (Mirai Nikki)",
-      "checkedAt": "2026-11-09T03:14:27.812Z",
+      "checkedAt": "2026-11-24T18:22:46.292Z",
       "status": "skipped",
       "episodes": 27,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 27"
@@ -4242,7 +4339,7 @@
     {
       "afl": "prince-tennis-0",
       "name": "The Prince of Tennis (Tenisu no Ōjisama)",
-      "checkedAt": "2026-11-09T03:15:15.428Z",
+      "checkedAt": "2026-11-24T18:22:53.741Z",
       "status": "skipped",
       "episodes": 177,
       "reason": "episode numbers are not a clean 1…n list"
@@ -4315,7 +4412,7 @@
     {
       "afl": "chrono-crusade",
       "name": "Thus Spoke Rohan Kishibe",
-      "checkedAt": "2026-11-09T03:16:05.598Z",
+      "checkedAt": "2026-11-24T18:23:03.969Z",
       "status": "skipped",
       "episodes": 4,
       "reason": "no AniList TV series found"
@@ -4323,7 +4420,7 @@
     {
       "afl": "love-ru",
       "name": "To Love Ru",
-      "checkedAt": "2026-11-09T03:16:15.661Z",
+      "checkedAt": "2026-11-24T18:23:13.899Z",
       "status": "skipped",
       "episodes": 38,
       "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 38"
@@ -4331,10 +4428,10 @@
     {
       "afl": "love-ru-darkness",
       "name": "To Love Ru: Darkness",
-      "checkedAt": "2026-11-09T03:16:25.602Z",
+      "checkedAt": "2026-11-24T18:23:24.307Z",
       "status": "skipped",
       "episodes": 26,
-      "reason": "AniList seasons add up to 36 episodes, AnimeFillerList lists 26"
+      "reason": "AniList seasons add up to 24 episodes, AnimeFillerList lists 26"
     },
     {
       "afl": "abandoned-sacred-beasts",
@@ -4356,7 +4453,7 @@
     {
       "afl": "your-eternity",
       "name": "To Your Eternity (Fumetsu no Anata e)",
-      "checkedAt": "2026-11-09T03:16:47.984Z",
+      "checkedAt": "2026-11-24T18:23:36.361Z",
       "status": "skipped",
       "episodes": 21,
       "reason": "AniList seasons add up to 40 episodes, AnimeFillerList lists 21"
@@ -4498,15 +4595,24 @@
     {
       "afl": "uq-holder-magister-negi-magi-2",
       "name": "UQ Holder!",
-      "checkedAt": "2026-11-09T03:18:25.759Z",
-      "status": "skipped",
+      "checkedAt": "2026-11-24T18:23:46.382Z",
+      "status": "matched",
       "episodes": 12,
-      "reason": "already matched to AnimeFillerList \"Negima!? (Mahou Sensei Negima?!)\""
+      "seasons": [
+        {
+          "anilistId": 21855,
+          "title": "UQ Holder!",
+          "episodes": 12
+        }
+      ],
+      "imported": [
+        "uq-holder"
+      ]
     },
     {
       "afl": "urusei-yatsura",
       "name": "Urusei Yatsura (1981)",
-      "checkedAt": "2026-11-09T03:18:38.057Z",
+      "checkedAt": "2026-11-24T18:23:57.162Z",
       "status": "skipped",
       "episodes": 167,
       "reason": "AniList seasons add up to 195 episodes, AnimeFillerList lists 167"
@@ -4545,10 +4651,10 @@
     {
       "afl": "we-never-learn-bokuben",
       "name": "We Never Learn!: BOKUBEN (Bokutachi wa Benkyou ga Dekinai)",
-      "checkedAt": "2026-11-09T03:19:08.130Z",
+      "checkedAt": "2026-11-24T18:24:06.288Z",
       "status": "skipped",
       "episodes": 17,
-      "reason": "AniList seasons add up to 26 episodes, AnimeFillerList lists 17"
+      "reason": "AniList seasons add up to 13 episodes, AnimeFillerList lists 17"
     },
     {
       "afl": "x",
@@ -4612,7 +4718,7 @@
     {
       "afl": "yowamushi-pedal",
       "name": "Yowamushi Pedal",
-      "checkedAt": "2026-11-09T03:19:55.757Z",
+      "checkedAt": "2026-11-24T18:24:13.923Z",
       "status": "skipped",
       "episodes": 14,
       "reason": "AniList seasons add up to 38 episodes, AnimeFillerList lists 14"
@@ -4645,7 +4751,7 @@
     {
       "afl": "yu-gi-oh-5ds",
       "name": "Yu-Gi-Oh! 5D's",
-      "checkedAt": "2026-11-09T03:20:15.600Z",
+      "checkedAt": "2026-11-24T18:24:23.934Z",
       "status": "skipped",
       "episodes": 154,
       "reason": "episode numbers are not a clean 1…n list"
@@ -4653,7 +4759,7 @@
     {
       "afl": "yu-gi-oh-arc-v",
       "name": "Yu-Gi-Oh! ARC-V",
-      "checkedAt": "2026-11-09T03:20:25.807Z",
+      "checkedAt": "2026-11-24T18:24:34.031Z",
       "status": "skipped",
       "episodes": 20,
       "reason": "AniList seasons add up to 148 episodes, AnimeFillerList lists 20"
@@ -4701,7 +4807,7 @@
     {
       "afl": "yu-gi-oh-sevens",
       "name": "Yu-Gi-Oh! SEVENS",
-      "checkedAt": "2026-11-09T03:21:05.748Z",
+      "checkedAt": "2026-11-24T18:24:44.008Z",
       "status": "skipped",
       "episodes": 4,
       "reason": "AniList seasons add up to 92 episodes, AnimeFillerList lists 4"
@@ -4709,7 +4815,7 @@
     {
       "afl": "yu-gi-oh-vrains",
       "name": "Yu-Gi-Oh! VRAINS",
-      "checkedAt": "2026-11-09T03:21:15.819Z",
+      "checkedAt": "2026-11-24T18:24:54.052Z",
       "status": "skipped",
       "episodes": 56,
       "reason": "AniList seasons add up to 120 episodes, AnimeFillerList lists 56"
@@ -4717,7 +4823,7 @@
     {
       "afl": "yu-gi-oh-zexal",
       "name": "Yu-Gi-Oh! Zexal",
-      "checkedAt": "2026-11-09T03:21:25.693Z",
+      "checkedAt": "2026-11-24T18:25:03.993Z",
       "status": "skipped",
       "episodes": 124,
       "reason": "episode numbers are not a clean 1…n list"
@@ -4759,7 +4865,7 @@
     {
       "afl": "zom-100-bucket-list-dead",
       "name": "Zom 100: Bucket List of the Dead",
-      "checkedAt": "2026-11-09T03:21:55.842Z",
+      "checkedAt": "2026-11-24T18:25:14.127Z",
       "status": "skipped",
       "episodes": 9,
       "reason": "AniList seasons add up to 12 episodes, AnimeFillerList lists 9"

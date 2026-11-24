@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "beyblade-burst-quadstrike",
+  "anilistId": 166062,
+  "title": "Beyblade Burst QuadStrike",
+  "alternativeTitles": [
+    "Beyblade Burst BU"
+  ],
+  "totalEpisodes": 26,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-24T18:25:17.118Z",
+  "episodes": [
+    {"number":1,"title":"Erupting! Thunderous! Element Power!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":2,"title":"Explosive Birth! Divine Belial!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":3,"title":"GT is Here! Gatling Dragon!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":4,"title":"Let's Do It, Heck Tournament!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":5,"title":"Roaring! Dragon vs. Pandora!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":6,"title":"Kerbeus! The Guard Dog Returns!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":7,"title":"Demon King's Hell Mission Theater!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":8,"title":"Peerless! Xiphoid Xcalibur!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":9,"title":"Shakuenji Dojo! Ferocious Battle!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":10,"title":"Demon King vs. Unmatched!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":11,"title":"Sparking! Big Clash at the Battle Camp!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Third Element! Blasting Wind, Twister Pandora!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":13,"title":"Great Revolution! Tag Battle!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":14,"title":"Super Z! Zest Achilles!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":15,"title":"Knight of the Wind, Wind Knight!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":16,"title":"Explosive Dash! Battle Marathon!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":17,"title":"Crimson Battle, Aether Stadium!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":18,"title":"Explosive and Blasting!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":19,"title":"Champion's Challenge! Decisive Battle in the Sky!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":20,"title":"Super Z Strongest Aiga vs. Demon King Bell!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":21,"title":"Banmaden! Ruin Pandemonium!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":22,"title":"Shining Stars! Element Battle Tournament!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":23,"title":"Aim to be a Hero! Vroom-vroom Revolution!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":24,"title":"Cho-Z vs. Purgatory's Black Flame!!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":25,"title":"Resonance vs. Elemental!","type":"FILLER","arc":"Standalone Episodes"},
+    {"number":26,"title":"Bursting with Intense Heat! Element Battle!!","type":"FILLER","arc":"Standalone Episodes"}
+  ]
+}

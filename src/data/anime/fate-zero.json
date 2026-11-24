@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "slug": "fate-zero",
+  "anilistId": 10087,
+  "title": "Fate/Zero",
+  "alternativeTitles": [
+    "F/Z"
+  ],
+  "totalEpisodes": 13,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Fate/Zero",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-24T18:25:21.910Z",
+  "episodes": [
+    {"number":1,"title":"Summoning Ancient Heroes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"False Start","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Land of Fuyuki","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Blade of the Demonic Spear","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"The Vicious Beast Roars","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Night of Schemes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"The Evil Forest","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"The Magus Killer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Master and Servant","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Rin's Adventure","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Grail Dialogue","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"The Grail's Invitation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Forbidden Banquet","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

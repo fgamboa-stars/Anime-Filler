@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "nisemonogatari",
+  "anilistId": 11597,
+  "title": "Nisemonogatari",
+  "alternativeTitles": [
+    "Fake Tale"
+  ],
+  "totalEpisodes": 11,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "updatedAt": "2026-11-24T18:25:33.920Z",
+  "episodes": [
+    {"number":1,"title":"Karen Bee, Part One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Karen Bee, Part Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Karen Bee, Part Three","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Karen Bee, Part Four","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Karen Bee, Part Five","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Karen Bee, Part Six","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Karen Bee, Part Seven","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Tsukihi Phoenix, Part One","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"Tsukihi Phoenix, Part Two","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"Tsukihi Phoenix, Part Three","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"Tsukihi Phoenix, Part Four","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}

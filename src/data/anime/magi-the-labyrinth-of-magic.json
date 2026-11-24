@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "magi-the-labyrinth-of-magic",
+  "anilistId": 14513,
+  "title": "Magi: The Labyrinth of Magic",
+  "alternativeTitles": [
+    "Magi: The labyrinth of magic"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com",
+  "franchise": "Magi",
+  "seasonLabel": "Season 1",
+  "franchiseOrder": 1,
+  "updatedAt": "2026-11-24T18:25:26.709Z",
+  "episodes": [
+    {"number":1,"title":"Aladdin and Alibaba","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Dungeon Suite","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Magician of Creation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"The People of the Plains","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Dungeon Capturer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"Warrior Tribe Fanalis","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"His Name is Sinbad","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"A Broken Promise","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"A Prince's Duty","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"His Name is Judar","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"A New Visitor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"Determination and Separation","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Prince of Rebellion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"Alibaba's Answer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"Cassim's Answer","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Wisdom of Solomon","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Smile","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"The Kingdom of Sindria","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"The Culprit's Name is Sinbad","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"The Two Princes","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"Zagan Labyrinth","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":22,"title":"Household of Flames","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":23,"title":"Battle Cry","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":24,"title":"Fall into Depravity","type":"MIXED","arc":"Standalone Episodes"},
+    {"number":25,"title":"Alibaba and Aladdin","type":"MIXED","arc":"Standalone Episodes"}
+  ]
+}

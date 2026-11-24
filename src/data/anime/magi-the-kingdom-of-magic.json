@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "slug": "magi-the-kingdom-of-magic",
+  "anilistId": 18115,
+  "title": "Magi: The Kingdom of Magic",
+  "alternativeTitles": [
+    "Magi: The kingdom of magic",
+    "Magi: The Labyrinth of Magic 2"
+  ],
+  "totalEpisodes": 25,
+  "source": "Classifications compiled from AnimeFillerList.com (overall episodes 26–50, renumbered to match AniList)",
+  "franchise": "Magi",
+  "seasonLabel": "The Kingdom of Magic",
+  "franchiseOrder": 2,
+  "updatedAt": "2026-11-24T18:25:26.922Z",
+  "episodes": [
+    {"number":1,"title":"Premonition of a Journey","type":"CANON","arc":"Standalone Episodes"},
+    {"number":2,"title":"Departure","type":"CANON","arc":"Standalone Episodes"},
+    {"number":3,"title":"Setting Sail","type":"CANON","arc":"Standalone Episodes"},
+    {"number":4,"title":"Pirates","type":"CANON","arc":"Standalone Episodes"},
+    {"number":5,"title":"Mother","type":"CANON","arc":"Standalone Episodes"},
+    {"number":6,"title":"A Kind Person","type":"CANON","arc":"Standalone Episodes"},
+    {"number":7,"title":"Kouha Ren Appears","type":"CANON","arc":"Standalone Episodes"},
+    {"number":8,"title":"Days of Training","type":"CANON","arc":"Standalone Episodes"},
+    {"number":9,"title":"The Reim Empire","type":"CANON","arc":"Standalone Episodes"},
+    {"number":10,"title":"The High Priestess","type":"CANON","arc":"Standalone Episodes"},
+    {"number":11,"title":"The Great Rift","type":"CANON","arc":"Standalone Episodes"},
+    {"number":12,"title":"A New Emperor","type":"CANON","arc":"Standalone Episodes"},
+    {"number":13,"title":"Titus Alexius","type":"CANON","arc":"Standalone Episodes"},
+    {"number":14,"title":"The Hidden Citizens","type":"CANON","arc":"Standalone Episodes"},
+    {"number":15,"title":"The Magicians' Country","type":"CANON","arc":"Standalone Episodes"},
+    {"number":16,"title":"Remaining Life","type":"CANON","arc":"Standalone Episodes"},
+    {"number":17,"title":"Declaration of War","type":"CANON","arc":"Standalone Episodes"},
+    {"number":18,"title":"Reim's Threat","type":"CANON","arc":"Standalone Episodes"},
+    {"number":19,"title":"A Real Magi","type":"CANON","arc":"Standalone Episodes"},
+    {"number":20,"title":"Reunion","type":"CANON","arc":"Standalone Episodes"},
+    {"number":21,"title":"The King Vessel","type":"CANON","arc":"Standalone Episodes"},
+    {"number":22,"title":"The Things I Want to Protect","type":"CANON","arc":"Standalone Episodes"},
+    {"number":23,"title":"The Djinn Warriors","type":"CANON","arc":"Standalone Episodes"},
+    {"number":24,"title":"Time of Destruction","type":"CANON","arc":"Standalone Episodes"},
+    {"number":25,"title":"Welcome Home","type":"CANON","arc":"Standalone Episodes"}
+  ]
+}
